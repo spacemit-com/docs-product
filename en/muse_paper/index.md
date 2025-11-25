@@ -1,3 +1,3 @@
 # MUSE Paper
 
-![MUSE PAPER Brief](./static/muse_paper_brief.png)
+![MUSE PAPER Brief](./static/paper_brief_en.png)

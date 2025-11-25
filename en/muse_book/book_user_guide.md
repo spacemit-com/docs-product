@@ -1,288 +1,321 @@
-# MUSE Book用户使用指南
+# MUSE Book User Guide
 
-## 产品简介
+## Introduction
 
-MUSE Book 是一款搭载进迭时空 8 核 RISC-V AI-CPU M1的笔记本电脑，同时是全球首款可量产的 RISC-V 笔记本电脑。MUSE Book 是进迭时空的生态产品之一，基于 RISC-V 架构的硬件设计，预装 Bianbu 操作系统和开源软件，旨在为所有 RISC-V 的热爱玩家、创新型开发者、技术爱好者、研究人员等提供更高效便捷的本地RISC-V开发平台。
+MUSE Book is a laptop equipped with the SpacemiT 8-core RISC-V AI-CPU M1, and it is the world's first mass-produced RISC-V laptop. MUSE Book is one of the ecological products from SpacemiT, designed basing on RISC-V architecture, with pre-installed the Bianbu operating system and open-source software. It aims to provide a more efficient and convenient local RISC-V development platform for RISC-V devotee, innovative developers, tech enthusiasts, and researchers.  
+M1 is a high-performance version of the SpacemiT K1. It integrates 8 RISC-V X60 cores, offering 50K DMIPS computing power and 2 TOPS AI computing power, enabling quick integration with all mainstream AI ecosystems. It supports 4K H.265/H.264/VP9/VP8 encoding and decoding formats, and features a 3D graphics engine with OpenCL 3.0, OpenGLES 3.2 and Vulkan 1.3 support.  
+In addition to the SpacemiT M1, the MUSE Book comes with the following features:  
+- Narrow Bezel Design  
+  The B-side features a 100% sRGB full HD matte screen  
+- Fanless Design  
+  Thanks to the energy efficiency of the M1 chip, the entire machine adopts a fan-less passive thermal design  
+- Lightweight & Thin Design  
+  Weight of only 1.3 kg and thickness of 17.8 mm  
+- Special 8-Pin Development Interface  
+  Featuring a 2.54mm pitch connector with I2C, UART, PWM, GPIO, and JATG signals; compatible with DuPont wires for easy connection, enabling direct debugging and DIY projects with Raspberry Pi peripherals.  
+- Support for dual Type-C PD 3.0 fast charging  
+- Equipped with a 1080P HD camera, dual speakers, and a microphone, making it convenient for AI applications  
+- Equipped with a 38Wh battery, supporting more than 8 hours battery life  
 
-M1 芯片是进迭时空 K1 芯片的高性能版本。M1 芯片集成了八核进迭时空 RISC-V X60核，提供 50KDMIPS 算力和融合 2Tops AI 算力，可实现与所有主流 AI 生态的快速对接；支持 4K H.265/H.264/VP9/VP8 等编解码格式；支持 3D 图像引擎，OpenCL 3.0/OpenGLES 3.2/Vulkan 1.3。
+![](./static/book.png)
 
-除了搭载进迭时空M1芯片外，MUSE Book 还有以下特征：
+The reference solution block diagram of MUSE Book is depicted below.  
+![](./static/book_block.jpg)
 
-一、任性快充， 双USB-C接口皆可支持PD3.0充电协议  
-二、全场景AI开发，搭载高清1080P摄像输入、双扬声器和MEMS麦克风  
-三、搭载38Wh电池，支持至多8h+的续航时间使用  
-四、既是Book也是Pi，专属MUSE开发者接口，与外界互连到芯片级输入输出引脚，含I2C/UART/PWM/JTAG/GPIO等信号  
+## Specifications
 
-![图片](./static/book.png)
+| Category             | Item                        | Specification  |
+|----------------------|-----------------------------|----------------|
+| System Main Control  | CPU                         | SpacemiT M1, 8-core, RISC-V CPU, integrated 2 TOPs AI computing power                                                       |
+| Display              | Expansion Display Interface | Type-C interface (DP signal), supporting up to 1080P @ 60Hz output                                                          |
+| Memory               | Type                        | LPDDR4X, 2666MT soldered                                                                                                    |
+|                      | Maximum Capacity            | 16GB                                                                                                                        |
+| Storage              | Interface                   | M.2 2280 Key M ×1, PCIe (NVMe)                                                                                              |
+|                      | Maximum Capacity            | 1TB (SSD)                                                                                                                   |
+| Screen               | Size/Type                   | 14.1 inches, IPS                                                                                                            |
+|                      | Resolution                  | 1920×1080@60Hz, 16:9                                                                                                        |
+|                      | Color Gamut                 | 72% NTSC（≈100% sRGB）                                                                                                      |
+|                      | Brightness                  | 250 nits                                                                                                                    |
+| Wireless             | Type                        | WiFi/BT module soldered                                                                                                     |
+|                      | Wireless Card IC            | RTL8852BE                                                                                                                   |
+|                      | Protocols                   | Support for Wi-Fi 6 & BT 5.2                                                                                                |
+| I/O Interfaces       | Left Side                   | - Type-C ×1 (U3G1 data transfer, including U2 OTG, PD fast charging)<br>- Full-function Type-C ×1 (U3G1 data transfer, PD fast charging, DP video signal)<br>- 3.5mm headphone jack ×1<br>- TF card slot ×1<br>- USB 3.0 Type-A ×1<br>- Restart button (hidden) |
+|                      | Right Side                  | - USB 3.0 Type-A ×1<br>- Fastboot button (hidden, supporting long press to enter Fastboot mode)<br>- Expansion interface (1× 8Pin, 2.54mm pitch connector, I2C/UART/PWM included, etc.) |
+| Audio/Video          | Video                       | 1080P FHD HD Camera                                                                                                         |
+|                      | Audio                       | ES8326B, dual microphones & speakers                                                                                        |
+| Appearance           | Dimensions                  | 322.6 × 209.2 × 17.8 mm                                                                                                     |
+|                      | Material                    | Metal (A, D), Plastic (B, C)                                                                                                |
+|                      | Weight                      | 1360g                                                                                                                       |
+| Software Features    | System                      | Bianbu OS, Ubuntu OS, Linux OS                                                                                              |
+|                      | Browser                     | Chromium                                                                                                                    |
+| Power                | Power Input                 | PD3.0 Type-C fast charging, original adapter: 65W                                                                           |
+|                      | Battery                     | 38Wh, 7.6V power supply                                                                                                     |
+| Convenience          | Fingerprint Module          | Optional                                                                                                                    |
 
-**参考方案框图**：  
-![图片](./static/book_block.jpg)
+**Interface ports**：  
+![](./static/book-ports.jpg.jpg)
 
-## 产品规格
+## Hardware Advantages
 
-### 规格参数：
+## Unique MUSE Expansion Interface
 
-| 项目 | 参数 |
-|------|------|
-| **处理器** | SpacemiT M1，8核64位RISC-V处理器, 融合2.0 TOPS AI算力 |
-| **显示** | 支持双屏显示：<br> 自带14.1寸IPS屏，1080P@60Hz，全彩RGB，250nits亮度<br> 支持DP Type-C接口，最高支持1080P@60Hz |
-| **内存** | LPDDR4X，2400MT/s速率，可选配8GB/16GB容量 |
-| **本地存储** | NVMe SSD，可选配128GB/256GB/512GB容量 |
-| **扩展存储** | TF卡接口，支持UHS-Ⅱ模式存储卡 |
-| **无线通讯** | 支持Wi-Fi6＆BT5.2 |
-| **USB接口** | 2路USB3.0 Type-A host接口<br>1路USB3.0 Type-C 全功能接口，满足USB PD快充、DP显示和超高速数据传输<br>1路USB3.0 Type-C OTG接口，同时支持USB PD快充 |
-| **调试接口** | MUSE特色8Pin开发者接口，附带2个内嵌按键，用于硬件复位和升级 |
-| **人机交互** | 集成1080P FHD高清摄像头<br>内置双麦克风和立体扬声器<br>标配全键位键盘和触摸板，部分型号选配指纹模组 |
-| **外观形态** | 金属机身，322.6*209.2*17.8mm尺寸，仅1360g重 |
-| **操作系统** | 支持Bianbu Desktop、Ubuntu、OpenKylin、Deepin等操作系统 |
-| **供电系统** | 内置38Wh容量7.6V智能电池，支持PD3.0快充，产品配带65W适配器 |
+Designed specifically for developers, this laptop's external interface uses a 2.54mm pitch connector, allowing access to signals such as I2C, UART, PWM, GPIO, and JTAG, without needing to open the device. Developers can easily connect and communicate with the main control unit using standard DuPont wires, and it supports DIY various peripheral sensors.
+With the "Fastboot" and "Reset" buttons, convenient flashing and development can be completed easily.
 
-**接口示意**：  
-![图片](./static/book_ports.jpg)
+![](./static/book_fb.png)
 
-## 硬件优势
+### Custom Keyboard
 
-## 独有MUSE拓展接口：
+- The keyboard features a special spray oil treatment on the surface, providing a more refined and smooth typing experience.
+- F1 and F2 serve as copy and paste keys, similarly to the key combination Ctrl+C and Ctrl+V respectively.
 
-专为开发者设计的笔电外置接口，接口采用2.54mm 规格排母，引出芯片 UART/PWM/GPIO/JTAG 等信号，使开发者无需拆机使用常规杜邦线即可与主控连接通信，并可支持DIY各种外设传感器。  
-配合“Fastboot”和“Reset”按钮，即可完成便捷刷机和开发。
+![](./static/book_f1f2.png)
 
-![图片](./static/book_fb.png)
+- F11 serves as a customizable programming shortcut key, allowing users to flexibly configure shortcut functions or scripts in the keyboard settings.  
+![](./static/book_f11.png)
 
-### 自定义键盘：
+- The keyboard layout is optimized for developers, facilitating easier navigation and code visibility.  
+![](./static/book_keys.png)
 
-- 键盘表面特殊喷油处理，敲击手工更细腻顺滑  
-- F1、F2快捷键为复制粘贴键，一键实现复制（Ctrl+C）粘贴（Ctrl+V）  
-![图片](./static/book_f1f2.png)
+### Touchpad
 
-- F11为自定义编程快捷键，可在设置的键盘里灵活配置快捷功能或脚本  
-![图片](./static/book_f11.png)
+The glass touchpad features anti-fingerprint, ultra-smooth texture, providing a comfortable design that fits the fingers and supports multi-finger touch gestures.
 
-- 更适合开发者的键盘布局，方便开发者更好的移动和查看代码  
-![图片](./static/book_keys.png)
+### Display
 
-### 触摸板：
+- The 14-inch narrow bezel design offers an impressive screen-to-body ratio of approximately 84%. This allows developers to view more content on a single screen while coding, reducing the frequency of manual page turns. 
+- Featuring 1080P full HD resolution, 100% sRGB high color gamut, and 250 nits brightness
 
-防指纹超润滑手感的玻璃触控板，贴合手指的舒适设计，支持多指触控
+### Camera
 
-### 屏幕：
+- The 1080P FHD camera provides clear and vivid images, fully supporting development for AI visual recognition application, such as pose detection, and object recognition.
 
-- 14寸窄边框设计，屏占比高达约84%，在书写代码的过程中，能在一屏中看见更多的内容，减少手动翻页的频率  
-- 采用1080P全高清，100%sRGB高色域，及250nits高亮度屏
+### Battery
 
-### 摄像头：
+- The 4800mAh smart battery supports PD3.0 Type-C fast charging technology. Paired with a 65W original adapter, it is compatible with multiple devices and can charge to 80% in just 120 minutes.
 
-- 1080P FHD高清摄像头，在人像画面清晰真切的同时，可完全满足人物姿势识别、物体识别等AI视觉识别应用开发
+### Interfaces
 
-### 电池：
+- Equipped with high-speed USB Interfaces to easily meet peripheral connection needs
+- Support for dual-screen linkage, allowing for simultaneous expansion and charging, widening the field of view for simpler and more efficient development
+- The dual Type-C PD3.0 fast charging ports allow either port to connect to the charger for device charging
 
-- 4800mAh智能电池，支持PD3.0 Type-C快充技术，配合65W原装适配器多设备适用，120分钟可充电至80%
+### Weight & Dimensions
 
-### 接口：
+- Metal body (A and D sides) featuring strong anti-corrosion and impact resistance. 
+- Rounded edge design with finely sprayed surface treatment for enhanced aesthetic appeal and tactile quality. 
+- Support for 180° hinge opening, with a weight of only 1.3kg and a thickness of just 17.8mm
 
-- 配备高速USB接口，轻松响应外设连接需求；  
-- 支持双屏联动，一线扩屏＆充电，视野扩宽，开发更简洁高效；  
-- 双USB-C接口皆可支持PD3.0充电协议，任意一个快充接口都可以连接充电器，实现对设备充电。
+### Fanless Design
 
-### 重量＆体积：
+With a large heat sink paired with the advanced M1 RISC-V efficient CPU, the fanless design ensures sustained CPU performance output, creating a comfortable development environment.
 
-- 采用金属机身（A、D），具有强耐腐蚀和抗冲击能力，坚固耐用。圆枕边缘设计，表面细腻喷漆处理，外观更加美观大方，质感十足，手感舒适。  
-- 支持180°大开合，轻至1.3kg，薄至17.8mm
+## Initial Setup
 
-### 无风扇设计：
+### Preparation Before Use
 
-超大散热片配合进迭时空M1 RISC-V高效能CPU，无风扇加持也能轻松保障CPU性能的持久输出，构建舒适的开发创作环境。
+The MUSE Book is in the form of a laptop thus user can typically run it directly without any peripherals. However, for a more satisfactory experience, it is recommend adding some devices as per following subsections.
 
-## 初次设置
+#### Power Adapter
 
-### 使用前准备
+The MUSE Book uses a USB-PD3.0 protocol Type-C interface for power supply/charging. To achieve optimal performance, it is advisable to use the original power adapter designed for the MUSE Book as tabled below.
 
-MUSE Book是笔记本电脑形态，通常您可以直接运行使用它，无需任何外设。  
-如您想更完善的使用它，建议您可以添加以下设备：
-
-#### 电源适配器
-
-MUSE Book采用USB-PD3.0协议Type-C接口供电/充电。为达到最佳性能效果，建议您选用MUSE Book原装的电源适配器。
-
-| 产品 | 支持的PD协议电压/电流 |
+| Items | Supported PD Protocol Voltage/Current |
 |------|------------------------|
-| 原装电源适配器 | 20V＝2A、12V=3A、9V=3A、5V=3A |
+| Original Power Adapter | 20V＝2A、12V=3A、9V=3A、5V=3A |
 | MUSE Book | 65W USB-C |
 
-当电源适配器正常插入整机，电池正在充电状态时，侧边的充电灯会绿色闪烁；当电池充满时，侧边的充电灯会绿色常亮。
+When the power adapter is properly connected to MUSE Book and the battery is charging, the charging light on the side will blink green. When the battery is fully charged, instead, the charging light will remain solid green.
 
-![图片](./static/book_power.png)
+![](./static/book_power.png)
 
-#### 键盘＆鼠标：
+#### Keyboard & Mouse
 
-您可以使用MUSE Book上的任一USB端口连接有线键盘/鼠标或USB接收器，或者通过蓝牙的方式连接键鼠。  
-请注意：靠近屏幕的Type-C口不支持USB2.0外设作为从设备，您的键盘/鼠标可能无法通过该口正常使用。
+User can connect a wired keyboard/mouse or USB receiver to any USB port on the MUSE Book, or connect them via Bluetooth.
 
-#### 显示器：
+**Note.** The Type-C port near the screen does not support USB 2.0 peripherals as host devices, so user's keyboard/mouse may not function properly through that port.
 
-MUSE Book除支持内置屏幕的显示外，还支持扩展屏幕。可通过机身左侧靠近TF卡槽的Type-C口进行DP协议的音视频信号传输。  
-同时，如显示器的Type-C接口还支持反向充电，能够实现一线连（一根Type-C线同时进行屏幕扩展显示和充电）  
-扩屏后有以下四种状态可供您选择（按F8快捷键可以便捷切换）：镜像（复制）、拼接（扩展）、仅显示内置显示屏、仅显示外部显示屏。
+#### Display
 
-![图片](./static/book_screen.png)
+The MUSE Book supports not only its built-in screen but also external displays. User can transmit audio and video signals via the Type-C port located on the left side, near the TF card slot, which supports DP protocol.
+Additionally, if the monitor's Type-C port supports reverse charging, user can achieve a one-cable connection (a single Type-C cable can be used for both display extension and charging).
+After extending the display, user has the following four modes to choose from (switching between them is easy by pressing the F8 shortcut key):
+- Mirror (Duplicate)
+- Extend (Splice)
+- Show only built-in display
+- Show only external display
 
-#### 音频：
+![](./static/book_screen.png)
 
-MUSE Book通过内置麦克风和喇叭即可进行音频输入和输出，除此之外，您可以使用位于笔记本电脑机身左侧的3.5mm耳机孔连接音频外部设备，此时内置的麦克风和喇叭音频会切换至音频外设。  
-Type-C接口支持音视频同时传输。  
-您可以通过声卡设置，切换内置声卡（ES8326）或HDMI声卡。
+#### Audio
 
-![图片](./static/book_audio.png)
+The MUSE Book utilizes its built-in microphone and speakers for audio input and output. Additionally, user can connect external audio devices using the 3.5mm headphone jack located on the left side of the laptop. When connected, the audio will switch from the built-in microphone and speakers to the external audio device.
+The Type-C port supports simultaneous audio and video transmission.
+User can switch between the built-in sound card (ES8326) and the HDMI sound card through the sound card settings.
 
-#### 网络连接：
+![](./static/book_audio.png)
 
-MUSE Book支持无线Wi-Fi和蓝牙的连接。  
-MUSE Book不支持有线RJ45网口，但您仍可以通过USB转RJ45网口直接与网线连接。
+#### Network Connection
 
-## 开始启动
+The MUSE Book supports wireless Wi-Fi and Bluetooth connection. 
+The MUSE Book doesn't support wired network port RJ45, but user can still connect directly to an Ethernet cable using a USB to RJ45 adapter.
 
-打开您的LCD屏幕面板：  
-直接翻开显示屏（如图），调整转轴的角度以获得最合适的视觉效果。
+## Start Up
 
-![图片](./static/book_lcd.png)
+Just simply lift the screen and adjust the hinge angle to achieve the best viewing experience with MUSE Book as shown below.
 
-电源按钮①长按一秒后，笔记本电脑开机运行，蓝色电源指示灯亮起，在此之前请确保计算机已连接电源适配器或电池电量足够。  
-当您在进入系统之后，关闭盖子，系统自动触发休眠模式，减少运行功耗；此时打开盖子，电源按钮①按压一秒即可唤醒系统。
+![](./static/book_lcd.png)
 
-![图片](./static/book_boot.png)
+Long press the power button ① for one second to turn on MUSE Book 
+The blue power indicator will light on. Please ensure that the MUSE Book is connected to the power adapter or that the battery has sufficient charge before powering on.
+Once entered MUSE Book, closing the lid will automatically trigger sleep mode, reducing power consumption. To wake up MUSE Book, just simply open the lid and press the power button for one second.
+Some useful keyboard shortcuts for the MUSE Book are tabled below.
 
-## 使用键盘快捷方式
+![](./static/book_boot.png)
 
-**常用按键快捷功能（默认Fn lock 状态）**
+**Common Key Shortcuts**
+(Default Fn Lock Status)
 
-| 按键 | 功能 |
+| Keys | Function |
 |------|------|
-| F1 | 复制 |
-| F2 | 粘贴 |
-| F3 | 静音 |
-| F4 | 音量减 |
-| F5 | 音量加 |
-| F6 | 亮度减 |
-| F7 | 亮度加 |
-| F8 | 扩屏选项 |
-| F9 | 触摸板开关 |
-| F10 | 搜索 |
-| F11 | 可编程自定义快捷键 |
+| F1 | Copy |
+| F2 | Paste |
+| F3 | Mute |
+| F4 | Volume Down |
+| F5 | Volume Up |
+| F6 | Decrease Brightness |
+| F7 | Increase Brightness |
+| F8 | Display Options |
+| F9 | Touchpad Toggle |
+| F10 | Search |
+| F11 | Programmable Custom Shortcut Key |
 
-### MUSE Book首次启动配置指引
+### Configurations At The First Boot
 
-您的MUSE Book会预装进迭时空Bianbu操作系统，将在首次启动时运行配置向导。您需要显示器、键盘、鼠标来浏览向导。
+The MUSE Book comes with the pre-installed Bianbu desktop operating system, which will run the configuration wizard at the first boot. User should use a monitor, keyboard and mouse to navigate through the wizard for performing the required initial settings.
 
-#### 系统语言：
+#### System Language
 
-此页面帮助您配置系统的语言，默认显示English和中文，如需更多语言，可点击下方三个点，弹出更多选项。
+Choose the system language. English and Chinese are displayed by default. If need more language options, just click the three dots below to show them.
 
-![图片](./static/book_lang.png)
+![](./static/book_lang.png)
 
-#### 输入法：
+#### Input Method
 
-此页面帮助您配置系统的键盘布局和输入法
+Configure the MUSE Book’s keyboard layout and input method.
 
-![图片](./static/book_keyinput.png)
+![](./static/book_keyinput.png)
 
-#### 无线上网：
+#### Wireless Internet Connection
 
-此页面帮助您连接到WiFi网络，从列表中选择您的网络并进行连接；如暂未有合适WiFi网络，可在左上角选择跳过该设置
+Select a valid Wi-Fi network from the list and connect it. If there is no suitable Wi-Fi network, skip this setting by clicking on the upper right corner.
 
-![图片](./static/book_wifi.png)
+![](./static/book_wifi.png)
 
-#### 位置服务：
+#### Location Services
 
-此页面可选择是否打开位置服务，如打开位置服务可便捷您的使用体验，但相应的可能会带来位置隐私泄露的风险
+Turn on location services can facilitate the usage experience, but it may also bring risks of location privacy leakage. Please be aware and careful!
 
-![图片](./static/book_location.png)
+![](./static/book_location.png)
 
-#### 时区：
+#### Time Zone
 
-此页面帮助配置您所在时区信息，联网状态下系统能够自动同步相应时区时间，可以搜索城市来添加设置
+Configure user time zone information. While online (i.e. Wi-Fi connected), the system can automatically synchronize the corresponding time zone, then user can search for cities to add settings
 
-![图片](./static/book_time.png)
+![](./static/book_time.png)
 
-#### 设置您的用户名和密码：
+#### Username & Password Account
 
-该页面帮助您设置用户名和密码，请牢记您的密码
+Set username and password account.
 
-![图片](./static/book_user1.png)  
-![图片](./static/book_user2.png)
+![](./static/book_user1.png)  
+![](./static/book_user2.png)
 
-#### 配置完成
+#### Configuration Completed
 
-配置完成，点击“开始使用Bianbu”吧，后可进入桌面
+When the configuration is completed, click “Start using Bianbu” thus MUSE Book will enter the desktop of Biandu OS.
 
-![图片](./static/book_done.png)
+![](./static/book_done.png)
 
-## 刷入固件
+## Firmware Flashing
 
-### 进入刷机模式
+### Enter Flash Mode & Start Flashing Process
 
-可选用以下两种方式进入下载模式：
+You can enter download mode using either of the following methods:
 
-1）通过卡针按住机身右侧暗孔中的Fastboot按钮（⑥号接口）来执行开机；  
-2）通过在终端执行：`reboot fastboot`（推荐）
+1. Use a SIM-eject tool to press and hold the Fastboot button located inside the small hole on the right side of the device (Interface ⑥) while powering it on.
 
-然后通过MUSE Book的Type-C接口（此处必须选用③号OTG接口）与（PC）上位机进行USB连接，通过进迭时空官方刷机工具Titan或者fastboot命令即可进行刷机操作。
+2. Execute the following command in the terminal (recommended):
 
-![图片](./static/book_ports.jpg) 
-![图片](./static/book_connect.png)
+```
+reboot fastboot
+```
 
-### 固件下载和安装
+After entering download mode, connect the device to the host PC via the Type-C port on MUSE Book (you must use the OTG port, Interface ③).
+You may then flash the firmware using the official Spatial Era flashing tool Titan or the fastboot command.
 
-#### Bianbu
+![](./static/book_ports.jpg) 
+![](./static/book_connect.png)
 
-**Bianbu简介**：  
-Bianbu是进迭时空针对RISC-V架构的处理器做了深度优化的操作系统，MUSEBook适用于并出厂预装Bianbu Desktop版本
+### Firmware Download and Installation
 
-**Bianbu网站**：  
-如需获取更多Bianbu相关信息，详见：[Bianbu](https://bianbu.spacemit.com/)
+### Bianbu
 
-**Bianbu desktop固件下载地址**：[https://archive.spacemit.com/image/k1/version/bianbu/](https://archive.spacemit.com/image/k1/version/bianbu/)
+Bianbu OS is an operating system that has been deeply optimized by SpacemiT for advanced RISC-V architecture processors. MUSE Pi is suitable for and pre-installed with Bianbu OS Desktop version. At the same time, MUSE Pi is suitable for Bianbu OS NAS version.
 
-**Bianbu desktop固件的安装和升级**, 详见：[系统升级](https://bianbu.spacemit.com/user_guide/upgrade/)
+For more information about Bianbu OS, please visit [Bianbu](https://bianbu.spacemit.com/)
 
-## 串口调试
+For Bianbu OS desktop/NAS firmware download, please visit [https://archive.spacemit.com/image/k1/version/bianbu/](https://archive.spacemit.com/image/k1/version/bianbu/)
 
-### 接口连接：
+**Note.** The firmware package containing the word NAS is the firmware of Bianbu OS NAS.
 
-上位机经USB转TTL设备与MUSE Book拓展接口第2（TX）、3（RX）、4（GND）正常连接。拓展接口信号如图：
+## Serial Port Debugging
 
-![图片](./static/book_fb.png)
+### Interface Connection
 
-### Windows 调试：
+To establish a serial debugging connection, connect the host computer to the MUSE Book's expansion interface as shown below.
 
-以“MobaXterm”为例：  
-首先，请正确连接硬件串口，并确认在设备管理器的端口中有COM口的显示，如图：
+![](./static/book-ports.jpg)
 
-![图片](./static/mox1.jpg)
+### Debugging Under Windows OS
+Let’s take the “MobaXterm” software tool as example.
+Firstly, please connect the hardware serial port correctly and confirm that there is a COM port displayed in the port list of the device manager, as shown below.
 
-打开“MobaXterm”软件，选择“Sessions”——“New Session”，在弹出的对话框中，选择“Serial”，"Serial port"选择上图中识别到的对应COM口，“Speed”波特率选择“115200”，最后点击“OK”，即可进入打印页面
+![](./static/mox1.jpg)
 
-![图片](./static/mox2.jpg)  
-![图片](./static/mox3.jpg)
+Open the "MobaXterm" software tool then select "Sessions" - "New Session" **(1)** in the screen appearing. In the pop-up dialog box appearing,
 
-## 蓝牙使用建议
+- Select "Serial" **(2)**
+- Select the corresponding COM port identified above for "Serial port" **(3)**
+- Select "115200" for "Speed" **(4)**
+- Click "OK" **(5)**
 
-## 蓝牙扫描
+as shown below.
 
-1. 打开蓝牙设置界面后，蓝牙自动扫描设备，半分钟后停止扫描；  
-2. 如果需重新扫描设备，请关闭设置界面后重新打开；
+![](./static/mox2.jpg)  
 
-### 蓝牙连接
+Thus the print page will be entered as shown below.
 
-蓝牙设备出现未知错误时，可通过以下步骤修复；  
-1. 移除出错的蓝牙设备连接；  
-2. 重新扫描设备，配对设备；  
-3. 连接设备成功后，关闭蓝牙设置界面；
+![](./static/mox3.jpg)
 
-### 蓝牙传输
+## Bluetooth Usage Recommendations
 
-蓝牙传输速率、带宽和稳定性跟以下环境因素相关：  
-1. 障碍物的阻挡；  
-2. 距离超出有效范围；  
-3. 同时运行的其他无线设备；  
+## Bluetooth Scanning
 
-当出现传输文件失败、音频播放断续等现象，可排查以上三类环境因素。
+- After opening the Bluetooth settings interface, Bluetooth will automatically scan for devices and will stop scanning after half a minute
+- If it is necessary to rescan for devices, please close the settings interface and reopen it.
+
+### Bluetooth Connection
+
+If an unknown error occurs with a Bluetooth device, user can follow these steps to fix it:
+1. Remove the problematic Bluetooth device connection
+2. Rescan for devices and pair them again
+3. After successfully connected the device, close the Bluetooth settings interface
+
+### Bluetooth Transmission
+
+Bluetooth transmission speed, bandwidth and stability are related to the following environmental factors:
+- Obstructions blocking the signal
+- Distance exceeding the effective range
+- Other wireless devices operate simultaneously
+If experiencing issues such as file transfer failures or audio playback interruptions, please check the environmental factors just mentioned above.
