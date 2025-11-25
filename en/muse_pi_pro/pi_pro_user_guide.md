@@ -1,320 +1,406 @@
-# MUSE Pi Pro 用户使用指南
+# MUSE Pi Pro User Guide
 
 ```
-最新版本：2025/04/10
+Last version: 2025/11/16
 ```
 
-## 1. 产品简介
+## 1. Introduction
 
-MUSE Pi Pro 单板计算机将 RISC-V 八核处理器、存储硬盘、通用接口部件和扩展接口布置在同一块电路板上，支持 UEFI 启动以及多种操作系统和应用的运行，是一款完整的计算机系统产品。MUSE Pi Pro 为1.8寸单板，能够满足大语言模型应用、机器人、教育科研和物联网等场景中低功耗、空间紧凑情况下的算力需求，为 AI 新时代提供计算能力和丰富的接口扩展。
+**MUSE Pi Pro** is a single-board computer integrating a RISC-V 8-core processor, onboard storage, general-purpose interface components and expansion ports onto a single PCB. It supports UEFI boot, multiple operating systems and versatile applications, making it a complete standalone computing system.
 
-## 2. 硬件描述
+MUSE Pi Pro comes in a compact 1.8-inch board form factor, designed to deliver efficient computing performance under low-power, space-constrained scenarios. It is especially suitable for large language model applications, robotics, education & research and IoT devices, providing essential computing power and extensive interface expansion for the new era of AI.
 
-### 2.1 资源概览
+## 2. Hardware
 
-![MUSE Pi Pro Board](./static/pi_pro_board.png)
+### 2.1 Block Diagram
 
-> **备注**：主板外观可能因为硬件版本不同而有细微的差别
+![](./static/QVGAbS5pEou7W9xYwn4cNaKFnsb.png)
 
-### 2.2 指示灯和按键
+### 2.2 Physical Dimensions
 
-**指示灯**
+![](./static/AuLqbhcMOo206mxtvVfcwR6Nnje.png)
 
-| 指示灯 | 状态说明 |
-|--------|----------|
-| **状态指示灯 STAT** | - 熄灭：未连接电源或异常<br>- 绿色常亮：系统启动完成，正常运行；<br>- 绿色常亮3s后闪烁1次：Boot异常，代表SPI FLASH内容或通讯异常；<br>- 绿色常亮3s后闪烁2次：外部RAM异常，代表DDR通讯异常或内存损坏；<br>- 绿色常亮3s后闪烁3次：Kernel异常，代表烧写镜像有误或介质损坏；<br>- 绿色常亮3s后闪烁4次：Grub异常，代表引导内容有误或不适配； |
+> **Note.**
+>
+> - All dimensions are in mm
+> - All dimensions are approximate and for reference purposes only
+> - All dimensions should not be used for producing production data
+> - All dimensions are subject to part and manufacturing tolerances
+> - All dimensions may be subject to change
+> - Not all the board components are shown, please refer to the physical diagram for a comprehensive    representation
 
-**按键**
+### 3.3 Physical Diagram
 
-| 按键 | 使用说明 |
-|------|----------|
-| **电源按键 PWR** | - 关机（Shutdown）状态按下1s后松开：开机启动<br>- 待机（Standby）状态按下1s后松开：唤醒系统<br>- 开机（Normal）状态按下3s：强制下电关机 |
-| **复位按键 RST** | - 短按：电源复位，系统强制重启 |
-| **固件烧录 FDL** | - 按住：插入电源或电源复位，进入烧录模式 |
+MUSE Pi Pro looks like below.
 
-![图片](./static/pi_pro_buttons.jpg)
+![](./static/EO3ZbARDWomtGFxsKvnc9nZFnKb.png)
 
-### 2.3 接口说明
+> **Note:** The real appearance of MUSE Pi Pro might vary slightly depending on the hardware version.
 
-#### 电源和烧录接口 PWR
+### 3.4 Indicators & Buttons
 
-- 类型：USB Type-C；
-- 支持USB-PD协议供电，支持5V/3A、9V/3A和12V/3A;
-- 进入烧录模式时，接口同时接受电源和USB device，通过USB Type-C与上位机连接，可被扫描和识别到设备，支持烧录升级操作。
+<table>
+<tbody>
+<tr>
+<td><strong>Indicator </strong>Status LED (STAT)</td>
+<td><strong>Status Description</strong></td>
+</tr>
+<tr>
+<td>Off</td>
+<td>No power connected or system error</td>
+</tr>
+<tr>
+<td>Solid green</td>
+<td>System booted successfully and running normally</td>
+</tr>
+<tr>
+<td>Solid green for 3s, then 1 blink</td>
+<td>Boot error (SPI Flash content or communication issue)</td>
+</tr>
+<tr>
+<td>Solid green for 3s, then 2 blinks</td>
+<td>External RAM error (DDR communication issue or memory failure)</td>
+</tr>
+<tr>
+<td>Solid green for 3s, then 3 blinks</td>
+<td>Kernel error (invalid image or storage issue)</td>
+</tr>
+<tr>
+<td>Solid green for 3s, then 4 blinks</td>
+<td>Grub error (invalid or incompatible boot configuration)</td>
+</tr>
+</tbody>
+</table>
 
-> **注意**：烧录时，USB线缆须为数据通讯线缆，仅支持充电USB线缆无法烧录，为了系统升级过程稳定，请确保USB有10W及以上的供电功率
+![](./static/JT6LbmgB9ogTOPx2PkjcNhfsnjf.png)
 
-![图片](./static/pi_pro_typec.png)
+### 3.5 Interfaces
 
-#### 存储扩展接口 M.2-M key
+#### Power & Programming Interface (PWR)
 
-- 类型：3.2mm高度M.2连接器；
-- 支持NVMe协议，尺寸为2230，PCIe2.0 x2带宽。
+- **Type:** USB Type-C
+- **Power Delivery:** Support for USB-PD protocol with 5V/3A, 9V/3A and 12V/3A input
+- **Firmware Mode:** When entering programming mode, this port serves both as the power input and USB device interface. It connects to a host computer via USB Type-C and can be detected for firmware flashing and upgrade operations.
 
-> **注意**：不可热插拔SSD，移除或安装请在下电状态下进行。
+> **Notes.**
+>
+> - A USB cable that supports data transmission is required for programming. Charging-only cables are not supported.
+> - To ensure system stability during upgrades, please use a USB power supply capable of delivering at least 10W.
 
-![图片](./static/pi_pro_m2m.png)
+![](./static/XLvWbnBe6oKzrpxa5Uzc9mKnnKg.png)
 
-#### 显示接口 HDMI
+#### Storage Expansion Interface (M.2-M Key)
 
-- 类型：HDMI Type-A；
-- HDMI为UEFI启动配置界面显示接口，桌面操作系统显示界面支持1080P@60Hz，支持热插拔。
+- **Type:** 3.2mm-height M.2 connector
+- **Protocol:** Support for NVMe
+- **Form Factor:** 2230
+- **Interface:** PCIe 2.0 x 2
 
-#### 显示接口 DISPLAY
+> **Note.** SSDs are not hot-swappable, please install or remove the drive only when the system is powered off.
 
-- 类型：15pin，1mm间距软排线连接器；
-- 接口为MIPI DSI-2lanes，带I2C通道，支持触控；
-- 显示接口仅连接MIPI屏幕时，MIPI屏幕为主显示屏；
-- 当MIPI屏与HDMI屏同时连接时，默认主屏幕为MIPI屏，HDMI为副屏扩展；如需将HDMI屏设置为主屏，可在操作系统内修改；
+![](./static/Nm3XbpoC3om51AxAusDcRslOnXG.png)
 
-> **注意**：不可热插拔MIPI设备，移除或安装请在下电状态下进行。
+#### Display Interface (HDMI)
 
-![图片](./static/pi_pro_display.png)
+- **Type:** HDMI Type-A
+- **Function:** Used for the UEFI boot configuration interface and desktop OS display
+- **Resolution:** Support for 1080P@60Hz
+- **Hot-Swap:** Supported
 
-#### 摄像输入接 CAMERA0
+#### Display Interface (DISPLAY)
 
-- 类型：22pin，0.5mm间距软排线连接器；
-- 摄像模组兼容列表，详见 [K1关键物料AVL](https://developer.spacemit.com/documentation?token=MHrtw0FymiAJFNkRsXjc46ygnDh&type=file)。
+- **Type:** 15-pin, 1mm-pitch FPC connector
+- **Interface:** MIPI DSI (2 lanes) with I²C channel, touch support included
+- **Display Behavior:**
 
-![图片](./static/pi_pro_cam0.png)
+  - When only a MIPI display is connected, it acts as the primary screen
+  - When both MIPI and HDMI displays are connected, the MIPI screen is set as the default primary display, with HDMI as the secondary (extended) screen
+  - To make HDMI the primary display, adjustments can be made within the operating system
 
-#### 摄像输入接 CAMERA1
+> **Note.** MIPI devices are not hot-swappable, please power off the system before installing or removing.
 
-- 类型：15pin，1mm间距软排线连接器；
-- 摄像模组兼容列表，详见《K1 关键物料AVL》。
+![](./static/Lxfobq9KFojMdVxzOQvc6AeTnAi.png)
 
-![图片](./static/pi_pro_cam1.png)
+#### Camera Input Interface (CAMERA0)
 
-#### 音频耳机接口 AUDIO
+- **Type:** 22-pin, 0.5mm-pitch FPC connector
+- **Compatibility:** Support for camera modules as per list in the document **"****K1 Key Components AVL****"**
+  ![](./static/LLVibDZlAoUzoZxphA2c9sAdnKf.png)
 
-- 类型：标准3.5mm耳机接口；
-- 对应音频系统通道为ES8326，可以在操作系统设置界面选择该接口通道和测试音频效果。
+#### Camera Input Interface (CAMERA1)
 
-#### 有线以太网接口 1G ETH
+- **Type:** 15-pin, 1mm-pitch FPC connector
+- **Compatibility:** Support for camera modules as per list in the document **"****K1 Key Components AVL****"**
 
-- 类型：RJ45，带黄绿指示灯；
-- 支持1000M/100M速率，自适应切换；
-- 网口绿色LED为LINK SPEED指示灯，指示链接情况和链接速率：
-  1）LINK SPEED绿色常亮，链路建立且为最高速率状态；  
-  2）LINK SPEED熄灭，链路建立但处于非最高速率状态；  
-  3）链路未建立时，LINK SPEED不点亮，保持熄灭状态；
-- 网口黄色LED为ACTIVE指示灯，指示链路活跃状态：
-  1）ACT灯熄灭，链路无数据传输；  
-  2）ACT灯黄色闪烁，链路有数据传输，处于活跃状态，越活跃闪烁频次越快；  
-  3）链路未建立时，ACT不点亮，保持熄灭状态；
+![](./static/L0jUbUjaCoOXkCxTtIDcK1Oanng.png)
 
-#### 通用串行总线接口 USB3
+#### Audio Headphone Jack (AUDIO)
 
-- 类型：USB Type-A；
-- 即插即用，支持USB3.0 host协议；
-- 满足多个USB设备，如同时接入键盘、鼠标、硬盘、USB摄像头和USB计算棒等，USB设备兼容列表，详见《K1 关键物料AVL》。
+- **Type:** Standard 3.5mm headphone jack
+- **Audio System:** Based on the ES8326 audio codec. User can select this channel and test audio output through the system settings interface.
 
-#### 高速扩展接口 miniPCIe
+#### Wired Ethernet Port (1G ETH)
 
-- 类型：9.9mm高miniPCIe 连接器；
-- 同时支持USB2.0和PCIe2.0 x1，USB和PCIe设备兼容列表，详见《K1 关键物料AVL》；
-- 可安装标准miniPCIe全宽尺寸模组。
+- **Type:** RJ45 with yellow and green status LEDs
+- **Speed:** Support for 1000Mbps / 100Mbps with auto-negotiation
+- **Green LED - LINK SPEED indicator:**
 
-> **注意**：不可热插拔miniPCIe设备，移除或安装请在下电状态下进行。
+  - **Solid green:** Link established at maximum speed
+  - **Off:** Link established, but not at maximum speed
+  - **No light:** No link established
+- **Yellow LED - ACTIVE indicator:**
 
-![图片](./static/pi_pro_pcie.png)
+  - **Off:** No data transmission
+  - **Blinking yellow:** Active data transmission (faster blinking = higher activity)
+  - **No light:** No link established
 
-#### 通用输入输出接口 GPIO
+#### USB3 Interface
 
-- 类型：2.54mm间距，2*20排针；
-- PIN2、PIN4为5V，可作为散热风扇，扩展板供电使用，最大输出电流为1A；
-- PIN6、PIN8、PIN10为GND、debugUART_Tx（主机侧发送端）、debugUART_Rx（主机侧接收端），可作为调试串口；
-- GPIO接口使用方法，详见《设备开发》中外设驱动章节: [外设驱动](https://bianbu-linux.spacemit.com/development_guide/peripheral_driver/)
-- 为方便用户扩展外设，我们定义了扩展IO功能：[MUSE Pi/MUSE Pi Pro 扩展 IO定义](https://bianbu.spacemit.com/bianbu-star/user_guide/defaut_pin/) 
-- GPIO电平域为3.3V，支持多功能复用，引脚定义和资源如下图；
-![图片](./static/pi_pro_gpio.png)
+- **Type:** USB Type-A
+- **Features:** Plug-and-play, supporting USB 3.0 host protocol
+- Support for multiple USB devices such as keyboard, mouse, external drive, USB camera, and USB computer stick
+- For the full list of compatible USB devices, please refer to the document **"****K1 Key Components AVL****"**
 
-### 2.4 产品规格
+#### High-Speed Expansion Interface (miniPCIe)
 
-| 项目 | 规格 |
-|------|------|
-| **处理器** | SpacemiT M1，8核64位RISC-V处理器，融合2.0 TOPS AI算力 |
-| **显示** | HDMI1.4 Type-A接口，最高支持1080P@60Hz<br>2lane MIPI DSI FPC接口，最高支持1080P@60Hz |
-| **内存** | LPDDR4X，2400MT/s速率，可选配8GB/16GB容量 |
-| **本地存储** | eMMC5.1，可选配64GB/128GB容量 |
-| **扩展存储** | M.2 M-Key连接器，可装配2230尺寸NVMe SSD<br>Micro SD卡接口，支持UHS-Ⅱ模式存储卡 |
-| **无线通讯** | 板载WiFi6&BT5.2, 并支持通过M.2/mPCIE连接器，扩展为双无线通讯 |
-| **有线网络** | 支持一路以太网，RJ45接口，1000M/100M自适应速率 |
-| **音频接口** | 3.5mm音频耳麦接口 |
-| **USB接口** | 4路USB3.0 Type-A host接口，1路USB2.0 Type-C device接口 |
-| **调试接口** | UART串行TTL调试接口，附带3个侧边按键，用于硬件复位、开关机和烧录升级 |
-| **IO扩展接口** | - 标准M.2 M-Key定义的连接器卡槽，可安装2230长度的M.2板卡，支持SSD、PCIe转SATA、PCIe通讯板卡等<br>- 标准miniPCIe定义的连接器卡槽，可安装全宽miniPCIe板卡，支持4G/5G模块、PCIe无线通讯模块和PCIe网络模块<br>- 40Pin标准GPIO接口 |
-| **MIPI接口** | 1路 2lanes MIPI DSI FPC 15p接口<br>1路 4lanes MIPI CSI FPC 22p接口，1路 2lanes MIPI CSI FPC 15p接口 |
-| **外观形态** | 单板计算机，遵循FEMTO-ITX定义尺寸，85mm*56mm，信用卡大小 |
-| **操作系统** | 支持Bianbu Desktop、Ubuntu、OpenKylin、Deepin、Fedora等操作系统 |
-| **电源输入** | 支持 |
-| **可靠性** | 外设接口ESD可防护接触±4kV，空气±8kV；满足CE、FCC等电磁兼容认证标准<br>可选消费级-20°C~70°C或工业级-40°C~85°C |
-| **时钟** | 板载RTC时钟电源接口，支持安装电池，满足G3状态供电 |
-| **结构** | 可选配被动或主动风冷散热器<br>可选配钣金机箱或亚克力外壳<br>可选配触摸屏或工业接线端子多种配置 |
+- **Type:** 9.9mm High miniPCIe connector
+- **Features:** Supports for both USB 2.0 and PCIe 2.0 x 1
+- For the list of compatible USB and PCIe devices, please refer to the document **"****K1 Key Components AVL****"**
+- Can install standard miniPCIe full-width modules
 
-### 2.5 逻辑框图
+> **Note:** MiniPCIe devices are not hot-swappable. Please ensure the system is powered off before removing or installing devices.
 
-![图片](./static/pi_pro_block.png)
+![](./static/FCjqb2RjPohLX4xvekbcoUsNnMg.png)
 
-## 3. 快速上手
+### General Purpose Input/Output Interface (GPIO)
 
-### 3.1 使用前准备
+- **Type:** 2.54mm pitch, 2 x 20 pin header
+- **Features:**
 
-MUSE Pi Pro是单板计算机形态产品，您需要连接必要的外设来使用它：
+  - PIN2 and PIN4 provide 5V power and can be used for fan or expansion board power supply, with a maximum output current of 1A
+  - PIN6, PIN8 and PIN10 are GND, debugUART\_Tx (transmit side) and debugUART\_Rx (receive side) respectively, and can be used for debugging serial communication
+- For more information on GPIO usage, please refer to **this documentation link**
+- To facilitate peripheral expansion for users, the extended I/O functionality has been defined. Please refer to **this documentation link** for more information.
+- The GPIO voltage level is 3.3V, supporting multi-function pin multiplexing. The pin definitions and resources are shown below.
 
-- 一个电源
-- 一台显示器
-- 一根HDMI线缆
-- 一个键盘
-- 一个鼠标
+![](./static/CRNsbxdgGodPOsxIdqAcGEyJnqb.png)
 
-![图片](./static/pi_pro_start.png)
+## 3. Quick Start
 
-### 3.2 开始启动
+### 3.1 Precautions
 
-提前连接您所需要的外设，接通电源后即可开机。  
-单板计算机运行后，您可以通过下列步骤配置您的MUSE Pi Pro：
+The MUSE Pi Pro is suitable for home, office or industrial environments. Before starting operation, please read the following precautions:
 
-### 3.3 开始启动时配置您的MUSE Pi Pro
+- Never hot-swap the screen interface, CSI interface or expansion boards.
+- Before unpacking and installing the single-board computer, take necessary anti-static precautions to prevent electrostatic discharge (ESD) from damaging the hardware.
+- When handling the single-board computer, hold the edges and avoid touching exposed metal parts to prevent electrostatic damage to components.
+- Place the single-board computer on a dry and flat surface, and keep it away from heat sources, electromagnetic interference, radiation sources and sensitive equipment (e.g. medical devices).
+- Place the single-board computer in a well-ventilated environment. If running continuously for 72 hours or more at full load, install the factory cooling solution or implement effective cooling measures.
 
-MUSE Pi Pro支持UEFI启动和配置，您可以在上电开机后选择启动介质和个性化配置计算机：  
-您在MUSE Pi Pro上电开机3s内，按下"F2"按键，将进入UEFI设置界面。
+### 3.2 Preparation
 
-![图片](./static/pi_pro_uefi1.png)
+Since MUSE Pi Pro is a single-board computer, some peripherals are needed for working with it, in particular:
 
-#### UEFI 配置指引：
+- A power supply
+- A display
+- An HDMI cable
+- A keyboard
+- A mouse
 
-上电开机时，按下<F2>按键，进入UEFI设置界面，支持以下功能操作：
+![](./static/EpmwbwKeSofjCIxP91pcBHq4nCh.png)
 
-1）**启动管理 Boot Manager**  
-在Boot Manager Menu通过<↑>和<↓>按键，选择EMMC存储、SSD硬盘、USB硬盘、SD卡进行启动，或选择进入命令行界面UEFI shell；
+### 3.3 Start Up
 
-![图片](./static/pi_pro_boot0.png)
+Once all necessary peripherals are connected, simply power on MUSE Pi Pro to start up.
 
-2）**启动维护 Boot Maintenance Manager**  
-在Boot Maintenance Manager菜单，进入boot options，选择Change Boot Order，对启动介质优先级进行设置，按<+>和<->调整启动优先级；<Enter>后选择Commit Change and Exit提交优先级设置并退出，返回主菜单，按<F10>保存设置；
+After powering on at the first time, MUSE Pi Pro needs some configurations as described in the following section.
 
-![图片](./static/pi_pro_boot1.png)
+### 3.4 Configuring MUSE Pi Pro At The First Boot
 
-3）**交互命令行 UEFI Interactive Shell**  
-支持UEFI Interactive Shell V2.2版本，当您第一次进入 UEFI Interactive Shell时，它将打印您的计算机检测到的所有存储设备，一旦您按下除 <Esc> 以外的任意键或等待 5 秒，EFI Shell 就应该准备好执行命令，输入`help`显示支持的指令及相关帮助信息。
+MUSE Pi Pro supports UEFI boot and configuration. After powering on, the boot medium can be selected and the computer setup can be personalized.
 
-![图片](./static/pi_pro_uefi2.jpg)
+Within 3 seconds of powering on, press the **F2 key** to enter the UEFI setup interface.
 
-**进迭时空开源UEFI源码仓库**：  
-- https://gitee.com/bianbu-linux/edk2-platforms  
-- https://gitee.com/bianbu-linux/edk2  
+![](./static/UzeVbTmnCowOmExaIswcyc1qnmf.png)
 
-参考 **[基于MUSE Pi Pro的UEFI固件制作](https://mp.weixin.qq.com/s/s7S3pQesObrmAF_56Cq9Lg)**
+#### UEFI Configuration Guide
 
-#### Bianbu desktop 操作系统配置指引：
+The following functions are available:
 
-如果您的MUSE Pi Pro未在开机3秒内按下"F2"，默认将从板载存储介质启动，进入预先安装好的Bianbu desktop 操作系统。该系统在首次启动时运行配置向导。您需要显示器、键盘、鼠标来浏览向导，向导内容如下：
+- **Boot Manager Menu**
+  Enter the Boot Manager menu, then use the **↑ **and** ↓ keys** to select the boot medium among
 
-1）**系统语言**：  
-此页面帮助您配置系统的语言，默认显示 English 和中文，如需更多语言，可点击下方三个点，弹出更多选项
+  - EMMC storage
+  - SSD
+  - USB drive
+  - SD card
 
-![图片](./static/bianbu_desk0.png)
+  then confirm the selection by pressing the **Enter key.**
+  ![](./static/DussbQopfo5C9RximKGcgFAenUc.png)
+  It is also possible to enter the UEFI shell command line interface.
+- **Boot Maintenance Manager Menu**
+  Enter the Boot Maintenance Manager menu, then select "**Boot Options**," then choose "**Change Boot Order**" to set the boot medium priority. Use **+** and **- keys** to adjust the boot order.
+  After pressing the **Enter key**, select "**Commit Change and Exit**" to apply the changes and exit, returning to the main menu. Press the **F10 key** to save the settings.
+  ![](./static/G983bN6RMonWDXxmz09cksH4nDb.png)
+- **UEFI Interactive Shell**
+  MUSE Pi Pro supports UEFI Interactive Shell V2.2.
+  Upon first entering the UEFI Interactive Shell, all detected storage devices will be displayed.
+  After pressing any key (except **Esc**) or waiting 5 seconds, the EFI Shell will be ready to execute commands.
+  Type "**help**" to display the supported commands and related help information.
+  ![](./static/Unf4bd8KIoIzihx4ehKcJr5Gngc.png)
 
-2）**输入法**:  
-此页面帮助您配置系统的键盘布局和输入法
+> **Notes.**
+>
+> 1. Open source **UEFI** firmware repository for **Bianbu Linux**:
+>    - [edk2](https://gitee.com/bianbu-linux/edk2)
+>    - [edk2-platforms](https://gitee.com/bianbu-linux/edk2-platforms)
+>
+> 2. **UEFI** firmware development for **MUSE Pi Pro**:
+>    - [UEFI Open Source Series - Part 3](https://mp.weixin.qq.com/s/s7S3pQesObrmAF_56Cq9Lg)
 
-![图片](./static/bianbu_desk1.png)
+#### Bianbu Desktop OS Configuration Guide
 
-3）**无线上网**：  
-此页面帮助您连接到 WiFi 网络，从列表中选择您的网络并进行连接；如暂未有合适 WiFi 网络，可在左上角选择跳过该设置
+If the **F2 key** is not pressed within 3 seconds after powering on the MUSE Pi Pro, by default it will boot from the onboard storage medium and launch the pre-installed Bianbu Desktop operating system.
 
-![图片](./static/bianbu_desk2.png)
+A configuration wizard will be run upon first startup that includes the following steps.
 
-4）**位置服务**：  
-此页面可选择是否打开位置服务，如打开位置服务可便捷您的使用体验，但相应的可能会带来位置隐私泄露的风险
+##### System Language
 
-![图片](./static/bianbu_desk3.png)
+Choose the system language. English and Chinese are displayed by default. If need more language options, just click the three dots below to show them.
 
-5）**时区**：  
-此页面帮助配置您所在时区信息，联网状态下系统能够自动同步相应时区时间，可以搜索城市来添加设置
+![](./static/JRoobRffJofXQ8x5JxZc3EUpn1g.png)
 
-![图片](./static/bianbu_desk4.png)
+##### Input Method
 
-6）**设置您的用户名和密码**：  
-该页面帮助您设置用户名和密码，请牢记您的密码
+Configure the MUSE Pi Pro’s keyboard layout and input method.
 
-![图片](./static/bianbu_desk5.png)  
-![图片](./static/bianbu_desk6.png)
+![](./static/MoIfbrH7jow5khxznDNcUXdyn5e.png)
 
-7）**配置完成**  
-配置完成，点击 “开始使用 Bianbu” 吧，后可进入桌面
+##### Wireless Internet Connection
 
-![图片](./static/bianbu_desk7.png)
+Select a valid Wi-Fi network from the list and connect it. If there is no suitable Wi-Fi network, skip this setting by clicking on the upper right corner.
 
-## 4. 安装调试指引
+![](./static/JOgPbIWJwoWAHQxluzhcqFkGnSf.png)
 
-### 4.1 安装操作系统
+##### Location Services
 
-#### 方式1: Type-C数据线烧录
+Turn on location services can facilitate the usage experience, but it may also bring risks of location privacy leakage. Please be aware and careful!
 
-- **设备未上电，处于关机状态时**
-  1）按住 “固件烧录FDL按键” 不松开  
-  2）插上Type-C 数据线，与上位机电脑连接，并供电给设备开机  
-  3）松开 “固件烧录FDL按键”  
-  4）通过进迭时空官方刷机工具 Titan 或者 fastboot 命令即可进行操作
+![](./static/Lj8mbqTqzoFPeWxmsDRcyEI5nXb.png)
 
-- **设备已插上 USB Type-C 数据线供电，并处于开机状态时**
-  1）按住 “固件烧录FDL按键”不松开  
-  2）短按“复位按键RST按键”  
-  3）松开 “固件烧录FDL按键”  
-  4）通过进迭时空官方刷机工具 Titan 或者 fastboot 命令即可进行操作
+##### Time Zone
 
-> **备注**：进迭时空官方刷机工具使用手册请访问链接：[刷机工具使用手册](https://developer.spacemit.com/documentation?token=O6wlwlXcoiBZUikVNh2cczhin5d)
+Configure user time zone information. While online (i.e. Wi-Fi connected), the system can automatically synchronize the corresponding time zone, then user can search for cities to add settings.
 
-![图片](./static/pi_pro_button2.png)
+![](./static/P9y8bMbz2oKURNxIbMPcAB13nlc.png)
 
-### 4.2 串口调试
+##### Username & Password Account
 
-#### 接口连接：
+Set username and password
 
-上位机经 USB 转 TTL 设备与 MUSE Pi Pro主板接口的 TX、RX、GND 正常连接。接口信号如图：
+![](./static/Xnq4b4GIFoFDUmxoTv8cYjDdnZb.png)
 
-![图片](./static/pi_pro_debug.png)
+![](./static/G8R3bsqhcosIAYxrP8oc8FBGn4d.png)
 
-#### Windows系统调试:
+##### Configuration completed
 
-以 “MobaXterm” 为例:  
-首先，请正确连接硬件串口，并确认在设备管理器的端口中有 COM 口的显示，如图:
+When the configuration is completed, click “Start using Bianbu” thus MUSE Pi Pro will enter the desktop of Biandu OS.
 
-![图片](./static/debug1.jpg)
+![](./static/AjGmbBkM2o8culxW4BmcWJw1nFg.png)
 
-打开 “MobaXterm” 软件，选择 “Sessions”——“New Session”，在弹出的对话框中，选择 “Serial”，"Serial port" 选择上图中识别到的对应 COM 口，“Speed” 速率选择 “115200”，最后点击 “OK”，即可进入打印页面
+## 4. Firmware Flashing & Serial Port Debugging
 
-![图片](./static/debug2.jpg)
+### 4.1 Flashing Process
 
-## 5. 注意事项
+#### Via USB Type-C Cable
 
-MUSE Pi Pro适用于家居、办公室或工业环境，开始操作前，请先阅读以下注意事项：
+- When the device is powered off,
 
-1）任何情况下不可对屏幕接口、CSI接口及扩展板进行热插拔操作。  
-2）拆封单板计算机包装和安装前，为避免静电释放（ESD）对单板硬件造成损伤，请采取必要防静电措施。  
-3）持单板计算机时请拿单板边沿，不要触碰到单板上的外露金属部分，以免静电对单板元器件造成损坏。  
-4）请将单板计算机放置于干燥的平面上，以保证它们远离热源、电磁干扰源与辐射源、电磁辐射敏感设备（如：医疗设备）等。  
-5）请将单板计算机置于通风良好的环境，如需72h及以上长时间满载运行，请装配原厂散热器，或采取充分有效的散热措施。
+  - Press and hold the **Firmware Download (FDL)** button without releasing it
+  - Connect the USB Type-C cable to the device and the host computer, which also supplies power to turn on the device itself
+  - Release the **Firmware Download (FDL)** button
+  - Use
 
-## 6. 开源资料
+    - Either the official **Titan Flasher** tool provided by **SpacemiT** as per description in the [related documentation](https://developer.spacemit.com/documentation?token=B9JCwRM7RiBapHku6NfcPCstnqh)
+    - Or the **fastboot** command
 
-**结构尺寸图**：
+    to proceed with the firmware flashing operation
+- When the device is powered on and connected to the USB Type-C cable for power,
 
-![图片](./static/pi_pro_dimen.png)
+  - Press and hold the **Firmware Download (FDL)** button without releasing it
+  - Press shortly the **Reset (RST)** button
+  - Release the **Firmware Download (FDL)** button
+  - Use
 
-## 7. 附录——接口线序
+    - Either the official **Titan Flashe**r tool provided by **SpacemiT** as per description in the [related documentation](https://developer.spacemit.com/documentation?token=B9JCwRM7RiBapHku6NfcPCstnqh)
+    - Or the **fastboot** command
 
-## 7.1 MIPI CSI 高速连接器
+    to proceed with the firmware flashing operation
 
-MUSE Pi Pro上配备了1路 4lanes MIPI CSI FPC 22p接口与1路 2lanes MIPI CSI FPC 15p接口。
+![](./static/RoFhbwRnEodBcAxCeQfcpArdnLb.png)
 
-![图片](./static/pi_pro_mipi.png)
+### 4.2 Serial Port Debugging
 
-**15pin高速连接器接口线序如下**：
+#### Interface Connection
 
-| pin | 信号名称 |
+The host computer is normally connected to the TX, RX and GND of the MUSE Pi via the USB to TTL device. The signal interface connection is shown below.
+
+![](./static/Q0H1bvBILoAzVwxGIudczWwLn0g.png)
+
+#### Debugging Under Windows OS
+
+Let’s take the “**MobaXterm**” software tool as example.
+
+Firstly, please connect the hardware serial port correctly and confirm that there is a COM port displayed in the port list of the device manager, as shown below.
+
+![](./static/E1p9bnV5voQcKbxQrvncVFnLn3b.png)
+
+Open the “MobaXterm” software tool then select “Sessions” - “New Session” (1) in the screen appearing. In the pop-up dialog box appearing,
+
+- Select “Serial” (2)
+- Select the corresponding COM port identified above for “Serial port” (3)
+- Select “115200” for “Speed” (4)
+- Click “OK” (5)
+
+as shown below.
+
+![](./static/FPsyb2sIMoIdMtxUFHvcysLinq9.png)
+
+Thus the print page will be entered as shown below.
+
+![](./static/OOH8bf04ZoFZ9sxt4JDc7Qown9b.png)
+
+## 5. Precautions
+
+The MUSE Pi Pro is designed for home, office, and industrial environments. Before operation, please read the following precautions:
+
+1. Do not hot-plug the display interface, CSI interface, or any expansion board under any circumstances.
+
+2. Before unboxing and installing the single-board computer, take appropriate electrostatic discharge (ESD) protection measures to prevent hardware damage.
+
+3. When handling the single-board computer, hold it by the edges. Avoid touching any exposed metal components to prevent potential ESD damage to onboard devices.
+
+4. Place the board on a dry, flat surface, ensuring it is kept away from heat sources, electromagnetic interference (EMI), radiation sources, and EMI-sensitive equipment (e.g., medical devices).
+
+5. Ensure proper ventilation. For continuous full-load operation of 72 hours or longer, install the original heatsink or apply sufficient and effective cooling measures.
+
+## 6. Open-Source Resources
+
+**Structure Drawing:**
+
+![](./static/AuLqbhcMOo206mxtvVfcwR6Nnje.png)
+
+## 7. Appendix — Interface Pin Assignments
+
+### 7.1 MIPI CSI High-Speed Connectors
+
+The MUSE Pi Pro is equipped with one 4-lane MIPI CSI (FPC 22-pin) interface and one 2-lane MIPI CSI (FPC 15-pin) interface.
+
+![](./static/AsqcbGXvaoYKR1xx014cLMQrnmb.png)
+
+**15-Pin High-Speed Connector Pin Assignment**：
+
+| pin | Signal Name |
 |-----|----------|
 | 1 | GND |
 | 2 | MIPI_CSI3_DN0 |
@@ -332,11 +418,11 @@ MUSE Pi Pro上配备了1路 4lanes MIPI CSI FPC 22p接口与1路 2lanes MIPI CSI
 | 14 | CAM_I2C1_SDA_3V3 |
 | 15 | CSI_VCC33 |
 
-![图片](./static/pi_pro_mipi1.png)
+![](./static/SJEJbRHcBoDjRxx4tCZcU724npc.png)
 
-**22pin高速连接器接口线序如下**：
+**22-Pin High-Speed Connector Pin Assignment**：
 
-| pin | 信号名称 |
+| pin | Signal Name |
 |-----|----------|
 | 1 | GND |
 | 2 | MIPI_CSI1_DN0 |
@@ -361,15 +447,15 @@ MUSE Pi Pro上配备了1路 4lanes MIPI CSI FPC 22p接口与1路 2lanes MIPI CSI
 | 21 | CAM_I2C0_SDA_1833 |
 | 22 | CSI_VCC33 |
 
-### 7.2 MIPI DSI屏连接座
+### 7.2 MIPI DSI Display Connector
 
-MUSE Pi Pro上配备了1路 2lanes MIPI DSI FPC 15p接口。
+The MUSE Pi Pro includes one 2-lane MIPI DSI FPC 15-pin interface.
 
-![图片](./static/pi_pro_mipi2.png)
+![](./static/M1jLbBDcIomrEYx2whIcbUowncN.png)
 
-**MIPI DSI FPC 15pin高速连接器接口线序如下**：
+**MIPI DSI FPC 15-Pin High-Speed Connector Pin Assignment**：
 
-| pin | 信号名称 |
+| pin | Signal Name |
 |-----|----------|
 | 1 | GND |
 | 2 | MIPI_DSI1_LANE1_DN |
@@ -387,13 +473,13 @@ MUSE Pi Pro上配备了1路 2lanes MIPI DSI FPC 15p接口。
 | 14 | LCD_VCC33 |
 | 15 | LCD_VCC33 |
 
-### 7.3 40pin 接口
+### 7.3 40pin Header
 
-开发板支持40pin双排插针，线序如下：
+The development board supports a 40-pin dual-row header. The pin assignments are as follows:
 
-![图片](./static/pi_pro_pins.png)
+![](./static/pi_pro_pins.png)
 
-| pin | 信号名称 | 信号名称 | pin |
+| pin | Signal Name | Signal Name | pin |
 |-----|----------|----------|-----|
 | 1 | VCC3V3_SYS | VCC5V0_OUT | 2 |
 | 3 | AP_I2C4_SDA_3V3 | VCC5V0_OUT | 4 |
@@ -416,8 +502,10 @@ MUSE Pi Pro上配备了1路 2lanes MIPI DSI FPC 15p接口。
 | 37 | GPIO_33_3V3 | GPIO_46_3V3 | 38 |
 | 39 | GND | GPIO_37_3V3 | 40 |
 
-### 7.4 UART调试接口
+### 7.4 UART Debug Interface
 
-支持40pin双排插针pin6、8、10调试X60，主控端线序从上到下GND，RX，TX。
+The board provides UART debugging via Pin 6, 8, and 10 of the 40-pin header for X60 debugging.
+On the host controller side, the pin order from top to bottom is:
+GND → RX → TX
 
-![图片](./static/pi_pro_connect.png)
+![](./static/GPLWbgRYCoATDqxWtWOcDy49nTe.png)

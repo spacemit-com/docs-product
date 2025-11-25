@@ -1,6 +1,6 @@
 # MUSE Pi Pro Hardware Reference Documents
 
-Please click the following link to collect the related hardware reference documents:
+Please click the following links to collect the related hardware reference documents:
 - [MUSEPi Pro_refdes_V1.0](#)
 - [MUSEPi Pro_schematic-V1.1-20250619](#)
 - [MUSEPi Pro_BOM-V1.1-20250506](#)
