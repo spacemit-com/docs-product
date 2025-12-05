@@ -38,6 +38,6 @@ We invite even more people to embrace RISC-V and join us in building a better ec
 
 ---
 ## Collaboration Contact Info
-Official Wechat: SpacemiT1102
-Business Contact: 189–6649–8607
-Business Email: [business@spacemit.com](mailto:business@spacemit.com)
+- Official Wechat: SpacemiT1102
+- Business Contact: 189–6649–8607
+- Business Email: [business@spacemit.com](mailto:business@spacemit.com)
