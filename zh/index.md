@@ -25,6 +25,6 @@ MUSE系统生态产品序列，涵盖了SOM（核心板）、Pi/Pi Pro（各尺�
 
 ---
 ## 合作请联系
-商务微信：SpacemiT1102
-商务电话：189–6649–8607
-商务邮箱：[business@spacemit.com](mailto:business@spacemit.com)
+- 商务微信：SpacemiT1102
+- 商务电话：189–6649–8607
+- 商务邮箱：[business@spacemit.com](mailto:business@spacemit.com)
