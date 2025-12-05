@@ -1,52 +1,55 @@
-# 维保和服务政策
+# Maintenance and Service Policy
 
-## 售后须知：
+## After-Sales Notes
 
-- MUSE 系列生态产品，请用户购买前充分了解产品规格，产品不保证符合所有用户对特定功能、用途或系统/软件等的需求。MUSE 系列生态产品属于开发类产品，不满足 7 天无理由退换货服务，属于因产品质量问题，可以在质保期内获得免费质保服务。
-- 购买产品后，请妥善保管相关购买凭证和发票，以便日后的维保和服务需求。
-- 产品享有自购买日起一定期限的免费质保服务，具体质保期限请参考产品的质保说明书或官方网站公布的信息。
-- 在质保期内，如产品出现非人为损坏的故障，用户应提供产品质量问题的详细书面描述，并填写保修卡和购买凭证等邮寄到对应地址（地址咨询卖方）进行免费维修。卖家确认系产品质量问题并符合保修情形的，产品回寄的费用由卖家承担；卖家确认系非产品质量问题（如乱刷软件原因、EEPROM 信息缺失或不对应等）或不符合保修情形的，产品回寄的费用由买家承担。
-- 在质保期外或因人为损坏导致的故障，用户可申请有偿维修。
-- 对于因用户自行拆解或改装导致的故障，将不提供质保但提供有偿维修服务，需由用户承担往返运费和相关维修费用。
+- Before purchasing any product in the MUSE ecosystem, please carefully review the product specifications. MUSE ecosystem products are development-class devices and may not meet all requirements related to specific functions, use cases, or system/software compatibility. These products are not eligible for the “7-day no-reason return” service. Free warranty service is provided only for hardware defects covered within the warranty period.
+- After purchase, please keep all related proof of purchase and invoices for future maintenance and service needs.
+- Each product includes a limited free warranty starting from the date of purchase. For specific warranty durations, refer to the product’s warranty documentation or the information published on the official website.
+- During the warranty period, if the product experiences a non-man-made hardware failure, the user must provide a written description of the issue, and send the warranty card and proof of purchase to the designated address (consult the seller for details). After the seller confirms that the issue is a product quality defect and meets warranty conditions, the return shipping cost will be covered by the seller. If the seller determines the issue is not a product quality defect (e.g., due to flashing unofficial firmware, missing or mismatched EEPROM data, etc.) or does not meet warranty conditions, the return shipping cost will be borne by the buyer.
+- For out-of-warranty failures or damages caused by human factors, users may request paid repair services.
+- For failures caused by unauthorized disassembly or modification, warranty service will not be provided. Paid repair service is available, and the user must cover all related repair and shipping costs.
 
-## 产品质保政策：
+## Product Warranty Policy
 
 <table>
-<tbody>
-<tr>
-<td>产品</td>
-<td>政策</td>
-<td>备注</td>
-</tr>
-<tr>
-<td>MUSE Book</td>
-<td>自购买之日，享受为期一年的非人为原因导致的硬件损坏的免费质保</td>
-<td>拆机后不支持质保，因误刷软件问题导致不支持免费质保</td>
-</tr>
-<tr>
-<td>MUSE Box</td>
-<td>自购买之日，享受为期半年的非人为原因导致的硬件损坏的免费质保</td>
-<td>拆件、改装后不支持质保，因误刷软件问题导致不支持免费质保</td>
-</tr>
-<tr>
-<td>MUSE Pi</td>
-<td>自购买之日，享受为期半年的非人为原因导致的硬件损坏的免费质保</td>
-<td>拆件、改装后不支持质保，因误刷软件问题导致不支持免费质保</td>
-</tr>
-</tbody>
+  <tbody>
+    <tr>
+      <td><strong>Product</strong></td>
+      <td><strong>Policy</strong></td>
+      <td><strong>Remarks</strong></td>
+    </tr>
+    <tr>
+      <td>MUSE Book</td>
+      <td>One-year free warranty for non-man-made hardware damage, starting from the date of purchase.</td>
+      <td>No warranty after disassembly; no free warranty for issues caused by flashing unofficial software.</td>
+    </tr>
+    <tr>
+      <td>MUSE Box</td>
+      <td>Half-year free warranty for non-man-made hardware damage, starting from the date of purchase.</td>
+      <td>No warranty after disassembly/modification; no free warranty for issues caused by flashing unofficial software.</td>
+    </tr>
+    <tr>
+      <td>MUSE Pi</td>
+      <td>Half-year free warranty for non-man-made hardware damage, starting from the date of purchase.</td>
+      <td>No warranty after disassembly/modification; no free warranty for issues caused by flashing unofficial software.</td>
+    </tr>
+  </tbody>
 </table>
 
-## 注意事项
-产品安全使用注意事项：
-- 请在使用产品前，仔细阅读并理解产品的用户手册和安全说明书。
-- 请仅使用原装电源适配器或符合质量要求的兼容适配器，以避免电源供应问题。
-- 请勿在潮湿、多尘、易燃或高温环境下使用产品，以免引发故障或安全隐患。
-- 请避免产品受到强烈震动或摔落，以防止损坏内部零部件。
-- 请保持产品干燥清洁，避免液体或异物进入产品内部，以免影响正常使用或引发安全问题。
-- 请在使用产品时注意电源插头的连接状态，避免出现插头松动或短路现象。
-- 请勿私自拆解或改装产品的零部件，以免影响产品性能或导致安全隐患，同时将会无法提供相应质保服务。
-- 请定期对产品进行维护和保养，确保其正常运行和安全使用。
-- 在长时间不使用产品或遇雷电天气时，请将电源关闭或拔出插头，以提高产品的安全性能。
-- 如发现产品出现异常情况或故障，请立即停止使用，并联系购买方进行处理。
-- 请不要清除产品EEPROM内置信息（若有），否则将会无法提供相应质保服务。
-- 请规范下载和使用官方授权的系统和软件，如因非硬件问题导致的返修，将无法提供相应质保服务。
+## Safety Precautions
+
+To ensure safe use of the product:
+
+- Please read and fully understand the user manual and safety instructions before using the product.
+- Only use the original power adapter or a compatible adapter that meets quality requirements to avoid power-related issues.
+- Do not use the product in humid, dusty, flammable, or high-temperature environments to prevent malfunction or safety risks.
+- Avoid strong impact or dropping the product to prevent internal component damage.
+- Keep the product clean and dry. Prevent liquids or foreign objects from entering the device to avoid failures or safety hazards.
+- Ensure the power plug is properly connected during use. Avoid loose connections or short circuits.
+- Do not disassemble or modify the device without authorization, as this may affect performance, create safety risks, and void the warranty.
+- Perform regular maintenance to ensure the product operates safely and reliably.
+- If the product will not be used for a long period or during thunderstorms, please power it off or unplug it for safety.
+- If any abnormal behavior or malfunction is detected, stop using the product immediately and contact the seller for support.
+- Do not erase the EEPROM built-in information (if applicable); otherwise, warranty service cannot be provided.
+- Always download and use officially authorized systems and software. Repairs caused by non-hardware issues will not be covered under warranty.
+
