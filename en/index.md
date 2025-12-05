@@ -12,7 +12,7 @@ The SpacemiT MUSE series ecosystem products lineup includes five common hardware
 - Book (laptop)
 - Shelf (development server)
 
-That allows developers to freely choose products that best fit their development environment. It is provided a range of features and resources tailored to developers’ habits, facilitating efficient creation, deployment and management of their projects. The products feature a simple and intuitive interface, enabling developers to easily get started and quickly begin their work, while also supporting standard compilation tools with optimizations for compilation performance.
+MUSE series let developers to freely choose products that best fit their development environment. It is provided a range of features and resources tailored to developers’ habits, facilitating efficient creation, deployment and management of their projects. The products feature a simple and intuitive interface, enabling developers to easily get started and quickly begin their work, while also supporting standard compilation tools with optimizations for compilation performance.
 
 Additionally, SpacemiT offers detailed documentation and community support to ensure that any issues developers encounter can be promptly resolved. Whether you are a beginner just starting out or an experienced professional, there are benefits to be gained from this ecosystem. The MUSE series ecosystem products are designed to comprehensively assist individual developers in unleashing their creativity and realizing their technical dreams, while also providing standardized hardware solutions for institutional developers, integrating the supply chain for efficient product launch.
 
