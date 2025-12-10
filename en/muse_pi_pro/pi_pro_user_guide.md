@@ -1,7 +1,7 @@
 # MUSE Pi Pro User Guide
 
 ```
-Last version: 2025/11/16
+Last version: 2025/12/10
 ```
 
 ## 1. Introduction
@@ -12,178 +12,167 @@ MUSE Pi Pro comes in a compact 1.8-inch board form factor, designed to deliver e
 
 ## 2. Hardware
 
-### 2.1 Block Diagram
+### 2.1 On-Board Resources Overview
 
-![](./static/QVGAbS5pEou7W9xYwn4cNaKFnsb.png)
+![MUSE Pi Pro Board](./static/pi_pro_board.png)
 
-### 2.2 Physical Dimensions
+> **Note:** Board appearance may vary slightly between hardware revisions.
 
-![](./static/AuLqbhcMOo206mxtvVfcwR6Nnje.png)
+### 2.2 Indicators and Buttons
 
-> **Note.**
+#### LED Indicators
+
+| LED   | Description       |
+| ------ | -------- |
+| **STAT (System Status)** | - **Off:** No power or hardware fault<br>- **Solid green:** System booted and running normally<br>- **Solid green for 3s → 1 blink:** Boot error (SPI Flash content or communication failure)<br>- **Solid green for 3s → 2 blinks:** External RAM error (DDR communication failure or memory damage)<br>- **Solid green for 3s → 3 blinks:** Kernel error (invalid image or storage corruption)<br>- **Solid green for 3s → 4 blinks:** GRUB/bootloader error (invalid or incompatible boot content) |
+
+#### Buttons
+
+| Button   | Description    |
+| ---------- | -------- |
+| **PWR (Power Button)**      | - **Shutdown → 1s press:** Power on<br>- **Standby → 1s press:** Wake up<br>- **Normal operation → 3s press:** Forced power-off |
+| **RST (Reset Button)**      | - **Short press:** System reset (cold reboot)                                                                                   |
+| **FDL (Firmware Download)** | - **Hold while powering on / resetting:** Enter firmware flashing mode                                                          |
+
+![Buttons](./static/RoFhbwRnEodBcAxCeQfcpArdnLb.png)
+
+### 2.3 Interface Description
+
+#### Power & Firmware Download Port (PWR)
+
+- Connector type: **USB Type-C**
+- Supports **USB-PD** power profiles: 5V/3A, 9V/3A, 12V/3A
+- In firmware download mode, the port functions as both **power input** and **USB Device**, allowing the host PC to detect the board and perform flashing operations.
+
+> **Important:**
 >
-> - All dimensions are in mm
-> - All dimensions are approximate and for reference purposes only
-> - All dimensions should not be used for producing production data
-> - All dimensions are subject to part and manufacturing tolerances
-> - All dimensions may be subject to change
-> - Not all the board components are shown, please refer to the physical diagram for a comprehensive    representation
+> - A USB cable with **data lines** is required. Charge-only cables are not supported for flashing.
+> - To ensure reliable system upgrade, use a USB power source capable of **≥10W**.
 
-### 3.3 Physical Diagram
+![Type-C](./static/XLvWbnBe6oKzrpxa5Uzc9mKnnKg.png)
 
-MUSE Pi Pro looks like below.
+### M.2 M-Key Storage Expansion
 
-![](./static/EO3ZbARDWomtGFxsKvnc9nZFnKb.png)
+- Connector: **M.2 (Key-M), height 3.2 mm**
+- Supports **NVMe protocol**, 2230 form-factor SSDs
+- PCIe 2.0 ×2 bandwidth
 
-> **Note:** The real appearance of MUSE Pi Pro might vary slightly depending on the hardware version.
+> **Important:** Hot-plug is **not supported**. Install or remove SSDs only when power is off.
 
-### 3.4 Indicators & Buttons
+![M.2](./static/Nm3XbpoC3om51AxAusDcRslOnXG.png)
 
-<table>
-<tbody>
-<tr>
-<td><strong>Indicator </strong>Status LED (STAT)</td>
-<td><strong>Status Description</strong></td>
-</tr>
-<tr>
-<td>Off</td>
-<td>No power connected or system error</td>
-</tr>
-<tr>
-<td>Solid green</td>
-<td>System booted successfully and running normally</td>
-</tr>
-<tr>
-<td>Solid green for 3s, then 1 blink</td>
-<td>Boot error (SPI Flash content or communication issue)</td>
-</tr>
-<tr>
-<td>Solid green for 3s, then 2 blinks</td>
-<td>External RAM error (DDR communication issue or memory failure)</td>
-</tr>
-<tr>
-<td>Solid green for 3s, then 3 blinks</td>
-<td>Kernel error (invalid image or storage issue)</td>
-</tr>
-<tr>
-<td>Solid green for 3s, then 4 blinks</td>
-<td>Grub error (invalid or incompatible boot configuration)</td>
-</tr>
-</tbody>
-</table>
+#### HDMI Display Output
 
-![](./static/JT6LbmgB9ogTOPx2PkjcNhfsnjf.png)
+- Connector type: **HDMI Type-A**
+- Used for UEFI boot configuration display
+- Desktop OS display supports **1080p @ 60Hz**
+- Hot-plug supported
 
-### 3.5 Interfaces
+#### MIPI DSI Display Interface (DISPLAY)
 
-#### Power & Programming Interface (PWR)
+- Connector: **15-pin, 1.0 mm FFC**
+- **MIPI DSI 2-lane**, includes I²C control channel and touch support
+- When only a MIPI panel is connected → it becomes the **primary display**
+- When both MIPI and HDMI displays are connected → MIPI is the **default primary -isplay**; HDMI acts as extended display
+  (primary display can be changed in OS settings)
 
-- **Type:** USB Type-C
-- **Power Delivery:** Support for USB-PD protocol with 5V/3A, 9V/3A and 12V/3A input
-- **Firmware Mode:** When entering programming mode, this port serves both as the power input and USB device interface. It connects to a host computer via USB Type-C and can be detected for firmware flashing and upgrade operations.
+> **Important:** Hot-plug for MIPI devices is **not supported**.
 
-> **Notes.**
->
-> - A USB cable that supports data transmission is required for programming. Charging-only cables are not supported.
-> - To ensure system stability during upgrades, please use a USB power supply capable of delivering at least 10W.
+![DISPLAY](./static/Lxfobq9KFojMdVxzOQvc6AeTnAi.png)
 
-![](./static/XLvWbnBe6oKzrpxa5Uzc9mKnnKg.png)
+#### Camera Interface CAMERA0
 
-#### Storage Expansion Interface (M.2-M Key)
+- Connector: **22-pin, 0.5 mm FFC**
+- Compatible camera modules listed in:
+  **K1 AVL – Key Component List**
 
-- **Type:** 3.2mm-height M.2 connector
-- **Protocol:** Support for NVMe
-- **Form Factor:** 2230
-- **Interface:** PCIe 2.0 x 2
+![CAMERA0](./static/LLVibDZlAoUzoZxphA2c9sAdnKf.png)
 
-> **Note.** SSDs are not hot-swappable, please install or remove the drive only when the system is powered off.
+#### Camera Interface CAMERA1
 
-![](./static/Nm3XbpoC3om51AxAusDcRslOnXG.png)
+- Connector: **15-pin, 1.0 mm FFC**
+- Compatible camera modules listed in the **K1 AVL**
 
-#### Display Interface (HDMI)
+![CAMERA1](./static/L0jUbUjaCoOXkCxTtIDcK1Oanng.png)
 
-- **Type:** HDMI Type-A
-- **Function:** Used for the UEFI boot configuration interface and desktop OS display
-- **Resolution:** Support for 1080P@60Hz
-- **Hot-Swap:** Supported
+#### Audio Interface (AUDIO)
 
-#### Display Interface (DISPLAY)
+- Standard **3.5 mm TRRS audio jack**
+- Backed by **ES8326** audio codec
+- Selectable in the system audio settings for playback/recording tests
 
-- **Type:** 15-pin, 1mm-pitch FPC connector
-- **Interface:** MIPI DSI (2 lanes) with I²C channel, touch support included
-- **Display Behavior:**
+#### 1G Ethernet Port (1G ETH)
 
-  - When only a MIPI display is connected, it acts as the primary screen
-  - When both MIPI and HDMI displays are connected, the MIPI screen is set as the default primary display, with HDMI as the secondary (extended) screen
-  - To make HDMI the primary display, adjustments can be made within the operating system
+- Connector: **RJ45 with LED indicators**
+- Supports **1000M/100M**, auto-negotiation
 
-> **Note.** MIPI devices are not hot-swappable, please power off the system before installing or removing.
+**Green LED (LINK SPEED):**
 
-![](./static/Lxfobq9KFojMdVxzOQvc6AeTnAi.png)
+1. Solid green → Link established at highest supported speed
+2. Off → Link established but not at top speed
+3. Off when no link is established
 
-#### Camera Input Interface (CAMERA0)
+**Yellow LED (ACTIVE):**
 
-- **Type:** 22-pin, 0.5mm-pitch FPC connector
-- **Compatibility:** Support for camera modules as per list in the document **"****K1 Key Components AVL****"**
-  ![](./static/LLVibDZlAoUzoZxphA2c9sAdnKf.png)
+1. Off → No data traffic
+2. Blinking → Active data transfer (faster blinking = higher traffic)
+3. Off when no link is established
 
-#### Camera Input Interface (CAMERA1)
+#### USB3 Host Interface
 
-- **Type:** 15-pin, 1mm-pitch FPC connector
-- **Compatibility:** Support for camera modules as per list in the document **"****K1 Key Components AVL****"**
+- Connector: **USB Type-A**
+- Supports **USB 3.0 Host**
+- Compatible with multiple devices simultaneously (keyboard, mouse, drive, USB camera, compute stick, etc.)
+- Device compatibility list: **K1 AVL**
 
-![](./static/L0jUbUjaCoOXkCxTtIDcK1Oanng.png)
+#### miniPCIe Expansion Slot
 
-#### Audio Headphone Jack (AUDIO)
+- Connector: **miniPCIe, height 9.9 mm**
+- Supports **USB 2.0** and **PCIe 2.0 ×1**
+- Compatible with standard full-size miniPCIe modules (4G/5G, wireless, network cards)
 
-- **Type:** Standard 3.5mm headphone jack
-- **Audio System:** Based on the ES8326 audio codec. User can select this channel and test audio output through the system settings interface.
+> **Important:** Hot-plug is **not supported**.
 
-#### Wired Ethernet Port (1G ETH)
+![miniPCIe](./static/FCjqb2RjPohLX4xvekbcoUsNnMg.png)
 
-- **Type:** RJ45 with yellow and green status LEDs
-- **Speed:** Support for 1000Mbps / 100Mbps with auto-negotiation
-- **Green LED - LINK SPEED indicator:**
+#### GPIO Header
 
-  - **Solid green:** Link established at maximum speed
-  - **Off:** Link established, but not at maximum speed
-  - **No light:** No link established
-- **Yellow LED - ACTIVE indicator:**
+- Connector: **2×20, 2.54 mm pitch**
+- **PIN2 / PIN4:** 5V output (up to 1A) for fans or expansion boards
+- **PIN6 / PIN8 / PIN10:** GND / debugUART_TX / debugUART_RX
+- GPIO usage and driver documentation:
+  [https://bianbu-linux.spacemit.com/development_guide/peripheral_driver/](https://bianbu-linux.spacemit.com/development_guide/peripheral_driver/)
+- Extended IO definition:
+  [https://bianbu.spacemit.com/bianbu-star/user_guide/defaut_pin/](https://bianbu.spacemit.com/bianbu-star/user_guide/defaut_pin/)
+- GPIO voltage domain: **3.3V**, supports multi-function pinmux
 
-  - **Off:** No data transmission
-  - **Blinking yellow:** Active data transmission (faster blinking = higher activity)
-  - **No light:** No link established
+![GPIO](./static/CRNsbxdgGodPOsxIdqAcGEyJnqb.png)
 
-#### USB3 Interface
+### 2.4 Product Specifications
 
-- **Type:** USB Type-A
-- **Features:** Plug-and-play, supporting USB 3.0 host protocol
-- Support for multiple USB devices such as keyboard, mouse, external drive, USB camera, and USB computer stick
-- For the full list of compatible USB devices, please refer to the document **"****K1 Key Components AVL****"**
+| Item    | Specification   |
+| ------ | --- |
+| **Processor**          | SpacemiT M1, 8-core 64-bit RISC-V processor, integrated **2.0 TOPS AI compute**                                                                                      |
+| **Display**            | HDMI 1.4 Type-A, up to **1080p60**<br>2-lane MIPI DSI, up to **1080p60**                                                                                             |
+| **Memory**             | LPDDR4X @ 2400 MT/s, **8 GB / 16 GB** options                                                                                                                        |
+| **On-board Storage**   | eMMC 5.1, **64 GB / 128 GB** options                                                                                                                                 |
+| **Storage Expansion**  | M.2 M-Key for 2230 NVMe SSD<br>MicroSD slot supporting **UHS-II**                                                                                                    |
+| **Wireless**           | On-board Wi-Fi 6 + Bluetooth 5.2<br>Optional dual-wireless via M.2 / miniPCIe                                                                                        |
+| **Ethernet**           | 1× RJ45, 1 Gbps / 100 Mbps auto-negotiation                                                                                                                          |
+| **Audio**              | 3.5 mm headset interface                                                                                                                                             |
+| **USB**                | Four **USB 3.0** Type-A host ports<br>One **USB 2.0 Type-C** device port                                                                                             |
+| **Debug Interfaces**   | UART TTL Debug + hardware buttons (Reset / Power / FDL)                                                                                                              |
+| **IO Expansion**       | - M.2 M-Key slot for SSD / PCIe adapters<br>- miniPCIe slot for 4G/5G / Wi-Fi / network cards<br>- 40-pin GPIO header                                                |
+| **MIPI Interfaces**    | 1× 2-lane MIPI DSI (15-pin)<br>1× 4-lane MIPI CSI (22-pin)<br>1× 2-lane MIPI CSI (15-pin)                                                                            |
+| **Form Factor**        | Single-board computer, **FEMTO-ITX**, 85 mm × 56 mm                                                                                                                  |
+| **Operating Systems**  | Bianbu Desktop, Ubuntu, OpenKylin, Deepin, Fedora                                                                                                                    |
+| **Power Input**        | USB-PD supported                                                                                                                                                     |
+| **Reliability**        | Interfaces protected to **±4kV contact**, **±8kV air** (ESD)<br>Meets **CE / FCC** EMC standards<br>Temperature options: Consumer −20°C~70°C / Industrial −40°C~85°C |
+| **Mechanical Options** | Passive/active cooling<br>Metal or acrylic chassis<br>Optional touchscreen or industrial terminal accessories                                                        |
 
-#### High-Speed Expansion Interface (miniPCIe)
+### 2.5 Block Diagram
 
-- **Type:** 9.9mm High miniPCIe connector
-- **Features:** Supports for both USB 2.0 and PCIe 2.0 x 1
-- For the list of compatible USB and PCIe devices, please refer to the document **"****K1 Key Components AVL****"**
-- Can install standard miniPCIe full-width modules
-
-> **Note:** MiniPCIe devices are not hot-swappable. Please ensure the system is powered off before removing or installing devices.
-
-![](./static/FCjqb2RjPohLX4xvekbcoUsNnMg.png)
-
-### General Purpose Input/Output Interface (GPIO)
-
-- **Type:** 2.54mm pitch, 2 x 20 pin header
-- **Features:**
-
-  - PIN2 and PIN4 provide 5V power and can be used for fan or expansion board power supply, with a maximum output current of 1A
-  - PIN6, PIN8 and PIN10 are GND, debugUART\_Tx (transmit side) and debugUART\_Rx (receive side) respectively, and can be used for debugging serial communication
-- For more information on GPIO usage, please refer to **this documentation link**
-- To facilitate peripheral expansion for users, the extended I/O functionality has been defined. Please refer to **this documentation link** for more information.
-- The GPIO voltage level is 3.3V, supporting multi-function pin multiplexing. The pin definitions and resources are shown below.
-
-![](./static/CRNsbxdgGodPOsxIdqAcGEyJnqb.png)
+![Block Diagram](./static/QVGAbS5pEou7W9xYwn4cNaKFnsb.png)
 
 ## 3. Quick Start
 
