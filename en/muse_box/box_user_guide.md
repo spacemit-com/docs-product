@@ -1,4 +1,6 @@
-# MUSE Box 用户使用指南
+sidebar_position: 2
+
+# MUSE Box User Guide
 
 ## 产品简介
 
