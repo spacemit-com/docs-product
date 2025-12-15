@@ -1,3 +1,5 @@
+sidebar_position: 7
+
 # RISC-V Lab Kit
 
-![RISC-V Lab Kit](./static/kit_brief_en.png)
+[RISC-V Brief](kit_brief.md)

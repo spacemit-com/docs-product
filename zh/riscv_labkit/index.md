@@ -1,3 +1,5 @@
+sidebar_position: 7
+
 # RISC-V 实验箱
 
-![RISC-V Lab Kit](./static/riscv-kit.png)
+[RISC-V 实验箱简介](kit_brief.md)
