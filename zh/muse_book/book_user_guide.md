@@ -1,4 +1,6 @@
-# MUSE Book用户使用指南
+sidebar_position: 2
+
+# MUSE Book 用户使用指南
 
 ## 产品简介
 

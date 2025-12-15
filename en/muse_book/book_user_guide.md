@@ -1,3 +1,5 @@
+sidebar_position: 2
+
 # MUSE Book User Guide
 
 ## Introduction

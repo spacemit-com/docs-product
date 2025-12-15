@@ -1,3 +1,5 @@
-# MUSE BOOK
+# MUSE Book
 
-![MUSE Book Breif](./static/book_brief_en.png)
+- [MUSE Book Brief](book_brief.md)
+- [MUSE Book User Guide](book_user_guide.md)
+- [MUSE Book Hardware Reference Documents](book_hw.md)

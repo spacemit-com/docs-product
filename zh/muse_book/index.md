@@ -1,4 +1,5 @@
-# MUSE BOOK
+# MUSE Book
 
-![MUSE Book Breif 01](./static/book_brief_1.png)
-![MUSE Book Breif 02](./static/book_brief_2.png)
+- [MUSE Book 简介](book_brief.md)
+- [MUSE Book 用户使用指南](book_user_guide.md)
+- [MUSE Book 硬件资料](book_hw.md)
