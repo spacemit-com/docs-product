@@ -1,3 +1,5 @@
+sidebar_position: 2
+
 # MUSE Book
 
 - [MUSE Book 简介](book_brief.md)

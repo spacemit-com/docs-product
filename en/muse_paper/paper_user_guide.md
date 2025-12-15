@@ -1,8 +1,6 @@
-# MUSE Paper 用户使用指南
+sidebar_position: 2
 
-```
-最新版本：2025/04/15
-```
+# MUSE Paper User Guide
 
 ## 重要提醒
 
