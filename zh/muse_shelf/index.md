@@ -1,4 +1,5 @@
-# Muse Shelf
-![MUSE SHELF Brief 01](./static/shelf_brief01.png)
-![MUSE SHELF Brief 02](./static/shelf_brief02.png)
-![MUSE SHELF Heart](./static/shelf_heart.png)
+sidebar_position: 5
+
+# MUSE Shelf 
+
+[MUSE Shelf 简介](shelf_brief.md)
