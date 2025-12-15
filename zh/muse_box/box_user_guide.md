@@ -1,3 +1,5 @@
+sidebar_position: 2
+
 # MUSE Box 用户使用指南
 
 ## 产品简介
