@@ -1,8 +1,6 @@
-# MUSE Pi Pro 用户使用指南
+sidebar_position: 2
 
-```
-最新版本：2025/12/10
-```
+# MUSE Pi Pro 用户使用指南
 
 ## 1. 产品简介
 

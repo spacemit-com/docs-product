@@ -1,3 +1,5 @@
+sidebar_position: 3
+
 # MUSE Pi Pro Hardware Reference Documents
 
 Please click the following links to collect the related hardware reference documents:
