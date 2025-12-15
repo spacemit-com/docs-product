@@ -1,8 +1,6 @@
-# MUSE Pi User Guide
+sidebar_position: 2
 
-```
-Last version: 2025/07/18
-```
+# MUSE Pi User Guide
 
 ## Introduction
 

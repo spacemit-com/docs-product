@@ -1,3 +1,5 @@
+sidebar_position: 10
+
 # Maintenance and Service Policy
 
 ## After-Sales Notes
@@ -52,4 +54,3 @@ To ensure safe use of the product:
 - If any abnormal behavior or malfunction is detected, stop using the product immediately and contact the seller for support.
 - Do not erase the EEPROM built-in information (if applicable); otherwise, warranty service cannot be provided.
 - Always download and use officially authorized systems and software. Repairs caused by non-hardware issues will not be covered under warranty.
-

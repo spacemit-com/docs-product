@@ -1,3 +1,5 @@
+sidebar_position: 10
+
 # 维保和服务政策
 
 ## 售后须知：
