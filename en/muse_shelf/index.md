@@ -1,3 +1,5 @@
+sidebar_position: 5
+
 # MUSE Shelf
 
-![MUSE SHELF Brief](./static/shelf_brief_en.png)
+[MUSE Shelf Brief](shelf_brief.md)
