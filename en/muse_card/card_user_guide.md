@@ -1,8 +1,6 @@
-# MUSE Card 用户使用指南
+sidebar_position: 2
 
-```
-最新版本：2025/07/18
-```
+# MUSE Card User Guide
 
 ## 产品简介
 
