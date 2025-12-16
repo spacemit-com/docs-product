@@ -1,3 +1,5 @@
+sidebar_position: 3
+
 # MUSE Pi 硬件资料
 
 请点击相关硬件资料下载：
