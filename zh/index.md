@@ -8,3 +8,4 @@
 - [MUSE Card](./muse_card/index.md)
 - [RISC-V 实验箱](./riscv_labkit/index.md)
 - [MUSE Pi](./muse_pi/index.md)
+- [支持服务](service.md)
