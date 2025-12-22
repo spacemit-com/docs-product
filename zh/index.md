@@ -1,3 +1,5 @@
+sidebar_position: 3
+
 # MUSE
 
 - [MUSE Pi Pro](./muse_pi_pro/index.md)
