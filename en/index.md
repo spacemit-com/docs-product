@@ -2,12 +2,12 @@ sidebar_position: 3
 
 # MUSE
 
-- [MUSE Pi Pro](./muse_pi_pro/index.md)
-- [MUSE Book](./muse_book/index.md)
-- [MUSE Paper](./muse_paper/index.md)
-- [MUSE Box](./muse_box/index.md)
-- [MUSE Shelf](./muse_shelf/index.md)
-- [MUSE Card](./muse_card/index.md)
-- [RISC-V Lab Kit](./riscv_labkit/index.md)
-- [MUSE Pi](./muse_pi/index.md)
+- [K1 MUSE Pi Pro](./k1_muse_pi_pro/index.md)
+- [K1 MUSE Book](./k1_muse_book/index.md)
+- [K1 MUSE Paper](./k1_muse_paper/index.md)
+- [K1 MUSE Shelf](./k1_muse_shelf/index.md)
+- [K1 MUSE Box](./k1_muse_box/index.md)
+- [K1 MUSE Card](./k1_muse_card/index.md)
+- [K1 RISC-V Lab Kit](./k1_riscv_labkit/index.md)
+- [K1 MUSE Pi](./k1_muse_pi/index.md)
 - [Support & Services](service.md)
