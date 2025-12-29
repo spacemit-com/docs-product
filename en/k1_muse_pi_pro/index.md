@@ -1,7 +1,7 @@
 sidebar_position: 1
 
-# MUSE Pi Pro
+# K1 MUSE Pi Pro
 
-- [MUSE Pi Pro Brief](pi_pro_brief.md)
-- [MUSE Pi Pro User Guide](pi_pro_user_guide.md)
-- [MUSE Pi Pro Hardware Reference Documents](pi_pro_hw.md)
+- [Overview](pi_pro_overview.md)
+- [User Guide](pi_pro_user_guide.md)
+- [Hardware Design Resources](pi_pro_hw.md)
