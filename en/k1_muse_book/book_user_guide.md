@@ -1,10 +1,11 @@
 sidebar_position: 2
 
-# MUSE Book User Guide
+# K1 MUSE BOOK User Guide
 
 ## Introduction
 
-MUSE Book is a laptop equipped with the SpacemiT 8-core RISC-V AI-CPU M1, and it is the world's first mass-produced RISC-V laptop. MUSE Book is one of the ecological products from SpacemiT, designed basing on RISC-V architecture, with pre-installed the Bianbu operating system and open-source software. It aims to provide a more efficient and convenient local RISC-V development platform for RISC-V devotee, innovative developers, tech enthusiasts, and researchers.  
+K1 MUSE BOOK is a laptop equipped with the SpacemiT 8-core RISC-V AI-CPU M1, and it is the world's first mass-produced RISC-V laptop. 
+K1 MUSE BOOK is one of the ecological products from SpacemiT, designed basing on RISC-V architecture, with pre-installed the Bianbu operating system and open-source software. It aims to provide a more efficient and convenient local RISC-V development platform for RISC-V devotee, innovative developers, tech enthusiasts, and researchers.  
 M1 is a high-performance version of the SpacemiT K1. It integrates 8 RISC-V X60 cores, offering 50K DMIPS computing power and 2 TOPS AI computing power, enabling quick integration with all mainstream AI ecosystems. It supports 4K H.265/H.264/VP9/VP8 encoding and decoding formats, and features a 3D graphics engine with OpenCL 3.0, OpenGLES 3.2 and Vulkan 1.3 support.  
 In addition to the SpacemiT M1, the MUSE Book comes with the following features:  
 - Narrow Bezel Design  

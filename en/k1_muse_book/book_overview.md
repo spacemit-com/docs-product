@@ -2,7 +2,7 @@ sidebar_position: 1
 
 # MUSE Book Overview
 
-**K1 MUSE Book** is a notebook computer equipped with the SpacemiT 8-core RISC-V AI-CPU M1, one of the ecosystem products of SpacemiT. Based on RISC-V architecture hardware design,it comes preinstalled with the Bianbu operating system and open-source software . It aims to provide a more efficient andconvenient RISC-V development platform for all RISC-V enthusiasts, innovative developers, tech enthusiasts,rese archers and more
+**K1 MUSE BOOK** is a notebook computer equipped with the SpacemiT 8-core RISC-V AI-CPU M1, one of the ecosystem products of SpacemiT. Based on RISC-V architecture hardware design,it comes preinstalled with the Bianbu operating system and open-source software . It aims to provide a more efficient andconvenient RISC-V development platform for all RISC-V enthusiasts, innovative developers, tech enthusiasts,rese archers and more
 
 - Powered by SpacemiT’s high-performance 8-core RISC-V processor.
 - Built on the M1 platform with 2.0 TOPS of native AI power, supporting a wide range of model deployments—from traditional convolutional networks to transformer architectures. Applications include natural language understanding, intelligent voice processing, and multimodal AI, and LLMs from ranging from 0.5B to 8B parameters.
@@ -10,7 +10,7 @@ sidebar_position: 1
 - Supports 4K H.265/H.264/VP9/VP8 codecs• Supports a 3D graphics engine with OpenCL3.0/OpenGLES 3.2/Vulkan 1.3
 - Includes a wide range of I/O interfaces: UART TX＆RX/I2C/GPIO/PWM/3.3V/GND, along with Dupont development cables and a developer container for effortless environment setup.
 
-## Specifications
+## Specification
 
 | Module | Description |
 | --- | --- |
