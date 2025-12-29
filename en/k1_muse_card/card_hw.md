@@ -1,6 +1,6 @@
 sidebar_position: 3
 
-# MUSE Card Hardware Reference Documents
+# K1 MUSE Card Hardware Design Resources
 
 Please click the following links to collect the related hardware reference documents:
 - [MUSECard_refdes_V1.0](#)

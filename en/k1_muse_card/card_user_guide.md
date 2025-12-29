@@ -1,12 +1,14 @@
 sidebar_position: 2
 
-# MUSE Card User Guide
+# K1 MUSE Card User Guide
+
+> English version is coming soon ..
 
 ## 产品简介
 
-MUSE Card 是进迭时空生态产品开发板系列，第一代搭载了进迭时空八核 RISC-V 高性能处理器 M1，核内融合 2.0Tops 通用 AI 算力，可支持所有 AI 模型算法的快速部署。
+**K1 MUSE Card** 是进迭时空生态产品开发板系列，第一代搭载了进迭时空八核 RISC-V 高性能处理器 M1，核内融合 2.0Tops 通用 AI 算力，可支持所有 AI 模型算法的快速部署。
 
-MUSE Card 充分展现了 M1 的方案和接口扩展性，设计引出了 M1 芯片原生的 HDMI、单网口、USB3.0、USB2.0、双 M.2 2242 M-KEY 等接口，可适配进迭自研 BianbuOS、BianbuNAS、OpenHarmony、OpenKylin、Deepin 等操作系统，可快速用于行业控制、NAS、机器视觉、网关等产品形态评估和孵化。
+**K1 MUSE Card** 充分展现了 M1 的方案和接口扩展性，设计引出了 M1 芯片原生的 HDMI、单网口、USB3.0、USB2.0、双 M.2 2242 M-KEY 等接口，可适配进迭自研 BianbuOS、BianbuNAS、OpenHarmony、OpenKylin、Deepin 等操作系统，可快速用于行业控制、NAS、机器视觉、网关等产品形态评估和孵化。
 
 ## 前言
 
