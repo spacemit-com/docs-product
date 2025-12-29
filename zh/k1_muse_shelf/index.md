@@ -1,5 +1,5 @@
-sidebar_position: 5
+sidebar_position: 4
 
-# MUSE Shelf 
+# K1 RISC-V 集群服务器
 
-[MUSE Shelf 简介](shelf_brief.md)
+[简介](shelf_overview.md)
