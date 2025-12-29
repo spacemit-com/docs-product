@@ -1,7 +1,7 @@
 sidebar_position: 3
 
-# MUSE Paper
+# K1 MUSE Paper
 
-- [MUSE Paper 简介](paper_brief.md)
-- [MUSE Paper 用户使用指南](paper_user_guide.md)
-- [MUSE Paper 硬件资料](paper_hw.md)
+- [简介](paper_overview.md)
+- [用户使用指南](paper_user_guide.md)
+- [硬件设计资源](paper_hw.md)

@@ -1,6 +1,8 @@
 sidebar_position: 2
 
-# MUSE Paper User Guide
+# K1 MUSE Paper User Guide
+
+> English version is coming soon ...
 
 ## 重要提醒
 
