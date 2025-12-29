@@ -20,3 +20,10 @@ sidebar_position: 1
 | 外观形态 | 金属机身，322 x 209 x 17mm 尺寸，仅 1360g 重 |
 | 操作系统 | 支持 Bianbu Desktop、Ubuntu、OpenKylin、Deepin 等操作系统 |
 | 供电系统 | 内置 38Wh 容量 7.6V 智能电池，支持 PD3.0 快充，产品配带 65W 适配器 |
+
+## 合作与采购咨询
+
+- **商务微信**：SpacemiT1102
+- **商务电话**：+86 189 6649 8607
+- **商务邮箱**：[business@spacemit.com](mailto:business@spacemit.com)
+- **产品购买**：[K1 MUSE BOOK（官方购买链接）](https://m.tb.cn/h.gUvG9fgiJa4uJ43?tk=SrdHWBsSc5x)

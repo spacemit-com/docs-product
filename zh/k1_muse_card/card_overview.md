@@ -28,7 +28,13 @@ sidebar_position: 1
 | USB接口 | 1路USB3.0和1路USB2.0 Type-A host接口<br>1路USB2.0 Type-C device接口，支持12V 3A供电 |
 | 调试接口 | 40Pin标准GPIO接口，附带3个侧边按键，用于硬件复位、开关机和烧录升级 |
 | MIPI接口 | 1路4lane MIPI DSI<br>2路4lane MIPI CSI，支持“4+4”或“4+2+2”组合链路 |
-| 外观形态 | 单板计算机，可选装透明亚克力外壳，尺寸为85*56mm |
+| 外观形态 | 单板计算机，可选装透明亚克力外壳，尺寸为85 x 56mm |
 | 操作系统 | 支持Bianbu Desktop、Bianbu NAS、Ubuntu、OpenKylin、Deepin、Fedora等操作系统 |
 | 电源输入 | 支持USB PD3.0供电 |
-| 可靠性 | 外设接口ESD可防护接触±4kV，空气±8kV<br>可选消费级-20°C~70°C或工业级-40°C~85°C |
+| 可靠性 | 外设接口ESD可防护接触±4kV，空气±8kV<br>可选消费级 -20°C ~ 70°C 或工业级 -40°C ~ 85°C |
+
+## 合作与采购咨询
+
+- **商务微信**：SpacemiT1102
+- **商务电话**：+86 189 6649 8607
+- **商务邮箱**：[business@spacemit.com](mailto:business@spacemit.com)

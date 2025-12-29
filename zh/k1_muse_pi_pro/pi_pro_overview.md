@@ -25,3 +25,10 @@ sidebar_position: 1
 | 电源输入 | 支持 USB-PD 协议供电，支持 5V/3A、9V/3A 和 12V/3A |
 | 可靠性 | 外设接口 ESD 可防护接触 ±4kV，空气 ±8kV；满足 CE、FCC 等电磁兼容认证标准<br>可选消费级 -20℃~70℃ 或工业级 -40℃~85℃<br>可选配被动或主动风冷散热器 |
 | 结构 | 可选配钣金机箱或亚克力外壳<br>可选配触摸屏或工业接线端子多种配置 |
+
+## 合作与采购咨询
+
+- **商务微信**：SpacemiT1102
+- **商务电话**：+86 189 6649 8607
+- **商务邮箱**：[business@spacemit.com](mailto:business@spacemit.com)
+- **产品购买**：[K1 MUSE Pi Pro（官方购买链接）](https://item.taobao.com/item.htm?id=904155534891&ltk2=17442844019859mtp9v24y1s996aj56z1&spm=a21n57.shop_search.0.0.5bcd523cHF8dd2)

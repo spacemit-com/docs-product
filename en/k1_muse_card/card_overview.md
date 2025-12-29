@@ -33,4 +33,10 @@ sidebar_position: 1
 | 外观形态 | 单板计算机，可选装透明亚克力外壳，尺寸为85*56mm |
 | 操作系统 | 支持Bianbu Desktop、Bianbu NAS、Ubuntu、OpenKylin、Deepin、Fedora等操作系统 |
 | 电源输入 | 支持USB PD3.0供电 |
-| 可靠性 | 外设接口ESD可防护接触±4kV，空气±8kV<br>可选消费级-20°C~70°C或工业级-40°C~85°C |
+| 可靠性 | 外设接口ESD可防护接触±4kV，空气±8kV<br>可选消费级 -20°C ~ 70°C 或工业级 -40°C ~ 85°C |
+
+## Business Cooperation & Purchase
+
+- **WeChat (Business)**: SpacemiT1102
+- **Phone**: +86 189 6649 8607
+- **Email**: [business@spacemit.com](mailto:business@spacemit.com)
