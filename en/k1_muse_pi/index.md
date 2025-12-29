@@ -1,7 +1,7 @@
 sidebar_position: 8
 
-# MUSE Pi
+# K1 MUSE Pi
 
-- [MUSE Pi Brief](pi_brief.md)
-- [MUSE Pi User Guide](pi_user_guide.md)
-- [MUSE Pi Hardware Reference Documents](pi_hw.md)
+- [Overview](pi_overview.md)
+- [User Guide](pi_user_guide.md)
+- [Hardware Design Resources](pi_hw.md)

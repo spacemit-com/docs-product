@@ -1,7 +1,7 @@
 sidebar_position: 8
 
-# MUSE Pi
+# K1 MUSE Pi
 
-- [MUSE Pi 简介](pi_brief.md)
-- [MUSE Pi 用户使用指南](pi_user_guide.md)
-- [MUSE Pi 硬件资料](pi_hw.md)
+- [简介](pi_overview.md)
+- [用户使用指南](pi_user_guide.md)
+- [硬件设计资源](pi_hw.md)
