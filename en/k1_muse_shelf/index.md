@@ -1,5 +1,5 @@
-sidebar_position: 5
+sidebar_position: 4
 
-# MUSE Shelf
+# K1 MUSE Shelf
 
-[MUSE Shelf Brief](shelf_brief.md)
+[Overview](shelf_overview.md)
