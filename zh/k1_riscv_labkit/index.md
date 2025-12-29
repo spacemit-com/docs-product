@@ -1,5 +1,5 @@
 sidebar_position: 7
 
-# RISC-V 实验箱
+# K1 RISC-V 实验箱
 
-[RISC-V 实验箱简介](kit_brief.md)
+[简介](kit_overview.md)
