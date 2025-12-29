@@ -1,6 +1,8 @@
 sidebar_position: 2
 
-# MUSE Box User Guide
+# K1 MUSE Box User Guide
+
+> English version is coming soon
 
 ## 产品简介
 
