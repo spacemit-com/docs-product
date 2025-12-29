@@ -1,6 +1,6 @@
 sidebar_position: 2
 
-# MUSE Book
+# K1 MUSE BOOK
 
 - [简介](book_overview.md)
 - [用户使用指南](book_user_guide.md)

@@ -1,14 +1,14 @@
 sidebar_position: 2
 
-# MUSE Book 用户使用指南
+# K1 MUSE BOOK 用户使用指南
 
 ## 产品简介
 
-MUSE Book 是一款搭载进迭时空 8 核 RISC-V AI-CPU M1的笔记本电脑，同时是全球首款可量产的 RISC-V 笔记本电脑。MUSE Book 是进迭时空的生态产品之一，基于 RISC-V 架构的硬件设计，预装 Bianbu 操作系统和开源软件，旨在为所有 RISC-V 的热爱玩家、创新型开发者、技术爱好者、研究人员等提供更高效便捷的本地RISC-V开发平台。
+K1 MUSE BOOK 是一款搭载进迭时空 8 核 RISC-V AI-CPU M1 的笔记本电脑，同时是全球首款可量产的 RISC-V 笔记本电脑。K1 MUSE BOOK 是进迭时空的生态产品之一，基于 RISC-V 架构的硬件设计，预装 Bianbu 操作系统和开源软件，旨在为所有 RISC-V 的热爱玩家、创新型开发者、技术爱好者、研究人员等提供更高效便捷的本地RISC-V开发平台。
 
 M1 芯片是进迭时空 K1 芯片的高性能版本。M1 芯片集成了八核进迭时空 RISC-V X60核，提供 50KDMIPS 算力和融合 2Tops AI 算力，可实现与所有主流 AI 生态的快速对接；支持 4K H.265/H.264/VP9/VP8 等编解码格式；支持 3D 图像引擎，OpenCL 3.0/OpenGLES 3.2/Vulkan 1.3。
 
-除了搭载进迭时空M1芯片外，MUSE Book 还有以下特征：
+除了搭载进迭时空 M1 芯片外，K1 MUSE BOOK 还有以下特征：
 
 一、任性快充， 双USB-C接口皆可支持PD3.0充电协议  
 二、全场景AI开发，搭载高清1080P摄像输入、双扬声器和MEMS麦克风  

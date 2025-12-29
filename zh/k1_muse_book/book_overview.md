@@ -1,8 +1,8 @@
 sidebar_position: 1
 
-# MUSE BOOK 简介
+# K1 MUSE BOOK 简介
 
-**MUSE Book** 是一款 RISC-V 笔记本电脑，搭载了进迭时空八核 RISC-V 芯片 M1，预装自研操作系统 Bianbu，自带进迭时空 AI 开发套件，可无缝迁移基于 ONNX RunTime 开发的 AI 工程，旨在为所有 RISC-V 的热爱玩家、AI 开发者、技术爱好者、研究人员等提供更高效便捷的 RISC-V 开发平台。
+**K1 MUSE BOOK** 是一款 RISC-V 笔记本电脑，搭载了进迭时空八核 RISC-V 芯片 M1，预装自研操作系统 Bianbu，自带进迭时空 AI 开发套件，可无缝迁移基于 ONNX RunTime 开发的 AI 工程，旨在为所有 RISC-V 的热爱玩家、AI 开发者、技术爱好者、研究人员等提供更高效便捷的 RISC-V 开发平台。
 
 ## 产品规格
 
