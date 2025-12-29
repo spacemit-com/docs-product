@@ -1,6 +1,6 @@
-sidebar_position: 4
+sidebar_position: 5
 
-# MUSE Box
+# K1 MUSE BOX
 
-- [MUSE BOX 简介](box_brief.md)
-- [MUSE Box 用户使用指南](box_user_guide.md)
+- [简介](box_overview.md)
+- [用户使用指南](box_user_guide.md)

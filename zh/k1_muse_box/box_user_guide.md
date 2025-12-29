@@ -1,10 +1,10 @@
 sidebar_position: 2
 
-# MUSE Box 用户使用指南
+# K1 MUSE BOX 用户使用指南
 
 ## 产品简介
 
-MUSE Box 是针对开发者设计的RISC-V迷你主机，主板采用标准的MINI-ITX尺寸设计，集成丰富的扩展接口和插针，无风扇设计，搭配进迭时空M1芯片。M1芯片是进迭时空K1芯片的高性能版本。M1芯片集成了八个进迭时空RISC-V X60核，提供50KDMIPS算力和融合2TOPS AI算力，可实现与所有主流AI生态的快速对接；支持4K H.265/H.264/VP9/VP8等编解码格式；支持3D图像引擎，OpenCL 3.0/OpenGLES 3.2/Vulkan 1.3。  
+**K1 MUSE BOX** 是针对开发者设计的RISC-V迷你主机，主板采用标准的MINI-ITX尺寸设计，集成丰富的扩展接口和插针，无风扇设计，搭配进迭时空M1芯片。M1芯片是进迭时空K1芯片的高性能版本。M1芯片集成了八个进迭时空RISC-V X60核，提供50KDMIPS算力和融合2TOPS AI算力，可实现与所有主流AI生态的快速对接；支持4K H.265/H.264/VP9/VP8等编解码格式；支持3D图像引擎，OpenCL 3.0/OpenGLES 3.2/Vulkan 1.3。  
 ![图片](./static/box.PNG)
 
 **产品逻辑框图**：  
