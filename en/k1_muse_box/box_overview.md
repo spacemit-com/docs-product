@@ -31,3 +31,10 @@ sidebar_position: 1
 | Form Factor | Full-metal case, weighing 932g, with dimensions of 185 x 45 x 197 mm. Internal motherboard size: 170 x 170 mm, Mini-ITX |
 | OS | Bianbu Desktop, Ubuntu, OpenKylin, Deepin |
 | Power | 12V typical voltage, 2.5/5.5 DC jack, 4-pin ATX DC IN supported on the motherboard |
+
+## Business Cooperation & Purchase
+
+- **WeChat (Business)**: SpacemiT1102
+- **Phone**: +86 189 6649 8607
+- **Email**: [business@spacemit.com](mailto:business@spacemit.com)
+- **Purchase**: [K1 MUSE BOX (Official Store)](https://m.tb.cn/h.gU9Td2fQjXmck9g?tk=uZ40WBsS19C)

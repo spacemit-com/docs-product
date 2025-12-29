@@ -28,3 +28,9 @@ sidebar_position: 1
 | OS | Supports Bianbu Desktop, Ubuntu, openKylin, deepin, Fedora |
 | Power Input | 12V 3A adapter supply |
 | Reliability | Acrylic isolation protection; ESD tolerance up to ±8kV (contact) and ±15kV (air) in the expansion module area. |
+
+## Business Cooperation & Purchase
+
+- **WeChat (Business)**: SpacemiT1102
+- **Phone**: +86 189 6649 8607
+- **Email**: [business@spacemit.com](mailto:business@spacemit.com)

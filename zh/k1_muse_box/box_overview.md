@@ -26,8 +26,15 @@ sidebar_position: 1
 | 无线通讯 | NGFF M.2 E-Key双天线无线网卡，支持Wi-Fi6 & BT5.2 |
 | 有线网络 | 支持2路以太网，RJ45接口，1000M/100M自适应 |
 | 音频接口 | 3.5mm音频接口，独立输入输出，前后面板都可接入 |
-| USB接口 | USB2.0 Type-A*5，USB3.0 Type-A*2 |
+| USB接口 | USB2.0 Type-A x 5，USB3.0 Type-A x 2 |
 | 串行接口 | 支持2路RS232，标准DB9接口 |
-| 形态 | 全金属机身重932g，长宽高185*45*197mm，内置主板为170*170mm，Mini-ITX规格尺寸 |
+| 形态 | 全金属机身重932g，长宽高185 x 45 x 197mm，内置主板为170 x 170mm，Mini-ITX规格尺寸 |
 | 操作系统 | 支持Bianbu Desktop、Ubuntu、OpenKylin、Deepin等操作系统 |
 | 电源输入 | 电压输入典型值为12V，2.5/5.5 DC JACK供电接口，主板支持4Pin ATX DC IN |
+
+## 合作与采购咨询
+
+- **商务微信**：SpacemiT1102
+- **商务电话**：+86 189 6649 8607
+- **商务邮箱**：[business@spacemit.com](mailto:business@spacemit.com)
+- **产品购买**：[K1 MUSE BOX（官方购买链接）](https://m.tb.cn/h.gU9Td2fQjXmck9g?tk=uZ40WBsS19C)

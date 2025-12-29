@@ -34,3 +34,10 @@ sidebar_position: 1
 | Reliability | ESD: ±4kV contact / ±8kV air, CE/FCC compliant<br>Available in consumer-grade (-20°C to 70°C) or industrial-grade (-40°C to 85°C) versions |
 | Clock | Onboard RTC clock power interface, supporting battery installation, battery-backed G3 support |
 | Structure | Optional passive or active cooling heat sinks<br>Optional metal chassis or acrylic case<br>Optional touch screen or industrial terminal configurations |
+
+## Business Cooperation & Purchase
+
+- **WeChat (Business)**: SpacemiT1102
+- **Phone**: +86 189 6649 8607
+- **Email**: [business@spacemit.com](mailto:business@spacemit.com)
+- **Purchase**: [K1 MUSE Pi Pro (Official Store)](https://item.taobao.com/item.htm?id=904155534891&ltk2=17442844019859mtp9v24y1s996aj56z1&spm=a21n57.shop_search.0.0.5bcd523cHF8dd2)

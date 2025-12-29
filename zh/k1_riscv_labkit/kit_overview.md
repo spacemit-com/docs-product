@@ -14,7 +14,7 @@ sidebar_position: 1
 | 模块 | 描述 |
 | --- | --- |
 | 处理器 | SpacemiT M1 合2.0 TOPS AI算力 |
-| 显示 | 内置HDMI Type-A接口，最高支持1080P@60Hz<br>集成10.1英寸IPS触摸屏，1920*1200高清分辨率 |
+| 显示 | 内置HDMI Type-A接口，最高支持1080P@60Hz<br>集成10.1英寸IPS触摸屏，1920 x 1200高清分辨率 |
 | 内存 | LPDDR4X，2400MT/s速率，16GB容量 |
 | 本地存储 | eMMC 5.1，64GB容量 |
 | 扩展存储 | M.2 2280 M-Key连接器，可装配NVMe SSD，单槽最高容量支持1TB；<br>TF卡接口，支持UHS-II模式存储卡； |
@@ -24,7 +24,13 @@ sidebar_position: 1
 | USB接口 | 4路USB3.0 Type-A host接口； |
 | 拓展模块插槽 | 4个独立插槽，分别支持GPIO类、SPI类、UART类和I2C类，共30多种实验模块 |
 | MIPI接口 | 2路 4lane MIPI CSI，支持“4+4”或“4+2+2”组合链路； |
-| 外观形态 | 手提开盖式箱体，长宽高480*370*170mm，铝合金材质 |
+| 外观形态 | 手提开盖式箱体，长宽高480 x 370 x 170mm，铝合金材质 |
 | 操作系统 | 支持Bianbu Desktop、Ubuntu、openKylin、deepin、Fedora等操作系统 |
 | 电源输入 | 12V 3A适配器供电 |
 | 可靠性 | 亚克力物理隔离防护，拓展实验模块区域接触放电耐压±8kV，空气放电耐压±15kV |
+
+## 合作与采购咨询
+
+- **商务微信**：SpacemiT1102
+- **商务电话**：+86 189 6649 8607
+- **商务邮箱**：[business@spacemit.com](mailto:business@spacemit.com)

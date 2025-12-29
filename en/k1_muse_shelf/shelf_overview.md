@@ -27,7 +27,7 @@
 | DRAM | 8GB/16GB |
 | Storage | 64GB/128GB |
 | Interfaces | GBE/USB_Device/UART |
-| Dimension | 47.10mm*64.10mm |
+| Dimension | 47.10mm x 64.10mm |
 | PCB | 6-layer, through hole via |
 | **Switching system** |  |
 | Network | 2 × 25Gb SFP28 optical ports per blade, 4 blades, 8 optical ports total. Each blade with independent networking |
@@ -36,3 +36,10 @@
 | **Environment** |  |
 | Temperature | 5°C~35°C |
 | Relative humidity | 40% ~ 60% |
+
+## Business Cooperation & Purchase
+
+- **WeChat (Business)**: SpacemiT1102
+- **Phone**: +86 189 6649 8607
+- **Email**: [business@spacemit.com](mailto:business@spacemit.com)
+- **Purchase**: [K1 MUSE BOOK (Official Store)](https://item.taobao.com/item.htm?id=807037514272)

@@ -24,6 +24,12 @@ sidebar_position: 1
 | USB | 1 x USB 3.0 Type-C port, supporting headphone audio input<br>1 x USB 2.0 Type-C OTG port, supporting USB PD fast charging |
 | Human-Machine Interface | 8MP front camera and 13MP rear camera module, supporting auto light compensation and autofocus<br>Built-in dual microphones and 8Ω@1W stereo speakers<br>Magnetic docking keyboard with physical buttons, supporting power on/off and volume control |
 | Sensor | Supports light and distance sensing, magnetometer, accelerometer, gyroscope, and Hall switch |
-| Appearance | Metal body; Dimensions: 256.8*168.5*7.2mm; Weight: 453g |
+| Appearance | Metal body; Dimensions: 256.8 x 168.5 x 7.2mm; Weight: 453g |
 | OS | OpenHarmony |
 | Power | Built-in 7300mAh (polymer lithium) battery with 18W fast charging support |
+
+## Business Cooperation & Purchase
+
+- **WeChat (Business)**: SpacemiT1102
+- **Phone**: +86 189 6649 8607
+- **Email**: [business@spacemit.com](mailto:business@spacemit.com)
