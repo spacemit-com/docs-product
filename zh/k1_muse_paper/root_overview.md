@@ -2,6 +2,8 @@ sidebar_position: 1
 
 # K1 MUSE Paper 简介
 
+**[PDF 版本](https://cdn-resource.spacemit.com/file/%E7%94%9F%E6%80%81%E4%BA%A7%E5%93%81/MUSE_paper_brief_cn.pdf)**
+
 **K1 MUSE Paper** 是一款轻薄的RISC-V OpenHarmony平板，搭载进迭时空八核RISC-V K1 CPU,纯正开源国产IC/ OS产品。
 - 进迭时空K1 RISC-V八核处理器CPU融合2.0Tops@INT8AI算力
 - OpenHarmony系统，实现分布式协同，让链接更流畅安全

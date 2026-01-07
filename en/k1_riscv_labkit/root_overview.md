@@ -1,6 +1,8 @@
 sidebar_position: 1
 
-# K1 RISC-V Experiment Kit Overview
+# K1 RISC-V Experiment Kit Brief
+
+**[PDF Version](https://cdn-resource.spacemit.com/file/%E7%94%9F%E6%80%81%E4%BA%A7%E5%93%81/RISC-V_kit_en.pdf)**
 
 **K1 RISC-V Experiment Kit** is designed for teaching applications in embedded systems, AI, and RISC-V architecture computing. It features hardware and software tailored to curriculum requirements, aligns with the RISC-V architecture textbooks, and includes comprehensive experimental guides. This kit supports educators in delivering effective instruction and enables students to develop hands-on skills.
 

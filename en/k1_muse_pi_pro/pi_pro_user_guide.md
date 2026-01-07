@@ -1,6 +1,6 @@
 sidebar_position: 2
 
-# MUSE Pi Pro User Guide
+# K1 MUSE Pi Pro User Guide
 
 ## 1. Introduction
 
@@ -32,7 +32,7 @@ MUSE Pi Pro comes in a compact 1.8-inch board form factor, designed to deliver e
 | **RST (Reset Button)**      | - **Short press:** System reset (cold reboot)                                                                                   |
 | **FDL (Firmware Download)** | - **Hold while powering on / resetting:** Enter firmware flashing mode                                                          |
 
-![Buttons](./static/RoFhbwRnEodBcAxCeQfcpArdnLb.png)
+![Buttons](./static/JT6LbmgB9ogTOPx2PkjcNhfsnjf.png)
 
 ### 2.3 Interface Description
 
@@ -49,7 +49,7 @@ MUSE Pi Pro comes in a compact 1.8-inch board form factor, designed to deliver e
 
 ![Type-C](./static/XLvWbnBe6oKzrpxa5Uzc9mKnnKg.png)
 
-### M.2 M-Key Storage Expansion
+#### M.2 M-Key Storage Expansion
 
 - Connector: **M.2 (Key-M), height 3.2 mm**
 - Supports **NVMe protocol**, 2230 form-factor SSDs
@@ -82,14 +82,14 @@ MUSE Pi Pro comes in a compact 1.8-inch board form factor, designed to deliver e
 
 - Connector: **22-pin, 0.5 mm FFC**
 - Compatible camera modules listed in:
-  **K1 AVL – Key Component List**
+  **[K1 AVL](https://cdn-resource.spacemit.com/file/%E8%8A%AF%E7%89%87/K1/K1_Key_Parts_AVL-V2.6-20251119.xlsm) – Key Component List**
 
 ![CAMERA0](./static/LLVibDZlAoUzoZxphA2c9sAdnKf.png)
 
 #### Camera Interface CAMERA1
 
 - Connector: **15-pin, 1.0 mm FFC**
-- Compatible camera modules listed in the **K1 AVL**
+- Compatible camera modules listed in the **[K1 AVL](https://cdn-resource.spacemit.com/file/%E8%8A%AF%E7%89%87/K1/K1_Key_Parts_AVL-V2.6-20251119.xlsm)**
 
 ![CAMERA1](./static/L0jUbUjaCoOXkCxTtIDcK1Oanng.png)
 
@@ -121,7 +121,7 @@ MUSE Pi Pro comes in a compact 1.8-inch board form factor, designed to deliver e
 - Connector: **USB Type-A**
 - Supports **USB 3.0 Host**
 - Compatible with multiple devices simultaneously (keyboard, mouse, drive, USB camera, compute stick, etc.)
-- Device compatibility list: **K1 AVL**
+- Device compatibility list: **[K1 AVL]((https://cdn-resource.spacemit.com/file/%E8%8A%AF%E7%89%87/K1/K1_Key_Parts_AVL-V2.6-20251119.xlsm))**
 
 #### miniPCIe Expansion Slot
 
@@ -148,25 +148,25 @@ MUSE Pi Pro comes in a compact 1.8-inch board form factor, designed to deliver e
 
 ### 2.4 Product Specifications
 
-| Item    | Specification   |
-| ------ | --- |
-| **Processor**          | SpacemiT M1, 8-core 64-bit RISC-V processor, integrated **2.0 TOPS AI compute**                                                                                      |
-| **Display**            | HDMI 1.4 Type-A, up to **1080p60**<br>2-lane MIPI DSI, up to **1080p60**                                                                                             |
-| **Memory**             | LPDDR4X @ 2400 MT/s, **8 GB / 16 GB** options                                                                                                                        |
-| **On-board Storage**   | eMMC 5.1, **64 GB / 128 GB** options                                                                                                                                 |
-| **Storage Expansion**  | M.2 M-Key for 2230 NVMe SSD<br>MicroSD slot supporting **UHS-II**                                                                                                    |
-| **Wireless**           | On-board Wi-Fi 6 + Bluetooth 5.2<br>Optional dual-wireless via M.2 / miniPCIe                                                                                        |
-| **Ethernet**           | 1× RJ45, 1 Gbps / 100 Mbps auto-negotiation                                                                                                                          |
-| **Audio**              | 3.5 mm headset interface                                                                                                                                             |
-| **USB**                | Four **USB 3.0** Type-A host ports<br>One **USB 2.0 Type-C** device port                                                                                             |
-| **Debug Interfaces**   | UART TTL Debug + hardware buttons (Reset / Power / FDL)                                                                                                              |
-| **IO Expansion**       | - M.2 M-Key slot for SSD / PCIe adapters<br>- miniPCIe slot for 4G/5G / Wi-Fi / network cards<br>- 40-pin GPIO header                                                |
-| **MIPI Interfaces**    | 1× 2-lane MIPI DSI (15-pin)<br>1× 4-lane MIPI CSI (22-pin)<br>1× 2-lane MIPI CSI (15-pin)                                                                            |
-| **Form Factor**        | Single-board computer, **FEMTO-ITX**, 85 mm × 56 mm                                                                                                                  |
-| **Operating Systems**  | Bianbu Desktop, Ubuntu, OpenKylin, Deepin, Fedora                                                                                                                    |
-| **Power Input**        | USB-PD supported                                                                                                                                                     |
-| **Reliability**        | Interfaces protected to **±4kV contact**, **±8kV air** (ESD)<br>Meets **CE / FCC** EMC standards<br>Temperature options: Consumer −20°C~70°C / Industrial −40°C~85°C |
-| **Mechanical Options** | Passive/active cooling<br>Metal or acrylic chassis<br>Optional touchscreen or industrial terminal accessories                                                        |
+| Module | Description  |
+| --- | --- |
+| Processor | SpacemiT M1, 8-core 64-bit RISC-V processor with 2.0 TOPS AI power |
+| Display | - HDMI 1.4 (up to 1080P@60Hz)<br>- 2-lane MIPI DSI FPC (up to 1080P@60Hz) |
+| Memory | LPDDR4X @ 2400MT/s, 8GB / 16GB options |
+| Local Storage | eMMC 5.1, 64GB / 128GB options |
+| Storage Expansion | - M.2 M-Key connector, 2230 size NVMe SSD <br>- MicroSD slot, supports UHS-II |
+| Wireless | Onboard Wi-Fi 6 and Bluetooth 5.2, supports dual wireless via M.2/mPCIe |
+| Network Port | 1 x Ethernet port, RJ45 connector, 1000M/100M auto-sensing |
+| Audio | 3.5mm audio jack |
+| USB | 4× USB 3.0 Type-A (host), 1× USB 2.0 Type-C (device/OTG) |
+| Debug | UART TTL debug port + 3 buttons: reset / power / flash |
+| I/O Expansion | - Standard M.2 M-Key slot (2230, supports SSD, PCIe-to-SATA, PCIe comm boards, etc.)<br>- Full-size miniPCIe slot (supports 4G/5G, PCIe wireless/network modules)<br>- 40-pin standard GPIO interface |
+| MIPI Interfaces | - 1 x 2-lane MIPI DSI FPC 15-pin interface<br>- 1 x 4-lane MIPI CSI FPC 22-pin interface, 1 x 2-lane MIPI CSI FPC 15-pin interface |
+| Form Factor | Single-board computer, FEMTO-ITX dimensions, 85x56mm (credit card size) |
+| OS | Bianbu Desktop, Ubuntu, OpenKylin, Deepin, Fedora and other OSs |
+| Power | USB-PD: 5V/9V/12V @ 3A |
+| Reliability | - ESD: ±4kV contact / ±8kV air, CE/FCC compliant<br>- Available in consumer-grade (-20°C to 70°C) or industrial-grade (-40°C to 85°C) versions |
+| Structure | - Optional passive or active cooling heat sinks<br>- Optional metal chassis or acrylic case<br>- Optional touch screen or industrial terminal configurations |
 
 ### 2.5 Block Diagram
 
@@ -174,17 +174,7 @@ MUSE Pi Pro comes in a compact 1.8-inch board form factor, designed to deliver e
 
 ## 3. Quick Start
 
-### 3.1 Precautions
-
-The MUSE Pi Pro is suitable for home, office or industrial environments. Before starting operation, please read the following precautions:
-
-- Never hot-swap the screen interface, CSI interface or expansion boards.
-- Before unpacking and installing the single-board computer, take necessary anti-static precautions to prevent electrostatic discharge (ESD) from damaging the hardware.
-- When handling the single-board computer, hold the edges and avoid touching exposed metal parts to prevent electrostatic damage to components.
-- Place the single-board computer on a dry and flat surface, and keep it away from heat sources, electromagnetic interference, radiation sources and sensitive equipment (e.g. medical devices).
-- Place the single-board computer in a well-ventilated environment. If running continuously for 72 hours or more at full load, install the factory cooling solution or implement effective cooling measures.
-
-### 3.2 Preparation
+### 3.1 Preparation
 
 Since MUSE Pi Pro is a single-board computer, some peripherals are needed for working with it, in particular:
 
@@ -196,13 +186,13 @@ Since MUSE Pi Pro is a single-board computer, some peripherals are needed for wo
 
 ![](./static/EpmwbwKeSofjCIxP91pcBHq4nCh.png)
 
-### 3.3 Start Up
+### 3.2 Start Up
 
 Once all necessary peripherals are connected, simply power on MUSE Pi Pro to start up.
 
 After powering on at the first time, MUSE Pi Pro needs some configurations as described in the following section.
 
-### 3.4 Configuring MUSE Pi Pro At The First Boot
+### 3.3 Configuring MUSE Pi Pro At The First Boot
 
 MUSE Pi Pro supports UEFI boot and configuration. After powering on, the boot medium can be selected and the computer setup can be personalized.
 
@@ -222,13 +212,15 @@ The following functions are available:
   - USB drive
   - SD card
 
-  then confirm the selection by pressing the **Enter key.**
+   It is also possible to enter the UEFI shell command line interface.
+
   ![](./static/DussbQopfo5C9RximKGcgFAenUc.png)
-  It is also possible to enter the UEFI shell command line interface.
+  
 - **Boot Maintenance Manager Menu**
   Enter the Boot Maintenance Manager menu, then select "**Boot Options**," then choose "**Change Boot Order**" to set the boot medium priority. Use **+** and **- keys** to adjust the boot order.
   After pressing the **Enter key**, select "**Commit Change and Exit**" to apply the changes and exit, returning to the main menu. Press the **F10 key** to save the settings.
   ![](./static/G983bN6RMonWDXxmz09cksH4nDb.png)
+
 - **UEFI Interactive Shell**
   MUSE Pi Pro supports UEFI Interactive Shell V2.2.
   Upon first entering the UEFI Interactive Shell, all detected storage devices will be displayed.
@@ -236,14 +228,11 @@ The following functions are available:
   Type "**help**" to display the supported commands and related help information.
   ![](./static/Unf4bd8KIoIzihx4ehKcJr5Gngc.png)
 
-> **Notes.**
->
-> 1. Open source **UEFI** firmware repository for **Bianbu Linux**:
->    - [edk2](https://gitee.com/bianbu-linux/edk2)
->    - [edk2-platforms](https://gitee.com/bianbu-linux/edk2-platforms)
->
-> 2. **UEFI** firmware development for **MUSE Pi Pro**:
->    - [UEFI Open Source Series - Part 3](https://mp.weixin.qq.com/s/s7S3pQesObrmAF_56Cq9Lg)
+Open source **UEFI** firmware repository for **Bianbu Linux**:
+ - [edk2](https://gitee.com/bianbu-linux/edk2)
+ - [edk2-platforms](https://gitee.com/bianbu-linux/edk2-platforms)
+
+Refer to [UEFI firmware development for MUSE Pi Pro](https://mp.weixin.qq.com/s/s7S3pQesObrmAF_56Cq9Lg) for more details.
 
 #### Bianbu Desktop OS Configuration Guide
 
@@ -251,37 +240,37 @@ If the **F2 key** is not pressed within 3 seconds after powering on the MUSE Pi 
 
 A configuration wizard will be run upon first startup that includes the following steps.
 
-##### System Language
+##### (1) System Language
 
 Choose the system language. English and Chinese are displayed by default. If need more language options, just click the three dots below to show them.
 
 ![](./static/JRoobRffJofXQ8x5JxZc3EUpn1g.png)
 
-##### Input Method
+##### (2) Input Method
 
 Configure the MUSE Pi Pro’s keyboard layout and input method.
 
 ![](./static/MoIfbrH7jow5khxznDNcUXdyn5e.png)
 
-##### Wireless Internet Connection
+##### (3) Wireless Internet Connection
 
 Select a valid Wi-Fi network from the list and connect it. If there is no suitable Wi-Fi network, skip this setting by clicking on the upper right corner.
 
 ![](./static/JOgPbIWJwoWAHQxluzhcqFkGnSf.png)
 
-##### Location Services
+##### (4) Location Services
 
 Turn on location services can facilitate the usage experience, but it may also bring risks of location privacy leakage. Please be aware and careful!
 
 ![](./static/Lj8mbqTqzoFPeWxmsDRcyEI5nXb.png)
 
-##### Time Zone
+##### (5) Time Zone
 
 Configure user time zone information. While online (i.e. Wi-Fi connected), the system can automatically synchronize the corresponding time zone, then user can search for cities to add settings.
 
 ![](./static/P9y8bMbz2oKURNxIbMPcAB13nlc.png)
 
-##### Username & Password Account
+##### (6) Username & Password Account
 
 Set username and password
 
@@ -289,7 +278,7 @@ Set username and password
 
 ![](./static/G8R3bsqhcosIAYxrP8oc8FBGn4d.png)
 
-##### Configuration completed
+##### (7) Configuration completed
 
 When the configuration is completed, click “Start using Bianbu” thus MUSE Pi Pro will enter the desktop of Biandu OS.
 
@@ -464,7 +453,7 @@ The MUSE Pi Pro includes one 2-lane MIPI DSI FPC 15-pin interface.
 
 The development board supports a 40-pin dual-row header. The pin assignments are as follows:
 
-![](./static/pi_pro_pins.png)
+![](./static/GPLWbgRYCoATDqxWtWOcDy49nTe.png)
 
 | pin | Signal Name | Signal Name | pin |
 |-----|----------|----------|-----|
@@ -495,4 +484,4 @@ The board provides UART debugging via Pin 6, 8, and 10 of the 40-pin header for 
 On the host controller side, the pin order from top to bottom is:
 GND → RX → TX
 
-![](./static/GPLWbgRYCoATDqxWtWOcDy49nTe.png)
+![](./static/Q0H1bvBILoAzVwxGIudczWwLn0g.png)

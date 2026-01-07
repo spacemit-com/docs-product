@@ -1,6 +1,8 @@
 sidebar_position: 1
 
-# K1 MUSE Paper Overview
+# K1 MUSE Paper Brief
+
+**[PDF Version](https://cdn-resource.spacemit.com/file/%E7%94%9F%E6%80%81%E4%BA%A7%E5%93%81/MUSE_paper_en.pdf)**
 
 **K1 MUSE Paper** is a lightweight RISC-V OpenHarmony tablet powered by SpacemiT’s 8-core RISC-V K1 CPU. It is a fully open-source product, featuring domestically developed ICs and OS.
 
@@ -10,6 +12,7 @@ sidebar_position: 1
 - Equipped with dual Type-C, supporting docking keyboards
 - 7300mAh large battery & 18W fast charging
 - 16GB ultra-large LPDDR4X memory, with 2400Mbps for a smoother experience
+- Light weight (453g) and thin (7.2mm)
 
 ## Specification
 

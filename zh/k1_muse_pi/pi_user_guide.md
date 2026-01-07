@@ -8,48 +8,6 @@ sidebar_position: 2
 
 **K1 MUSE Pi** 充分展现了 M1 的方案和接口扩展性，设计引出了 M1 芯片原生的 HDMI、双网口、USB3.0、USB2.0、双 PCle2.1 等接口，可适配进迭自研 BianbuOS、BianbuNAS、OpenHarmony、OpenKylin、Deepin 等操作系统，可快速用于行业控制、NAS、机器视觉、网关等产品形态评估和孵化。
 
-## 前言
-
-### 概述
-
-本文档主要介绍 MUSE Pi 基本功能和硬件特性、多功能硬件配置、软件调试操作使用方法，旨在帮助调试人员更快、更准确地使用 MUSE Pi，熟悉 M1 芯片开发应用方案。
-
-**产品版本**
-
-本产品对应的产品版本如下：
-
-<table>
-<tbody>
-<tr>
-<td><strong>产品名称</strong></td>
-<td><strong>产品版本</strong></td>
-</tr>
-<tr>
-<td>MUSE Pi</td>
-<td>MUSE PI_P1_LP4X200B32X1_D6T_V10_04231610</td>
-</tr>
-</tbody>
-</table>
-
-## 缩略词
-
-缩略语包括文档中常用词组的简称
-
-<table>
-<tbody>
-<tr>
-<td><strong>缩略词</strong></td>
-<td><strong>英文描述</strong></td>
-<td><strong>中文描述</strong></td>
-</tr>
-<tr>
-<td>X60</td>
-<td>Self-Developed X60™ RISC-V Core</td>
-<td>进迭自研RISC-V核</td>
-</tr>
-</tbody>
-</table>
-
 ## 产品规格
 
 <table>
@@ -130,7 +88,7 @@ K1 是一款高性能、超低功耗的 SOC，集成了 8 核 RISC-V CPU 内核�
 - 兼容主流操作系统，满足各种应用场景的需求。
 - 符合工业级可靠性标准。
 
-### K1 芯片框图
+**框图**
 
 ![](static/Hs4Sbm1KOoe6cRx2J4DcJS9Dngf.png)
 
@@ -909,7 +867,7 @@ MUSE Pi 支持无线 WiFi 和蓝牙的连接，如需增强信号，可以安装
 
 ![](static/ZA9gbmazLoHDyYxE9UKcdGo1nle.jpg)
 
-### 首次启动时配置您的 MUSE Pi
+### 首次启动时配置
 
 您的 MUSE Pi 会预装进迭时空 Bianbu desktop 操作系统，将在首次启动时运行配置向导。您需要显示器、键盘、鼠标来浏览向导。
 

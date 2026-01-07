@@ -1,4 +1,8 @@
-# K1 MUSE Shelf Overview
+sidebar_position: 1
+
+# K1 MUSE Shelf Brief
+
+**[PDF Version](https://cdn-resource.spacemit.com/file/%E7%94%9F%E6%80%81%E4%BA%A7%E5%93%81/MUSE_shelf_brief_en.pdf)**
 
 **K1 MUSE Shelf** is a RISC-V development server designed specifically for the developer community, offering comprehensive computing power, efficient operations, high-speed connectivity, and intelligent management. The application platform is powered by Bianbu Cloud services, offering a highly available, scalable, and high-performance distributed cloud environment for RISC-V-based application development and adaptation.
 

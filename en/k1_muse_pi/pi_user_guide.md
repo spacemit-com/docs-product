@@ -1,6 +1,6 @@
 sidebar_position: 2
 
-# MUSE Pi User Guide
+# K1 MUSE Pi User Guide
 
 ## Introduction
 
@@ -12,96 +12,23 @@ MUSE Pi is compatible with SpacemiT's self-developed Bianbu OS, Bianbu OS NAS, O
 
 ## Specifications
 
-<table>
-<tbody>
-<tr>
-<td><strong>System Main Control</strong></td>
-<td>CPU</td>
-<td>SpacemiT M1, 8-core RISC-V CPU, integrated with 2 TOPS AI computing power</td>
-</tr>
-<tr>
-<td><strong>Display</strong></td>
-<td>Display Interface</td>
-<td>MIPI DSI 4-lane & HDMI standard video interface, supporting up to 1080P@60Hz output</td>
-</tr>
-<tr>
-<td rowspan=2 colspan=1><strong>Memory</strong><br/></td>
-<td>Type</td>
-<td>LPDDR4X, onboard 2400 MT</td>
-</tr>
-<tr>
-<td>Maximum Capacity</td>
-<td>16GB</td>
-</tr>
-<tr>
-<td rowspan=3 colspan=1><strong>Storage</strong></td>
-<td>SSD</td>
-<td>PCIe (Nvme)</td>
-</tr>
-<tr>
-<td>eMMC</td>
-<td>Default 16GB</td>
-</tr>
-<tr>
-<td>TF card</td>
-<td>Supported and can also serve as UART and JTAG ports for debugging</td>
-</tr>
-<tr>
-<td rowspan=2 colspan=1><strong>Wireless</strong></td>
-<td>Type</td>
-<td>Onboard WiFi/BT module</td>
-</tr>
-<tr>
-<td>Protocol</td>
-<td>Support for WiFi 6 & BT 5.2</td>
-</tr>
-<tr>
-<td rowspan=2 colspan=1><strong>I/O Interfaces</strong></td>
-<td>Side I/O</td>
-<td>- HDMI x1<br/>- USB 3.0 Type-A x1<br/>- USB 2.0 Type-A x1<br/>- USB2.0 Type-C (OTG, supporting maximum 12V 3A PD power supply) x1<br/>- RJ45 (1000M/100M/10M adaptive) x2<br/>- TF card x1<br/>- 3.5mm audio jack x1</td>
-</tr>
-<tr>
-<td>Onboard I/O</td>
-<td>- MIPI DSl 4 lane x1, <br/>- MIPlCSl 4 lane x2 (supporting 4+4 or 4+2+2)<br/>- M.2 2280 KEY M x2, <br/>- 26 Pin standard PIO socket</td>
-</tr>
-<tr>
-<td><strong>Buttons</strong></td>
-<td>Function</td>
-<td>- Reset button x1<br/>- Power button x1<br/>- Programming button x1</td>
-</tr>
-<tr>
-<td rowspan=2 colspan=1><strong>Appearance</strong></td>
-<td>Dimensions</td>
-<td>129.45x80mm</td>
-</tr>
-<tr>
-<td>Material</td>
-<td>PCB board, black (optional transparent case)</td>
-</tr>
-<tr>
-<td rowspan=2 colspan=1><strong>Software Functionality</strong></td>
-<td>Operating System</td>
-<td>- Bianbu OS<br/>- Ubuntu OS<br/>- Linux OS</td>
-</tr>
-<tr>
-<td>Browser</td>
-<td>Chromium</td>
-</tr>
-<tr>
-<td rowspan=3 colspan=1><strong>Reliability</strong></td>
-<td>ESD</td>
-<td>ESD contact ±4 KV, air ±8 KV</td>
-</tr>
-<tr>
-<td>Operating Temperature</td>
-<td>Options:<br/>- Commercial grade: -20°C to +70°C <br/>- Industrial grade: -40°C to +85°C</td>
-</tr>
-<tr>
-<td>Humidity</td>
-<td>Relative humidity (%) ≤ 90 ± 2%</td>
-</tr>
-</tbody>
-</table>
+| Module | Description |
+|--------|---------------|
+| Processor | SpacemiT M1: 8-core, RISC-V CPU with 2 TOPS AI processing power |
+| Display | HDMI Type-A, supporting up to 1080P@60Hz<br>4-lane MIPI DSI FPC, supporting up to 1080P@60Hz |
+| Memory | LPDDR4X with a 2400MT/s speed, available in 8GB or 16GB configurations |
+| Local Storage | eMMC 5.1, available in 32GB or 64GB configurations |
+| Storage Expansion | 2 × M.2 2280 M-Key connectors, supporting NVMe SSDs <br>TF card slot, supporting UHS-II mode memory cards |
+| Wireless | Support of Wi-Fi6 & BT5.2 |
+| Network Port | Dual Ethernet ports with RJ45, auto-adaptive to 1000M/100M speeds |
+| Audio | 3.5mm audio headphone jack |
+| USB | 1 × USB 3.0 & 1 × USB 2.0 Type-A host<br>1 × USB 2.0 Type-C OTG interface, supporting 12V 3A power supply |
+| Debug | 26-pin standard GPIO interface, with 3 side buttons for hardware reset, power on/off and firmware updates |
+| MIPI Interfaces | 1 × 4-lane MIPI DSI<br>2 × 4-lane MIPI CSI, supporting "4+4" or "4+2+2" configurations |
+| Appearance | Single-board computer, optional transparent acrylic case, dimensions: 129.45 × 80mm |
+| OS | Bianbu Desktop, Bianbu NAS, Ubuntu, OpenKylin, Deepin, Fedora |
+| Power | USB PD 3.0 power supply |
+| Reliability | Peripheral interface ESD protection: ±4kV for contact, ±8kV for air<br>Available in consumer-grade (-20°C to 70°C) or industrial-grade (-40°C to 85°C) versions |
 
 ## System Overview
 
@@ -117,7 +44,7 @@ SpacemiT Key Stone® K1 is a high-performance and ultra-low-power SoC that integ
 - Compatibility with mainstream OS to meet the needs of various application scenarios
 - Compliance with the industrial-grade reliability standards
 
-The architecture of K1 is depicted below.
+**Block Diagram**
 
 ![](static/Hs4Sbm1KOoe6cRx2J4DcJS9Dngf.png)
 
@@ -379,254 +306,38 @@ MUSE Pi does not specifically support any particular camera module. The high-spe
 
 The pinout for the 60-pin high-speed connector is as follows:
 
-<table>
-<tbody>
-<tr>
-<td>Pin</td>
-<td>Signal Name</td>
-</tr>
-<tr>
-<td>1</td>
-<td>GND</td>
-</tr>
-<tr>
-<td>2</td>
-<td>MIPI_CSI1_DN0</td>
-</tr>
-<tr>
-<td>3</td>
-<td>MIPI_CSI_DP0</td>
-</tr>
-<tr>
-<td>4</td>
-<td>GND</td>
-</tr>
-<tr>
-<td>5</td>
-<td>MIPI_CSI1_DN1</td>
-</tr>
-<tr>
-<td>6</td>
-<td>MIPI_CSI1_DP1</td>
-</tr>
-<tr>
-<td>7</td>
-<td>GND</td>
-</tr>
-<tr>
-<td>8</td>
-<td>MIPI_CSI1_DN2</td>
-</tr>
-<tr>
-<td>9</td>
-<td>MIPI_CSI1_DP2</td>
-</tr>
-<tr>
-<td>10</td>
-<td>GND</td>
-</tr>
-<tr>
-<td>11</td>
-<td>MIPI_CSI1_DN3</td>
-</tr>
-<tr>
-<td>12</td>
-<td>MIPI_CSI1_DP3</td>
-</tr>
-<tr>
-<td>13</td>
-<td>GND</td>
-</tr>
-<tr>
-<td>14</td>
-<td>MIPI_CSI1_CLKN</td>
-</tr>
-<tr>
-<td>15</td>
-<td>MIPI_CSI1_CLKP</td>
-</tr>
-<tr>
-<td>16</td>
-<td>GND</td>
-</tr>
-<tr>
-<td>17</td>
-<td>CAMERA0_RST</td>
-</tr>
-<tr>
-<td>18</td>
-<td>CAMERA0_PDN</td>
-</tr>
-<tr>
-<td>19</td>
-<td>GND</td>
-</tr>
-<tr>
-<td>20</td>
-<td>CAM_MCLK0</td>
-</tr>
-<tr>
-<td>21</td>
-<td>GND</td>
-</tr>
-<tr>
-<td>22</td>
-<td>CAM_I2C0_SDA</td>
-</tr>
-<tr>
-<td>23</td>
-<td>CAM_I2C0_SCL</td>
-</tr>
-<tr>
-<td>24</td>
-<td>GND</td>
-</tr>
-<tr>
-<td>25</td>
-<td>GND</td>
-</tr>
-<tr>
-<td>26</td>
-<td>CSI_DVDD12</td>
-</tr>
-<tr>
-<td>27</td>
-<td>CSI_VCCIO18</td>
-</tr>
-<tr>
-<td>28</td>
-<td>CSI_AVDD28</td>
-</tr>
-<tr>
-<td>29</td>
-<td>CSI_AFVCC28</td>
-</tr>
-<tr>
-<td>30</td>
-<td>CAMERA1_PDN</td>
-</tr>
-<tr>
-<td>31</td>
-<td>CAMERA1_RST</td>
-</tr>
-<tr>
-<td>32</td>
-<td>GND</td>
-</tr>
-<tr>
-<td>33</td>
-<td>MIPI_CSI2_CLKP</td>
-</tr>
-<tr>
-<td>34</td>
-<td>MIPI_CSI2_CLKN</td>
-</tr>
-<tr>
-<td>35</td>
-<td>GND</td>
-</tr>
-<tr>
-<td>36</td>
-<td>MIPI_CSI3_CLKP</td>
-</tr>
-<tr>
-<td>37</td>
-<td>MIPI_CSI3_CLKN</td>
-</tr>
-<tr>
-<td>38</td>
-<td>GND</td>
-</tr>
-<tr>
-<td>39</td>
-<td>MIPI_CSI3_DP3</td>
-</tr>
-<tr>
-<td>40</td>
-<td>MIPI_CSI3_DN3</td>
-</tr>
-<tr>
-<td>41</td>
-<td>GND</td>
-</tr>
-<tr>
-<td>42</td>
-<td>MIPI_CSI3_DP2</td>
-</tr>
-<tr>
-<td>43</td>
-<td>MIPI_CSI3_DN2</td>
-</tr>
-<tr>
-<td>44</td>
-<td>GND</td>
-</tr>
-<tr>
-<td>45</td>
-<td>MIPI_CSI3_DP1</td>
-</tr>
-<tr>
-<td>46</td>
-<td>MIPI_CSI3_DN1</td>
-</tr>
-<tr>
-<td>47</td>
-<td>GND</td>
-</tr>
-<tr>
-<td>48</td>
-<td>MIPI_CSI3_DP0</td>
-</tr>
-<tr>
-<td>49</td>
-<td>MIPI_CSI3_DN0</td>
-</tr>
-<tr>
-<td>50</td>
-<td>GND</td>
-</tr>
-<tr>
-<td>51</td>
-<td>NC</td>
-</tr>
-<tr>
-<td>52</td>
-<td>NC</td>
-</tr>
-<tr>
-<td>53</td>
-<td>NC</td>
-</tr>
-<tr>
-<td>54</td>
-<td>NC</td>
-</tr>
-<tr>
-<td>55</td>
-<td>NC</td>
-</tr>
-<tr>
-<td>56</td>
-<td>NC</td>
-</tr>
-<tr>
-<td>57</td>
-<td>NC</td>
-</tr>
-<tr>
-<td>58</td>
-<td>NC</td>
-</tr>
-<tr>
-<td>59</td>
-<td>NC</td>
-</tr>
-<tr>
-<td>60</td>
-<td>NC</td>
-</tr>
-</tbody>
-</table>
+| pin | Singal Name       | Singal Name       | pin |
+|-----|----------------|----------------|-----|
+| 1   | GND            | NC        | 60  |
+| 2   | MIPI_CSI1_DN0  | NC         | 59  |
+| 3   | MIPI_CSI1_DP0  | NC         | 58  |
+| 4   | GND            | NC         | 57  |
+| 5   | MIPI_CSI1_DN1  | NC         | 56  |
+| 6   | MIPI_CSI1_DP1  | NC         | 55  |
+| 7   | GND            | NC         | 54  |
+| 8   | MIPI_CSI1_DN2  | NC         | 53  |
+| 9   | MIPI_CSI1_DP2  | NC         | 52  |
+| 10  | GND            | NC         | 51  |
+| 11  | MIPI_CSI1_DN3  | GND            | 50  |
+| 12  | MIPI_CSI1_DP3  | MIPI_CSI3_DN0  | 49  |
+| 13  | GND            | MIPI_CSI3_DP0  | 48  |
+| 14  | MIPI_CSI1_CLKN | GND            | 47  |
+| 15  | MIPI_CSI1_CLKP | MIPI_CSI3_DN1  | 46  |
+| 16  | GND            | MIPI_CSI3_DP1  | 45  |
+| 17  | CAMERA0_RST    | GND            | 44  |
+| 18  | CAMERA0_PDN    | MIPI_CSI3_DN2  | 43  |
+| 19  | GND            | MIPI_CSI3_DP2  | 42  |
+| 20  | CAM_MCLK0      | GND            | 41  |
+| 21  | GND            | MIPI_CSI3_DN3  | 40  |
+| 22  | CAM_I2C0_SDA   | MIPI_CSI3_DP3  | 39  |
+| 23  | CAM_I2C0_SCL   | GND            | 38  |
+| 24  | GND            | MIPI_CSI3_CLKN | 37  |
+| 25  | GND            | MIPI_CSI3_CLKP | 36  |
+| 26  | CSI_DVDD12     | GND            | 35  |
+| 27  | CSI_VCCI018    | MIPI_CSI2_CLKN | 34  |
+| 28  | CSI_AVDD28     | MIPI_CSI2_CLKP | 33  |
+| 29  | CSI_AFVCC28    | GND            | 32  |
+| 30  | CAMERA1_PDN    | CAMERA1_RST    | 31  |
 
 ### MIPI DSI Display Connector
 
@@ -916,11 +627,10 @@ MUSE Pi reserves the Primary JTAG debugging channel in the 26-pin interface, wit
 
 ### UART Debug Interface
 
-MUSE Pi features a 3pin single-row header for UART0 debugging. The pinout is as follows (from left to right):
+The board adopts a 3-pin single-row header and provides a UART0 debug interface (GPIO68 – TX, GPIO69 – RX).  
 
-- TX (GPIO68)
-- RX (GPIO69)
-- GND
+On the main controller side, the pin order from left to right is: **TX, RX, GND**.
+
 
 ![](static/QapBb4Grzo6MSBxMeG0cytWwnjf.png)
 

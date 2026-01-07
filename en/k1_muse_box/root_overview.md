@@ -1,6 +1,8 @@
 sidebar_position: 1
 
-# K1 MUSE BOX Overview
+# K1 MUSE BOX Brief
+
+**[PDF Version](https://cdn-resource.spacemit.com/file/%E7%94%9F%E6%80%81%E4%BA%A7%E5%93%81/MUSE_box_brief_en.pdf)**
 
 **K1 MUSE BOX** is equipped with a RISC-V 8-core 64-bit CPU and adopts a standard Mini-ITX motherboard. With its rich I/O interfaces and ultra-low power consumption, it enables a wide range of application possibilities.
 
