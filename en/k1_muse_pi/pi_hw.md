@@ -9,7 +9,7 @@ Please click the following links to collect the related hardware reference docum
 - **K1 MUSE Pi reference description** 
 
   - **TOP view**
-<img src="static/pi_reftop.png" alt="" width="800">
+   <img src="static/pi_reftop.png" alt="" width="800">
 
   - **BOTTOM view**
-<img src="static/pi_refbottom.png" alt="" width="800">
+   <img src="static/pi_refbottom.png" alt="" width="800">

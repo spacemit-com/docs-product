@@ -1,6 +1,6 @@
 sidebar_position: 1
 
-# MUSE Card Overview
+# K1 MUSE Card Brief
 
 > English version is coming soon ...
 

@@ -72,14 +72,14 @@ K1 MUSE Pi Pro 单板计算机将 RISC-V 八核处理器、存储硬盘、通用
 #### 摄像输入接 CAMERA0
 
 - 类型：22pin，0.5mm间距软排线连接器；
-- 摄像模组兼容列表，详见 [K1关键物料AVL](https://developer.spacemit.com/documentation?token=MHrtw0FymiAJFNkRsXjc46ygnDh&type=file)。
+- 摄像模组兼容列表，详见 [K1关键物料AVL](https://cdn-resource.spacemit.com/file/%E8%8A%AF%E7%89%87/K1/K1_Key_Parts_AVL-V2.6-20251119.xlsm)。
 
 ![图片](./static/pi_pro_cam0.png)
 
 #### 摄像输入接 CAMERA1
 
 - 类型：15pin，1mm间距软排线连接器；
-- 摄像模组兼容列表，详见《K1 关键物料AVL》。
+- 摄像模组兼容列表，详见[K1 关键物料AVL]((https://cdn-resource.spacemit.com/file/%E8%8A%AF%E7%89%87/K1/K1_Key_Parts_AVL-V2.6-20251119.xlsm))。
 
 ![图片](./static/pi_pro_cam1.png)
 
@@ -110,7 +110,7 @@ K1 MUSE Pi Pro 单板计算机将 RISC-V 八核处理器、存储硬盘、通用
 #### 高速扩展接口 miniPCIe
 
 - 类型：9.9mm高miniPCIe 连接器；
-- 同时支持USB2.0和PCIe2.0 x1，USB和PCIe设备兼容列表，详见《K1 关键物料AVL》；
+- 同时支持USB2.0和PCIe2.0 x1，USB和PCIe设备兼容列表，详见[K1 关键物料AVL]((https://cdn-resource.spacemit.com/file/%E8%8A%AF%E7%89%87/K1/K1_Key_Parts_AVL-V2.6-20251119.xlsm))；
 - 可安装标准miniPCIe全宽尺寸模组。
 
 > **注意**：不可热插拔miniPCIe设备，移除或安装请在下电状态下进行。
@@ -129,25 +129,25 @@ K1 MUSE Pi Pro 单板计算机将 RISC-V 八核处理器、存储硬盘、通用
 
 ### 2.4 产品规格
 
-| 项目 | 规格 |
-|------|------|
-| **处理器** | SpacemiT M1，8核64位RISC-V处理器，融合2.0 TOPS AI算力 |
-| **显示** | HDMI1.4 Type-A接口，最高支持1080P@60Hz<br>2lane MIPI DSI FPC接口，最高支持1080P@60Hz |
-| **内存** | LPDDR4X，2400MT/s速率，可选配8GB/16GB容量 |
-| **本地存储** | eMMC5.1，可选配64GB/128GB容量 |
-| **扩展存储** | M.2 M-Key连接器，可装配2230尺寸NVMe SSD<br>Micro SD卡接口，支持UHS-Ⅱ模式存储卡 |
-| **无线通讯** | 板载WiFi6&BT5.2, 并支持通过M.2/mPCIE连接器，扩展为双无线通讯 |
-| **有线网络** | 支持一路以太网，RJ45接口，1000M/100M自适应速率 |
-| **音频接口** | 3.5mm音频耳麦接口 |
-| **USB接口** | 4路USB3.0 Type-A host接口，1路USB2.0 Type-C device接口 |
-| **调试接口** | UART串行TTL调试接口，附带3个侧边按键，用于硬件复位、开关机和烧录升级 |
-| **IO扩展接口** | - 标准M.2 M-Key定义的连接器卡槽，可安装2230长度的M.2板卡，支持SSD、PCIe转SATA、PCIe通讯板卡等<br>- 标准miniPCIe定义的连接器卡槽，可安装全宽miniPCIe板卡，支持4G/5G模块、PCIe无线通讯模块和PCIe网络模块<br>- 40Pin标准GPIO接口 |
-| **MIPI接口** | 1路 2lanes MIPI DSI FPC 15p接口<br>1路 4lanes MIPI CSI FPC 22p接口，1路 2lanes MIPI CSI FPC 15p接口 |
-| **外观形态** | 单板计算机，遵循FEMTO-ITX定义尺寸，85mm*56mm，信用卡大小 |
-| **操作系统** | 支持Bianbu Desktop、Ubuntu、OpenKylin、Deepin、Fedora等操作系统 |
-| **电源输入** | 支持 |
-| **可靠性** | 外设接口ESD可防护接触±4kV，空气±8kV；满足CE、FCC等电磁兼容认证标准<br>可选消费级-20°C~70°C或工业级-40°C~85°C |
-| **结构** | 可选配被动或主动风冷散热器<br>可选配钣金机箱或亚克力外壳<br>可选配触摸屏或工业接线端子多种配置 |
+| 模块 | 描述  |
+| --- | --- |
+| 处理器 | SpacemiT M1，融合 2.0 TOPS AI 算力 |
+| 显示 | - HDMI1.4 Type-A 接口，最高支持 1080P@60HZ<br>- 2lane MIPI DSI FPC 接口，最高支持1080P@60HZ |
+| 内存 | LPDDR4X，2400MT/s 速率，可选配 8GB/16GB 容量 |
+| 本地存储 | eMMC5.1，可选配 64GB/128GB 容量 |
+| 扩展存储 | - M.2 M-Key 连接器，可装配 2230 尺寸 NVMe SSD<br>- Micro SD 卡接口，支持 UHS-II 模式存储卡 |
+| 无线通讯 | 板载 WiFi6&BT5.2，并支持通过 M.2/mPCIe 连接器，扩展为双无线通讯 |
+| 有线网络 | 支持一路以太网，RJ45 接口，1000M/100M 自适应速率 |
+| 音频接口 | 3.5mm 音频耳麦接口 |
+| USB 接口 | 4 路 USB3.0 Type-A host 接口，1 路 USB2.0 Type-C device 接口 |
+| 调试接口 | UART 串行 TTL 调试接口，附带 3 个侧边按键，用于硬件复位、开关机和烧录升级 |
+| IO 扩展接口 | - 标准 M.2 M-Key 定义的连接器卡槽，可安装 2230 长度的 M.2 板卡，支持 SSD、PCIe 转SATA、PCIe 通讯板卡等<br>- 标准 miniPCIe 定义的连接器卡槽，可安装全宽 miniPCIe 板卡，支持 4G/5G 模块、PCIe 无线通讯模块和 PCIe 网络模块<br>- 40Pin 标准 GPIO 接口 |
+| MIPI接口 | - 1 路 2lanes MIPI DSI FPC 15p 接口<br>- 1 路 4lanes MIPI CSI FPC 22p 接口，1 路 2lanes MIPI CSI FPC 15p 接口 |
+| 外观形态 | 单板计算机，遵循 FEMTO-ITX 定义尺寸，85mm x 56mm，信用卡大小 |
+| 操作系统 | 支持 Bianbu Desktop、Ubuntu、OpenKylin、Deepin、Fedora 等操作系统 |
+| 电源输入 | 支持 USB-PD 协议供电，支持 5V/3A、9V/3A 和 12V/3A |
+| 可靠性 | - 外设接口 ESD 可防护接触 ±4kV，空气 ±8kV；满足 CE、FCC 等电磁兼容认证标准<br>- 可选消费级 -20℃~70℃ 或工业级 -40℃~85℃ |
+| 结构 | - 可选配被动或主动风冷散热器 <br>- 可选配钣金机箱或亚克力外壳<br>- 可选配触摸屏或工业接线端子多种配置 |
 
 ### 2.5 逻辑框图
 
@@ -169,13 +169,15 @@ MUSE Pi Pro是单板计算机形态产品，您需要连接必要的外设来使
 
 ### 3.2 开始启动
 
-提前连接您所需要的外设，接通电源后即可开机。  
-单板计算机运行后，您可以通过下列步骤配置您的MUSE Pi Pro：
+提前连接您所需要的外设，接通电源后即可开机。 
 
-### 3.3 开始启动时配置您的MUSE Pi Pro
+单板计算机运行后，您可以通过下列步骤配置您的 MUSE Pi Pro：
 
-MUSE Pi Pro支持UEFI启动和配置，您可以在上电开机后选择启动介质和个性化配置计算机：  
-您在MUSE Pi Pro上电开机3s内，按下"F2"按键，将进入UEFI设置界面。
+### 3.3 开始启动时配置您的 MUSE Pi Pro
+
+MUSE Pi Pro 支持 UEFI 启动和配置，您可以在上电开机后选择启动介质和个性化配置计算机：  
+
+您在 MUSE Pi Pro 上电开机 3s 内，按下"F2"按键，将进入 UEFI 设置界面。
 
 ![图片](./static/pi_pro_uefi1.png)
 
@@ -183,24 +185,24 @@ MUSE Pi Pro支持UEFI启动和配置，您可以在上电开机后选择启动�
 
 上电开机时，按下<F2>按键，进入UEFI设置界面，支持以下功能操作：
 
-1）**启动管理 Boot Manager**  
-在Boot Manager Menu通过<↑>和<↓>按键，选择EMMC存储、SSD硬盘、USB硬盘、SD卡进行启动，或选择进入命令行界面UEFI shell；
+- **启动管理 Boot Manager**  
+   在Boot Manager Menu通过<↑>和<↓>按键，选择EMMC存储、SSD硬盘、USB硬盘、SD卡进行启动，或选择进入命令行界面UEFI shell；
 
-![图片](./static/pi_pro_boot0.png)
+   ![图片](./static/pi_pro_boot0.png)
 
-2）**启动维护 Boot Maintenance Manager**  
-在Boot Maintenance Manager菜单，进入boot options，选择Change Boot Order，对启动介质优先级进行设置，按<+>和<->调整启动优先级；<Enter>后选择Commit Change and Exit提交优先级设置并退出，返回主菜单，按<F10>保存设置；
+- **启动维护 Boot Maintenance Manager**  
+   在Boot Maintenance Manager菜单，进入boot options，选择Change Boot Order，对启动介质优先级进行设置，按<+>和<->调整启动优先级；<Enter>后选择Commit Change and Exit提交优先级设置并退出，返回主菜单，按<F10>保存设置；
 
-![图片](./static/pi_pro_boot1.png)
+   ![图片](./static/pi_pro_boot1.png)
 
-3）**交互命令行 UEFI Interactive Shell**  
-支持UEFI Interactive Shell V2.2版本，当您第一次进入 UEFI Interactive Shell时，它将打印您的计算机检测到的所有存储设备，一旦您按下除 <Esc> 以外的任意键或等待 5 秒，EFI Shell 就应该准备好执行命令，输入`help`显示支持的指令及相关帮助信息。
+- **交互命令行 UEFI Interactive Shell**  
+   支持UEFI Interactive Shell V2.2版本，当您第一次进入 UEFI Interactive Shell时，它将打印您的计算机检测到的所有存储设备，一旦您按下除 <Esc> 以外的任意键或等待 5 秒，EFI Shell 就应该准备好执行命令，输入`help`显示支持的指令及相关帮助信息。
 
-![图片](./static/pi_pro_uefi2.jpg)
+   ![图片](./static/pi_pro_uefi2.jpg)
 
 **进迭时空开源UEFI源码仓库**：  
-- https://gitee.com/bianbu-linux/edk2-platforms  
-- https://gitee.com/bianbu-linux/edk2  
+  - [edk2](https://gitee.com/bianbu-linux/edk2)
+  - [edk2-platforms](https://gitee.com/bianbu-linux/edk2-platforms)
 
 参考 **[基于MUSE Pi Pro的UEFI固件制作](https://mp.weixin.qq.com/s/s7S3pQesObrmAF_56Cq9Lg)**
 
@@ -208,38 +210,40 @@ MUSE Pi Pro支持UEFI启动和配置，您可以在上电开机后选择启动�
 
 如果您的MUSE Pi Pro未在开机3秒内按下"F2"，默认将从板载存储介质启动，进入预先安装好的Bianbu desktop 操作系统。该系统在首次启动时运行配置向导。您需要显示器、键盘、鼠标来浏览向导，向导内容如下：
 
-1）**系统语言**：  
+##### 1）系统语言
+
 此页面帮助您配置系统的语言，默认显示 English 和中文，如需更多语言，可点击下方三个点，弹出更多选项
 
 ![图片](./static/bianbu_desk0.png)
 
-2）**输入法**:  
+##### 2）输入法
+
 此页面帮助您配置系统的键盘布局和输入法
 
 ![图片](./static/bianbu_desk1.png)
 
-3）**无线上网**：  
+##### 3）无线上网
 此页面帮助您连接到 WiFi 网络，从列表中选择您的网络并进行连接；如暂未有合适 WiFi 网络，可在左上角选择跳过该设置
 
 ![图片](./static/bianbu_desk2.png)
 
-4）**位置服务**：  
+##### 4）位置服务  
 此页面可选择是否打开位置服务，如打开位置服务可便捷您的使用体验，但相应的可能会带来位置隐私泄露的风险
 
 ![图片](./static/bianbu_desk3.png)
 
-5）**时区**：  
+##### 5）时区
 此页面帮助配置您所在时区信息，联网状态下系统能够自动同步相应时区时间，可以搜索城市来添加设置
 
 ![图片](./static/bianbu_desk4.png)
 
-6）**设置您的用户名和密码**：  
+##### 6）设置您的用户名和密码
 该页面帮助您设置用户名和密码，请牢记您的密码
 
 ![图片](./static/bianbu_desk5.png)  
 ![图片](./static/bianbu_desk6.png)
 
-7）**配置完成**  
+##### 7）配置完成
 配置完成，点击 “开始使用 Bianbu” 吧，后可进入桌面
 
 ![图片](./static/bianbu_desk7.png)
@@ -283,7 +287,7 @@ MUSE Pi Pro支持UEFI启动和配置，您可以在上电开机后选择启动�
 
 打开 “MobaXterm” 软件，选择 “Sessions”——“New Session”，在弹出的对话框中，选择 “Serial”，"Serial port" 选择上图中识别到的对应 COM 口，“Speed” 速率选择 “115200”，最后点击 “OK”，即可进入打印页面
 
-![图片](./static/debug2.jpg)
+![](./static/FPsyb2sIMoIdMtxUFHvcysLinq9.png)
 
 ## 5. 注意事项
 
@@ -303,7 +307,7 @@ MUSE Pi Pro适用于家居、办公室或工业环境，开始操作前，请先
 
 ## 7. 附录——接口线序
 
-## 7.1 MIPI CSI 高速连接器
+### 7.1 MIPI CSI 高速连接器
 
 MUSE Pi Pro上配备了1路 4lanes MIPI CSI FPC 22p接口与1路 2lanes MIPI CSI FPC 15p接口。
 

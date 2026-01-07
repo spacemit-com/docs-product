@@ -2,6 +2,8 @@ sidebar_position: 1
 
 # K1 MUSE BOX 简介
 
+**[PDF 版本](https://cdn-resource.spacemit.com/file/%E7%94%9F%E6%80%81%E4%BA%A7%E5%93%81/MUSE_box_brief_cn.pdf)**
+
 **K1 MUSE BOX** 搭载RISC-V 8核 64位CPU，选择通用Mini-ITX主板，搭配丰富的I/O接口和极低功耗，拓展更多场景可能性。
 
 - 基于进迭时空RISC-V八核中央处理器

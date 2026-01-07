@@ -22,8 +22,6 @@ M1 芯片是进迭时空 K1 芯片的高性能版本。M1 芯片集成了八核�
 
 ## 产品规格
 
-### 规格参数：
-
 | 项目 | 参数 |
 |------|------|
 | **处理器** | SpacemiT M1，8核64位RISC-V处理器, 融合2.0 TOPS AI算力 |
@@ -40,11 +38,11 @@ M1 芯片是进迭时空 K1 芯片的高性能版本。M1 芯片集成了八核�
 | **供电系统** | 内置38Wh容量7.6V智能电池，支持PD3.0快充，产品配带65W适配器 |
 
 **接口示意**：  
-![图片](./static/book_ports.jpg)
+![](./static/book_interface.jpg)
 
 ## 硬件优势
 
-## 独有MUSE拓展接口：
+**独有MUSE拓展接口：**
 
 专为开发者设计的笔电外置接口，接口采用2.54mm 规格排母，引出芯片 UART/PWM/GPIO/JTAG 等信号，使开发者无需拆机使用常规杜邦线即可与主控连接通信，并可支持DIY各种外设传感器。  
 配合“Fastboot”和“Reset”按钮，即可完成便捷刷机和开发。
@@ -115,12 +113,13 @@ MUSE Book采用USB-PD3.0协议Type-C接口供电/充电。为达到最佳性能�
 
 ![图片](./static/book_power.png)
 
-#### 键盘＆鼠标：
+#### 键盘＆鼠标
 
 您可以使用MUSE Book上的任一USB端口连接有线键盘/鼠标或USB接收器，或者通过蓝牙的方式连接键鼠。  
-请注意：靠近屏幕的Type-C口不支持USB2.0外设作为从设备，您的键盘/鼠标可能无法通过该口正常使用。
 
-#### 显示器：
+**注意：** 靠近屏幕的Type-C口不支持USB2.0外设作为从设备，您的键盘/鼠标可能无法通过该口正常使用。
+
+#### 显示器
 
 MUSE Book除支持内置屏幕的显示外，还支持扩展屏幕。可通过机身左侧靠近TF卡槽的Type-C口进行DP协议的音视频信号传输。  
 同时，如显示器的Type-C接口还支持反向充电，能够实现一线连（一根Type-C线同时进行屏幕扩展显示和充电）  
@@ -128,7 +127,7 @@ MUSE Book除支持内置屏幕的显示外，还支持扩展屏幕。可通过�
 
 ![图片](./static/book_screen.png)
 
-#### 音频：
+#### 音频
 
 MUSE Book通过内置麦克风和喇叭即可进行音频输入和输出，除此之外，您可以使用位于笔记本电脑机身左侧的3.5mm耳机孔连接音频外部设备，此时内置的麦克风和喇叭音频会切换至音频外设。  
 Type-C接口支持音视频同时传输。  
@@ -136,7 +135,7 @@ Type-C接口支持音视频同时传输。
 
 ![图片](./static/book_audio.png)
 
-#### 网络连接：
+#### 网络连接
 
 MUSE Book支持无线Wi-Fi和蓝牙的连接。  
 MUSE Book不支持有线RJ45网口，但您仍可以通过USB转RJ45网口直接与网线连接。
@@ -152,8 +151,6 @@ MUSE Book不支持有线RJ45网口，但您仍可以通过USB转RJ45网口直接
 当您在进入系统之后，关闭盖子，系统自动触发休眠模式，减少运行功耗；此时打开盖子，电源按钮①按压一秒即可唤醒系统。
 
 ![图片](./static/book_boot.png)
-
-## 使用键盘快捷方式
 
 **常用按键快捷功能（默认Fn lock 状态）**
 
@@ -171,41 +168,41 @@ MUSE Book不支持有线RJ45网口，但您仍可以通过USB转RJ45网口直接
 | F10 | 搜索 |
 | F11 | 可编程自定义快捷键 |
 
-### MUSE Book首次启动配置指引
+### 首次启动配置指引
 
 您的MUSE Book会预装进迭时空Bianbu操作系统，将在首次启动时运行配置向导。您需要显示器、键盘、鼠标来浏览向导。
 
-#### 系统语言：
+#### 系统语言
 
 此页面帮助您配置系统的语言，默认显示English和中文，如需更多语言，可点击下方三个点，弹出更多选项。
 
 ![图片](./static/book_lang.png)
 
-#### 输入法：
+#### 输入法
 
 此页面帮助您配置系统的键盘布局和输入法
 
 ![图片](./static/book_keyinput.png)
 
-#### 无线上网：
+#### 无线上网
 
 此页面帮助您连接到WiFi网络，从列表中选择您的网络并进行连接；如暂未有合适WiFi网络，可在左上角选择跳过该设置
 
 ![图片](./static/book_wifi.png)
 
-#### 位置服务：
+#### 位置服务
 
 此页面可选择是否打开位置服务，如打开位置服务可便捷您的使用体验，但相应的可能会带来位置隐私泄露的风险
 
 ![图片](./static/book_location.png)
 
-#### 时区：
+#### 时区
 
 此页面帮助配置您所在时区信息，联网状态下系统能够自动同步相应时区时间，可以搜索城市来添加设置
 
 ![图片](./static/book_time.png)
 
-#### 设置您的用户名和密码：
+#### 设置您的用户名和密码
 
 该页面帮助您设置用户名和密码，请牢记您的密码
 
@@ -236,15 +233,15 @@ MUSE Book不支持有线RJ45网口，但您仍可以通过USB转RJ45网口直接
 
 #### Bianbu
 
-**Bianbu简介**：  
+**Bianbu 简介**：  
 Bianbu是进迭时空针对RISC-V架构的处理器做了深度优化的操作系统，MUSEBook适用于并出厂预装Bianbu Desktop版本
 
-**Bianbu网站**：  
+**Bianbu 网站**：  
 如需获取更多Bianbu相关信息，详见：[Bianbu](https://bianbu.spacemit.com/)
 
-**Bianbu desktop固件下载地址**：[https://archive.spacemit.com/image/k1/version/bianbu/](https://archive.spacemit.com/image/k1/version/bianbu/)
+**Bianbu desktop 固件下载地址**：[https://archive.spacemit.com/image/k1/version/bianbu/](https://archive.spacemit.com/image/k1/version/bianbu/)
 
-**Bianbu desktop固件的安装和升级**, 详见：[系统升级](https://bianbu.spacemit.com/user_guide/upgrade/)
+**Bianbu desktop 固件的安装和升级**, 详见：[系统升级](https://bianbu.spacemit.com/user_guide/upgrade/)
 
 ## 串口调试
 

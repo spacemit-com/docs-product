@@ -1,6 +1,6 @@
 sidebar_position: 1
 
-# K1 MUSE Pi Overview
+# K1 MUSE Pi Brief
 
 MUSE Pi is powered by SpacemiT 8-core RISC-V AI CPU, featuring 2.0 TOPS AI processing power. MUSE Pi supports 1080P dual-screen independent display and industrial-grade security encryption protection.
 
@@ -22,8 +22,7 @@ MUSE Pi is powered by SpacemiT 8-core RISC-V AI CPU, featuring 2.0 TOPS AI proce
 | Display | HDMI Type-A, supporting up to 1080P@60Hz<br>4-lane MIPI DSI FPC, supporting up to 1080P@60Hz |
 | Memory | LPDDR4X with a 2400MT/s speed, available in 8GB or 16GB configurations |
 | Local Storage | eMMC 5.1, available in 32GB or 64GB configurations |
-| Storage | 2 × M.2 2280 M-Key connectors, supporting NVMe SSDs |
-| Expansion | TF card slot, supporting UHS-II mode memory cards |
+| Storage Expansion | 2 × M.2 2280 M-Key connectors, supporting NVMe SSDs <br>TF card slot, supporting UHS-II mode memory cards |
 | Wireless | Support of Wi-Fi6 & BT5.2 |
 | Network Port | Dual Ethernet ports with RJ45, auto-adaptive to 1000M/100M speeds |
 | Audio | 3.5mm audio headphone jack |

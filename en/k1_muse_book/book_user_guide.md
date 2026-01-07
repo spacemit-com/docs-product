@@ -8,17 +8,17 @@ K1 MUSE BOOK is a laptop equipped with the SpacemiT 8-core RISC-V AI-CPU M1, and
 K1 MUSE BOOK is one of the ecological products from SpacemiT, designed basing on RISC-V architecture, with pre-installed the Bianbu operating system and open-source software. It aims to provide a more efficient and convenient local RISC-V development platform for RISC-V devotee, innovative developers, tech enthusiasts, and researchers.  
 M1 is a high-performance version of the SpacemiT K1. It integrates 8 RISC-V X60 cores, offering 50K DMIPS computing power and 2 TOPS AI computing power, enabling quick integration with all mainstream AI ecosystems. It supports 4K H.265/H.264/VP9/VP8 encoding and decoding formats, and features a 3D graphics engine with OpenCL 3.0, OpenGLES 3.2 and Vulkan 1.3 support.  
 In addition to the SpacemiT M1, the MUSE Book comes with the following features:  
-- Narrow Bezel Design  
-  The B-side features a 100% sRGB full HD matte screen  
-- Fanless Design  
-  Thanks to the energy efficiency of the M1 chip, the entire machine adopts a fan-less passive thermal design  
-- Lightweight & Thin Design  
-  Weight of only 1.3 kg and thickness of 17.8 mm  
-- Special 8-Pin Development Interface  
-  Featuring a 2.54mm pitch connector with I2C, UART, PWM, GPIO, and JATG signals; compatible with DuPont wires for easy connection, enabling direct debugging and DIY projects with Raspberry Pi peripherals.  
-- Support for dual Type-C PD 3.0 fast charging  
-- Equipped with a 1080P HD camera, dual speakers, and a microphone, making it convenient for AI applications  
-- Equipped with a 38Wh battery, supporting more than 8 hours battery life  
+
+In addition to being powered by the **SpaceMIT M1** chip, the **K1 MUSE BOOK** offers the following key features:
+
+1. Equipped with **dual USB-C ports**, both supporting the **PD 3.0 fast-charging protocol** for flexible and efficient power delivery.
+
+2. Designed for end-to-end AI development, featuring a **1080p HD camera input**, **dual speakers**, and a **MEMS microphone**, enabling vision, audio, and multimodal AI applications.
+
+3. Integrated **38 Wh battery**, providing **up to 8+ hours** of continuous operation under typical usage scenarios.
+
+4. Functions as both a notebook and a single-board development platform.  
+   Includes a **dedicated MUSE developer interface** that exposes **chip-level I/O pins** for external connectivity, supporting interfaces such as **I²C / UART / PWM / JTAG / GPIO**. 
 
 ![](./static/book.png)
 
@@ -27,40 +27,27 @@ The reference solution block diagram of MUSE Book is depicted below.
 
 ## Specifications
 
-| Category             | Item                        | Specification  |
-|----------------------|-----------------------------|----------------|
-| System Main Control  | CPU                         | SpacemiT M1, 8-core, RISC-V CPU, integrated 2 TOPs AI computing power                                                       |
-| Display              | Expansion Display Interface | Type-C interface (DP signal), supporting up to 1080P @ 60Hz output                                                          |
-| Memory               | Type                        | LPDDR4X, 2666MT soldered                                                                                                    |
-|                      | Maximum Capacity            | 16GB                                                                                                                        |
-| Storage              | Interface                   | M.2 2280 Key M ×1, PCIe (NVMe)                                                                                              |
-|                      | Maximum Capacity            | 1TB (SSD)                                                                                                                   |
-| Screen               | Size/Type                   | 14.1 inches, IPS                                                                                                            |
-|                      | Resolution                  | 1920×1080@60Hz, 16:9                                                                                                        |
-|                      | Color Gamut                 | 72% NTSC（≈100% sRGB）                                                                                                      |
-|                      | Brightness                  | 250 nits                                                                                                                    |
-| Wireless             | Type                        | WiFi/BT module soldered                                                                                                     |
-|                      | Wireless Card IC            | RTL8852BE                                                                                                                   |
-|                      | Protocols                   | Support for Wi-Fi 6 & BT 5.2                                                                                                |
-| I/O Interfaces       | Left Side                   | - Type-C ×1 (U3G1 data transfer, including U2 OTG, PD fast charging)<br>- Full-function Type-C ×1 (U3G1 data transfer, PD fast charging, DP video signal)<br>- 3.5mm headphone jack ×1<br>- TF card slot ×1<br>- USB 3.0 Type-A ×1<br>- Restart button (hidden) |
-|                      | Right Side                  | - USB 3.0 Type-A ×1<br>- Fastboot button (hidden, supporting long press to enter Fastboot mode)<br>- Expansion interface (1× 8Pin, 2.54mm pitch connector, I2C/UART/PWM included, etc.) |
-| Audio/Video          | Video                       | 1080P FHD HD Camera                                                                                                         |
-|                      | Audio                       | ES8326B, dual microphones & speakers                                                                                        |
-| Appearance           | Dimensions                  | 322.6 × 209.2 × 17.8 mm                                                                                                     |
-|                      | Material                    | Metal (A, D), Plastic (B, C)                                                                                                |
-|                      | Weight                      | 1360g                                                                                                                       |
-| Software Features    | System                      | Bianbu OS, Ubuntu OS, Linux OS                                                                                              |
-|                      | Browser                     | Chromium                                                                                                                    |
-| Power                | Power Input                 | PD3.0 Type-C fast charging, original adapter: 65W                                                                           |
-|                      | Battery                     | 38Wh, 7.6V power supply                                                                                                     |
-| Convenience          | Fingerprint Module          | Optional                                                                                                                    |
+| Module | Description |
+| --- | --- |
+| Processor | SpacemiT M1: 8-core, RISC-V CPU with 2 TOPS AI processing power |
+| Display | Supports dual-screen display<br>Equipped with a built-in 14.1-inch IPS screen, 1080P@60Hz, full-color RGB, and 250 nits brightness.<br>Features a Type-C interface (DP signal), supporting up to 1080P@60Hz output |
+| Memory | LPDDR4X with a 2400MT/s speed, available in 8GB or 16GB configurations |
+| Storage | NVMe SSD, available in 128GB, 256GB, or 512GB configurations |
+| Expansion Storage | TF card slot, supporting UHS-II mode memory cards |
+| Wireless | Supports Wi-Fi6 & BT5.2 |
+| USB | 2 x USB 3.0 Type-A host<br>1 x USB 3.0 Type-C full-function port, supporting USB PD fast charging, DP display, and ultra-fast data transfer<br>1 x USB 3.0 Type-C OTG port, supporting USB PD fast charging |
+| Debug Interface | MUSE's 8-pin developer interface, featuring 2 embedded buttons for hardware reset and upgrades |
+| Human Machine Interface | Integrated 1080P FHD camera<br>Built-in dual microphones and stereo speakers<br>Standard full-key keyboard and touchpad, with optional fingerprint module on certain models |
+| Appearance | Metal body; Dimensions: 322.6 x 209.2 x 17.8 mm; Weight: 1360g |
+| OS | Supports Bianbu Desktop, Ubuntu, OpenKylin, Deepin |
+| Power | Built-in 38Wh 7.6V smart battery with PD3.0 fast charging support, comes with a 65W adapter |
 
 **Interface ports**：  
-![](./static/book-ports.jpg.jpg)
+![](./static/book_interface.jpg)
 
 ## Hardware Advantages
 
-## Unique MUSE Expansion Interface
+**Unique MUSE Expansion Interface**
 
 Designed specifically for developers, this laptop's external interface uses a 2.54mm pitch connector, allowing access to signals such as I2C, UART, PWM, GPIO, and JTAG, without needing to open the device. Developers can easily connect and communicate with the main control unit using standard DuPont wires, and it supports DIY various peripheral sensors.
 With the "Fastboot" and "Reset" buttons, convenient flashing and development can be completed easily.
@@ -250,9 +237,9 @@ You can enter download mode using either of the following methods:
 
 2. Execute the following command in the terminal (recommended):
 
-```
-reboot fastboot
-```
+   ```
+   reboot fastboot
+   ```
 
 After entering download mode, connect the device to the host PC via the Type-C port on MUSE Book (you must use the OTG port, Interface ③).
 You may then flash the firmware using the official Spatial Era flashing tool Titan or the fastboot command.
@@ -268,9 +255,10 @@ Bianbu OS is an operating system that has been deeply optimized by SpacemiT for 
 
 For more information about Bianbu OS, please visit [Bianbu](https://bianbu.spacemit.com/)
 
-For Bianbu OS desktop/NAS firmware download, please visit [https://archive.spacemit.com/image/k1/version/bianbu/](https://archive.spacemit.com/image/k1/version/bianbu/)
+For Bianbu OS desktop firmware download, please visit [https://archive.spacemit.com/image/k1/version/bianbu/](https://archive.spacemit.com/image/k1/version/bianbu/)
 
-**Note.** The firmware package containing the word NAS is the firmware of Bianbu OS NAS.
+For Bianbu desktop firmware installation and upgrade, please visit [System Upgrade](https://bianbu.spacemit.com/user_guide/upgrade/)
+
 
 ## Serial Port Debugging
 
