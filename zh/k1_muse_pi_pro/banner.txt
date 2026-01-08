@@ -1,1 +1,2 @@
-MUSE Pi Pro
+K1 MUSE Pi Pro
+A compact RISC-V single-board computer with AI performance and rich expansion for robotics and edge computing.

@@ -1,1 +1,2 @@
-MUSE Paper
+K1 MUSE Paper
+A lightweight RISC-V OpenHarmony tablet with built-in AI performance for smooth, secure, distributed experiences.
