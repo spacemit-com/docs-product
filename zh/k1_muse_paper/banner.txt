@@ -1,1 +1,2 @@
-MUSE Paper
+K1 MUSE Paper
+轻薄 RISC-V OpenHarmony 平板，融合 AI 算力与分布式能力，打造流畅安全的智能体验。

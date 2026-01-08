@@ -1,1 +1,2 @@
 RISC-V Lab kit
+A RISC-V teaching kit with AI computing and rich experiments for embedded and intelligent computing education.

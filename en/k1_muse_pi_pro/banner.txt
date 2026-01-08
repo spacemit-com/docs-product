@@ -1,1 +1,2 @@
-MUSE Pi Pro
+K1 MUSE Pi Pro
+紧凑型 RISC-V 单板计算机，融合 AI 算力与丰富扩展，赋能机器人、边缘计算与智能应用。
