@@ -1,6 +1,6 @@
 sidebar_position: 1
 
-# K1 CoM260 Brief
+# K3 CoM260 Kit Brief
 
 **[PDF Version](#)**
 
