@@ -2,6 +2,8 @@ sidebar_position: 3
 
 # Ecosystem Hardware
 
+- [K3 Pico-ITX](./k3_pico/index.md)
+- [K3 CoM260 Kit](./k3_com260/index.md)
 - [K1 MUSE Pi Pro](./k1_muse_pi_pro/index.md)
 - [K1 MUSE Book](./k1_muse_book/index.md)
 - [K1 MUSE Paper](./k1_muse_paper/index.md)
