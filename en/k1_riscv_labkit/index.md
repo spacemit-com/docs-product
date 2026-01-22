@@ -1,4 +1,4 @@
-sidebar_position: 7
+sidebar_position: 99
 
 # K1 RISC-V Lab Kit
 

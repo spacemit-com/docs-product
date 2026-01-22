@@ -1,4 +1,4 @@
-sidebar_position: 8
+sidebar_position: 99
 
 # K1 MUSE Pi
 
