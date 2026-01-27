@@ -2,7 +2,7 @@ sidebar_position: 1
 
 # K1 RISC-V 集群服务器简介
 
-**[PDF 版本](https://cdn-resource.spacemit.com/file/%E7%94%9F%E6%80%81%E4%BA%A7%E5%93%81/MUSE_shelf_brief_cn.pdf)**
+**[PDF 版本](https://cdn-resource.spacemit.com/file/%E7%94%9F%E6%80%81%E4%BA%A7%E5%93%81/MUSE_Shelf_ZH.pdf)**
 
 **K1 RISC-V 集群服务器** 是专为开发者群体设计的RISC-V开发服务器，具有全面计算、高效运维、高速互联、智能管理的特点；应用平台采用BianbuCloud服务，提供高可用、强拓展、高性能的分布式云平台，提供基于RISC-V平台的应用开发或适配。
 
