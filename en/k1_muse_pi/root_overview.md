@@ -39,4 +39,3 @@ MUSE Pi is powered by SpacemiT 8-core RISC-V AI CPU, featuring 2.0 TOPS AI proce
 - **WeChat (Business)**: SpacemiT1102
 - **Phone**: +86 189 6649 8607
 - **Email**: [business@spacemit.com](mailto:business@spacemit.com)
-- **Purchase**: [K1 MUSE Pi (Official Store)](https://m.tb.cn/h.g5ftXonDbc8enj3?tk=MOUHWBshBxR)
