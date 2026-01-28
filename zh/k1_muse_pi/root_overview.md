@@ -39,4 +39,3 @@ sidebar_position: 1
 - **商务微信**：SpacemiT1102
 - **商务电话**：+86 189 6649 8607
 - **商务邮箱**：[business@spacemit.com](mailto:business@spacemit.com)
-- **产品购买**：[K1 MUSE Pi（官方购买链接）](https://m.tb.cn/h.g5ftXonDbc8enj3?tk=MOUHWBshBxR)
