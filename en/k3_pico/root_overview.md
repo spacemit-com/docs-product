@@ -1,6 +1,6 @@
 sidebar_position: 1
 
-# K1 Pico-ITX Brief
+# K3 Pico-ITX Brief
 
 **[PDF Version](#)**
 
