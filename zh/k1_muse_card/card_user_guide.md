@@ -923,7 +923,7 @@ Bianbu 是进迭时空针对 RISC-V 架构的处理器做了深度优化的操�
 
 **Bianbu 网站：**
 
-如需获取更多 Bianbu 相关信息，详见：[简介 | Bianbu | 进迭时空开发者社区](https://bianbu.spacemit.com/)
+如需获取更多 Bianbu 相关信息，详见：[Bianbu](https://www.spacemit.com/community/document/info?lang=zh&nodepath=software/SDK/bianbu/root_overview.md)
 
 **Bianbu desktop/NAS 固件下载地址：**
 
@@ -931,9 +931,9 @@ Bianbu 是进迭时空针对 RISC-V 架构的处理器做了深度优化的操�
 
 其中含有 NAS 字样的固件包，为 Bianbu NAS 的固件
 
-**Bianbu desktop/NAS 固件的安装和升级：**
+**Bianbu 固件的安装和升级：**
 
-详见：[系统升级 | Bianbu | 进迭时空开发者社区](https://bianbu.spacemit.com/user_guide/upgrade)
+详见：[Bianbu 用户指南](https://www.spacemit.com/community/document/info?lang=zh&nodepath=software/SDK/bianbu/user_guide)
 
 ## 串口调试
 
