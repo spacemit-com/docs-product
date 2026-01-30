@@ -79,7 +79,7 @@ K1 MUSE Pi Pro 单板计算机将 RISC-V 八核处理器、存储硬盘、通用
 #### 摄像输入接 CAMERA1
 
 - 类型：15pin，1mm间距软排线连接器；
-- 摄像模组兼容列表，详见[K1 关键物料AVL]((https://cdn-resource.spacemit.com/file/%E8%8A%AF%E7%89%87/K1/K1_Key_Parts_AVL-V2.6-20251119.xlsm))。
+- 摄像模组兼容列表，详见[K1 关键物料AVL](https://cdn-resource.spacemit.com/file/%E8%8A%AF%E7%89%87/K1/K1_Key_Parts_AVL-V2.6-20251119.xlsm)。
 
 ![图片](./static/pi_pro_cam1.png)
 
@@ -105,12 +105,12 @@ K1 MUSE Pi Pro 单板计算机将 RISC-V 八核处理器、存储硬盘、通用
 
 - 类型：USB Type-A；
 - 即插即用，支持USB3.0 host协议；
-- 满足多个USB设备，如同时接入键盘、鼠标、硬盘、USB摄像头和USB计算棒等，USB设备兼容列表，详见《K1 关键物料AVL》。
+- 满足多个USB设备，如同时接入键盘、鼠标、硬盘、USB摄像头和USB计算棒等，USB设备兼容列表，详见详见[K1 关键物料AVL](https://cdn-resource.spacemit.com/file/%E8%8A%AF%E7%89%87/K1/K1_Key_Parts_AVL-V2.6-20251119.xlsm)。
 
 #### 高速扩展接口 miniPCIe
 
 - 类型：9.9mm高miniPCIe 连接器；
-- 同时支持USB2.0和PCIe2.0 x1，USB和PCIe设备兼容列表，详见[K1 关键物料AVL]((https://cdn-resource.spacemit.com/file/%E8%8A%AF%E7%89%87/K1/K1_Key_Parts_AVL-V2.6-20251119.xlsm))；
+- 同时支持USB2.0和PCIe2.0 x1，USB和PCIe设备兼容列表，详见[K1 关键物料AVL](https://cdn-resource.spacemit.com/file/%E8%8A%AF%E7%89%87/K1/K1_Key_Parts_AVL-V2.6-20251119.xlsm)；
 - 可安装标准miniPCIe全宽尺寸模组。
 
 > **注意**：不可热插拔miniPCIe设备，移除或安装请在下电状态下进行。
@@ -122,8 +122,8 @@ K1 MUSE Pi Pro 单板计算机将 RISC-V 八核处理器、存储硬盘、通用
 - 类型：2.54mm间距，2*20排针；
 - PIN2、PIN4为5V，可作为散热风扇，扩展板供电使用，最大输出电流为1A；
 - PIN6、PIN8、PIN10为GND、debugUART_Tx（主机侧发送端）、debugUART_Rx（主机侧接收端），可作为调试串口；
-- GPIO接口使用方法，详见《设备开发》中外设驱动章节: [外设驱动](https://bianbu-linux.spacemit.com/development_guide/peripheral_driver/)
-- 为方便用户扩展外设，我们定义了扩展IO功能：[MUSE Pi/MUSE Pi Pro 扩展 IO定义](https://bianbu.spacemit.com/bianbu-star/user_guide/defaut_pin/) 
+- GPIO 接口使用方法，详见文档 **[GPIO](https://www.spacemit.com/community/document/info?lang=zh&nodepath=software/SDK/buildroot/device/peripheral_driver/02-GPIO.md)**
+- 为方便用户扩展外设，我们定义了扩展IO功能：**[MUSE Pi/MUSE Pi Pro 扩展 IO定义](https://www.spacemit.com/community/document/info?lang=zh&nodepath=software/SDK/bianbu/user_guide/LXQt/MUSEPi_and_MUSEPiPro_expansion_IO_pinout.md)**
 - GPIO电平域为3.3V，支持多功能复用，引脚定义和资源如下图；
 ![图片](./static/pi_pro_gpio.png)
 
@@ -266,7 +266,7 @@ MUSE Pi Pro 支持 UEFI 启动和配置，您可以在上电开机后选择启�
   3）松开 “固件烧录FDL按键”  
   4）通过进迭时空官方刷机工具 Titan 或者 fastboot 命令即可进行操作
 
-> **备注**：进迭时空官方刷机工具使用手册请访问链接：[刷机工具使用手册](https://developer.spacemit.com/documentation?token=O6wlwlXcoiBZUikVNh2cczhin5d)
+> **备注**：进迭时空官方刷机工具使用手册请访问链接：[刷机工具使用手册](https://www.spacemit.com/community/document/info?lang=zh&nodepath=tools/user_guide/flasher_user_guide.md)
 
 ![图片](./static/pi_pro_button2.png)
 
