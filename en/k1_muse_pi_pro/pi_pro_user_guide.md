@@ -121,7 +121,7 @@ MUSE Pi Pro comes in a compact 1.8-inch board form factor, designed to deliver e
 - Connector: **USB Type-A**
 - Supports **USB 3.0 Host**
 - Compatible with multiple devices simultaneously (keyboard, mouse, drive, USB camera, compute stick, etc.)
-- Device compatibility list: **[K1 AVL]((https://cdn-resource.spacemit.com/file/%E8%8A%AF%E7%89%87/K1/K1_Key_Parts_AVL-V2.6-20251119.xlsm))**
+- Device compatibility list: **[K1 AVL](https://cdn-resource.spacemit.com/file/%E8%8A%AF%E7%89%87/K1/K1_Key_Parts_AVL-V2.6-20251119.xlsm)**
 
 #### miniPCIe Expansion Slot
 
@@ -138,10 +138,8 @@ MUSE Pi Pro comes in a compact 1.8-inch board form factor, designed to deliver e
 - Connector: **2×20, 2.54 mm pitch**
 - **PIN2 / PIN4:** 5V output (up to 1A) for fans or expansion boards
 - **PIN6 / PIN8 / PIN10:** GND / debugUART_TX / debugUART_RX
-- GPIO usage and driver documentation:
-  [https://bianbu-linux.spacemit.com/development_guide/peripheral_driver/](https://bianbu-linux.spacemit.com/development_guide/peripheral_driver/)
-- Extended IO definition:
-  [https://bianbu.spacemit.com/bianbu-star/user_guide/defaut_pin/](https://bianbu.spacemit.com/bianbu-star/user_guide/defaut_pin/)
+- For more details about GPIO usage, visit the document **[GPIO](https://www.spacemit.com/community/document/info?lang=en&nodepath=software/SDK/buildroot/device/peripheral_driver/02-GPIO.md)**
+- For more about extended IO definition, visit the document **[MUSE Pi/MUSE Pi Pro Expansion I/O Definitions](https://www.spacemit.com/community/document/info?lang=en&nodepath=software/SDK/bianbu/user_guide/LXQt/MUSEPi_and_MUSEPiPro_expansion_IO_pinout.md)**
 - GPIO voltage domain: **3.3V**, supports multi-function pinmux
 
 ![GPIO](./static/CRNsbxdgGodPOsxIdqAcGEyJnqb.png)
@@ -297,7 +295,7 @@ When the configuration is completed, click “Start using Bianbu” thus MUSE Pi
   - Release the **Firmware Download (FDL)** button
   - Use
 
-    - Either the official **Titan Flasher** tool provided by **SpacemiT** as per description in the [related documentation](https://developer.spacemit.com/documentation?token=B9JCwRM7RiBapHku6NfcPCstnqh)
+    - Either the official **Titan Flasher** tool provided by **SpacemiT** as per description in the [Flashing Tool User Manual](https://www.spacemit.com/community/document/info?lang=en&nodepath=tools/user_guide/flasher_user_guide.md)
     - Or the **fastboot** command
 
     to proceed with the firmware flashing operation
@@ -308,7 +306,7 @@ When the configuration is completed, click “Start using Bianbu” thus MUSE Pi
   - Release the **Firmware Download (FDL)** button
   - Use
 
-    - Either the official **Titan Flashe**r tool provided by **SpacemiT** as per description in the [related documentation](https://developer.spacemit.com/documentation?token=B9JCwRM7RiBapHku6NfcPCstnqh)
+    - Either the official **Titan Flasher** tool provided by **SpacemiT** as per description in the [Flashing Tool User Manual](https://www.spacemit.com/community/document/info?lang=en&nodepath=tools/user_guide/flasher_user_guide.md)
     - Or the **fastboot** command
 
     to proceed with the firmware flashing operation
