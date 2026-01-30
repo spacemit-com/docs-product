@@ -253,11 +253,11 @@ You may then flash the firmware using the official Spatial Era flashing tool Tit
 
 Bianbu OS is an operating system that has been deeply optimized by SpacemiT for advanced RISC-V architecture processors. MUSE Pi is suitable for and pre-installed with Bianbu OS Desktop version. At the same time, MUSE Pi is suitable for Bianbu OS NAS version.
 
-For more information about Bianbu OS, please visit [Bianbu](https://bianbu.spacemit.com/)
+For more information about Bianbu OS, please visit [Bianbu](https://www.spacemit.com/community/document/info?lang=zh&nodepath=software/SDK/bianbu/root_overview.md)
 
 For Bianbu OS desktop firmware download, please visit [https://archive.spacemit.com/image/k1/version/bianbu/](https://archive.spacemit.com/image/k1/version/bianbu/)
 
-For Bianbu desktop firmware installation and upgrade, please visit [System Upgrade](https://bianbu.spacemit.com/user_guide/upgrade/)
+For Bianbu firmware installation and upgrade, please visit [Bianbu User Guide](https://www.spacemit.com/community/document/info?lang=en&nodepath=software/SDK/bianbu/user_guide)
 
 
 ## Serial Port Debugging

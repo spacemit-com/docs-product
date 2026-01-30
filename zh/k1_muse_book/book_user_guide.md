@@ -237,11 +237,11 @@ MUSE Book不支持有线RJ45网口，但您仍可以通过USB转RJ45网口直接
 Bianbu是进迭时空针对RISC-V架构的处理器做了深度优化的操作系统，MUSEBook适用于并出厂预装Bianbu Desktop版本
 
 **Bianbu 网站**：  
-如需获取更多Bianbu相关信息，详见：[Bianbu](https://bianbu.spacemit.com/)
+如需获取更多Bianbu相关信息，详见：[Bianbu](https://www.spacemit.com/community/document/info?lang=zh&nodepath=software/SDK/bianbu/root_overview.md)
 
 **Bianbu desktop 固件下载地址**：[https://archive.spacemit.com/image/k1/version/bianbu/](https://archive.spacemit.com/image/k1/version/bianbu/)
 
-**Bianbu desktop 固件的安装和升级**, 详见：[系统升级](https://bianbu.spacemit.com/user_guide/upgrade/)
+**Bianbu 固件的安装和升级**, 详见：[Bianbu 用户指南](https://www.spacemit.com/community/document/info?lang=zh&nodepath=software/SDK/bianbu/user_guide)
 
 ## 串口调试
 
