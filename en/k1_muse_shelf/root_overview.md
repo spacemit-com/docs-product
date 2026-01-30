@@ -46,4 +46,4 @@ sidebar_position: 1
 - **WeChat (Business)**: SpacemiT1102
 - **Phone**: +86 189 6649 8607
 - **Email**: [business@spacemit.com](mailto:business@spacemit.com)
-- **Purchase**: [K1 MUSE BOOK (Official Store)](https://item.taobao.com/item.htm?id=807037514272)
+- **Purchase**: [K1 MUSE Shelf (Official Store)](https://item.taobao.com/item.htm?id=807037514272)
