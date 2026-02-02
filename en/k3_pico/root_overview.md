@@ -2,7 +2,7 @@ sidebar_position: 1
 
 # K3 Pico-ITX Brief
 
-**[PDF Version](https://cdn-resource.spacemit.com/file/%E8%8A%AF%E7%89%87/K3/K3_Pico-ITX_EN_0127.pdf)**
+**[PDF Version](https://cdn-resource.spacemit.com/file/%E7%94%9F%E6%80%81%E4%BA%A7%E5%93%81/K3%20Pico-ITX%282.5%27%27%20AI%20SBC%29EN_0202.pdf)**
 
 The MUSE Pico is a 2.5" Pico-ITX Plus single-board computer delivering 60 TOPS of performance with 8 CPU cores and 8 AI cores under a unified memory architecture. It features onboard UFS storage, 10 GbE optical networking, and dual M.2 expansion slots, providing strong computing and connectivity for AI and scientific applications.
 With interfaces for real-time motion control and system management, and an industrial-grade compact design, MUSE Pico enables rapid evaluation, integration, and commercialization across space-constrained industrial scenarios.
