@@ -2,7 +2,7 @@ sidebar_position: 1
 
 # K3 Pico-ITX 简介
 
-**[PDF 版本](https://cdn-resource.spacemit.com/file/%E8%8A%AF%E7%89%87/K3/K3_Pico-ITX_ZH_0127.pdf)**
+**[PDF 版本](https://cdn-resource.spacemit.com/file/%E7%94%9F%E6%80%81%E4%BA%A7%E5%93%81/K3%20Pico-ITX%282.5%27%27%20AI%20SBC%29ZH_0202.pdf)**
 
 MUSE Pico 为60TOPS算力的单板计算机，8计算核和8智算核统一内存架构，板载UFS高速硬盘和万兆网络光通讯接口，充分释放算力性能，提高科学计算、人工智能等应用处理效率。MUSE Pico为2.5" Pico-ITX plus尺寸，满足各行业紧凑型场景应用。单板支持双M.2扩展槽位，具备实时运动控制和系统管理接口。凭借其丰富的接口扩展性与工业架构式设计，可支持行业解决方案提供商开展快速评估与系统集成工作，推动产品商业化落地进程。
 
