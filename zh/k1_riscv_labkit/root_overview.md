@@ -2,7 +2,7 @@ sidebar_position: 1
 
 # K1 RISC-V 实验箱简介
 
-**[PDF 版本](https://cdn-resource.spacemit.com/file/%E7%94%9F%E6%80%81%E4%BA%A7%E5%93%81/RISC-V%E5%AE%9E%E9%AA%8C%E7%AE%B1_ZH.pdf)**
+**[PDF 版本](https://cdn-resource.spacemit.com/file/product/K1/K1_RISC-V_Lab_Kit_brief_zh.pdf )**
 
 **K1 RISC-V实验箱** 面向嵌入式、人工智能和RISC-V架构计算应用等教学领域。它按教学内容定义软硬件，结合RISC-V架构系列教材，提供丰富的教学实验指导，帮助教师开展教学工作，让学生提升动手实践能力。
 

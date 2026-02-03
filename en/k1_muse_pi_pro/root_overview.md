@@ -2,7 +2,7 @@ sidebar_position: 1
 
 # K1 MUSE Pi Pro Brief
 
-**[PDF Version](https://cdn-resource.spacemit.com/file/%E7%94%9F%E6%80%81%E4%BA%A7%E5%93%81/MUSE_Pi_Pro_EN.pdf)**
+**[PDF Version](https://cdn-resource.spacemit.com/file/product/K1/MUSE_Pi_Pro_brief_en.pdf)**
 
 **K1 MUSE Pi Pro** is a single-board computer integrates a high-performance RISC-V 8-core processor, storage, I/O, and expansion capabilities into a credit card-sized 1.8-inch board. With UEFI support, open-source resources, and strongcompatibility, it is ideal for AI applications, robotics, education, and IoT scenarios requiring efficient power and compact form.
 

@@ -2,7 +2,7 @@ sidebar_position: 1
 
 # K1 MUSE Paper Brief
 
-**[PDF Version](https://cdn-resource.spacemit.com/file/%E7%94%9F%E6%80%81%E4%BA%A7%E5%93%81/MUSE_Paper_EN.pdf)**
+**[PDF Version](https://cdn-resource.spacemit.com/file/product/K1/MUSE_paper_brief_en.pdf)**
 
 **K1 MUSE Paper** is a lightweight RISC-V OpenHarmony tablet powered by SpacemiT’s 8-core RISC-V K1 CPU. It is a fully open-source product, featuring domestically developed ICs and OS.
 
