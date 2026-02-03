@@ -2,7 +2,7 @@ sidebar_position: 1
 
 # K3 CoM260 Kit Brief
 
-**[PDF Version](https://cdn-resource.spacemit.com/file/%E8%8A%AF%E7%89%87/K3/K3-CoM260_EN_0126.pdf)**
+**[PDF Version](https://cdn-resource.spacemit.com/file/product/K3/K3-CoM260_brief_zh.pdf)**
 
 **The World’s 1st RISC-V AI CPU Platform Compliant with the RVA23 Standard**
 

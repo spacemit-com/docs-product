@@ -2,7 +2,7 @@ sidebar_position: 1
 
 # K3 CoM260 Kit 简介
 
-**[PDF 版本](https://cdn-resource.spacemit.com/file/%E8%8A%AF%E7%89%87/K3/K3-CoM260_ZH_0126.pdf)**
+**[PDF 版本](https://cdn-resource.spacemit.com/file/product/K3/K3-CoM260_brief_zh.pdf)**
 
 **全球首款RVA23标准的RISC-V AI CPU开发平台**
 
