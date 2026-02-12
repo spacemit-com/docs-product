@@ -80,7 +80,8 @@ K1是一款高性能、超低功耗的SOC，集成了8核RISC-V CPU内核和Spac
 #### 3.1 参考方案框图
 
 MUSE Paper 系统采用K1 的芯片，P1 PMIC+外挂DCDC的供电方案；存储采用LPDDR4x、eMMC5.1；支持双Type-C OTG扩展USB外设、docking键盘\调试串口，以及支持TF卡扩展存储；集成了一个稳定的可量产化的方案。参考方案框图如下：  
-[图片](./static/paper_block2.png)
+
+![图片](./static/paper_block2.png)
 
 #### 3.2 功能概述
 
@@ -116,7 +117,7 @@ MUSE Paper包含的功能如下：
 
 ![图片](./static/paper_functions.png)
 
-# 使用指南
+## 4. 使用指南
 
 MUSE Paper是平板电脑形态，您可以直接运行使用它，无需任何外设。为了确保最佳性能，请保持您的平板电脑通过OTA升级保持最新。更新将修复已知问题并引入新功能。设备会在有更新时通知您，请及时安装。如需手动检查更新，请前往设置 > 系统 > 软件更新。  
 如您想更完善的使用它，建议您添加以下设备：
@@ -135,20 +136,18 @@ MUSE Paper 采用 USB-PD3.0 协议 Type-C 接口供电/充电。为达到最佳�
 - **USB-hub**  
 您可以通过MUSE Paper的Type-C接口，使用USB-hub拓展USB键鼠、USB存储设备，便于开发、调试、测试工作的进行。
 
-## 刷入固件
+### 4.1 刷入固件
 
-### 进入刷机模式
+#### 4.1.1 进入刷机模式
 
 开机或系统重启期间，长按“音量+”按键即可进入刷机模式。  
 此时通过 MUSE Paper 的USB2.0 Type-C（有充电标识），与上位机进行 USB 连接，通过进迭时空官方刷机工具 [TitanFlasher](https://www.spacemit.com/community/document/info?lang=zh&nodepath=tools/user_guide/flasher_user_guide.md) 或者 fastboot 命令即可进行刷机操作。
 
-### 固件下载和安装
-
-#### OpenHarmony 
+#### 4.1.2 固件下载和安装
 
 **OpenHarmony 简介**：  
 OpenHarmony（开源鸿蒙）系统由华为公司捐赠，开放原子基金会运营的开源操作系统，与华为公司的HarmonyOS系统为同一技术底座，旨在构建万物智联的大一统鸿蒙生态，OpenHarmony系统是国内发展最为迅速，最具有自主可控的数字底座。MUSE Paper 适用于并出厂预装 OpenHarmony5.0  
 
-**OpenHarmony 网站**：[https://www.spacemit.com/community/document/info?lang=zh&nodepath=software/SDK/openharmony/k1/root_overview.md](https://www.spacemit.com/community/document/info?lang=zh&nodepath=software/SDK/openharmony/k1/root_overview.md)  
- 
-**OpenHarmony 固件下载地址**：[https://archive.spacemit.com/image/k1/version/openharmony5.0/](https://archive.spacemit.com/image/k1/version/openharmony5.0/)  
+**OpenHarmony 网站**：[点我进入](https://www.spacemit.com/community/document/info?lang=zh&nodepath=software/SDK/openharmony/k1/root_overview.md)
+
+**OpenHarmony 固件下载地址**：[点我下载](https://archive.spacemit.com/image/k1/version/openharmony5.0/) 
