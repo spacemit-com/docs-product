@@ -150,4 +150,4 @@ OpenHarmony（开源鸿蒙）系统由华为公司捐赠，开放原子基金会
 
 **OpenHarmony 网站**：[点我进入](https://www.spacemit.com/community/document/info?lang=zh&nodepath=software/SDK/openharmony/k1/root_overview.md)
 
-**OpenHarmony 固件下载地址**：[点我下载](https://archive.spacemit.com/image/k1/version/openharmony5.0/)
+**OpenHarmony 固件下载地址**：[点我下载](https://archive.spacemit.com/image/k1/version/openharmony5.0/) 
