@@ -140,7 +140,7 @@ MUSE Paper 采用 USB-PD3.0 协议 Type-C 接口供电/充电。为达到最佳�
 ### 进入刷机模式
 
 开机或系统重启期间，长按“音量+”按键即可进入刷机模式。  
-此时通过 MUSE Paper 的USB2.0 Type-C（有充电标识），与上位机进行 USB 连接，通过进迭时空官方刷机工具 [TitanFlasher](https://developer.spacemit.com/documentation?token=O6wlwlXcoiBZUikVNh2cczhin5d) 或者 fastboot 命令即可进行刷机操作。
+此时通过 MUSE Paper 的USB2.0 Type-C（有充电标识），与上位机进行 USB 连接，通过进迭时空官方刷机工具 [TitanFlasher](https://www.spacemit.com/community/document/info?lang=zh&nodepath=tools/user_guide/flasher_user_guide.md) 或者 fastboot 命令即可进行刷机操作。
 
 ### 固件下载和安装
 
@@ -149,6 +149,6 @@ MUSE Paper 采用 USB-PD3.0 协议 Type-C 接口供电/充电。为达到最佳�
 **OpenHarmony 简介**：  
 OpenHarmony（开源鸿蒙）系统由华为公司捐赠，开放原子基金会运营的开源操作系统，与华为公司的HarmonyOS系统为同一技术底座，旨在构建万物智联的大一统鸿蒙生态，OpenHarmony系统是国内发展最为迅速，最具有自主可控的数字底座。MUSE Paper 适用于并出厂预装 OpenHarmony5.0  
 
-**OpenHarmony 网站**：[https://developer.spacemit.com/documentation?token=OQRQwIzlAiPAxikkNSJcKvFJnQf](https://developer.spacemit.com/documentation?token=OQRQwIzlAiPAxikkNSJcKvFJnQf)  
+**OpenHarmony 网站**：[https://www.spacemit.com/community/document/info?lang=zh&nodepath=software/SDK/openharmony/k1/root_overview.md](https://www.spacemit.com/community/document/info?lang=zh&nodepath=software/SDK/openharmony/k1/root_overview.md)  
  
 **OpenHarmony 固件下载地址**：[https://archive.spacemit.com/image/k1/version/openharmony5.0/](https://archive.spacemit.com/image/k1/version/openharmony5.0/)  
