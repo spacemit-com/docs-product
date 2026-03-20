@@ -122,7 +122,7 @@ K1 MUSE Pi Pro 单板计算机将 RISC-V 八核处理器、存储硬盘、通用
 - 类型：2.54mm间距，2*20排针；
 - PIN2、PIN4为5V，可作为散热风扇，扩展板供电使用，最大输出电流为1A；
 - PIN6、PIN8、PIN10为GND、debugUART_Tx（主机侧发送端）、debugUART_Rx（主机侧接收端），可作为调试串口；
-- GPIO 接口使用方法，详见文档 **[GPIO](https://www.spacemit.com/community/document/info?lang=zh&nodepath=software/SDK/buildroot/device/peripheral_driver/02-GPIO.md)**
+- GPIO 接口使用方法，详见文档 **[GPIO](https://www.spacemit.com/community/document/info?lang=zh&nodepath=software/SDK/buildroot/k1_buildroot/device/peripheral_driver/02-GPIO.md)**
 - 为方便用户扩展外设，我们定义了扩展IO功能：**[MUSE Pi/MUSE Pi Pro 扩展 IO定义](https://www.spacemit.com/community/document/info?lang=zh&nodepath=software/SDK/bianbu/user_guide/LXQt/MUSEPi_and_MUSEPiPro_expansion_IO_pinout.md)**
 - GPIO电平域为3.3V，支持多功能复用，引脚定义和资源如下图；
 ![图片](./static/pi_pro_gpio.png)

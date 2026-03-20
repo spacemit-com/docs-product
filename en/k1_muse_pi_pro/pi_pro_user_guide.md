@@ -138,7 +138,7 @@ MUSE Pi Pro comes in a compact 1.8-inch board form factor, designed to deliver e
 - Connector: **2×20, 2.54 mm pitch**
 - **PIN2 / PIN4:** 5V output (up to 1A) for fans or expansion boards
 - **PIN6 / PIN8 / PIN10:** GND / debugUART_TX / debugUART_RX
-- For more details about GPIO usage, visit the document **[GPIO](https://www.spacemit.com/community/document/info?lang=en&nodepath=software/SDK/buildroot/device/peripheral_driver/02-GPIO.md)**
+- For more details about GPIO usage, visit the document **[GPIO](https://www.spacemit.com/community/document/info?lang=en&nodepath=software/SDK/buildroot/k1_buildroot/device/peripheral_driver/02-GPIO.md)**
 - For more about extended IO definition, visit the document **[MUSE Pi/MUSE Pi Pro Expansion I/O Definitions](https://www.spacemit.com/community/document/info?lang=en&nodepath=software/SDK/bianbu/user_guide/LXQt/MUSEPi_and_MUSEPiPro_expansion_IO_pinout.md)**
 - GPIO voltage domain: **3.3V**, supports multi-function pinmux
 
