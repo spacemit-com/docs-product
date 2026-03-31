@@ -4,8 +4,13 @@ sidebar_position: 1
 
 **[PDF Version](https://cdn-resource.spacemit.com/file/product/K3/K3-Pico-ITX_brief_en.pdf)**
 
-The MUSE Pico is a 2.5" Pico-ITX Plus single-board computer delivering 60 TOPS of performance with 8 CPU cores and 8 AI cores under a unified memory architecture. It features onboard UFS storage, 10 GbE optical networking, and dual M.2 expansion slots, providing strong computing and connectivity for AI and scientific applications.
-With interfaces for real-time motion control and system management, and an industrial-grade compact design, MUSE Pico enables rapid evaluation, integration, and commercialization across space-constrained industrial scenarios.
+**Ultra-High Integration Mini AI Computer**
+
+The K3 Pico-ITX is a single-board computer delivering up to 60 TOPS of AI computing performance. It features a unified memory architecture integrating 8 CPU cores and 8 AI acceleration cores, along with onboard high-speed UFS storage and a 10Gb optical networking interface. This design fully unleashes computing capability and significantly improves processing efficiency for applications such as scientific computing and artificial intelligence.
+
+Built in a 2.5-inch Pico-ITX Plus form factor, the K3 Pico-ITX is optimized for space-constrained deployment scenarios across various industries. The board supports dual M.2 expansion slots, and provides interfaces for real-time motion control and system management.
+
+With its rich I/O expandability and industrial-grade architecture, the K3 Pico-ITX enables solution providers to perform rapid evaluation and system integration, accelerating the path to product commercialization.
 
 ## Key Features
 
@@ -22,7 +27,7 @@ With interfaces for real-time motion control and system management, and an indus
 ## Specifications
 
 |Module | Description |
-|------|------|
+|:------|:------|
 | Processor | SpacemiT K3, 8 cores @2.4 GHz, 60 TOPS AI performance, RVA23 compliant, supports IME vector extensions and full virtualization |
 | Display   | DP Type-C: up to 4K (3840×2160) @ 60 Hz<br>40-pin eDP: up to 2.5K (2560×1600) @ 90 Hz                                         |
 | Memory    | Dual-channel 2x32bit LPDDR5 6400 MT/s, 16 GB / 32 GB options                                                                |
@@ -48,12 +53,12 @@ With interfaces for real-time motion control and system management, and an indus
 
 ## Block Diagram
 
-![](./static/pico_bd.png)
+![](../static/k3_pico_bd.png)
 
 ## Optional Components
 
 | Category             | Name                     | Description   | Interface               |
-|----------------------|--------------------------|---------------|-------------------------|
+|:----------------------|:--------------------------|:---------------|:-------------------------|
 | Peripheral           | SSD                      | 980 NVMe™ M.2 SSD, PCIe Gen 3.0 x4, NVMe 1.4, <br>sequential read up to 3,500 MB/s, <br>sequential write up to 3,000 MB/s | M.2 M-KEY 2280          |
 | Peripheral           | SSD                      | B+M NVMe SSD 128GB  | M.2 B-KEY 2242          |
 | Peripheral           | 4G Module                | EM05    | M.2 B-KEY 3042          |
@@ -62,7 +67,7 @@ With interfaces for real-time motion control and system management, and an indus
 | Peripheral           | Ultra HD Display         | 16" 2.5K LCD, 90Hz, 2560×1600   | 40-pin eDP              |
 | Peripheral           | Real-time Control Expansion Board | 19V Input, 5x CAN-FD, EtherCAT, RS232 & RS485 I/O, <br>Industrial-Grade Isolation Protection             | FAN                     |
 | Structural Accessory | Embedded Fan Heatsink    | Custom aluminum design    | FAN                     |
-| Structural Accessory | Metal Chassis            | 120*120*48mm Self-developed Metal Chassis                                                                | BTN                     |
+| Structural Accessory | Metal Chassis            | 120x120x48mm Self-developed Metal Chassis                                                                | BTN                     |
 
 ## Business Cooperation & Purchase
 
