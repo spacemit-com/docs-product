@@ -12,114 +12,49 @@ K3 Pico-ITX 为 2.5" Pico-ITX plus 尺寸，满足各行业紧凑型场景应用
 
 ## 特性
 
-- 符合 RVA23 标准的 8 核处理器 K3，60TOPS 通用 AI 算力，支持 IME 扩展和完整虚拟化
-- 计算核和智算核统一内存架构，支持 300 亿参数模型部署
-- 板载 UFS 本地存储，比行业板载 EMMC 提升 3.4 倍速率
-- M.2 B-KEY 和 M-KEY 双扩展槽位，其中 M-KEY 采用 4lane PCIE GEN3，可扩展全链路 NVMe SSD
-- 板载万兆 PCIE 以太网，支持 10G-BASE-R 光纤接口，实现低延迟、高吞吐的数据传输，支持集群化部署
-- 全功能 TypeC 接口，支持 65W PD 协议供电和 4K DP 显示，仅需一根线缆，即刻点亮算力
-- 板载行业应用高清屏幕 EDP 接口，支持屏显产品系统集成
-- 实时核 RT24 直出的柔性扩展 IO 插槽，支持 ethercat、CAN-FD 等接口，满足微秒级运动控制和机器人等应用
-- MUSE 系列架构设计，冷热分层，最佳 CPU 算力性能释放
+- **智算一体**
+  - 符合 RVA23 标准的 8 核处理器 K3，60TOPS 通用 AI 算力，支持 IME 扩展和完整虚拟化
+  - 计算核和智算核统一内存架构，支持 300 亿参数模型部署
+  
+- **到手即用**
+  - 板载 UFS 本地存储，比行业板载 eMMC 提升 3.4 倍速率
+  - 全功能 Type-C 接口，支持 65W PD 协议供电和 4K DP 显示，仅需一根线缆，即刻点亮算力
+  
+- **灵活扩展**
+  - M.2 B-Key 和 M-Key 双扩展槽位，其中 M-Key 采用 4 lane PCIe Gen3，可扩展全链路 NVMe SSD
+  - 板载万兆 PCIe 以太网，支持 10G-BASE-R 光纤接口，实现低延迟、高吞吐的数据传输，支持集群化部署
+  
+- **快速集成**
+  - 板载行业应用高清屏幕 eDP 接口，支持屏显产品系统集成
+  - 实时核 RT24 直出的柔性扩展 IO 插槽，支持 EtherCAT、CAN-FD 等接口，满足微秒级运动控制和机器人等应用
+  - MUSE 系列架构设计，冷热分层，最佳 CPU 算力性能释放
 
 ## 产品规格
 
-<table width="1000" style="table-layout: fixed; border-collapse: collapse;">
-  <colgroup>
-    <col width="200">
-    <col width="800">
-  </colgroup>
-  <thead>
-    <tr style="background-color: #f6f8fa; text-align: center;">
-      <th style="text-align: left; word-wrap: break-word;">模块</th>
-      <th style="text-align: left; word-wrap: break-word;">描述</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="word-wrap: break-word;">处理器</td>
-      <td style="text-align: left;">SpacemiT K3，8 核 2.4GHz，融合 60TOPS AI 算力，符合RVA23标准，支持 IME 向量扩展和完整虚拟化</td>
-    </tr>
-    <tr>
-      <td style="word-wrap: break-word;">显示</td>
-      <td style="text-align: left;">DP Type-C 接口，最高支持 4K 3840x2160 分辨率，60Hz 刷新率<br>40PIN EDP 接口，最高支持 2.5K 2560x1600 分辨率，90Hz 刷新率</td>
-    </tr>
-    <tr>
-      <td style="word-wrap: break-word;">内存</td>
-      <td style="text-align: left;">双通道 2x32bit LPDDR5，6400MT/s 速率，可选 16GB/32GB 容量</td>
-    </tr>
-    <tr>
-      <td style="word-wrap: break-word;">本地存储</td>
-      <td style="text-align: left;">UFS2.2，可选 128GB/256GB 容量</td>
-    </tr>
-    <tr>
-      <td style="word-wrap: break-word;">存储扩展</td>
-      <td style="text-align: left;">M.2 M-Key 连接器，可装配 2280 尺寸 NVMe SSD，PCIe GEN3 X4 信号链路</td>
-    </tr>
-    <tr>
-      <td style="word-wrap: break-word;">高速扩展</td>
-      <td style="text-align: left;">M.2 B-Key 连接器，可装配 2242/3042 尺寸扩展卡，PCIe GEN3 X2 及USB信号*</td>
-    </tr>
-    <tr>
-      <td style="word-wrap: break-word;">实时扩展</td>
-      <td style="text-align: left;">FPC连接器，支持ethercat、5路CAN-FD、SPI、I2C和UART等实时信号扩展</td>
-    </tr>
-    <tr>
-      <td style="word-wrap: break-word;">无线通讯</td>
-      <td style="text-align: left;">板载 PCIe WIFI6BT5.2 模组，符合 802.11a/b/g/n/ac/ax 标准，双天线双频率</td>
-    </tr>
-    <tr>
-      <td style="word-wrap: break-word;">有线网络</td>
-      <td style="text-align: left;">支持一路以太网，RJ45 接口，1000M/100M 自适应速率</td>
-    </tr>
-    <tr>
-      <td style="word-wrap: break-word;">光纤网络</td>
-      <td style="text-align: left;">支持万兆以太网，SFP+ 接口，支持 10G BASE-R 和 10G BASE-X，支持 QinQ，MSI-X，WOL 等网络特性</td>
-    </tr>
-    <tr>
-      <td style="word-wrap: break-word;">音频接口</td>
-      <td style="text-align: left;">板载 CODEC 电路，支持音频输入输出板内接口</td>
-    </tr>
-    <tr>
-      <td style="word-wrap: break-word;">USB接口</td>
-      <td style="text-align: left;">2 路 USB3.2GEN1 Type-C 接口，其中一路为全功能，一路为 OTG;<br>4 路 USB2.0 Type-A HOST 接口;</td>
-    </tr>
-    <tr>
-      <td style="word-wrap: break-word;">调试接口</td>
-      <td style="text-align: left;">支持 UART 和 JTAG 接口，附带 3 个侧边按键，用于开关机，复位和固件烧写升级</td>
-    </tr>
-    <tr>
-      <td style="word-wrap: break-word;">管理系统</td>
-      <td style="text-align: left;">板载 EC 管理系统，支持电源管理、智能散热策略和系统状态管理，板内支持 I2C/UART/GPIO 扩展接口</td>
-    </tr>
-    <tr>
-      <td style="word-wrap: break-word;">外观形态</td>
-      <td style="text-align: left;">100mm x 86mm，单板计算机 Pico-ITX plus 尺寸，约为 2.5 寸硬盘大小</td>
-    </tr>
-    <tr>
-      <td style="word-wrap: break-word;">操作系统</td>
-      <td style="text-align: left;">预装 Bianbu 3.0，支持 Ubuntu26.04、OpenHarmony6.0、OpenKylin、Deepin、Fedora 等操作系统</td>
-    </tr>
-    <tr>
-      <td style="word-wrap: break-word;">电源输入</td>
-      <td style="text-align: left;">支持双 Type-C 口 USB-PD 协议，额定输入 65W 功率，板上 ATX 2PIN 电源输入端支持 12V@7A 供电</td>
-    </tr>
-    <tr>
-      <td style="word-wrap: break-word;">可靠性</td>
-      <td style="text-align: left;">单板形态外设接口 ESD 可防护接触 ±4kV，空气 ±8kV；<br>整机形态 ESD 可防护接触 ±6kV，空气 ±12kV<br>满足CCC、CE、FCC等电磁兼容认证标准，可选消费级 -20℃～70℃ 或工业级 -40℃～85℃</td>
-    </tr>
-    <tr>
-      <td style="word-wrap: break-word;">时钟</td>
-      <td style="text-align: left;">板载 RTC 时钟电源接口，支持安装电池，满足 G3 状态供电</td>
-    </tr>
-    <tr>
-      <td style="word-wrap: break-word;">结构</td>
-      <td style="text-align: left;">可选配单板或配带风冷风扇的散热器套装 <br>可选配单板或自研全金属工业机箱<br>可选配实时扩展板、触摸屏或工业接线端子多种配置</td>
-    </tr>
-  </tbody>
-</table>
+| 模块 | 描述 |
+| :--- | :--- |
+| 处理器 | SpacemiT K3，8 核 2.4GHz，融合 60TOPS AI 算力，符合 RVA23 标准，支持 IME 向量扩展和完整虚拟化 |
+| 显示 | DP Type-C 接口，最高支持 4K 3840 × 2160 分辨率，60Hz 刷新率<br>40PIN EDP 接口，最高支持 2.5K 2560 × 1600 分辨率，90Hz 刷新率 |
+| 内存 | 双通道 2 × 32bit LPDDR5，6400MT/s 速率，可选 16GB/32GB 容量 |
+| 本地存储 | UFS2.2，可选 128GB/256GB 容量 |
+| 存储扩展 | M.2 M-Key 连接器，可装配 2280 尺寸 NVMe SSD，PCIe Gen3 x4 信号链路 |
+| 高速扩展 | M.2 B-Key 连接器，可装配 2242/3042 尺寸扩展卡，PCIe Gen3 x2 及 USB 信号* |
+| 实时扩展 | FPC 连接器，支持 EtherCAT、5 路 CAN-FD、SPI、I2C 和 UART 等实时信号扩展 |
+| 无线通讯 | 板载 PCIe Wi-Fi 6 + BT5.2 模组，符合 802.11a/b/g/n/ac/ax 标准，双天线双频率 |
+| 有线网络 | 支持一路以太网，RJ45 接口，1000M/100M 自适应速率 |
+| 光纤网络 | 支持万兆以太网，SFP+ 接口，支持 10G BASE-R 和 10G BASE-X，支持 QinQ，MSI-X，WOL 等网络特性 |
+| 音频接口 | 板载 CODEC 电路，支持音频输入输出板内接口 |
+| USB 接口 | 2 路 USB 3.2 Gen1 Type-C 接口，其中一路为全功能，一路为 OTG；<br>4 路 USB 2.0 Type-A Host 接口； |
+| 调试接口 | 支持 UART 和 JTAG 接口，附带 3 个侧边按键，用于开关机，复位和固件烧写升级 |
+| 管理系统 | 板载 EC 管理系统，支持电源管理、智能散热策略和系统状态管理，板内支持 I2C/UART/GPIO 扩展接口 |
+| 外观形态 | 100 mm × 86 mm，单板计算机 Pico-ITX Plus 尺寸，约为 2.5 寸硬盘大小 |
+| 操作系统 | 预装 Bianbu 3.0，支持 Ubuntu 26.04、OpenHarmony 6.0、OpenKylin、Deepin、Fedora 等操作系统 |
+| 电源输入 | 支持双 Type-C 口 USB-PD 协议，额定输入 65W 功率，板上 ATX 2PIN 电源输入端支持 12V@7A 供电 |
+| 可靠性 | 单板形态外设接口 ESD 可防护接触 ±4kV，空气 ±8kV；<br>整机形态 ESD 可防护接触 ±6kV，空气 ±12kV；<br>满足 CCC、CE、FCC 等电磁兼容认证标准，可选消费级 -20℃～70℃ 或工业级 -40℃～85℃ |
+| 时钟 | 板载 RTC 时钟电源接口，支持安装电池，满足 G3 状态供电 |
+| 结构 | 可选配单板或配带风冷风扇的散热器套装<br>可选配单板或自研全金属工业机箱<br>可选配实时扩展板、触摸屏或工业接线端子多种配置 |
 
-> ***注：** M.2 B-Key 插槽安装 PCIe 设备时, B-Ke 的 2lane-PCIe 与 M-Key 复用, M.2M-Key 插槽为 PCIe GEN3X2 信号链路
+> **注：** M.2 B-Key 插槽安装 PCIe 设备时，B-Key 的 2 lane PCIe 与 M-Key 复用，M.2 M-Key 插槽为 PCIe Gen3 x2 信号链路。
 
 ## 框图
 
@@ -127,78 +62,17 @@ K3 Pico-ITX 为 2.5" Pico-ITX plus 尺寸，满足各行业紧凑型场景应用
 
 ## 可选配部件
 
-<table width="1000" style="table-layout: fixed; border-collapse: collapse;">
-  <colgroup>
-    <col width="100">
-    <col width="100">
-    <col width="600">
-    <col width="200">
-  </colgroup>
-  <thead>
-    <tr style="background-color: #f6f8fa; text-align: center;">
-      <th style="text-align: left; word-wrap: break-word;">类别</th>
-      <th style="text-align: left; word-wrap: break-word;">名称</th>
-      <th style="text-align: left; word-wrap: break-word;">描述</th>
-      <th style="text-align: left; word-wrap: break-word;">与主板的接口</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: left; word-wrap: break-word;">外设部件</td>
-      <td style="text-align: left; word-wrap: break-word;">固态硬盘</td>
-      <td style="text-align: left;">980 NVMe™ M.2 固态硬盘, PCIe Gen 3.0 x4, <br>NVMe 1.4, 顺序读取高达 3,500 MB/s, 顺序写入达 3,000 MB/s</td>
-      <td style="text-align: left; word-wrap: break-word;">M.2 M-KEY 2280</td>
-    </tr>
-    <tr>
-      <td style="text-align: left; word-wrap: break-word;">外设部件</td>
-      <td style="text-align: left; word-wrap: break-word;">固态硬盘</td>
-      <td style="text-align: left;">B+M NVMe SSD 128GB 硬盘</td>
-      <td style="text-align: left; word-wrap: break-word;">M.2 B-KEY 2242</td>
-    </tr>
-    <tr>
-      <td style="text-align: left; word-wrap: break-word;">外设部件</td>
-      <td style="text-align: left; word-wrap: break-word;">4G 模组</td>
-      <td style="text-align: left;">EM05</td>
-      <td style="text-align: left; word-wrap: break-word;">M.2 B-KEY 3042</td>
-    </tr>
-    <tr>
-      <td style="text-align: left; word-wrap: break-word;">外设部件</td>
-      <td style="text-align: left; word-wrap: break-word;">SATA 扩展卡</td>
-      <td style="text-align: left;">PCIE 转 5x SATA 接口</td>
-      <td style="text-align: left; word-wrap: break-word;">M.2 M-KEY 2280</td>
-    </tr>
-    <tr>
-      <td style="text-align: left; word-wrap: break-word;">外设部件</td>
-      <td style="text-align: left; word-wrap: break-word;">扩展坞</td>
-      <td style="text-align: left;">扩展坞 Type-C 转 HD 高清 4K 投屏 PD 充电 usb3.0 平板笔记本 3 合 1</td>
-      <td style="text-align: left; word-wrap: break-word;">全功能 Type-C</td>
-    </tr>
-    <tr>
-      <td style="text-align: left; word-wrap: break-word;">外设部件</td>
-      <td style="text-align: left; word-wrap: break-word;">超清屏</td>
-      <td style="text-align: left;">16 寸 2.5K 90Hz 2560 x 1600 LCD</td>
-      <td style="text-align: left; word-wrap: break-word;">EDP 40PIN</td>
-    </tr>
-    <tr>
-      <td style="text-align: left; word-wrap: break-word;">外设部件</td>
-      <td style="text-align: left; word-wrap: break-word;">实时控制扩展板</td>
-      <td style="text-align: left;">19V 输入，5 路 CAN-FD，EtherCAT，RS232 和 RS485 等 IO，工业级隔离防护</td>
-      <td style="text-align: left; word-wrap: break-word;">FPC</td>
-    </tr>
-    <tr>
-      <td style="text-align: left; word-wrap: break-word;">结构配件</td>
-      <td style="text-align: left; word-wrap: break-word;">嵌入风扇式散热器</td>
-      <td style="text-align: left;">自研铝制</td>
-      <td style="text-align: left; word-wrap: break-word;">FAN</td>
-    </tr>
-    <tr>
-      <td style="text-align: left; word-wrap: break-word;">结构配件</td>
-      <td style="text-align: left; word-wrap: break-word;">金属机箱</td>
-      <td style="text-align: left;">120 x 120 x48mm 自研金属机箱</td>
-      <td style="text-align: left; word-wrap: break-word;">BTN</td>
-    </tr>
-  </tbody>
-</table>
+| 类别 | 名称 | 描述 | 与主板的接口 |
+| :--- | :--- | :--- | :--- |
+| 外设部件 | 固态硬盘 | 980 NVMe™ M.2 固态硬盘，PCIe Gen 3.0 x4，<br>NVMe 1.4，顺序读取高达 3,500 MB/s，顺序写入达 3,000 MB/s | M.2 M-Key 2280 |
+| 外设部件 | 固态硬盘 | B+M NVMe SSD 128GB 硬盘 | M.2 B-Key 2242 |
+| 外设部件 | 4G 模组 | EM05 | M.2 B-Key 3042 |
+| 外设部件 | SATA 扩展卡 | PCIe 转 5 × SATA 接口 | M.2 M-Key 2280 |
+| 外设部件 | 扩展坞 | 扩展坞 Type-C 转 HD 高清 4K 投屏 PD 充电 USB3.0 平板笔记本 3 合 1 | 全功能 Type-C |
+| 外设部件 | 超清屏 | 16 寸 2.5K 90Hz 2560 x 1600 LCD | EDP 40PIN |
+| 外设部件 | 实时控制扩展板 | 19V 输入，5 路 CAN-FD，EtherCAT，RS232 和 RS485 等 IO，工业级隔离防护 | FPC |
+| 结构配件 | 嵌入风扇式散热器 | 自研铝制 | FAN |
+| 结构配件 | 金属机箱 | 120 × 120 × 48 mm 自研金属机箱 | BTN |
 
 ## 合作与采购咨询
 
