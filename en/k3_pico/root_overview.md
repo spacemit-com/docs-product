@@ -20,7 +20,7 @@ With rich I/O expandability and an industrial-grade architecture, the K3 Pico-IT
 
 - **Ready Out of the Box**
   - Onboard UFS storage, offering speeds up to 3.4× faster than typical eMMC solutions
-  - Full-featured USB Type-C with 65W PD and 4K DP—power and display in one cable
+  - Full-featured USB Type-C with 65 W PD and 4K DP—power and display in one cable
 
 - **Flexible Expansion**
   - Dual M.2 slots (B-Key and M-Key), with M-Key supporting 4-lane PCIe Gen3 for full-bandwidth NVMe SSD expansion
@@ -28,7 +28,7 @@ With rich I/O expandability and an industrial-grade architecture, the K3 Pico-IT
 
 - **Rapid Integration**
   - Onboard eDP interface for HD displays, simplifying display system integration
-  - Flexible expansion I/O powered by the RT24 real-time core, supporting EtherCAT, CAN-FD, and other interfaces for microsecond-level motion control and robotics
+  - Flexible expansion I/O powered by the RT24 real-time core, supporting EtherCAT, 5 × CAN-FD, and other interfaces for microsecond-level motion control and robotics
   - MUSE architecture with thermal and workload partitioning, ensuring optimal CPU performance and efficiency
 
 ## Specifications
@@ -36,17 +36,17 @@ With rich I/O expandability and an industrial-grade architecture, the K3 Pico-IT
 | Module | Description |
 | :----- | :---------- |
 | Processor | SpacemiT K3, 8 cores @2.4 GHz, 60 TOPS AI performance, RVA23 compliant, supports IME vector extensions and full virtualization |
-| Display   | DP Type-C: up to 4K (3840×2160) @ 60 Hz<br>40-pin eDP: up to 2.5K (2560×1600) @ 90 Hz                                         |
+| Display   | DP Type-C: up to 4K (3840 × 2160) @ 60 Hz<br>40-pin eDP: up to 2.5K (2560 × 1600) @ 90 Hz                                     |
 | Memory    | Dual-channel 2 × 32-bit LPDDR5 6400 MT/s, 16 GB / 32 GB options                                                              |
 | Local Storage | UFS 2.2, 128 GB / 256 GB options                                                                                       |
 | Storage Expansion | M.2 M-Key (PCIe Gen3 ×4), supports 2280 NVMe SSD                                                          |
 | HS Expansion | M.2 B-Key (PCIe Gen3 ×2 + USB), supports 2242/3042 cards                                                     |
-| Real-Time Expansion | FPC connector for EtherCAT, 5× CAN-FD, SPI, I²C, UART, etc.                                                           |
+| Real-Time Expansion | FPC connector for EtherCAT, 5 × CAN-FD, SPI, I²C, UART, etc.                                                         |
 | Wireless Communication | Onboard Wi-Fi 6 + BT 5.2, dual-band, dual-antenna, 802.11 a/b/g/n/ac/ax compliant                            |
-| Wired Network | 1× RJ45 Ethernet, 10/100/1000 Mbps adaptive                                                                            |
+| Wired Network | 1 × RJ45 Ethernet, 10/100/1000 Mbps adaptive                                                                          |
 | Optical Network | 10GbE SFP+ port, supports 10GBASE-R / 10GBASE-X, QinQ, MSI-X, WOL, and clustering                            |
 | Audio     | Onboard CODEC, internal audio input/output                                                                               |
-| USB       | 2× USB 3.2 Gen1 Type-C (1 full-featured, one OTG)<br>4× USB 2.0 Type-A Host                                              |
+| USB       | 2 × USB 3.2 Gen1 Type-C (1 full-featured, one OTG)<br>4 × USB 2.0 Type-A Host                                          |
 | Debug     | UART, JTAG, and 3 side buttons for power, reset, and firmware update                                                      |
 | System Management | Onboard EC controller for power, thermal, and system status; includes I²C/UART/GPIO expansion                    |
 | Form Factor | 100 × 86 mm, Pico-ITX Plus single-board computer, approx. size of a 2.5" drive                                         |
@@ -54,9 +54,9 @@ With rich I/O expandability and an industrial-grade architecture, the K3 Pico-IT
 | Power Input | Dual Type-C USB-PD (65 W) or ATX 2-pin 12 V @ 7 A                                                                        |
 | Reliability | ESD protection: board: ±4 kV (contact), ±8 kV (air); system: ±6 kV (contact), ±12 kV (air)<br>Compliant with CCC, CE, and FCC; operating temp: -20 °C ～ 70 °C (consumer) / -40 °C ～ 85 °C (industrial) |
 | Clock     | Onboard RTC with battery interface, supports G3 state                                                                      |
-| Structure | Optional single-board or fan-cooled heatsink assembly<br>Optional single-board or fully-metal industrial chassis<br>Optional real-time board, touchscreen, terminal blocks|
+| Structure | Optional single-board or fan-cooled heatsink assembly<br>Optional single-board or fully-metal industrial chassis<br>Optional real-time board, touchscreen, terminal blocks |
 
->**Note:** The M.2 B-Key PCIe ×2 lanes are shared with the M-Key slot; when both are populated, the M.2 M-Key operates at PCIe Gen3 ×2.
+> **Note:** The M.2 B-Key PCIe ×2 lanes are shared with the M-Key slot; when both are populated, the M.2 M-Key operates at PCIe Gen3 ×2.
 
 ## Block Diagram
 
@@ -66,15 +66,15 @@ With rich I/O expandability and an industrial-grade architecture, the K3 Pico-IT
 
 | Category             | Name                     | Description   | Interface               |
 |:----------------------|:--------------------------|:---------------|:-------------------------|
-| Peripheral           | SSD                      | 980 NVMe™ M.2 SSD, PCIe Gen 3.0 ×4, NVMe 1.4, <br>sequential read up to 3,500 MB/s, <br>sequential write up to 3,000 MB/s | M.2 M-Key 2280          |
-| Peripheral           | SSD                      | B+M NVMe SSD 128 GB | M.2 B-Key 2242          |
-| Peripheral           | 4G Module                | EM05 | M.2 B-Key 3042          |
-| Peripheral           | SATA Expansion Card      | PCIe to 5 × SATA interface | M.2 M-Key 2280          |
-| Peripheral           | Docking Station          | Type-C dock for HD 4K display, PD charging, <br>USB 3.0 for tablets/laptops (3-in-1)                        | Full-featured Type-C    |
-| Peripheral           | Ultra HD Display         | 16" 2.5K LCD, 90 Hz, 2560 × 1600 | 40-pin eDP              |
-| Peripheral           | Real-time Control Expansion Board | 19 V input, 5 × CAN-FD, EtherCAT, RS232 & RS485 I/O, <br>industrial-grade isolation protection         | FPC                     |
-| Structural Accessory | Embedded Fan Heatsink    | Custom aluminum design    | FAN                     |
-| Structural Accessory | Metal Chassis            | 120 × 120 × 48 mm self-developed metal chassis                                                           | BTN                     |
+| **Peripheral**           | SSD                      | 980 NVMe™ M.2 SSD, PCIe Gen 3.0 ×4, NVMe 1.4, <br>sequential read up to 3,500 MB/s, <br>sequential write up to 3,000 MB/s | M.2 M-Key 2280          |
+|            | SSD                      | B+M NVMe SSD 128 GB | M.2 B-Key 2242          |
+|            | 4G Module                | EM05 | M.2 B-Key 3042          |
+|            | SATA Expansion Card      | PCIe to 5 × SATA interface | M.2 M-Key 2280          |
+|            | Docking Station          | Type-C dock for HD 4K display, PD charging, <br>USB 3.0 for tablets/laptops (3-in-1)                        | Full-featured Type-C    |
+|            | Ultra HD Display         | 16" 2.5K LCD, 90 Hz, 2560 × 1600 | 40-pin eDP              |
+|            | Real-time Control Expansion Board | 19 V input, 5 × CAN-FD, EtherCAT, RS232 & RS485 I/O, <br>industrial-grade isolation protectiosn         | FPC                     |
+| **Structural Accessory** | Embedded Fan Heatsink    | Custom aluminum design    | FAN                     |
+| | Metal Chassis            | 120 × 120 × 48 mm self-developed metal chassis                                                           | BTN                     |
 
 ## Business Cooperation & Purchase
 
