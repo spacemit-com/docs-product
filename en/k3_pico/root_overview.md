@@ -6,11 +6,11 @@ sidebar_position: 1
 
 **Ultra-High Integration Mini AI Computer**
 
-The K3 Pico-ITX is a single-board computer delivering up to 60 TOPS of AI computing performance. It features a unified memory architecture integrating 8 CPU cores and 8 AI acceleration cores, along with onboard high-speed UFS storage and a 10Gb optical networking interface. This design fully unleashes computing capability and significantly improves processing efficiency for applications such as scientific computing and artificial intelligence.
+The K3 Pico-ITX is a single-board computer delivering up to 60 TOPS of AI performance. It features a unified memory architecture with 8 CPU cores and 8 AI acceleration cores, along with onboard high-speed UFS storage and a 10Gb optical networking interface. This design maximizes computing capability and improves efficiency for applications such as scientific computing and AI.
 
-Built in a 2.5-inch Pico-ITX Plus form factor, the K3 Pico-ITX is optimized for space-constrained deployment scenarios across various industries. The board supports dual M.2 expansion slots, and provides interfaces for real-time motion control and system management.
+Built in a 2.5-inch Pico-ITX Plus form factor, the K3 Pico-ITX is optimized for space-constrained deployments. The board supports dual M.2 expansion slots and provides interfaces for real-time motion control and system management.
 
-With its rich I/O expandability and industrial-grade architecture, the K3 Pico-ITX enables solution providers to perform rapid evaluation and system integration, accelerating the path to product commercialization.
+With rich I/O expandability and an industrial-grade architecture, the K3 Pico-ITX enables rapid evaluation and system integration, accelerating time to market.
 
 ## Key Features
 
@@ -27,9 +27,9 @@ With its rich I/O expandability and industrial-grade architecture, the K3 Pico-I
   - Integrated 10GbE over PCIe with support for 10GBASE-R optical interface, enabling low-latency, high-throughput data transfer and scalable clustering
 
 - **Rapid Integration**
-  - Onboard eDP interface for HD displays, simplifying integration of display-enabled systems
-  - Flexible expansion I/O driven by the RT24 real-time core, supporting interfaces such as EtherCAT and CAN-FD for microsecond-level motion control and robotics applications
-  - MUSE architecture design with thermal and workload partitioning, ensuring optimal CPU performance and efficiency
+  - Onboard eDP interface for HD displays, simplifying display system integration
+  - Flexible expansion I/O powered by the RT24 real-time core, supporting EtherCAT, CAN-FD, and other interfaces for microsecond-level motion control and robotics
+  - MUSE architecture with thermal and workload partitioning, ensuring optimal CPU performance and efficiency
 
 ## Specifications
 
