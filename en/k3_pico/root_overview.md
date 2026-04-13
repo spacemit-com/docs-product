@@ -42,7 +42,7 @@ With rich I/O expandability and an industrial-grade architecture, the K3 Pico-IT
 | Storage Expansion | M.2 M-Key (PCIe Gen3 ×4), supports 2280 NVMe SSD                                                          |
 | HS Expansion | M.2 B-Key (PCIe Gen3 ×2 + USB), supports 2242/3042 cards                                                     |
 | Real-Time Expansion | FPC connector for EtherCAT, 5 × CAN-FD, SPI, I²C, UART, etc.                                                         |
-| Wireless Communication | Onboard Wi-Fi 6 + BT 5.2, dual-band, dual-antenna, 802.11 a/b/g/n/ac/ax compliant                            |
+| Wireless | Onboard Wi-Fi 6 + BT 5.2, dual-band, dual-antenna, 802.11 a/b/g/n/ac/ax compliant                            |
 | Wired Network | 1 × RJ45 Ethernet, 10/100/1000 Mbps adaptive                                                                          |
 | Optical Network | 10GbE SFP+ port, supports 10GBASE-R / 10GBASE-X, QinQ, MSI-X, WOL, and clustering                            |
 | Audio     | Onboard CODEC, internal audio input/output                                                                               |
