@@ -38,8 +38,6 @@ Built on the RISC-V architecture, the kit supports mainstream AI model deploymen
 
 ## Specification
 
-**K3-CoM260 32GB Moudle**
-
 |Module | Description |
 |:------|:------|
 | Chip | SpacemiT K3 RISC-V AI CPU |
