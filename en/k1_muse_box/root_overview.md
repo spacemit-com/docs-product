@@ -16,7 +16,7 @@ sidebar_position: 1
 - Dual 1000M RJ45
 - 12V DC input (2.5/5.5 mm jack)
 
-## Specification
+## Specifications
 
 | Moduel | Description  |
 | --- | --- |

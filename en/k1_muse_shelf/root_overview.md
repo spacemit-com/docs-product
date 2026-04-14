@@ -30,7 +30,7 @@ sidebar_position: 1
 - **Remote Flashing & System Management**
   Supports Fastboot flashing and remote power control for efficient device management and system updates
 
-## Specification
+## Specifications
 
 | Module | Item | Description  |
 | :--- | :--- | :--- |

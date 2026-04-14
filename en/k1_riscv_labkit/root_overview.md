@@ -22,7 +22,7 @@ RISC-V Lab Kit is designed for teaching applications in embedded systems, AI, an
 - **Comprehensive Teaching Resources**
   Includes 100+ lab examples and detailed manuals covering AI, signal processing, and measurement & control
 
-## Specification
+## Specifications
 
 | Module | Description |
 | :--- | :--- |

@@ -31,7 +31,7 @@ sidebar_position: 1
 - **High Reliability**
   Structural protection, ESD resilience, and EMC compliance
 
-## Specification
+## Specifications
 
 | Module | Description  |
 | :--- | :--- |
