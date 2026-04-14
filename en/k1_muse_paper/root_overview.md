@@ -36,7 +36,7 @@ Running OpenHarmony, it enables smooth multitasking and seamless app switching, 
 - **Open Ecosystem with Vendor Support**
   Fully open documentation with official technical and community support
 
-## Specification
+## Specifications
 
 | Module | Description  |
 | :--- | :--- |

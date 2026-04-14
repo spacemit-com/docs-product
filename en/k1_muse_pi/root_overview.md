@@ -14,7 +14,7 @@ MUSE Pi is powered by SpacemiT 8-core RISC-V AI CPU, featuring 2.0 TOPS AI proce
 - Dual 1000M RJ45  
 - Type-C for power supply
 
-## Specification
+## Specifications
 
 | Module | Description |
 |--------|---------------|

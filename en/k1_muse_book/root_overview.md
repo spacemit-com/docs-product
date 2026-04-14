@@ -12,7 +12,7 @@ sidebar_position: 1
 - Supports 4K H.265/H.264/VP9/VP8 codecs• Supports a 3D graphics engine with OpenCL3.0/OpenGLES 3.2/Vulkan 1.3
 - Includes a wide range of I/O interfaces: UART TX＆RX/I2C/GPIO/PWM/3.3V/GND, along with Dupont development cables and a developer container for effortless environment setup.
 
-## Specification
+## Specifications
 
 | Module | Description |
 | --- | --- |

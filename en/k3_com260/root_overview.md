@@ -36,7 +36,7 @@ Built on the RISC-V architecture, the kit supports mainstream AI model deploymen
 - **Engineering-Ready Support**
   Supports customized software, carrier board design, and full system integration to accelerate product deployment
 
-## Specification
+## Specifications
 
 |Module | Description |
 |:------|:------|
