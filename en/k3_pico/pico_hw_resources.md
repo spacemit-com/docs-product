@@ -1,0 +1,1 @@
+# K3 Pico-ITX Hardware Design Resources

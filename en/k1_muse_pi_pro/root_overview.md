@@ -55,7 +55,7 @@ sidebar_position: 1
 
 ## Business Cooperation & Purchase
 
-- **WeChat (Business)**: SpacemiT1102
-- **Phone**: +86 189 6649 8607
+
+- **Phone**: 0571-89000775
 - **Email**: [business@spacemit.com](mailto:business@spacemit.com)
 - **Purchase**: [K1 MUSE Pi Pro (Official Store)](https://item.taobao.com/item.htm?id=904155534891&ltk2=17442844019859mtp9v24y1s996aj56z1&spm=a21n57.shop_search.0.0.5bcd523cHF8dd2)

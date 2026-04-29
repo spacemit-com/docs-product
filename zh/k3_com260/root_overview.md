@@ -63,6 +63,6 @@ SpacemiT K3-CoM260 开发者套件将 8 核通用 CPU 与 8 核 AI CPU 集成于
 
 ## 合作与采购咨询
 
-- **商务微信**：SpacemiT1102
-- **商务电话**：+86 189 6649 8607
+
+- **商务电话**：0571-89000775
 - **商务邮箱**：[business@spacemit.com](mailto:business@spacemit.com)

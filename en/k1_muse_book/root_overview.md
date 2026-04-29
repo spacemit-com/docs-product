@@ -31,7 +31,7 @@ sidebar_position: 1
 
 ## Business Cooperation & Purchase
 
-- **WeChat (Business)**: SpacemiT1102
-- **Phone**: +86 189 6649 8607
+
+- **Phone**: 0571-89000775
 - **Email**: [business@spacemit.com](mailto:business@spacemit.com)
 - **Purchase**: [K1 MUSE BOOK (Official Store)](https://m.tb.cn/h.gUvG9fgiJa4uJ43?tk=SrdHWBsSc5x)

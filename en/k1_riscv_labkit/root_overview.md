@@ -44,6 +44,6 @@ RISC-V Lab Kit is designed for teaching applications in embedded systems, AI, an
 
 ## Business Cooperation & Purchase
 
-- **WeChat (Business)**: SpacemiT1102
-- **Phone**: +86 189 6649 8607
+
+- **Phone**: 0571-89000775
 - **Email**: [business@spacemit.com](mailto:business@spacemit.com)
