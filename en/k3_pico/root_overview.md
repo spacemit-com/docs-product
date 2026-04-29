@@ -78,6 +78,6 @@ With rich I/O expandability and an industrial-grade architecture, the K3 Pico-IT
 
 ## Business Cooperation & Purchase
 
-- **WeChat (Business)**: SpacemiT1102
-- **Phone**: +86 189 6649 8607
+
+- **Phone**: 0571-89000775
 - **Email**: [business@spacemit.com](mailto:business@spacemit.com)

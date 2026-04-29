@@ -53,6 +53,6 @@ K1 MUSE Paper 是一款基于 RISC-V 架构和 OpenHarmony 操作系统的开发
 
 ## 合作与采购咨询
 
-- **商务微信**：SpacemiT1102
-- **商务电话**：+86 189 6649 8607
+
+- **商务电话**：0571-89000775
 - **商务邮箱**：[business@spacemit.com](mailto:business@spacemit.com)

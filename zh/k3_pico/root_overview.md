@@ -76,6 +76,6 @@ K3 Pico-ITX 为 2.5" Pico-ITX plus 尺寸，满足各行业紧凑型场景应用
 
 ## 合作与采购咨询
 
-- **商务微信**：SpacemiT1102
-- **商务电话**：+86 189 6649 8607
+
+- **商务电话**：0571-89000775
 - **商务邮箱**：[business@spacemit.com](mailto:business@spacemit.com)

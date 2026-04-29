@@ -57,7 +57,7 @@ K1 MUSE Pi Pro 为 1.8 寸单板，能够满足大语言模型应用、机器人
 
 ## 合作与采购咨询
 
-- **商务微信**：SpacemiT1102
-- **商务电话**：+86 189 6649 8607
+
+- **商务电话**：0571-89000775
 - **商务邮箱**：[business@spacemit.com](mailto:business@spacemit.com)
 - **产品购买**：[K1 MUSE Pi Pro（官方购买链接）](https://item.taobao.com/item.htm?id=904155534891&ltk2=17442844019859mtp9v24y1s996aj56z1&spm=a21n57.shop_search.0.0.5bcd523cHF8dd2)
