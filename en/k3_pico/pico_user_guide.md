@@ -54,7 +54,9 @@ For first-boot and session setup, refer to: [Initial Setup and Sessions](https:/
 
 The K3 Pico-ITX supports UEFI boot and configuration, with NVMe SSD, USB, and UFS available as boot media.
 
-A UEFI preview image is currently available for the Pico-ITX. You can download it from the link below. For operating system installation steps, refer to Part 3, [OS Installation](#3-os-installation).
+A [UEFI preview image](#) is currently available for the Pico-ITX.
+
+For operating system installation steps, refer to Part 3 [OS Installation](#3-os-installation).
 
 #### UEFI Setup
 
@@ -125,9 +127,9 @@ GRUB boot is supported, allowing multiple operating systems to be installed and 
 
 | Button | Description |
 |:-----|:------|
-| Power button <br>PWR | - Short press in Shutdown state: power on<br>- Short press in Standby state: wake the system<br>- Press and hold for 3 s in Normal state: the LED changes from solid on to blinking, indicating imminent power-off; continue holding the button while blinking to force power off<br>- Short press in Normal state: sends a button event, with behavior defined by the operating system |
-| Reset button <br>RST | - Short press: power reset, forces a reboot |
+| Power button <br>PWR | - Short press in Shutdown state: power on<br>- Short press in Standby state: wake the system<br>- Press and hold for 3 s in Normal state: the LED changes from solid on to blinking, indicating imminent power-off; continue holding the button while blinking to force power off<br>- Short press in Normal state: sends a button event, with behavior defined by the OS |
 | Firmware flashing button <br>FDL | - Hold while inserting power or resetting power to enter flashing mode |
+| Reset button <br>RST | - Short press: power reset, forces a reboot |
 
 ### 2.3 Interface Description
 
@@ -327,21 +329,42 @@ ACTIVE indicates link activity:
 
 ### 3.1 Method 1: Flashing via Type-C Data Cable
 
-#### Scenario 1: Device Powered Off
+#### Device Powered Off
 
-1. Press and hold the **Firmware Download (FDL) button**.
+1. Press and hold the **FDL flashing button**.
 2. Connect a full-featured Type-C cable or plug in the power supply cable to power on the device.
-3. Release the **Firmware Download (FDL) button**.
-4. Use the official SpacemiT flashing tool **Titan** or the `fastboot` command to perform the flashing process.
+3. Release the **FDL flashing button**.
+4. Use the flashing Type-C data cable to connect the DRD Type-C port to the host computer.
+5. Use the official SpacemiT flashing tool **Titan** or the `fastboot` command to perform the flashing process.
 
-#### Scenario 2: Powered by USB Type-C (Powered On)
+![](./static/typec_flash.png)
 
-1. Press and hold the **FDL firmware flashing button**.
+| No. | Description                      |
+|-----|----------------------------------|
+| 2   | FDL flashing button              |
+| 17  | Full-featured Type-C port        |
+| 18  | DRD Type-C port (no power input) |
+
+
+#### Powered by a full-featured Type-C cable or ATX power supply (Powered On)
+
+1. Press and hold the **FDL flashing button**.
 2. Briefly press the **RST reset button**.
-3. Release the **FDL firmware flashing button**.
-4. Use the official SpacemiT flashing tool **Titan** or the `fastboot` command to proceed.
+3. Release the **FDL flashing button**.
+4. Use the flashing Type-C data cable to connect the DRD Type-C port to the host computer.
+5. Use the official SpacemiT flashing tool **Titan** or the `fastboot` command to proceed.
 
 > **Note:** For the flashing tool manual, see the [Flashing Tool User Guide](https://www.spacemit.com/community/document/info?lang=en&nodepath=tools/user_guide/flasher_user_guide.md).
+
+![](./static/typec_flash2.png)
+
+| No. | Description                      |
+|-----|----------------------------------|
+| 2   | FDL flashing button              |
+| 3   | Reset button RST                 |
+| 15  | ATX power connector              |
+| 17  | Full-featured Type-C port        |
+| 18  | DRD Type-C port (no power input) |
 
 ### 3.2 Serial Debugging
 
