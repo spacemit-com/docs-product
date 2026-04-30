@@ -1,4 +1,6 @@
-﻿sidebar_position: 2
+﻿---
+sidebar_position: 2
+---
 
 # K3-CoM260 数据手册
 
@@ -698,7 +700,7 @@ B1模块采用以下封装规格：
 | Symbol | Parameter | Minimum | Typical | Maximum | Unit |
 | --- | --- | --- | --- | --- | --- |
 | VDDDC | VDD_IN (MODULE_ID low) | 4.75 | 5 | 5.25 | V |
-|  | VDD_IN (MODULE_ID high) | 6 | - | 20 | V |
+|  | VDD_IN (MODULE_ID high) | 12 | - | 20 | V |
 |  | VCC_RTC | 1.85 | - | 5.5 | V |
 
 #### 绝对最大额定值

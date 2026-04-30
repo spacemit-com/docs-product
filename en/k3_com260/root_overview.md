@@ -1,4 +1,6 @@
+---
 sidebar_position: 1
+---
 
 # K3 CoM260 Kit Brief
 
