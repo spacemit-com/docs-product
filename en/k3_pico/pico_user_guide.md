@@ -56,7 +56,7 @@ For first-boot and session setup, refer to [Initial Setup and Sessions](https://
 
 The K3 Pico-ITX supports UEFI boot and configuration, with NVMe SSD, USB, and UFS available as boot devices.
 
-A [UEFI preview image](#) is currently available for the Pico-ITX.
+A [UEFI preview image](http://archive.spacemit.com/image/k3/version/bianbu/v4.0/Bianbu-LXQt-UEFI-K3-v4.0-20260430171239.tar.gz) is currently available for the Pico-ITX.
 
 For operating system installation steps, refer to Part 3 [OS Installation](#3-os-installation).
 

@@ -54,7 +54,7 @@ K3 Pico-ITX 预装了 Bianbu LXQt 桌面版。按上述配置上电后，可直�
 
 K3 Pico-ITX 支持 UEFI 启动和配置，可以选择 NVMe SSD、USB、UFS 作为启动介质。
 
-当前 Pico-ITX 已提供 UEFI 体验版，可下载 [UEFI 体验版镜像](#)。操作系统安装步骤可参考本文档第 3 部分 [安装操作系统](#3-安装操作系统)。
+当前 Pico-ITX 已提供 UEFI 体验版，可下载 [UEFI 体验版镜像](http://archive.spacemit.com/image/k3/version/bianbu/v4.0/Bianbu-LXQt-UEFI-K3-v4.0-20260430171239.tar.gz)。操作系统安装步骤可参考本文档第 3 部分 [安装操作系统](#3-安装操作系统)。
 
 #### UEFI 配置指引
 
