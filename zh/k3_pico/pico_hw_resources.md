@@ -1,3 +1,5 @@
+sidebar_position: 3
+
 # K3 Pico-ITX 硬件设计资源
 
 本章节提供 **K3 Pico-ITX 平台**的官方硬件设计资源。  

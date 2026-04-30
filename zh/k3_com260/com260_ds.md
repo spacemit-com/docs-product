@@ -1,4 +1,6 @@
-﻿# K3-CoM260 数据手册
+﻿sidebar_position: 2
+
+# K3-CoM260 数据手册
 
 **60T 融合 AI 算力核心板**
 

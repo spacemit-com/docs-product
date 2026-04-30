@@ -1,4 +1,6 @@
-﻿# K3-CoM260 Datasheet
+﻿sidebar_position: 2
+
+# K3-CoM260 Datasheet
 
 **60 TOPS AI Compute System-on-Module (SoM)**
 
