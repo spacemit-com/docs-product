@@ -1,3 +1,5 @@
+sidebar_position: 3
+
 # K3 Pico-ITX Hardware Design Resources
 
 This section provides the official hardware design resources for the **K3 Pico-ITX platform**.  
