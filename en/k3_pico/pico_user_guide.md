@@ -1,4 +1,6 @@
+---
 sidebar_position: 2
+---
 
 # K3 Pico-ITX User Guide
 
@@ -19,7 +21,7 @@ Before getting started, connect the following required peripherals. Once power i
 - A Type-C power adapter or ATX 2-Pin DC power supply (a 20 V / 5 A power adapter is recommended)
   > Note:  
   > - The Type-C power adapter must provide a rated output of at least 20V @ 3.25A;  
-  > - The ATX 2-pin DC power supply must provide a rated output of at least 12V @ 5A.v
+  > - The ATX 2-pin DC power supply must provide a rated output of at least 12V @ 5A.
 - A monitor
 - A keyboard
 - A mouse
@@ -48,11 +50,11 @@ You can power the K3 Pico-ITX and connect a display in either of the following w
 
 The K3 Pico-ITX comes preinstalled with the Bianbu LXQt desktop edition. After powering on with the setup above, you can boot directly into Bianbu OS for initial configuration.
 
-For first-boot and session setup, refer to: [Initial Setup and Sessions](https://www.spacemit.com/community/document/info?nodepath=software/SDK/bianbu/user_guide/LXQt/initial_setup_and_sessions.md&lang=zh).
+For first-boot and session setup, refer to [Initial Setup and Sessions](https://www.spacemit.com/community/document/info?nodepath=software/SDK/bianbu/user_guide/LXQt/initial_setup_and_sessions.md&lang=zh).
 
 ### UEFI Preview Version
 
-The K3 Pico-ITX supports UEFI boot and configuration, with NVMe SSD, USB, and UFS available as boot media.
+The K3 Pico-ITX supports UEFI boot and configuration, with NVMe SSD, USB, and UFS available as boot devices.
 
 A [UEFI preview image](#) is currently available for the Pico-ITX.
 
@@ -66,13 +68,13 @@ Within 3 seconds after powering on the K3 Pico-ITX, press `F2` to enter the UEFI
 
 #### Boot Manager
 
-In the Boot Manager menu, use the <↑> and <↓> keys to select boot media such as NVMe SSD, USB storage, or UFS. You can also enter the UEFI Shell command-line interface.
+In the Boot Manager menu, use the <↑> and <↓> keys to select a boot device such as an NVMe SSD, USB storage device, or UFS. You can also enter the UEFI Shell command-line interface.
 
 ![](./static/uefi_01.png)
 
 #### Boot Maintenance Manager
 
-In the Boot Maintenance Manager menu, go to Boot Options and select Change Boot Order to set boot media priority. Use <+> and <-> to adjust the boot order. Press <Enter>, then select Commit Change and Exit to apply the change and exit. After returning to the main menu, press <F10> to save the settings.
+In the Boot Maintenance Manager menu, go to Boot Options and select Change Boot Order to configure boot priority. Use <+> and <-> to adjust the boot order. Press <Enter>, then select Commit Change and Exit to apply the changes and exit. After returning to the main menu, press <F10> to save the settings.
 
 ![](./static/uefi_02.png)
 
@@ -115,7 +117,7 @@ GRUB boot is supported, allowing multiple operating systems to be installed and 
 | 15  | ATX power connector              |
 | 16  | UART pin header                  |
 | 17  | Full-featured Type-C port        |
-| 18  | DRD Type-C port (no power input)   |
+| 18  | DRD Type-C port (no power input) |
 | 19  | Dual USB 2.0 Type-A ports        |
 | 20  | 1G Ethernet RJ45 port            |
 
@@ -136,8 +138,8 @@ GRUB boot is supported, allowing multiple operating systems to be installed and 
 #### 2.3.1 Power Input
 
 - USB Type-C supports USB PD 3.0 power delivery, up to 20 V / 5 A
-- The ATX input supports up to 12 V / 7 A. When ATX power is present, the system prioritizes power from the ATX input
-- In flashing mode, this port can provide both power input and USB Device functionality. After connecting to a host PC through USB Type-C, the board can be detected by the host PC and used for flashing and firmware updates
+- The ATX input supports up to 12 V / 7 A. When ATX power is present, the system prioritizes the ATX input
+- In flashing mode, this port can provide both power input and USB Device functionality. After being connected to a host PC through USB Type-C, the board can be detected by the host PC and used for flashing and firmware updates
 
 ![](./static/power00.png)  
 
@@ -161,8 +163,8 @@ In flashing mode, this interface can only operate as a USB Device for data trans
 #### 2.3.3 Full-Featured Type-C Interface
 
 - Type: Type-C connector
-- Supports PD 3.0 power negotiation and works with DP displays and USB 3.0 peripherals
-- Supports DP displays at up to 4K@60 Hz, with hot-plug support
+- Supports PD 3.0 power negotiation and connections to DP displays and USB 3.0 peripherals
+- Supports DP displays at up to 4K @ 60 Hz, with hot-plug support
 - When only a DP display is connected, the DP display is used as the primary display
 
 ![](./static/type-c00.png)  
@@ -198,7 +200,7 @@ In flashing mode, this interface can only operate as a USB Device for data trans
 #### 2.3.5 eDP Display Interface
 
 - Type: eDP connector
-- Supports external eDP displays at up to 2.5K @ 90 Hz. Hot-plug is not supported
+- Supports external eDP displays at up to 2.5K @ 90 Hz. Hot-plugging is not supported
 - When only an eDP display is connected, the eDP display is used as the primary display
 - When both a DP display and an eDP display are connected, eDP is the default primary display and DP is used as an extended display. You can change the primary display to DP in the operating system
 
@@ -242,7 +244,7 @@ The yellow LED on the Ethernet port is the ACTIVE indicator and shows link activ
 #### 2.3.8 10G Optical Ethernet Interface
 
 - Type: SFP+ optical port
-- Supports multimode optical modules, DAC cables, and optical-to-electrical modules, with 10G/1G auto-negotiation
+- Supports multimode optical modules, DAC cables, and optical-to-electrical transceiver modules, with 10G/1G auto-negotiation
 
 ![](./static/10G_eth00.png) 
 
@@ -261,7 +263,7 @@ ACTIVE indicates link activity:
 #### 2.3.9 USB 2.0 Interface
 
 - Type: USB Type-A
-- Plug and play, supports USB 2.0 host
+- Plug and play; supports USB 2.0 host mode
 - Supports multiple USB devices such as keyboards and mice at the same time
 
 ![](./static/usb2_00.png)  
@@ -304,7 +306,7 @@ ACTIVE indicates link activity:
 | **Display** | - DP Type-C interface, up to 4K (3840 × 2160) at 60 Hz<br>- 40 Pin eDP interface, up to 2.5K (2560 × 1600) at 90 Hz |
 | **Memory** | Dual-channel 2 × 32 bit LPDDR5, 6400 MT/s, available in 16 GB / 32 GB |
 | **Onboard Storage** | UFS 2.2, available in 128 GB / 256 GB |
-| **Storage Expansion** | M.2 M-Key connector for 2280 NVMe SSD, PCIe Gen3 x4 link |
+| **Storage Expansion** | M.2 M-Key connector for 2280 NVMe SSDs, PCIe Gen3 x4 link |
 | **High-Speed Expansion** | M.2 B-Key connector for 2242/3042 expansion cards, providing PCIe Gen3 x2 and USB signals |
 | **Real-Time Expansion** | FPC connector supporting EtherCAT, 5 CAN-FD channels, SPI, I2C, UART, and other real-time signal expansion |
 | **Wireless Communication** | Onboard PCIe Wi-Fi 6 + BT 5.2 module, compliant with 802.11a/b/g/n/ac/ax, dual antennas, dual band |
@@ -318,7 +320,7 @@ ACTIVE indicates link activity:
 | **Operating System** | Preinstalled with Bianbu 3.0; supports Ubuntu 26.04, OpenHarmony 6.0, OpenKylin, Deepin, Fedora, and other operating systems |
 | **Power Input** | Dual Type-C USB PD support, rated input power 65 W; onboard ATX 2 Pin power input supports 12 V @ 7 A |
 | **Reliability** | - ESD protection for external board-level interfaces: contact ±4 kV, air ±8 kV<br>- ESD protection at system level: contact ±6 kV, air ±12 kV<br>- Compliant with CCC, CE, FCC, and other EMC certification standards |
-| **Clock** | Onboard RTC power connector, supports battery installation for G3 state power supply |
+| **Clock** | Onboard RTC power connector, supports battery installation for G3-state power retention |
 | **Mechanical Options** | - Available as board-only or with a fan-cooled heatsink kit<br>- Available as board-only or with a custom all-metal industrial enclosure<br>- Optional real-time expansion boards, touch display, or industrial terminal configurations |
 
 ### 2.5 Block Diagram
@@ -346,13 +348,13 @@ ACTIVE indicates link activity:
 | 18  | DRD Type-C port (no power input) |
 
 
-#### Powered by a full-featured Type-C cable or ATX power supply (Powered On)
+#### Device Powered by a Full-Featured Type-C Cable or ATX Power Supply (Powered On)
 
 1. Press and hold the **FDL flashing button**.
 2. Briefly press the **RST reset button**.
 3. Release the **FDL flashing button**.
 4. Use the flashing Type-C data cable to connect the DRD Type-C port to the host computer.
-5. Use the official SpacemiT flashing tool **Titan** or the `fastboot` command to proceed.
+5. Use the official SpacemiT flashing tool **Titan** or the `fastboot` command to perform the flashing process.
 
 > **Note:** For the flashing tool manual, see the [Flashing Tool User Guide](https://www.spacemit.com/community/document/info?lang=en&nodepath=tools/user_guide/flasher_user_guide.md).
 
@@ -372,7 +374,7 @@ ACTIVE indicates link activity:
 
 Use a **USB-to-TTL** adapter to connect the host PC to the K3 Pico-ITX board header through **Tx**, **Rx**, and **GND**, as shown below.
 
-Here, Tx and Rx represent the transmit and receive signals of the K3 board.
+Here, Tx and Rx represent the transmit and receive signals of the K3 board, respectively.
 
 ![](./static/signal00.png)  
 
@@ -397,7 +399,7 @@ First, connect the serial hardware correctly, and confirm in Windows Device Mana
 
 ## 4. Precautions
 
-The K3 Pico-ITX is suitable for home, office, and industrial environments. Before operating the board, read the following precautions:
+The K3 Pico-ITX is suitable for home, office, and industrial environments. Before operating the board, read the following precautions carefully:
 
 1. Do not hot-plug display interfaces, CSI interfaces, or expansion boards under any circumstances.
 2. Before unpacking or installing the single-board computer, take proper anti-static precautions to avoid ESD damage to the hardware.
@@ -447,3 +449,76 @@ The K3 Pico-ITX provides **26 Pin + 36 Pin FPC expansion interfaces**.
 ![](./static/36p-fpc.png)
 
 **36 Pin Connector Pinout**: GMAC-MII (from RT24) + CAN + SPI + 1.8 V (main power)
+
+| Pin | Signal | Description |
+|:---:|:------:|:------------|
+| 1   | 1.8V        | IO power supply |
+| 2   | 1.8V        | IO power supply |
+| 3   | CAN1_RX     | CAN RX |
+| 4   | CAN1_TX     | CAN TX |
+| 5   | GND         | Ground |
+| 6   | R_TX_CLK    | MAC transmit clock |
+| 7   | GND         | Ground |
+| 8   | R_TX_D0     | MAC transmit data 0 |
+| 9   | R_TX_D1     | MAC transmit data 1 |
+| 10  | R_TX_D2     | MAC transmit data 2 |
+| 11  | R_TX_D3     | MAC transmit data 3 |
+| 12  | GND         | Ground |
+| 13  | R_RX_CLK    | MAC receive clock |
+| 14  | GND         | Ground |
+| 15  | R_RX_D0     | MAC receive data 0 |
+| 16  | R_RX_D1     | MAC receive data 1 |
+| 17  | R_RX_D2     | MAC receive data 2 |
+| 18  | R_RX_D3     | MAC receive data 3 |
+| 19  | GND         | Ground |
+| 20  | R_TX_EN     | Transmit enable |
+| 21  | R_CLK_25M   | 25 MHz reference clock |
+| 22  | R_RX_DV     | Receive data valid |
+| 23  | R_PWDN/INTn | Ethernet PHY interrupt |
+| 24  | R_RESETn    | Ethernet PHY reset input |
+| 25  | R_MDIO_MDC  | MDIO clock |
+| 26  | R_MDIO_MDIO | MDIO data |
+| 27  | R_CRS       | Carrier sense |
+| 28  | R_COL       | Collision detect |
+| 29  | GND         | Ground |
+| 30  | SPI0_MOSI   | SPI TX |
+| 31  | SPI0_MISO   | SPI RX |
+| 32  | SPI0_SCLK   | SPI clock |
+| 33  | SPI0_CS     | SPI chip select |
+| 34  | GND         | Ground |
+| 35  | R_CAN0_TX   | CAN TX |
+| 36  | R_CAN0_RX   | CAN RX |
+
+### 5.2 UART Debug Interface
+
+- Supports debugging through a 1 × 3-pin single-row header
+- Pin order on the host side (bottom to top): **GND, Rx, Tx**
+
+![](./static/signal00.png)  
+
+> **Note:** The motherboard appearance may vary slightly depending on the hardware revision.
+
+### 5.3 EC Expansion Interface
+
+| Pin | Signal | Description |
+|:---:|:------:|:------------|
+| 1 | EC_I2C0_CLK_3V3 | EC I2C bus clock |
+| 2 | EC_I2C0_DAT_3V3 | EC I2C bus data |
+| 3 | GND | Ground |
+| 4 | EC_GPB2/TXD1/CTX0 | Serial TX or GPIO B2 |
+| 5 | EC_GPC0/RXD1/CRX0 | Serial RX or GPIO C0 |
+
+![](./static/ec.png)  
+
+### 5.4 Audio Expansion Interface
+
+| Pin | Signal | Description |
+|:---:|:------:|:------------|
+| 1 | MICN_GMS1 | Microphone negative |
+| 2 | MICP_GMS0 | Microphone positive |
+| 3 | ROUT | Right-channel output |
+| 4 | JACK_DET | Headphone jack detection |
+| 5 | LOUT | Left-channel output |
+| 6 | AUDIO_AGND | Audio analog ground |
+
+![](./static/audio00.png)  
