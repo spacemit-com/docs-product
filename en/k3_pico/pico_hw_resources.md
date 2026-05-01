@@ -17,17 +17,12 @@ Complete list of components used in the K3 Pico-ITX design
 
 Full circuit schematic of the K3 Pico-ITX board.
 
-- [Download PCB Schematic (in DSN)](https://cdn-resource.spacemit.com/file/product/K3/k3_pico_hw/PCB-146-V10_K3_DEB1_P1_LP5315B_20260228.DSN)
 - [Download PCB Schematic (in PDF)](https://cdn-resource.spacemit.com/file/product/K3/k3_pico_hw/SCH-146-V10_K3_DEB1_P1_LP5315B_PDF.pdf)
 
 ### PCB Layout Files
 
 PCB layout and design source files for the K3 Pico-ITX board.
 
-- [Download PCB Layout (in BRD)](https://cdn-resource.spacemit.com/file/product/K3/k3_pico_hw/PCB-146-V10_K3_DEB1_P1_LP5315B.brd)
 - [Download PCB Layout (in PDF)](https://cdn-resource.spacemit.com/file/product/K3/k3_pico_hw/PCB-146-V10_K3_DEB1_P1_LP5315B_PDF.pdf)
 
 ### 3D Mechanical Model
-
-
-
