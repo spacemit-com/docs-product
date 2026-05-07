@@ -5,3 +5,4 @@ sidebar_position: 2
 - [简介](root_overview.md)
 - [数据手册](com260_ds.md)
 - [用户使用指南](com260_user_guide.md)
+- [硬件设计资源](com260_hw_resources.md)
