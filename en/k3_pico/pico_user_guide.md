@@ -216,13 +216,13 @@ In flashing mode, this interface can only operate as a USB Device for data trans
 
 ![](./static/audio00.png)  
 
-- An onboard audio output header is provided and can be connected to a front-panel 3.5 mm headphone jack using an adapter cable
-
-![](./static/audio01_en.png)
-
 | No. | Description                      |
 |-----|----------------------------------|
 | 12  | Front-panel headphone connector  |
+
+- An onboard audio output header is provided and can be connected to a front-panel 3.5 mm headphone jack using an adapter cable
+
+![](./static/audio01_en.png)
 
 #### 2.3.7 1G Ethernet Interface
 
@@ -372,7 +372,7 @@ ACTIVE indicates link activity:
 
 #### 3.2.1 Interface Connection
 
-Use a **USB-to-TTL** adapter to connect the host PC to the K3 Pico-ITX board header through **Tx**, **Rx**, and **GND**, as shown below.
+Use a **USB-to-TTL** adapter to connect the host PC to the K3 Pico-ITX board header through **TX**, **RX**, and **GND**, as shown below.
 
 Here, Tx and Rx represent the transmit and receive signals of the K3 board, respectively.
 
@@ -387,7 +387,7 @@ First, connect the serial hardware correctly, and confirm in Windows Device Mana
 
 1. Open MobaXterm, then select **Sessions → New Session**.
 
-  ![Example of creating a new serial session in MobaXterm](./static/mobaxterm.png)
+   ![Example of creating a new serial session in MobaXterm](./static/mobaxterm.png)
 
 2. In the dialog box, select **Serial**.
 
@@ -491,8 +491,9 @@ The K3 Pico-ITX provides **26 Pin + 36 Pin FPC expansion interfaces**.
 
 ### 5.2 UART Debug Interface
 
-- Supports debugging through a 1 × 3-pin single-row header
-- Pin order on the host side (bottom to top): **GND, Rx, Tx**
+Use a **USB-to-TTL** adapter to connect the host PC to the K3 Pico-ITX board header through **TX**, **RX**, and **GND**, as shown below.
+
+Here, Tx and Rx represent the transmit and receive signals of the K3 board, respectively.
 
 ![](./static/signal00.png)  
 
