@@ -10,10 +10,10 @@ Welcome to the SpacemiT K3 Pico-ITX single-board computer user guide.
 
 The K3 Pico-ITX is available in two package options:
 
-- **Base**
+- **Single Board Kit**
   ![](./static/pico_base.png)
 
-- **Mini AI Box**
+- **Chassis Kit**
   ![](./static/pico_case.png)
 
 Before getting started, connect the following required peripherals. Once power is connected, you can power on the board and begin using it:
@@ -30,18 +30,18 @@ You can power the K3 Pico-ITX and connect a display in either of the following w
 
 **Method 1**: Use a monitor that supports 65 W or higher USB Type-C power delivery, and connect the monitor to the board with a full-featured Type-C cable.
 
-- **Method 1 (Base)**
+- **Method 1 (Single Board Kit)**
   ![](./static/pico_base_01.png)
 
-- **Method 1 (Mini AI Box)**
+- **Method 1 (Chassis Kit)**
   ![](./static/pico_case_01.png)
 
 **Method 2**: Use a multifunction dock that supports HDMI output, USB, and PD charging. Connect the dock to the board’s full-featured Type-C port to carry both power and display signals.
 
-- **Method 2 (Base)**
+- **Method 2 (Single Board Kit)**
   ![](./static/pico_base_02.png)
 
-- **Method 2 (Mini AI Box)**
+- **Method 2 (Chassis Kit)**
   ![](./static/pico_case_02.png)
 
 > **Note:** To ensure stable operation, make sure the board is placed in a well-ventilated environment before powering it on, and use the bundled heatsink.
@@ -296,7 +296,7 @@ ACTIVE indicates link activity:
 - Type: onboard PCIe Wi-Fi 6 + BT 5.2 module, compliant with IEEE 802.11a/b/g/n/ac/ax, dual antennas, dual band (2.4 GHz / 5.8 GHz)
 - A Wi-Fi antenna is included with the base package and can be installed at the recommended position shown below
   ![](./static/wifi.png)  
-- The Mini AI Box configuration comes with the Wi-Fi antenna pre-connected and ready to use
+- The Chassis Kit configuration comes with the Wi-Fi antenna pre-connected and ready to use
 
 ### 2.4 Product Specifications
 
