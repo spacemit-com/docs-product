@@ -129,9 +129,9 @@ GRUB boot is supported, allowing multiple operating systems to be installed and 
 
 | Button | Description |
 |:-----|:------|
-| Power button <br>PWR | - Short press in Shutdown state: power on<br>- Short press in Standby state: wake the system<br>- Press and hold for 3 s in Normal state: the LED changes from solid on to blinking, indicating imminent power-off; continue holding the button while blinking to force power off<br>- Short press in Normal state: sends a button event, with behavior defined by the OS |
-| Firmware flashing button <br>FDL | - Hold while inserting power or resetting power to enter flashing mode |
-| Reset button <br>RST | - Short press: power reset, forces a reboot |
+| Power button PWR | - Short press in Shutdown state: power on<br>- Short press in Standby state: wake the system<br>- Press and hold for 3 s in Normal state: the LED changes from solid on to blinking, indicating imminent power-off; continue holding the button while blinking to force power off<br>- Short press in Normal state: sends a button event, with behavior defined by the OS |
+| Firmware flashing button FDL | - Hold while inserting power or resetting power to enter flashing mode |
+| Reset button RST | - Short press: power reset, forces a reboot |
 
 ### 2.3 Interface Description
 
