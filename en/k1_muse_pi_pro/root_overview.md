@@ -43,7 +43,7 @@ sidebar_position: 1
 | Wireless | Onboard Wi-Fi 6 and Bluetooth 5.2, supports dual wireless via M.2 / mPCIe |
 | Network Port | 1 × Ethernet port, RJ45 connector, 1000 M / 100 M auto-sensing |
 | Audio | 3.5 mm audio jack |
-| USB | 4 × USB 3.0 Type-A (host), 1 × USB 2.0 Type-C (device / OTG) |
+| USB | 4 × USB 3.0 Type-A (host), 1 × USB 2.0 Type-C (device) |
 | Debug | UART TTL debug port + 3 buttons: reset / power / flash |
 | I/O Expansion | Standard M.2 M-Key slot (2230, supports SSD, PCIe-to-SATA, PCIe communication boards, etc.)<br>Full-size miniPCIe slot (supports 4G / 5G, PCIe wireless / network modules)<br>40-pin standard GPIO interface |
 | MIPI Interfaces | 1 × 2-lane MIPI DSI FPC 15-pin interface<br>1 × 4-lane MIPI CSI FPC 22-pin interface, 1 × 2-lane MIPI CSI FPC 15-pin interface |

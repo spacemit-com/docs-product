@@ -50,7 +50,7 @@ K1 MUSE Pi Pro 为 1.8 寸单板，能够满足大语言模型应用、机器人
 | IO 扩展接口 | 标准 M.2 M-Key 定义的连接器卡槽，可安装 2230 长度的 M.2 板卡，支持 SSD、PCIe 转 SATA、PCIe 通讯板卡等<br>标准 miniPCIe 定义的连接器卡槽，可安装全宽 miniPCIe 板卡，支持 4G / 5G 模块、PCIe 无线通讯模块和 PCIe 网络模块<br>40-pin 标准 GPIO 接口 |
 | MIPI 接口 | 1 路 2-lane MIPI DSI FPC 15p 接口<br>1 路 4-lane MIPI CSI FPC 22p 接口，1 路 2-lane MIPI CSI FPC 15p 接口 |
 | 外观形态 | 单板计算机，遵循 FEMTO-ITX 定义尺寸，85 mm × 56 mm，信用卡大小 |
-| 操作系统 | 支持 Bianbu Desktop、Ubuntu、OpenKylin、Deepin、Fedora 等操作系统 |
+| 操作系统 | 支持 Bianbu、Ubuntu、OpenKylin、Deepin、Fedora 等操作系统 |
 | 电源输入 | 支持 USB-PD 协议供电，支持 5 V / 3 A、9 V / 3 A 和 12 V / 3 A |
 | 可靠性 | 外设接口 ESD 可防护接触 ±4 kV，空气 ±8 kV；满足 CE、FCC 等电磁兼容认证标准<br>可选消费级 -20 ℃ ～ 70 ℃ 或工业级 -40 ℃ ～ 85 ℃ |
 | 结构 | 可选配被动或主动风冷散热器<br>可选配钣金机箱或亚克力外壳<br>可选配触摸屏或工业接线端子多种配置 |
