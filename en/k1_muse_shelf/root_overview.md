@@ -6,9 +6,9 @@ sidebar_position: 1
 
 **RISC-V cloud computing power open for global developers**
 
-**K1 MUSE Shelf** is a RISC-V development server designed specifically for the developer community, offering comprehensive computing power, efficient operations, high-speed connectivity, and intelligent management. The application platform is powered by Bianbu Cloud services, offering a highly available, scalable, and high-performance distributed cloud environment for RISC-V-based application development and adaptation.
+**MUSE Shelf** is a RISC-V development server designed specifically for the developer community, offering comprehensive computing power, efficient operations, high-speed connectivity, and intelligent management. The application platform is powered by Bianbu Cloud services, offering a highly available, scalable, and high-performance distributed cloud environment for RISC-V-based application development and adaptation.
 
-**K1 MUSE Shelf** aims to provide global developers with RISC-V computing instances, supporting features like remote desktop, remote compilation, one-click flashing, and one-click application installation, allowing developers to leverage RISC-V processing power and engage in creative development anytime and anywhere.
+**MUSE Shelf** aims to provide global developers with RISC-V computing instances, supporting features like remote desktop, remote compilation, one-click flashing, and one-click application installation, allowing developers to leverage RISC-V processing power and engage in creative development anytime and anywhere.
 
 ## Key Features
 
@@ -35,9 +35,9 @@ sidebar_position: 1
 | Module | Item | Description  |
 | :--- | :--- | :--- |
 | **Array chassis** | BMC | AC50-BMCS-SRV-RISCV-2.1.4 |
-| | Cloud services | BianbuCloud V1.0 |
+| | Cloud services | SpacemiT Cloud |
 | | Chassis | 2U rack with 4 blades |
-| | Number of nodes | 20 K1-SoM compute nodes per blade, up to 80 nodes in a chassis with 4 blades |
+| | Number of CPU Boards | 20 CPU boards per blade, 4 blades total, 80 K1 SoMs |
 | **K1-SoM** | CPU | K1 (8-core RISC-V CPU with 50K DMIPS performance and 2 TOPS AI processing power) |
 | | DRAM | 8 GB / 16 GB |
 | | Storage | 64 GB / 128 GB |
