@@ -2,19 +2,19 @@ sidebar_position: 1
 
 # K1 Lab Kit Brief
 
-**[PDF Version](https://cdn-resource.spacemit.com/file/product/K1/K1_RISC-V_Lab_Kit_brief_zh.pdf)**
+**[PDF Version](https://cdn-resource.spacemit.com/file/product/K1/K1_RISC-V_Lab_Kit_brief_en.pdf)**
 
 **A RISC-V lab platform for embedded systems and AI education**
 
-RISC-V Lab Kit is designed for teaching applications in embedded systems, AI, and RISC-V architecture computing. It features hardware and software tailored to curriculum requirements, aligns with the RISC-V architecture textbooks, and includes comprehensive experimental guides. This kit supports educators in delivering effective instruction and enables students to develop hands-on skills.
+The RISC-V Lab Kit is designed for education in embedded systems, AI, and RISC-V computing. It combines curriculum-oriented hardware and software with RISC-V teaching materials and hands-on lab guides, helping educators deliver practical courses and enabling students to build engineering skills.
 
 ## Key Features
 
-- **CPU-Based AI Compute for Education**
-  Provides AI inference capability in a CPU form factor, supporting model training and experimentation from 0.5B to 8B parameters
+- **CPU-Based AI Computing**
+  Delivers AI inference on a CPU platform, supporting teaching and experimentation with LLMs from 0.5B to 8B parameters
 
-- **Modular, Detachable Design**
-  Composed of a core board, baseboard, 10.1-inch touchscreen, and accessories for flexible configuration and cost efficiency
+- **Modular Detachable Design**
+  Integrates a core board, carrier board, 10.1-inch touchscreen, and accessories for flexible configuration and  cost efficiency
 
 - **Plug-and-Play Peripheral Modules**
   Supports sensors, motors, fingerprint modules, robotic arms, and more for diverse lab scenarios
@@ -27,23 +27,22 @@ RISC-V Lab Kit is designed for teaching applications in embedded systems, AI, an
 | Module | Description |
 | :--- | :--- |
 | Processor | SpacemiT M1 with 2.0 TOPS AI compute |
-| Display | HDMI Type-A, supporting up to 1080P @ 60 Hz<br>Integrated 10.1-inch IPS touchscreen, 1920 × 1200 |
+| Display | HDMI Type-A, up to 1080p@60 Hz; integrated 10.1-inch IPS touchscreen, 1920×1200 |
 | Memory | LPDDR4X with a 2400 MT/s speed, available in 16 GB |
 | Storage | eMMC 5.1, 64 GB |
-| Storage Expansion | M.2 2280 M-Key connector: supports NVMe SSDs, with a single-slot capacity of up to 1 TB<br>TF slot: supports UHS-II mode memory cards |
-| Wireless Communication | Wi-Fi 6 & BT 5.2 |
-| Wired Networking | Dual Ethernet ports with RJ45, auto-adaptive to 1000 M / 100 M speeds |
-| Audio | 3.5 mm audio headset jack |
+| Expansion | M.2 2280 M-Key for NVMe SSDs, up to 1 TB; TF card slot with UHS-II support |
+| Wireless | Wi-Fi 6 & BT 5.2 |
+| Ethernet | Dual RJ45 Gigabit Ethernet ports, compatible with 1000M / 100M |
+| Audio | 3.5 mm headset jack |
 | USB | 4 × USB 3.0 Type-A Host ports |
-| Expansion Module Slots | 4 independent slots supporting GPIO, SPI, UART, and I2C interfaces, compatible with over 30 experimental modules |
+| Module Slots | 4 slots for GPIO, SPI, UART & I2C modules, supporting 30+ experiment modules |
 | MIPI | 2 × 4-lane MIPI CSI, supports "4 + 4" or "4 + 2 + 2" configurations |
-| Appearance | Portable flip-top aluminum alloy case, with size of 480 × 370 × 170 mm |
-| OS | Supports Bianbu Desktop, Ubuntu, OpenKylin, Deepin, Fedora |
+| Appearance | Portable flip-top aluminum alloy case, 480 × 370 × 170 mm |
+| OS | Bianbu, Ubuntu, OpenKylin, Deepin, Fedora |
 | Power Input | 12 V / 3 A adapter supply |
-| Reliability | Acrylic isolation protection; ESD tolerance up to ±8 kV (contact) and ±15 kV (air) in the expansion module area |
+| Reliability | Acrylic isolation protection; ESD tolerance up to ±8 kV (contact) and ±15 kV (air) in module expansion areas |
 
 ## Business Cooperation & Purchase
-
 
 - **Phone**: 0571-89000775
 - **Email**: [business@spacemit.com](mailto:business@spacemit.com)

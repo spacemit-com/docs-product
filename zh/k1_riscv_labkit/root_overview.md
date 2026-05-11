@@ -30,13 +30,13 @@ RISC-V 实验箱面向嵌入式、人工智能和 RISC-V 架构计算应用等�
 | 显示 | 内置 HDMI Type-A 接口，最高支持 1080P @ 60 Hz<br>集成 10.1 英寸 IPS 触摸屏，1920 × 1200 高清分辨率 |
 | 内存 | LPDDR4X，2400 MT/s 速率，16 GB 容量 |
 | 本地存储 | eMMC 5.1，64 GB 容量 |
-| 扩展存储 | M.2 2280 M-Key 连接器，可装配 NVMe SSD，单槽最高容量支持 1 TB；<br>TF 卡接口，支持 UHS-II 模式存储卡； |
+| 扩展存储 | M.2 2280 M-Key 连接器，可装配 NVMe SSD，单槽最高容量支持 1 TB<br>TF 卡接口，支持 UHS-II 模式存储卡 |
 | 无线通讯 | 支持 Wi-Fi 6 和 BT 5.2 |
 | 有线网络 | 支持 2 路以太网，RJ45 接口，1000 M / 100 M 自适应 |
 | 音频接口 | 3.5 mm 音频耳麦接口 |
-| USB 接口 | 4 路 USB 3.0 Type-A Host 接口； |
+| USB 接口 | 4 路 USB 3.0 Type-A Host 接口 |
 | 拓展模块插槽 | 4 个独立插槽，分别支持 GPIO 类、SPI 类、UART 类和 I2C 类，共 30 多种实验模块 |
-| MIPI 接口 | 2 路 4-lane MIPI CSI，支持“4 + 4”或“4 + 2 + 2”组合链路； |
+| MIPI 接口 | 2 路 4-lane MIPI CSI，支持“4 + 4”或“4 + 2 + 2”组合链路 |
 | 外观形态 | 手提开盖式箱体，长宽高 480 × 370 × 170 mm，铝合金材质 |
 | 操作系统 | 支持 Bianbu Desktop、Ubuntu、OpenKylin、Deepin、Fedora 等操作系统 |
 | 电源输入 | 12 V / 3 A 适配器供电 |
