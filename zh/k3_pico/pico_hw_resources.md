@@ -25,4 +25,6 @@ K3 Pico-ITX 板卡的 PCB 线路图文件。
 
 - [下载 PCB 线路图（PDF 格式）](https://cdn-resource.spacemit.com/file/product/K3/k3_pico_hw/PCB-146-V10_K3_DEB1_P1_LP5315B_PDF.pdf)
 
-### 3D 结构模型
+### 2D 尺寸图
+
+- [下载 2D 尺寸图（PDF 格式）](https://cdn-resource.spacemit.com/file/product/K3/k3_pico_hw/k3_pico_itx_2d_0512.pdf)

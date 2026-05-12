@@ -25,4 +25,6 @@ PCB layout and design source files for the K3 Pico-ITX board.
 
 - [Download PCB Layout (in PDF)](https://cdn-resource.spacemit.com/file/product/K3/k3_pico_hw/PCB-146-V10_K3_DEB1_P1_LP5315B_PDF.pdf)
 
-### 3D Mechanical Model
+### 2D Drawing
+
+- [Download 2D Drawing (PDF)](https://cdn-resource.spacemit.com/file/product/K3/k3_pico_hw/k3_pico_itx_2d_0512.pdf)
