@@ -46,45 +46,45 @@ You can power the K3 Pico-ITX and connect a display in either of the following w
 
 > **Note:** To ensure stable operation, make sure the board is placed in a well-ventilated environment before powering it on, and use the bundled heatsink.
 
-### U-Boot Version
+### 1.1 U-Boot Version
 
 The K3 Pico-ITX comes preinstalled with the Bianbu LXQt desktop edition. After powering on with the setup above, you can boot directly into Bianbu OS for initial configuration.
 
 For first-boot and session setup, refer to [Initial Setup and Sessions](https://www.spacemit.com/community/document/info?nodepath=software/SDK/bianbu/user_guide/LXQt/initial_setup_and_sessions.md&lang=zh).
 
-### UEFI Preview Version
+### 1.2 UEFI Preview Version
 
 The K3 Pico-ITX supports UEFI boot and configuration, with NVMe SSD, USB, and UFS available as boot devices.
 
-A [UEFI preview image](http://archive.spacemit.com/image/k3/version/bianbu/v4.0/Bianbu-LXQt-UEFI-K3-v4.0-20260430171239.tar.gz) is currently available for the Pico-ITX.
+A [UEFI preview image](https://archive.spacemit.com/image/k3/version/bianbu/v4.0/Bianbu-LXQt-UEFI-K3-v4.0-20260430171239.tar.gz) is currently available for the Pico-ITX.
 
 For operating system installation steps, refer to Part 3 [OS Installation](#3-os-installation).
 
-#### UEFI Setup
+#### 1.2.1 UEFI Setup
 
 Within 3 seconds after powering on the K3 Pico-ITX, press `F2` to enter the UEFI setup screen.
 
 ![](./static/uefi_00.png)
 
-#### Boot Manager
+#### 1.2.2 Boot Manager
 
 In the Boot Manager menu, use the <↑> and <↓> keys to select a boot device such as an NVMe SSD, USB storage device, or UFS. You can also enter the UEFI Shell command-line interface.
 
 ![](./static/uefi_01.png)
 
-#### Boot Maintenance Manager
+#### 1.2.3 Boot Maintenance Manager
 
 In the Boot Maintenance Manager menu, go to Boot Options and select Change Boot Order to configure boot priority. Use <+> and <-> to adjust the boot order. Press <Enter>, then select Commit Change and Exit to apply the changes and exit. After returning to the main menu, press <F10> to save the settings.
 
 ![](./static/uefi_02.png)
 
-#### UEFI Interactive Shell
+#### 1.2.4 UEFI Interactive Shell
 
 UEFI Interactive Shell V2.2 is supported. The first time you enter the UEFI Interactive Shell, the screen displays all currently detected storage devices. Press any key other than <Esc>, or wait 5 seconds, to enter the command-line interface. Enter `help` to view supported commands and related help information.
 
 ![](./static/uefi_03.png)
 
-#### GRUB Boot
+#### 1.2.5 GRUB Boot
 
 GRUB boot is supported, allowing multiple operating systems to be installed and selected at startup.
 
@@ -331,7 +331,7 @@ ACTIVE indicates link activity:
 
 ### 3.1 Method 1: Flashing via Type-C Data Cable
 
-#### Device Powered Off
+#### 3.1.1 Device Powered Off
 
 1. Press and hold the **FDL flashing button**.
 2. Connect a full-featured Type-C cable or plug in the power supply cable to power on the device.
@@ -347,8 +347,7 @@ ACTIVE indicates link activity:
 | 17  | Full-featured Type-C port        |
 | 18  | DRD Type-C port (no power input) |
 
-
-#### Device Powered by a Full-Featured Type-C Cable or ATX Power Supply (Powered On)
+#### 3.1.2 Device Powered by a Full-Featured Type-C Cable or ATX Power Supply (Powered On)
 
 1. Press and hold the **FDL flashing button**.
 2. Briefly press the **RST reset button**.
