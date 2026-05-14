@@ -4,6 +4,10 @@ sidebar_position: 2
 
 # K3 Pico-ITX User Guide
 
+## PDF Version
+
+Click to have [K3 Pico-ITX User Guide (PDF)](https://cdn-resource.spacemit.com/file/product/K3/k3_pico_ug_en.pdf)
+
 ## 1. Quick Start
 
 Welcome to the SpacemiT K3 Pico-ITX single-board computer user guide.
