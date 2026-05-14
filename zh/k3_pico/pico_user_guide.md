@@ -45,43 +45,43 @@ K3 Pico-ITX 提供两款不同的套餐配置：
 
 > **注意**：为确保单板计算机稳定运行，上电前请确认设备处于通风良好的环境中，并配合原装配套的散热器使用。
 
-### U-Boot 版本
+### 1.1 U-Boot 版本
 
 K3 Pico-ITX 预装了 Bianbu LXQt 桌面版。按上述配置上电后，可直接进入 Bianbu OS 进行初始配置。
 
 首次启动与会话配置可参考文档：[首次启动与会话](https://www.spacemit.com/community/document/info?nodepath=software/SDK/bianbu/user_guide/LXQt/initial_setup_and_sessions.md&lang=zh)。
 
-### UEFI 体验版本
+### 1.2 UEFI 体验版本
 
 K3 Pico-ITX 支持 UEFI 启动和配置，可以选择 NVMe SSD、USB、UFS 作为启动介质。
 
-当前 Pico-ITX 已提供 UEFI 体验版，可下载 [UEFI 体验版镜像](http://archive.spacemit.com/image/k3/version/bianbu/v4.0/Bianbu-LXQt-UEFI-K3-v4.0-20260430171239.tar.gz)。操作系统安装步骤可参考本文档第 3 部分 [安装操作系统](#3-安装操作系统)。
+当前 Pico-ITX 已提供 UEFI 体验版，可下载 [UEFI 体验版镜像](https://archive.spacemit.com/image/k3/version/bianbu/v4.0/Bianbu-LXQt-UEFI-K3-v4.0-20260430171239.tar.gz)。操作系统安装步骤可参考本文档第 3 部分 [安装操作系统](#3-安装操作系统)。
 
-#### UEFI 配置指引
+#### 1.2.1 UEFI 配置指引
 
 在 K3 Pico-ITX 上电开机后 3 s 内，按下 “F2” 键，即可进入 UEFI 设置界面。
 
 ![](./static/uefi_00.png)
 
-#### 启动管理 Boot Manager
+#### 1.2.2 启动管理 Boot Manager
 
 在 Boot Manager Menu 中，通过 <↑> 和 <↓> 键选择 NVMe SSD、USB 硬盘或 UFS 启动，也可选择进入 UEFI Shell 命令行界面。
 
 ![](./static/uefi_01.png)
 
-#### 启动维护 Boot Maintenance Manager
+#### 1.2.3 启动维护 Boot Maintenance Manager
 
 在 Boot Maintenance Manager 菜单中，进入 Boot Options，选择 Change Boot Order 可设置启动介质优先级。按 <+> 和 <-> 调整启动顺序，按 <Enter> 后选择 Commit Change and Exit 提交设置并退出；返回主菜单后，按 <F10> 保存设置。
 
 ![](./static/uefi_02.png)
 
-#### 交互命令行 UEFI Interactive Shell
+#### 1.2.4 交互命令行 UEFI Interactive Shell
 
 支持 UEFI Interactive Shell V2.2 版本。首次进入 UEFI Interactive Shell 时，界面会打印当前检测到的所有存储设备。按下除 <Esc> 以外的任意键，或等待 5 秒后，即可进入命令行界面。输入 `help` 可查看支持的命令及相关帮助信息。
 
 ![](./static/uefi_03.png)
 
-#### GRUB 引导
+#### 1.2.5 GRUB 引导
 
 支持 GRUB 引导，可安装多个操作系统，并在启动时由用户自行选择。
 
@@ -332,7 +332,7 @@ ACTIVE 用于指示链路活跃状态：
 
 ### 3.1 方式 1：Type-C 数据线烧录
 
-#### 设备未上电，处于关机状态时
+#### 3.1.1 设备未上电，处于关机状态时
 
 1. 按住 **烧录按键 FDL** 不松开。  
 2. 连接全功能 Type-C 数据线或插上电源，给设备供电。  
@@ -348,7 +348,7 @@ ACTIVE 用于指示链路活跃状态：
 | 17  | 全功能 Type-C 接口                |
 | 18  | DRD Type-C 接口（不可向内供电）    |
 
-#### 设备已插上Type-C 全功能线或ATX电源供电，并处于开机状态时
+#### 3.1.2 设备已插上Type-C 全功能线或ATX电源供电，并处于开机状态时
 
 1. 按住 **烧录按键 FDL** 不松开。  
 2. 短按 **复位键 RST**。  
