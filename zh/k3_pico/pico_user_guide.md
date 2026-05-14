@@ -4,6 +4,10 @@ sidebar_position: 2
 
 # K3 Pico-ITX 用户使用指南
 
+## PDF 版本
+
+点击下载 [K3 Pico-ITX 用户使用指南 (PDF)](https://cdn-resource.spacemit.com/file/product/K3/k3_pico_ug_zh.pdf)
+
 ## 1. 快速开始
 
 欢迎使用进迭时空 K3 Pico-ITX 单板计算机。
