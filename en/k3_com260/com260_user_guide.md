@@ -45,7 +45,7 @@ The product version is used in this document as list below:
 | RTC | Supports 1.85 V to 5.5 V input |
 | Form Factor | Module and baseboard combination with heatsink support; module size: 69.6 × 45 mm; baseboard size: 100 × 70 mm |
 | Operating System | Supports the Bianbu and Ubuntu OSs |
-| Power Input | Supports 19 V / 2.37 A DCIN power supply |
+| Power Input | Supports 19V/2.37A and 12V/5A DCIN power supply |
 | Reliability | Peripheral interfaces support ESD contact protection xxxx; consumer-grade xxxx or industrial-grade xxxx options are available |
 
 ## 3. System Overview
@@ -105,7 +105,7 @@ The K3 CoM260 Development Kit provides the following features:
 
 | Function | Available (Yes/No) |
 | --- | --- |
-| 2 × LPDDR5 (4 GB / 16 GB / 32 GB) | Yes |
+| 2 × LPDDR5 (4 GB / 8 GB / 16 GB) | Yes |
 | UFS (128 GB) | Yes |
 | SPI Flash | Yes |
 | DC Jack | Yes |
@@ -274,7 +274,7 @@ K3 CoM260 supports the Raspberry Pi 4.3-inch capacitive touch display.
 
 ### 5.6 Type-C Connector
 
-The Type-C connector on the K3 CoM260 Development Kit supports OTG mode only and does not support power delivery.
+The Type-C connector on the K3 CoM260 Development Kit supports OTG mode only and does not support power input.
 
 ![Type-C connector diagram](./static/Tyep-C.png)
 
@@ -357,7 +357,7 @@ The K3 CoM260 Development Kit integrates an on-board CAN transceiver and can be 
 
 #### 6.1.1 Power Adapter
 
-K3 CoM260 uses DCIN power input. It is recommended to use a DC JACK power adapter with the correct output specifications, relevant quality certifications, and a maximum power rating of no less than 35 W.
+K3 CoM260 is powered through the DCIN interface. A certified DC jack power adapter with the correct output specification is recommended. Supported power specifications are 19V/2.37A or 12V/5A.
 
 #### 6.1.2 Keyboard and Mouse
 
@@ -398,7 +398,20 @@ For detailed configuration instructions, refer to [LXQt Startup Wizard (Initial 
 
 ### 7.1 Enter Flashing Mode
 
-Use buttons to connect FC_REC to GND and SYS_RST to GND respectively. Press and hold the FC_REC button, then press the RST button to enter flashing mode.
+Before entering flashing mode, prepare two push buttons: one for shorting FC_REC to GND, and the other for shorting SYS_RST to GND.
+
+1. **When the device is powered off**
+   1. Press and hold the FC_REC button.
+   2. Connect the power adapter to power on the device.
+   3. Release the FC_REC button.
+   4. Use a Type-C data cable to connect the Type-C port on the development board to the host computer.
+   5. Use the SpacemiT Titan flashing tool or run the `fastboot` command to flash the firmware.
+2. **When the device is already powered on and running**
+   1. Press and hold the FC_REC button.
+   2. Briefly press the RST button.
+   3. Release the FC_REC button.
+   4. Use a Type-C data cable to connect the Type-C port on the development board to the host computer.
+   5. Use the SpacemiT Titan flashing tool or run the `fastboot` command to flash the firmware.
 
 ![Button connection diagram for entering flashing mode](./static/Input_keys.png)
 
