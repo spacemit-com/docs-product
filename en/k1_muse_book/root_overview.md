@@ -4,30 +4,44 @@ sidebar_position: 1
 
 **[PDF Version](https://cdn-resource.spacemit.com/file/product/K1/MUSE_book_brief_en.pdf)**
 
-**K1 MUSE BOOK** is a notebook computer equipped with the SpacemiT 8-core RISC-V AI-CPU M1, one of the ecosystem products of SpacemiT. Based on RISC-V architecture hardware design,it comes preinstalled with the Bianbu operating system and open-source software . It aims to provide a more efficient andconvenient RISC-V development platform for all RISC-V enthusiasts, innovative developers, tech enthusiasts,rese archers and more
+**The World’s First Mass-Production RISC-V Laptop for Developers**
 
-- Powered by SpacemiT’s high-performance 8-core RISC-V processor.
-- Built on the M1 platform with 2.0 TOPS of native AI power, supporting a wide range of model deployments—from traditional convolutional networks to transformer architectures. Applications include natural language understanding, intelligent voice processing, and multimodal AI, and LLMs from ranging from 0.5B to 8B parameters.
-- Equipped with object recognition, and demo for basic LLM-based Q&A.
-- Supports 4K H.265/H.264/VP9/VP8 codecs• Supports a 3D graphics engine with OpenCL3.0/OpenGLES 3.2/Vulkan 1.3
-- Includes a wide range of I/O interfaces: UART TX＆RX/I2C/GPIO/PWM/3.3V/GND, along with Dupont development cables and a developer container for effortless environment setup.
+K MUSE Book is a laptop powered by the SpacemiT 8-core RISC-V AI CPU M1, and the world’s first mass-production RISC-V laptop. As part of the SpacemiT ecosystem, it features RISC-V-based hardware, comes preinstalled with the Bianbu operating system and open-source software, and provides an efficient local RISC-V development platform for developers, tech enthusiasts, researchers, and the RISC-V community.
+
+- **First Mass-Production RISC-V Developer Laptop**
+   Powered by the SpacemiT 8-core M1 processor, providing an efficient local RISC-V development platform. 
+
+- **8-Core CPU with Integrated AI Compute**
+   Combines an 8-core 64-bit RISC-V processor with 2.0 TOPS AI compute for both general computing and AI inference workloads. 
+
+- **AI Development for Multiple Scenarios**
+   Equipped with a 1080p FHD camera for AI vision development, including pose estimation and object recognition. 
+
+- **Lightweight and Portable Design**
+   Supports SSH, UART, and ADB debugging for different development and testing stages. 
+
+- **Dedicated Expansion Interface**
+   Developer-oriented external interfaces enable direct communication with the main controller using standard Dupont wires, supporting DIY peripheral and sensor integration. 
+
+- **Open-Source Software and Ecosystem Support**
+   Preinstalled with Bianbu and compatible with Ubuntu, OpenKylin, Deepin, and other operating systems.
 
 ## Specifications
 
 | Module | Description |
 | --- | --- |
 | Processor | SpacemiT M1: 8-core, RISC-V CPU with 2 TOPS AI processing power |
-| Display | Supports dual-screen display<br>Equipped with a built-in 14.1-inch IPS screen, 1080P@60Hz, full-color RGB, and 250 nits brightness.<br>Features a Type-C interface (DP signal), supporting up to 1080P@60Hz output |
+| Display | Supports dual-screen display: <br>Equipped with a built-in 14.1-inch IPS screen, 1080P@60Hz, full-color RGB, and 250 nits brightness.<br>Features a Type-C interface (DP signal), supporting up to 1080P@60Hz output |
 | Memory | LPDDR4X with a 2400MT/s speed, available in 8GB or 16GB configurations |
 | Storage | NVMe SSD, available in 128GB, 256GB, or 512GB configurations |
-| Expansion Storage | TF card slot, supporting UHS-II mode memory cards |
-| Wireless | Supports Wi-Fi6 & BT5.2 |
-| USB | 2 x USB 3.0 Type-A host<br>1 x USB 3.0 Type-C full-function port, supporting USB PD fast charging, DP display, and ultra-fast data transfer<br>1 x USB 3.0 Type-C OTG port, supporting USB PD fast charging |
-| Debug Interface | MUSE's 8-pin developer interface, featuring 2 embedded buttons for hardware reset and upgrades |
+| Storage Expansion | TF card slot, supporting UHS-II mode memory cards |
 | Human Machine Interface | Integrated 1080P FHD camera<br>Built-in dual microphones and stereo speakers<br>Standard full-key keyboard and touchpad, with optional fingerprint module on certain models |
+| Wireless | Supports Wi-Fi6 & BT5.2 |
+| Debug Interface | MUSE's 8-pin developer interface, featuring 2 embedded buttons for hardware reset and upgrades |
 | Appearance | Metal body; Dimensions: 322.6 x 209.2 x 17.8 mm; Weight: 1360g |
-| OS | Supports Bianbu Desktop, Ubuntu, OpenKylin, Deepin |
+| OS | Supports Bianbu, Ubuntu, OpenKylin, Deepin |
 | Power | Built-in 38Wh 7.6V smart battery with PD3.0 fast charging support, comes with a 65W adapter |
+| USB | 2 x USB 3.0 Type-A host<br>1 x USB 3.0 Type-C full-function port, supporting USB PD fast charging, DP display, and ultra-fast data transfer<br>1 x USB 3.0 Type-C OTG port, supporting USB PD fast charging |
 
 ## Business Cooperation & Purchase
 
