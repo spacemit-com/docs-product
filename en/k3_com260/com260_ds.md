@@ -6,7 +6,7 @@ sidebar_position: 2
 
 **60 TOPS AI Compute System-on-Module (SoM)**
 
-**[PDF Version](k3_com260_ds_en.pdf)**
+**[PDF Version](https://cdn-resource.spacemit.com/file/product/K3/k3_com260_ds_en.pdf)**
 
 ## Revision History
 
