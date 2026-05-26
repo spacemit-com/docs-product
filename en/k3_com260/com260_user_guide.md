@@ -4,6 +4,8 @@ sidebar_position: 3
 
 # K3 CoM260 Development Kit User Guide
 
+**[PDF Version](k3_com260_ug_en.pdf)**
+
 ## Revision History
 
 The revision history below records the updates made to this document.

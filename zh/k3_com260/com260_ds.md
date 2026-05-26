@@ -6,7 +6,7 @@ sidebar_position: 2
 
 **60T 融合 AI 算力核心板**
 
-**[PDF 版本]()**
+**[PDF 版本](k3_com260_ds_zh.pdf)**
 
 ## 版本
 
