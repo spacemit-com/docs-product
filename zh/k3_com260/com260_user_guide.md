@@ -4,6 +4,8 @@ sidebar_position: 3
 
 # K3 CoM260 开发套件用户使用指南
 
+**[PDF 版本](k3_com260_ug_zh.pdf)**
+
 ## 修订记录
 
 修订记录用于说明本文档历次更新的内容。
