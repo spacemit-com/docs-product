@@ -6,7 +6,7 @@ sidebar_position: 1
 
 **The World’s First Mass-Production RISC-V Laptop for Developers**
 
-K MUSE Book is a laptop powered by the SpacemiT 8-core RISC-V AI CPU M1, and the world’s first mass-production RISC-V laptop. As part of the SpacemiT ecosystem, it features RISC-V-based hardware, comes preinstalled with the Bianbu operating system and open-source software, and provides an efficient local RISC-V development platform for developers, tech enthusiasts, researchers, and the RISC-V community.
+K1 MUSE Book is a laptop powered by the SpacemiT 8-core RISC-V AI CPU M1, and the world’s first mass-production RISC-V laptop. As part of the SpacemiT ecosystem, it features RISC-V-based hardware, comes preinstalled with the Bianbu operating system and open-source software, and provides an efficient local RISC-V development platform for developers, tech enthusiasts, researchers, and the RISC-V community.
 
 - **First Mass-Production RISC-V Developer Laptop**
    Powered by the SpacemiT 8-core M1 processor, providing an efficient local RISC-V development platform. 
