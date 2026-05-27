@@ -38,7 +38,6 @@ K1 MUSE Book is a laptop powered by the SpacemiT 8-core RISC-V AI CPU M1, and th
 | Human Machine Interface | Integrated 1080P FHD camera<br>Built-in dual microphones and stereo speakers<br>Standard full-key keyboard and touchpad, with optional fingerprint module on certain models |
 | Wireless | Supports Wi-Fi6 & BT5.2 |
 | Debug Interface | MUSE's 8-pin developer interface, featuring 2 embedded buttons for hardware reset and upgrades |
-| Appearance | Metal body; Dimensions: 322.6 x 209.2 x 17.8 mm; Weight: 1360g |
 | OS | Supports Bianbu, Ubuntu, OpenKylin, Deepin |
 | Power | Built-in 38Wh 7.6V smart battery with PD3.0 fast charging support, comes with a 65W adapter |
 | USB | 2 x USB 3.0 Type-A host<br>1 x USB 3.0 Type-C full-function port, supporting USB PD fast charging, DP display, and ultra-fast data transfer<br>1 x USB 3.0 Type-C OTG port, supporting USB PD fast charging |
