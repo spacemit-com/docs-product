@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # K3 CoM260 Development Kit User Guide
 
-**[PDF Version](k3_com260_ug_en.pdf)**
+**[PDF Version](https://cdn-resource.spacemit.com/file/product/K3/k3_com260_ug_en.pdf)**
 
 ## Revision History
 
@@ -23,7 +23,7 @@ This document describes the key features, hardware characteristics, interface co
 
 ### 1.2 Product Version
 
-The product version is used in this document as list below:
+The product version is used in this document as listed below:
 
 | Product Name | Product Version |
 | --- | --- |
@@ -137,6 +137,8 @@ The K3 CoM260 Development Kit provides the following features:
 ![Power block diagram 2](./static/power01.png)
 
 ### 4.3 Boot Download Sel & JTAG Sel
+
+Boot Download Sel and JTAG Sel diagram is shown as below.
 
 ![Boot Download Sel and JTAG Sel diagram](./static/debug.png)
 
@@ -278,7 +280,7 @@ K3 CoM260 supports the Raspberry Pi 4.3-inch capacitive touch display.
 
 The Type-C connector on the K3 CoM260 Development Kit supports OTG mode only and does not support power input.
 
-![Type-C connector diagram](./static/Tyep-C.png)
+![Type-C connector diagram](./static/Type-C.png)
 
 ### 5.7 DP Output Interface
 
@@ -339,7 +341,7 @@ The K3 CoM260 Development Kit provides a 40 Pin dual-row header. The pinout is s
 
 K3 CoM260 supports TF cards for storage expansion. It also supports a Debug expansion card for JTAG debugging.
 
-![TF-Card interface diagram](./static/TF-Crad.png)
+![TF-Card interface diagram](./static/TF-Card.png)
 
 ### 5.13 M.2 M-Key Interface
 
@@ -421,10 +423,9 @@ For the flashing procedure, refer to the [Flashing Tool User Guide](https://www.
 
 ### 7.2 Firmware Download and Installation
 
-#### 7.2.1 Bianbu
+**Bianbu** is an operating system deeply optimized by SpacemiT for processors based on the RISC-V architecture.
 
-**Bianbu Introduction:**  
-Bianbu is an operating system deeply optimized by SpacemiT for processors based on the RISC-V architecture.
+Click [K3 Bianbu](https://spacemit.com/community/resources-download/Images%20Collects/K3/Bianbu) to download the installation package.
 
 ## 8. Serial Debugging
 
@@ -436,7 +437,7 @@ Connect the host PC to the TX, RX, and GND pins of the 12 Pin interface on the K
 
 ### 8.2 Debugging on Windows
 
-MobaXterm is used as exmple below:
+MobaXterm is used as an example below:
 
 First, connect the serial hardware correctly, and then confirm under **Ports** in Windows Device Manager that the corresponding COM port can be recognized, as shown below.
 

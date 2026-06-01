@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # K3 CoM260 开发套件用户使用指南
 
-**[PDF 版本](k3_com260_ug_zh.pdf)**
+**[PDF 版本](https://cdn-resource.spacemit.com/file/product/K3/k3_com260_ug_zh.pdf)**
 
 ## 修订记录
 
@@ -137,6 +137,8 @@ K3 CoM260 开发套件提供以下功能：
 ![电源框图 2](./static/power01.png)
 
 ### 4.3 Boot Download Sel & JTAG Sel
+
+Boot Download Sel 与 JTAG Sel 示意图如下。
 
 ![Boot Download Sel 与 JTAG Sel 示意图](./static/debug.png)
 
@@ -279,7 +281,7 @@ K3 CoM260 支持树莓派 4.3 英寸电容触摸显示屏。
 
 K3 CoM260 开发套件的 Type-C 连接器仅支持 OTG 模式，不支持对内供电。
 
-![Type-C 连接器示意图](./static/Tyep-C.png)
+![Type-C 连接器示意图](./static/Type-C.png)
 
 ### 5.7 DP 输出接口
 
@@ -422,10 +424,9 @@ K3 CoM260 出厂时预装进迭时空 Bianbu 操作系统。设备首次启动�
 
 ### 7.2 固件下载和安装
 
-#### 7.2.1 Bianbu
+**Bianbu** 是进迭时空面向 RISC-V 架构处理器深度优化的操作系统。
 
-**Bianbu 简介：**  
-Bianbu 是进迭时空面向 RISC-V 架构处理器深度优化的操作系统。
+点击 [K3 Bianbu](https://spacemit.com/community/resources-download/Images%20Collects/K3/Bianbu) 获取安装包。
 
 ## 8. 串口调试
 
