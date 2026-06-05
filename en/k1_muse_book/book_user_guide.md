@@ -4,12 +4,12 @@ sidebar_position: 2
 
 ## Introduction
 
-K1 MUSE BOOK is a laptop equipped with the SpacemiT 8-core RISC-V AI-CPU M1, and it is the world's first mass-produced RISC-V laptop. 
-K1 MUSE BOOK is one of the ecological products from SpacemiT, designed basing on RISC-V architecture, with pre-installed the Bianbu operating system and open-source software. It aims to provide a more efficient and convenient local RISC-V development platform for RISC-V devotee, innovative developers, tech enthusiasts, and researchers.  
+K1 MUSE BOOK is a laptop equipped with the SpacemiT 8-core RISC-V AI CPU M1, and it is the world's first mass-produced RISC-V laptop. 
+K1 MUSE BOOK is one of the ecological products from SpacemiT, designed based on RISC-V architecture, with the pre-installed Bianbu operating system and open-source software. It aims to provide a more efficient and convenient local RISC-V development platform for RISC-V devotees, innovative developers, tech enthusiasts, and researchers.  
 M1 is a high-performance version of the SpacemiT K1. It integrates 8 RISC-V X60 cores, offering 50K DMIPS computing power and 2 TOPS AI computing power, enabling quick integration with all mainstream AI ecosystems. It supports 4K H.265/H.264/VP9/VP8 encoding and decoding formats, and features a 3D graphics engine with OpenCL 3.0, OpenGLES 3.2 and Vulkan 1.3 support.  
 In addition to the SpacemiT M1, the MUSE Book comes with the following features:  
 
-In addition to being powered by the **SpaceMIT M1** chip, the **K1 MUSE BOOK** offers the following key features:
+In addition to being powered by the **SpacemiT M1** chip, the **K1 MUSE BOOK** offers the following key features:
 
 1. Equipped with **dual USB-C ports**, both supporting the **PD 3.0 fast-charging protocol** for flexible and efficient power delivery.
 
@@ -57,7 +57,7 @@ With the "Fastboot" and "Reset" buttons, convenient flashing and development can
 ### Custom Keyboard
 
 - The keyboard features a special spray oil treatment on the surface, providing a more refined and smooth typing experience.
-- F1 and F2 serve as copy and paste keys, similarly to the key combination Ctrl+C and Ctrl+V respectively.
+- F1 and F2 serve as copy and paste keys, similar to the key combination Ctrl+C and Ctrl+V respectively.
 
 ![](./static/book_f1f2.png)
 
@@ -104,7 +104,7 @@ With a large heat sink paired with the advanced M1 RISC-V efficient CPU, the fan
 
 ### Preparation Before Use
 
-The MUSE Book is in the form of a laptop thus user can typically run it directly without any peripherals. However, for a more satisfactory experience, it is recommend adding some devices as per following subsections.
+The MUSE Book is in the form of a laptop, thus users can typically run it directly without any peripherals. However, for a more satisfactory experience, it is recommended adding some devices as per the following subsections.
 
 #### Power Adapter
 
@@ -204,7 +204,7 @@ Select a valid Wi-Fi network from the list and connect it. If there is no suitab
 
 #### Location Services
 
-Turn on location services can facilitate the usage experience, but it may also bring risks of location privacy leakage. Please be aware and careful!
+Turning on location services can facilitate the usage experience, but it may also bring risks of location privacy leakage. Please be aware and careful!
 
 ![](./static/book_location.png)
 
@@ -223,7 +223,7 @@ Set username and password account.
 
 #### Configuration Completed
 
-When the configuration is completed, click “Start using Bianbu” thus MUSE Book will enter the desktop of Biandu OS.
+When the configuration is completed, click "Start using Bianbu" thus MUSE Book will enter the desktop of Bianbu OS.
 
 ![](./static/book_done.png)
 
@@ -242,7 +242,7 @@ You can enter download mode using either of the following methods:
    ```
 
 After entering download mode, connect the device to the host PC via the Type-C port on MUSE Book (you must use the OTG port, Interface ③).
-You may then flash the firmware using the official Spatial Era flashing tool Titan or the fastboot command.
+You may then flash the firmware using the official SpacemiT flashing tool Titan or the fastboot command.
 
 ![](./static/book_ports.jpg) 
 ![](./static/book_connect.png)
@@ -251,7 +251,7 @@ You may then flash the firmware using the official Spatial Era flashing tool Tit
 
 ### Bianbu
 
-Bianbu OS is an operating system that has been deeply optimized by SpacemiT for advanced RISC-V architecture processors. MUSE Pi is suitable for and pre-installed with Bianbu OS Desktop version. At the same time, MUSE Pi is suitable for Bianbu OS NAS version.
+Bianbu OS is an operating system that has been deeply optimized by SpacemiT for advanced RISC-V architecture processors. MUSE Book is suitable for and pre-installed with Bianbu OS Desktop version. At the same time, MUSE Book is suitable for Bianbu OS NAS version.
 
 For more information about Bianbu OS, please visit [Bianbu](https://www.spacemit.com/community/document/info?lang=zh&nodepath=software/SDK/bianbu/root_overview.md)
 

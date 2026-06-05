@@ -19,7 +19,7 @@ The revision history below records the updates made to this document.
 
 ### 1.1 Introduction
 
-This document describes the key features, hardware characteristics, interface configuration, and software debugging methods of the **K3 CoM260** and the **K3 CoM260 Development Kit**. It is intended to support developers quickly understand the product capabilities and become familiar with the development and application solutions of the K3 CoM260 module.
+This document describes the key features, hardware characteristics, interface configuration, and software debugging methods of the **K3 CoM260** and the **K3 CoM260 Development Kit**. It is intended to help developers quickly understand the product capabilities and become familiar with the development and application solutions of the K3 CoM260 module.
 
 ### 1.2 Product Version
 
@@ -56,7 +56,7 @@ The product version is used in this document as listed below:
 
 K3 is a new-generation high-performance RISC-V AI CPU launched by SpacemiT, with the following features:
 
-- 8 high-performance X100 compute cores, with a maximum frequency of 2.4 GHz, 130K DMIPS computing power, and single-core Specint2006 > 9.0/GHz  
+- 8 high-performance X100 compute cores, with a maximum frequency of 2.4 GHz, 130K DMIPS computing power, and single-core SPECint2006 > 9.0/GHz  
 - 60 TOPS of AI computing power  
 - Multiple high-speed expansion interfaces, including 8 lanes of PCIe, 4x USB 3.0 ports, and 4x GMAC ports
 

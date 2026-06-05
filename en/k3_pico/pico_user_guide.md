@@ -78,7 +78,7 @@ In the Boot Manager menu, use the <↑> and <↓> keys to select a boot device s
 
 #### 1.2.3 Boot Maintenance Manager
 
-In the Boot Maintenance Manager menu, go to Boot Options and select Change Boot Order to configure boot priority. Use <+> and <-> to adjust the boot order. Press <Enter>, then select Commit Change and Exit to apply the changes and exit. After returning to the main menu, press <F10> to save the settings.
+In the Boot Maintenance Manager menu, go to Boot Options and select Change Boot Order to configure boot priority. Use <+> and <-> to adjust the boot order. Press <Enter>, then select Commit Changes and Exit to apply the changes and exit. After returning to the main menu, press <F10> to save the settings.
 
 ![](./static/uefi_02.png)
 
