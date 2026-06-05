@@ -306,7 +306,7 @@ MUSE Pi does not specifically support any particular camera module. The high-spe
 
 The pinout for the 60-pin high-speed connector is as follows:
 
-| pin | Singal Name       | Singal Name       | pin |
+| pin | Signal Name       | Signal Name       | pin |
 |-----|----------------|----------------|-----|
 | 1   | GND            | NC        | 60  |
 | 2   | MIPI_CSI1_DN0  | NC         | 59  |
@@ -733,7 +733,7 @@ Select a valid Wi-Fi network from the list and connect it. If there is no suitab
 
 **Location Services**
 
-Turn on location services can facilitate the usage experience, but it may also bring risks of location privacy leakage. Please be aware and careful!
+Turning on location services can facilitate the usage experience, but it may also bring risks of location privacy leakage. Please be aware and careful!
 
 ![](static/FMLxbzlVlo2HYixvSD9cGPmLn3i.png)
 
@@ -753,7 +753,7 @@ Set username and password account.
 
 **Configuration Completed**
 
-When the configuration is completed, click "Start using Bianbu" thus MUSE Pi will enter the desktop of Biandu OS.
+When the configuration is completed, click "Start using Bianbu" thus MUSE Pi will enter the desktop of Bianbu OS.
 
 ![](static/ANTIbhchEoc246xlJAoculU8nuc.png)
 

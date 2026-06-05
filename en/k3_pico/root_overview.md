@@ -72,7 +72,7 @@ With rich I/O expandability and an industrial-grade architecture, the K3 Pico-IT
 |            | SATA Expansion Card      | PCIe to 5 × SATA interface | M.2 M-Key 2280          |
 |            | Docking Station          | Type-C dock for HD 4K display, PD charging, <br>USB 3.0 for tablets/laptops (3-in-1)                        | Full-featured Type-C    |
 |            | Ultra HD Display         | 16" 2.5K LCD, 90 Hz, 2560 × 1600 | 40-pin eDP              |
-|            | Real-time Control Expansion Board | 19 V input, 5 × CAN-FD, EtherCAT, RS232 & RS485 I/O, <br>industrial-grade isolation protectiosn         | FPC                     |
+|            | Real-time Control Expansion Board | 19 V input, 5 × CAN-FD, EtherCAT, RS232 & RS485 I/O, <br>industrial-grade isolation protection         | FPC                     |
 | **Structural Accessory** | Embedded Fan Heatsink    | Custom aluminum design    | FAN                     |
 | | Metal Chassis            | 120 × 120 × 48 mm self-developed metal chassis                                                           | BTN                     |
 

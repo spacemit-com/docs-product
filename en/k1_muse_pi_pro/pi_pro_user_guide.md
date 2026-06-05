@@ -71,7 +71,7 @@ MUSE Pi Pro comes in a compact 1.8-inch board form factor, designed to deliver e
 - Connector: **15-pin, 1.0 mm FFC**
 - **MIPI DSI 2-lane**, includes I²C control channel and touch support
 - When only a MIPI panel is connected → it becomes the **primary display**
-- When both MIPI and HDMI displays are connected → MIPI is the **default primary -isplay**; HDMI acts as extended display
+- When both MIPI and HDMI displays are connected → MIPI is the **default primary display**; HDMI acts as extended display
   (primary display can be changed in OS settings)
 
 > **Important:** Hot-plug for MIPI devices is **not supported**.
@@ -216,7 +216,7 @@ The following functions are available:
   
 - **Boot Maintenance Manager Menu**
   Enter the Boot Maintenance Manager menu, then select "**Boot Options**," then choose "**Change Boot Order**" to set the boot medium priority. Use **+** and **- keys** to adjust the boot order.
-  After pressing the **Enter key**, select "**Commit Change and Exit**" to apply the changes and exit, returning to the main menu. Press the **F10 key** to save the settings.
+  After pressing the **Enter key**, select "**Commit Changes and Exit**" to apply the changes and exit, returning to the main menu. Press the **F10 key** to save the settings.
   ![](./static/G983bN6RMonWDXxmz09cksH4nDb.png)
 
 - **UEFI Interactive Shell**
@@ -258,7 +258,7 @@ Select a valid Wi-Fi network from the list and connect it. If there is no suitab
 
 ##### (4) Location Services
 
-Turn on location services can facilitate the usage experience, but it may also bring risks of location privacy leakage. Please be aware and careful!
+Turning on location services can facilitate the usage experience, but it may also bring risks of location privacy leakage. Please be aware and careful!
 
 ![](./static/Lj8mbqTqzoFPeWxmsDRcyEI5nXb.png)
 
@@ -278,7 +278,7 @@ Set username and password
 
 ##### (7) Configuration completed
 
-When the configuration is completed, click “Start using Bianbu” thus MUSE Pi Pro will enter the desktop of Biandu OS.
+When the configuration is completed, click "Start using Bianbu" thus MUSE Pi Pro will enter the desktop of Bianbu OS.
 
 ![](./static/AjGmbBkM2o8culxW4BmcWJw1nFg.png)
 

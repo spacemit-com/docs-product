@@ -18,7 +18,7 @@ sidebar_position: 1
 
 ## Specifications
 
-| Moduel | Description  |
+| Module | Description  |
 | --- | --- |
 | Processor | SpacemiT M1: 8-core, RISC-V CPU with 2 TOPS AI processing power |
 | Display | HDMI Type-A, supporting up to 1080P@60Hz |

@@ -2,7 +2,7 @@ sidebar_position: 2
 
 # K1 MUSE Card User Guide
 
-> English version is coming soon ..
+> English version is coming soon ...
 
 ## 产品简介
 
