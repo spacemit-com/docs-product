@@ -22,3 +22,7 @@ You can download the files below to support your development, PCB design, and sy
 ### 2D Drawing
 
 - [Download 2D Drawing (PDF)](https://cdn-resource.spacemit.com/file/product/K3/k3_pico_hw/k3_pico_itx_2d_0512.pdf)
+
+### 3D Model
+
+- [Download 3D Model (STP)](https://cdn-resource.spacemit.com/file/product/K3/k3_pico_hw/K3_PICO_ITX_260528.stp)

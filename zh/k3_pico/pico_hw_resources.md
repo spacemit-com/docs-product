@@ -22,3 +22,7 @@ sidebar_position: 3
 ### 2D 尺寸图
 
 - [下载 2D 尺寸图（PDF 格式）](https://cdn-resource.spacemit.com/file/product/K3/k3_pico_hw/k3_pico_itx_2d_0512.pdf)
+
+### 3D 模型图
+
+- [下载 3D 模型图（STP 格式）](https://cdn-resource.spacemit.com/file/product/K3/k3_pico_hw/K3_PICO_ITX_260528.stp)
