@@ -264,6 +264,10 @@ The yellow LED on the Ethernet port is the ACTIVE indicator and shows link activ
 
 ![](./static/eth00.png)  
 
+| No. | Description                      |
+|-----|-----------------------------------|
+| 20 | 1G Ethernet RJ45 port                   |
+
 #### 2.3.8 10G Optical Ethernet Interface
 
 - Type: SFP+ optical port
