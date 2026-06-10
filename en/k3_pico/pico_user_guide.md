@@ -8,6 +8,15 @@ sidebar_position: 2
 
 Click to have [K3 Pico-ITX User Guide (PDF)](https://cdn-resource.spacemit.com/file/product/K3/k3_pico_ug_en.pdf)
 
+## Revision History
+
+The revision history below records the updates made to this document.
+
+| Revision | Date | Description |
+| --- | --- | --- |
+| V1.1 | 2026.06.10 | Updated notes for power supply|
+| V1.0 | 2026.04.30 | Initial release |
+
 ## 1. Quick Start
 
 Welcome to the SpacemiT K3 Pico-ITX single-board computer user guide.

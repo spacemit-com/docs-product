@@ -4,7 +4,9 @@ sidebar_position: 3
 
 # K3 CoM260 Development Kit User Guide
 
-**[PDF Version](https://cdn-resource.spacemit.com/file/product/K3/k3_com260_ug_en.pdf)**
+## PDF Version
+
+Click to download **[K3 CoM260 Development Kit User Guide (PDF)](https://cdn-resource.spacemit.com/file/product/K3/k3_com260_ug_en.pdf)**
 
 ## Revision History
 
@@ -12,8 +14,8 @@ The revision history below records the updates made to this document.
 
 | Revision | Date | Description |
 | --- | --- | --- |
-| V1.0 | 2025-11-24 | Initial release |
-| V2.0 | 2026-03-19 | 1. Swapped the positions of UART0 RX and TX <br>2. Updated CAM0 to MIPI CSI1 (2-lane)|
+| V2.0 | 2026.03.19 | 1. Swapped the positions of UART0 RX and TX <br>2. Updated CAM0 to MIPI CSI1 (2-lane)|
+| V1.0 | 2025.11.24 | Initial release |
 
 ## 1. Product Overview
 

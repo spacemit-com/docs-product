@@ -4,16 +4,18 @@ sidebar_position: 3
 
 # K3 CoM260 开发套件用户使用指南
 
-**[PDF 版本](https://cdn-resource.spacemit.com/file/product/K3/k3_com260_ug_zh.pdf)**
+## PDF 版本下载
 
-## 修订记录
+点击下载 **[K3 CoM260 开发套件用户使用指南 (PDF)](https://cdn-resource.spacemit.com/file/product/K3/k3_com260_ug_zh.pdf)**
+
+## 版本
 
 修订记录用于说明本文档历次更新的内容。
 
 | 修订版本 | 修订日期   | 修订说明 |
 |----------|------------|----------|
-| V1.0     | 2025-11-24 | 首版     |
-| V2.0     | 2026-03-19 | 1. 互换UART0 RX与TX的位置 <br> 2. CAM0 调整为MIPI CSI1 2Lane|
+| V2.0     | 2026.03.19 | 1. 互换UART0 RX与TX的位置 <br> 2. CAM0 调整为MIPI CSI1 2Lane|
+| V1.0     | 2025.11.24 | 首版     |
 
 ## 1. 产品简介
 
