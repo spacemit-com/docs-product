@@ -142,8 +142,16 @@ GRUB boot is supported, allowing multiple operating systems to be installed and 
 #### 2.3.1 Power Input
 
 - USB Type-C supports USB PD 3.0 power delivery, up to 20 V / 5 A
-- The ATX input supports up to 12 V / 7 A. When ATX power is present, the system prioritizes the ATX input
-- In flashing mode, this port can provide both power input and USB Device functionality. After being connected to a host PC through USB Type-C, the board can be detected by the host PC and used for flashing and firmware updates
+
+- ATX power input supports up to **12 V / 7 A**. When an ATX power supply is connected, the system will prioritize ATX power.
+
+  > **Note:** ATX and Type-C PD power do not support 1+1 hot redundancy.
+  > - When the system is powered by ATX, it will continue to use ATX power even if a PD-capable Type-C cable is connected.
+  > - To switch to Type-C PD power, shut down the system, disconnect the ATX power supply, and then power on.
+  > - If the ATX power supply is removed while the system is running with Type-C PD power, the system will restart and automatically switch to Type-C PD power.
+  > - If an ATX power supply is connected while the system is running on Type-C PD power, the system will restart and switch to ATX power.
+
+- In flashing mode, the full-featured Type-C port supports both power input and USB Device functionality. When connected to a host PC via USB Type-C, the board is recognized by the host and can be used for flashing and firmware updates.
 
 ![](./static/power00.png)  
 
@@ -234,11 +242,13 @@ In flashing mode, this interface can only operate as a USB Device for data trans
 - Supports 100 M / 1000 M adaptive switching
 
 The green LED on the Ethernet port is the LINK SPEED indicator and shows link state and link speed:
+
 1. Solid green: link established at the highest supported speed
 2. Off: link established but not at the highest supported speed
 3. Off: no link established
 
 The yellow LED on the Ethernet port is the ACTIVE indicator and shows link activity:
+
 1. Off: no data transmission
 2. Blinking yellow: data is being transmitted; faster blinking indicates higher activity
 3. Off: no link established
@@ -250,16 +260,18 @@ The yellow LED on the Ethernet port is the ACTIVE indicator and shows link activ
 - Type: SFP+ optical port
 - Supports multimode optical modules, DAC cables, and optical-to-electrical transceiver modules, with 10G/1G auto-negotiation
 
-![](./static/10G_eth00.png) 
+![](./static/10G_eth00.png)
 
-![](./static/10G_eth01.png) 
+![](./static/10G_eth01.png)
 
 LINK SPEED indicates link state and link speed:
+
 1. Green: link established at the highest supported speed
 2. Yellow on the 10G port: link established but not at the highest supported speed
 3. Off: no link established
 
 ACTIVE indicates link activity:
+
 1. Off: no data transmission
 2. Blinking: data is being transmitted; faster blinking indicates higher activity
 3. Off: no link established

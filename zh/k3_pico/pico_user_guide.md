@@ -138,8 +138,13 @@ K3 Pico-ITX 支持 UEFI 启动和配置，可以选择 NVMe SSD、USB、UFS 作�
 
 #### 2.3.1 电源接口
 
-- USB Type-C 支持 USB PD 3.0 协议供电，最大支持 20 V/5 A；
-- ATX 接口供电，最大支持 12 V/7 A。使用 ATX 接口供电时，系统优先从 ATX 接口取电；
+- USB Type-C 支持 USB PD 3.0 协议供电，最大支持 20 V/5 A。
+- ATX 接口供电，最大支持 12 V/7 A。接入 ATX 电源后，系统将优先使用 ATX 供电。
+  > 注意：ATX 与 Type-C PD 供电不支持“1+1”热冗余。
+  > - 当系统由 ATX 供电时，即使插入支持 PD 的 Type-C 线缆，仍会继续使用 ATX 电源。
+  > - 如需切换至 Type-C PD 供电，请先关机断电，再移除 ATX 电源后重新上电。
+  > - 当系统同时连接 ATX 电源和 Type-C PD 电源时，若在开机状态下移除 ATX 电源，系统会自动重启，并在重启后切换至 Type-C PD 供电。
+  > - 当系统由 Type-C PD 供电时，若接入优先级更高的 ATX 电源，系统将自动重启，并在重启后切换至 ATX 供电。
 - 进入烧录模式时，该接口可同时提供供电和 USB Device 功能。通过 USB Type-C 与上位机连接后，可被扫描和识别，支持烧录升级操作。
 
 ![](./static/power00.png)  
