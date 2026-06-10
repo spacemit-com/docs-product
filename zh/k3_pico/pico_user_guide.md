@@ -4,9 +4,18 @@ sidebar_position: 2
 
 # K3 Pico-ITX 用户使用指南
 
-## PDF 版本
+## PDF 版本下载
 
 点击下载 [K3 Pico-ITX 用户使用指南 (PDF)](https://cdn-resource.spacemit.com/file/product/K3/k3_pico_ug_zh.pdf)
+
+## 版本
+
+修订记录用于说明本文档历次更新的内容。
+
+| 修订版本 | 修订日期   | 修订说明 |
+|----------|------------|----------|
+| V1.1     | 2026.06.10  | 更新供电注意事项 |
+| V1.0     | 2026.04.30 | 首版     |
 
 ## 1. 快速开始
 
