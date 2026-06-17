@@ -2,8 +2,6 @@ sidebar_position: 2
 
 # K1 MUSE Card User Guide
 
-> English version is coming soon ...
-
 ## 产品简介
 
 **K1 MUSE Card** 是进迭时空生态产品开发板系列，第一代搭载了进迭时空八核 RISC-V 高性能处理器 M1，核内融合 2.0Tops 通用 AI 算力，可支持所有 AI 模型算法的快速部署。
@@ -20,118 +18,38 @@ sidebar_position: 2
 
 本产品对应的产品版本如下：
 
-<table>
-<tbody>
-<tr>
-<td><strong>产品名称</strong></td>
-<td><strong>产品版本</strong></td>
-</tr>
-<tr>
-<td>MUSE Card</td>
-<td>MUSE Card_P1_LP4X200B32X1_V20_08061538</td>
-</tr>
-</tbody>
-</table>
+| 产品名称 | 产品版本 |
+| --- | --- |
+| MUSE Card | MUSE Card_P1_LP4X200B32X1_V20_08061538 |
 
 ## 缩略词
 
 缩略语包括文档中常用词组的简称：
 
-<table>
-<tbody>
-<tr>
-<td><strong>缩略词</strong></td>
-<td><strong>英文描述</strong></td>
-<td><strong>中文描述</strong></td>
-</tr>
-<tr>
-<td>X60</td>
-<td>self-innovate X60 RISC-V processor core</td>
-<td>进迭自研RISC-V核</td>
-</tr>
-</tbody>
-</table>
+| 缩略词 | 英文描述 | 中文描述 |
+| --- | --- | --- |
+| X60 | self-innovate X60 RISC-V processor core | 进迭自研RISC-V核 |
 
 ## 产品规格
 
-<table>
-<tbody>
-<tr>
-<td><strong>系统主控</strong></td>
-<td>CPU</td>
-<td>SpacemiT M1（SpacemiT  Key Stone® M1 芯片高性能版），8核 RISC-V中央处理器，融合 2.0 Tops AI算力<br/>8*RISC-V X60 Core 64-bit </td>
-</tr>
-<tr>
-<td><strong>显示</strong><br/></td>
-<td>显示接口</td>
-<td>MIPI DSI 4lane ＆ HDMI标准视频接口<br/>最高支持1080P@60Hz输出</td>
-</tr>
-<tr>
-<td rowspan=2 colspan=1><strong>内存</strong></td>
-<td>类型</td>
-<td>LPDDR4X，2400MT板贴</td>
-</tr>
-<tr>
-<td>支持容量</td>
-<td>8GB/16GB可选</td>
-</tr>
-<tr>
-<td rowspan=3 colspan=1><strong>存储</strong></td>
-<td>SSD</td>
-<td>PCIe（NVMe)</td>
-</tr>
-<tr>
-<td>SPI NOR Flash</td>
-<td>64Mb，用于板号信息、SSD启动引导</td>
-</tr>
-<tr>
-<td>TF Card</td>
-<td>支持，接口可复用为UART、JTAG，用于调试</td>
-</tr>
-<tr>
-<td rowspan=2 colspan=1><strong>I/O接口</strong></td>
-<td>侧I/O</td>
-<td>1*USB2.0 Type-C(Device，支持最大12V 3A PD供电)<br/>1*USB 3.0 Type-A<br/>1*USB 2.0 Type-A<br/>1*RJ45（1000M/100M/10M自适应）<br/>1*HDMI<br/>1*TF Card</td>
-</tr>
-<tr>
-<td>板上I/O</td>
-<td>2*MIPI CSI 4lane（4+4或 4+2+2）<br/>1*MIPI DSI 4lane<br/>2*M.2 2242 M-KEY<br/>40Pin 标准GPIO插座</td>
-</tr>
-<tr>
-<td><strong>按键</strong></td>
-<td>功能</td>
-<td>复位键、烧录键</td>
-</tr>
-<tr>
-<td rowspan=2 colspan=1><strong>外观</strong></td>
-<td>尺寸</td>
-<td>85mm*56mm</td>
-</tr>
-<tr>
-<td>材质</td>
-<td>PCB单板，黑色，可选透明外壳</td>
-</tr>
-<tr>
-<td><strong>软件功能</strong></td>
-<td>系统</td>
-<td>Bianbu OS、Ubuntu、Bianbu Linux、OpenHarmony、OpenKylin、Deepin等</td>
-</tr>
-<tr>
-<td><strong>电源</strong></td>
-<td>电源输入</td>
-<td>支持PD3.0协议Type-C供电</td>
-</tr>
-<tr>
-<td rowspan=2 colspan=1><strong>可靠性</strong><br/></td>
-<td>ESD</td>
-<td>接口防护接触±4KV，空气±8KV</td>
-</tr>
-<tr>
-<td>工作温度</td>
-<td>消费级和工业级可选，-20℃~70℃ / -40℃~85℃</td>
-</tr>
-</tbody>
-</table>
+| 项目 | 子项目 | 描述  |
+| --- | --- | --- |
+| 系统主控 | CPU | SpacemiT M1（SpacemiT Key Stone® M1 芯片高性能版），8核 RISC-V中央处理器，融合 2.0 Tops AI算力 8*RISC-V X60 Core 64-bit |
+| 显示 | 显示接口 | MIPI DSI 4lane ＆ HDMI标准视频接口 最高支持1080P@60Hz输出 |
+| 内存 | 类型 | LPDDR4X，2400MT板贴 |
+| | 支持容量 | 8GB/16GB可选 | 
+| 存储 | SSD | PCIe (NVMe) |
+| | SPI NOR Flash | 64Mb，用于板号信息、SSD启动引导 | 
+| | TF Card | 支持，接口可复用为UART、JTAG，用于调试 | 
+| I/O接口 | 侧I/O | 1*USB2.0 Type-C(Device，支持最大12V 3A PD供电) 1*USB 3.0 Type-A 1*USB 2.0 Type-A 1*RJ45（1000M/100M/10M自适应） 1*HDMI 1*TF Card |
+| | 板上I/O | 2*MIPI CSI 4lane（4+4或 4+2+2） 1*MIPI DSI 4lane 2*M.2 2242 M-KEY 40Pin 标准GPIO插座 | 
+| 按键 | 功能 | 复位键、烧录键 |
+| 外观 | 尺寸 | 85mm*56mm |
+| 材质 | PCB单板，黑色，可选透明外壳 |  |
+| 软件功能 | 系统 | Bianbu OS、Ubuntu、Bianbu Linux、OpenHarmony、OpenKylin、Deepin等 |
+| 电源 | 电源输入 | 支持PD3.0协议Type-C供电 |
+| 可靠性 | ESD | 接口防护接触±4KV，空气±8KV |
+| 工作温度 | 消费级和工业级可选，-20℃~70℃ / -40℃~85℃ |  |
 
 ## 系统概述
 
@@ -177,70 +95,22 @@ M1 MUSE Card 包含的功能如下：
 
 #### 功能接口
 
-<table>
-<tbody>
-<tr>
-<td><strong>功能</strong></td>
-<td><strong>是否可用</strong></td>
-</tr>
-<tr>
-<td>LPDDR4x </td>
-<td>YES</td>
-</tr>
-<tr>
-<td>SPI FLASH</td>
-<td>YES</td>
-</tr>
-<tr>
-<td>TYPEC 12V Input</td>
-<td>YES</td>
-</tr>
-<tr>
-<td>HDMI1.4 OUT</td>
-<td>YES</td>
-</tr>
-<tr>
-<td>MIPI DSI/TP</td>
-<td>YES</td>
-</tr>
-<tr>
-<td>MIPI CSI</td>
-<td>YES</td>
-</tr>
-<tr>
-<td>TF卡</td>
-<td>YES</td>
-</tr>
-<tr>
-<td>千兆网口10M/100M/1000M </td>
-<td>YES</td>
-</tr>
-<tr>
-<td>PCIe2.0 2lane Interface (2Port)</td>
-<td>YES</td>
-</tr>
-<tr>
-<td>USB2.0 TYPEA</td>
-<td>YES</td>
-</tr>
-<tr>
-<td>USB3.0 TYPEA</td>
-<td>YES</td>
-</tr>
-<tr>
-<td>UART Debug (3pin+40pin)</td>
-<td>YES</td>
-</tr>
-<tr>
-<td>JTAG (40pin)</td>
-<td>YES</td>
-</tr>
-<tr>
-<td>System Key</td>
-<td>YES</td>
-</tr>
-</tbody>
-</table>
+| 功能 | 是否可用 |
+| --- | --- |
+| LPDDR4x | YES |
+| SPI FLASH | YES |
+| TYPEC 12V Input | YES |
+| HDMI1.4 OUT | YES |
+| MIPI DSI/TP | YES |
+| MIPI CSI | YES |
+| TF卡 | YES |
+| 千兆网口10M/100M/1000M | YES |
+| PCIe2.0 2lane Interface (2Port) | YES |
+| USB2.0 TYPEA | YES |
+| USB3.0 TYPEA | YES |
+| UART Debug (3pin+40pin) | YES |
+| JTAG (40pin) | YES |
+| System Key | YES |
 
 ## 硬件介绍
 
@@ -302,196 +172,38 @@ MUSE Card 不固定支持某一摄像头模组，高速座子包含两组 4lane 
 
 60pin 高速座子接口线序如下：
 
-<table>
-<tbody>
-<tr>
-<td>pin</td>
-<td>信号名称</td>
-<td>信号名称</td>
-<td>pin</td>
-</tr>
-<tr>
-<td>1</td>
-<td>GND</td>
-<td>CAM_MCLK2</td>
-<td>60</td>
-</tr>
-<tr>
-<td>2</td>
-<td>MIPI_CSI_DN0</td>
-<td>VCC5V0_SYS</td>
-<td>59</td>
-</tr>
-<tr>
-<td>3</td>
-<td>MIPI_CSI_DP0</td>
-<td>CAM_I2C7_SDA</td>
-<td>58</td>
-</tr>
-<tr>
-<td>4</td>
-<td>GND</td>
-<td>CAM_I2C7_SCL</td>
-<td>57</td>
-</tr>
-<tr>
-<td>5</td>
-<td>MIPI_CSI1_DN1</td>
-<td>CAMERA2_RST</td>
-<td>56</td>
-</tr>
-<tr>
-<td>6</td>
-<td>MIPI_CSI1_DP1</td>
-<td>CAMERA2_PDN</td>
-<td>55</td>
-</tr>
-<tr>
-<td>7</td>
-<td>GND</td>
-<td>CAM_MCLK1</td>
-<td>54</td>
-</tr>
-<tr>
-<td>8</td>
-<td>MIPI_CSI1_DN2</td>
-<td>GND</td>
-<td>53</td>
-</tr>
-<tr>
-<td>9</td>
-<td>MIPI_CSI1_DP2</td>
-<td>CAM_I2C1_SDA</td>
-<td>52</td>
-</tr>
-<tr>
-<td>10</td>
-<td>GND</td>
-<td>CAM_I2C1_SCL</td>
-<td>51</td>
-</tr>
-<tr>
-<td>11</td>
-<td>MIPI_CSI1_DN3</td>
-<td>GND</td>
-<td>50</td>
-</tr>
-<tr>
-<td>12</td>
-<td>MIPI_CSI1_DP3</td>
-<td>MIPI_CSI3_DN0</td>
-<td>49</td>
-</tr>
-<tr>
-<td>13</td>
-<td>GND</td>
-<td>MIPI_CSI3_DP0</td>
-<td>48</td>
-</tr>
-<tr>
-<td>14</td>
-<td>MIPI_CSI1_CLKN</td>
-<td>GND</td>
-<td>47</td>
-</tr>
-<tr>
-<td>15</td>
-<td>MIPI_CSI1_CLKP</td>
-<td>MIPI_CSI3_DN1</td>
-<td>46</td>
-</tr>
-<tr>
-<td>16</td>
-<td>GND</td>
-<td>MIPI_CSI3_DP1</td>
-<td>45</td>
-</tr>
-<tr>
-<td>17</td>
-<td>CAMERA0_RST</td>
-<td>GND</td>
-<td>44</td>
-</tr>
-<tr>
-<td>18</td>
-<td>CAMERA0_PDN</td>
-<td>MIPI_CSI3_DN2</td>
-<td>43</td>
-</tr>
-<tr>
-<td>19</td>
-<td>GND</td>
-<td>MIPI_CSI3_DP2</td>
-<td>42</td>
-</tr>
-<tr>
-<td>20</td>
-<td>CAM_MCLK0</td>
-<td>GND</td>
-<td>41</td>
-</tr>
-<tr>
-<td>21</td>
-<td>GND</td>
-<td>MIPI_CSI3_DN3</td>
-<td>40</td>
-</tr>
-<tr>
-<td>22</td>
-<td>CAM_I2C0_SDA</td>
-<td>MIPI_CSI3_DP3</td>
-<td>39</td>
-</tr>
-<tr>
-<td>23</td>
-<td>CAM_I2C0_SCL</td>
-<td>GND</td>
-<td>38</td>
-</tr>
-<tr>
-<td>24</td>
-<td>GND</td>
-<td>MIPI_CSI3_CLKN</td>
-<td>37</td>
-</tr>
-<tr>
-<td>25</td>
-<td>GND</td>
-<td>MIPI_CSI3_CLKP</td>
-<td>36</td>
-</tr>
-<tr>
-<td>26</td>
-<td>CSI_DVDD12</td>
-<td>GND</td>
-<td>35</td>
-</tr>
-<tr>
-<td>27</td>
-<td>CSI_VCCI018</td>
-<td>MIPI_CSI2_CLKN</td>
-<td>34</td>
-</tr>
-<tr>
-<td>28</td>
-<td>CSI_AVDD28</td>
-<td>MIPI_CSI2_CLKP</td>
-<td>33</td>
-</tr>
-<tr>
-<td>29</td>
-<td>CSI_AFVCC28</td>
-<td>GND</td>
-<td>32</td>
-</tr>
-<tr>
-<td>30</td>
-<td>CAMERA1_PDN</td>
-<td>CAMERA1_RST</td>
-<td>31</td>
-</tr>
-</tbody>
-</table>
+| pin | 信号名称 | 信号名称 | pin |
+| --- | --- | --- | --- |
+| 1 | GND | CAM_MCLK2 | 60 |
+| 2 | MIPI_CSI_DN0 | VCC5V0_SYS | 59 |
+| 3 | MIPI_CSI_DP0 | CAM_I2C7_SDA | 58 |
+| 4 | GND | CAM_I2C7_SCL | 57 |
+| 5 | MIPI_CSI1_DN1 | CAMERA2_RST | 56 |
+| 6 | MIPI_CSI1_DP1 | CAMERA2_PDN | 55 |
+| 7 | GND | CAM_MCLK1 | 54 |
+| 8 | MIPI_CSI1_DN2 | GND | 53 |
+| 9 | MIPI_CSI1_DP2 | CAM_I2C1_SDA | 52 |
+| 10 | GND | CAM_I2C1_SCL | 51 |
+| 11 | MIPI_CSI1_DN3 | GND | 50 |
+| 12 | MIPI_CSI1_DP3 | MIPI_CSI3_DN0 | 49 |
+| 13 | GND | MIPI_CSI3_DP0 | 48 |
+| 14 | MIPI_CSI1_CLKN | GND | 47 |
+| 15 | MIPI_CSI1_CLKP | MIPI_CSI3_DN1 | 46 |
+| 16 | GND | MIPI_CSI3_DP1 | 45 |
+| 17 | CAMERA0_RST | GND | 44 |
+| 18 | CAMERA0_PDN | MIPI_CSI3_DN2 | 43 |
+| 19 | GND | MIPI_CSI3_DP2 | 42 |
+| 20 | CAM_MCLK0 | GND | 41 |
+| 21 | GND | MIPI_CSI3_DN3 | 40 |
+| 22 | CAM_I2C0_SDA | MIPI_CSI3_DP3 | 39 |
+| 23 | CAM_I2C0_SCL | GND | 38 |
+| 24 | GND | MIPI_CSI3_CLKN | 37 |
+| 25 | GND | MIPI_CSI3_CLKP | 36 |
+| 26 | CSI_DVDD12 | GND | 35 |
+| 27 | CSI_VCCI018 | MIPI_CSI2_CLKN | 34 |
+| 28 | CSI_AVDD28 | MIPI_CSI2_CLKP | 33 |
+| 29 | CSI_AFVCC28 | GND | 32 |
+| 30 | CAMERA1_PDN | CAMERA1_RST | 31 |
 
 ### MIPI DSI 屏连接座
 
@@ -501,118 +213,25 @@ MUSE Card 不固定支持某一摄像头模组，高速座子包含两组 4lane 
 
 屏接口顺序：
 
-<table>
-<tbody>
-<tr>
-<td>pin</td>
-<td>信号名称</td>
-<td>信号名称</td>
-<td>pin</td>
-</tr>
-<tr>
-<td>1</td>
-<td>MIPI_DSI1_LANE0_DN</td>
-<td>MIPI_DSI1_LANE0_DP</td>
-<td>2</td>
-</tr>
-<tr>
-<td>3</td>
-<td>GND</td>
-<td>MIPI_DSI1_LANE1_DN</td>
-<td>4</td>
-</tr>
-<tr>
-<td>5</td>
-<td>MIPI_DSI1_LANE1_DP</td>
-<td>GND</td>
-<td>6</td>
-</tr>
-<tr>
-<td>7</td>
-<td>MIPI_DSI1_CLK_N</td>
-<td>MIPI_DSI1_CLK_P</td>
-<td>8</td>
-</tr>
-<tr>
-<td>9</td>
-<td>GND</td>
-<td>MIPI_DSI1_LANE2_DN</td>
-<td>10</td>
-</tr>
-<tr>
-<td>11</td>
-<td>MIPI_DSI1_LANE2_DP</td>
-<td>GND</td>
-<td>12</td>
-</tr>
-<tr>
-<td>13</td>
-<td>MIPI_DSI1_LANE3_DN</td>
-<td>MIPI_DSI1_LANE3_DP</td>
-<td>14</td>
-</tr>
-<tr>
-<td>15</td>
-<td>GND</td>
-<td>MIPI_LCD_ADC_1V8</td>
-<td>16</td>
-</tr>
-<tr>
-<td>17</td>
-<td>LCD_PWR_EN_1V8</td>
-<td>LCD_RST_1V8</td>
-<td>18</td>
-</tr>
-<tr>
-<td>19</td>
-<td>LCD_BL_EN_1V8</td>
-<td>LCD_BL_PWM_1V8</td>
-<td>20</td>
-</tr>
-<tr>
-<td>21</td>
-<td>GND</td>
-<td>TP_INT_1V8</td>
-<td>22</td>
-</tr>
-<tr>
-<td>23</td>
-<td>TP_RST_1V8</td>
-<td>AP_12C6_SCL</td>
-<td>24</td>
-</tr>
-<tr>
-<td>25</td>
-<td>AP_12C6_SDA</td>
-<td>LCD_VCC18</td>
-<td>26</td>
-</tr>
-<tr>
-<td>27</td>
-<td>GND</td>
-<td>GND</td>
-<td>28</td>
-</tr>
-<tr>
-<td>29</td>
-<td>LCD_VCC5V0</td>
-<td>LCD_VCC5V0</td>
-<td>30</td>
-</tr>
-<tr>
-<td>31</td>
-<td>LCD_VCC5V0</td>
-<td>GND</td>
-<td>32</td>
-</tr>
-<tr>
-<td>33</td>
-<td>GND</td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+| pin | 信号名称 | 信号名称 | pin |
+| --- | --- | --- | --- |
+| 1 | MIPI_DSI1_LANE0_DN | MIPI_DSI1_LANE0_DP | 2 |
+| 3 | GND | MIPI_DSI1_LANE1_DN | 4 |
+| 5 | MIPI_DSI1_LANE1_DP | GND | 6 |
+| 7 | MIPI_DSI1_CLK_N | MIPI_DSI1_CLK_P | 8 |
+| 9 | GND | MIPI_DSI1_LANE2_DN | 10 |
+| 11 | MIPI_DSI1_LANE2_DP | GND | 12 |
+| 13 | MIPI_DSI1_LANE3_DN | MIPI_DSI1_LANE3_DP | 14 |
+| 15 | GND | MIPI_LCD_ADC_1V8 | 16 |
+| 17 | LCD_PWR_EN_1V8 | LCD_RST_1V8 | 18 |
+| 19 | LCD_BL_EN_1V8 | LCD_BL_PWM_1V8 | 20 |
+| 21 | GND | TP_INT_1V8 | 22 |
+| 23 | TP_RST_1V8 | AP_12C6_SCL | 24 |
+| 25 | AP_12C6_SDA | LCD_VCC18 | 26 |
+| 27 | GND | GND | 28 |
+| 29 | LCD_VCC5V0 | LCD_VCC5V0 | 30 |
+| 31 | LCD_VCC5V0 | GND | 32 |
+| 33 | GND |  |  |
 
 ![](static/KZe9bYtNJo9kHpxC6k7coxpgny5.png)
 
@@ -646,136 +265,28 @@ MUSE Card 不固定支持某一摄像头模组，高速座子包含两组 4lane 
 
 PS:** “粗体”**为当前默认功能，若要使用其他功能需要自行配置
 
-<table>
-<tbody>
-<tr>
-<td>pin</td>
-<td>管脚定义</td>
-<td>管脚定义</td>
-<td>pin</td>
-</tr>
-<tr>
-<td>1</td>
-<td>VCC3V3_SYS</td>
-<td>VCC5V0_OUT</td>
-<td>2</td>
-</tr>
-<tr>
-<td>3</td>
-<td><strong>AP_I2C4_SDA_3V3</strong><br/>{GPIO[52] / R_SPI_RXD / R_UART1_RXD / R_PWM7}</td>
-<td>VCC5V0_OUT</td>
-<td>4</td>
-</tr>
-<tr>
-<td>5</td>
-<td><strong>AP_I2C4_SCL_3V3</strong><br/>{R_SPI_TXD / R_UART1_TXD / R_PWM6}</td>
-<td>GND<br/></td>
-<td>6</td>
-</tr>
-<tr>
-<td>7</td>
-<td><strong>PRI_TDI</strong><br/>{GPI0_70_3V3 / AP_I2C2_SCL_3V3 / UART5_TXD}</td>
-<td><strong>R_UART0_TXD_3V3</strong><br/>{GPIO[47] / R_CAN_TX0 / R_PWM8 / AP_I2C3_SCL}</td>
-<td>8</td>
-</tr>
-<tr>
-<td>9</td>
-<td>GND</td>
-<td><strong>R_UART0_RXD_3V3</strong><br/>{GPIO[48] / R_CAN_RX0 / R_IR_RX / AP_I2C3_SDA / KP_MKOUT[2]}</td>
-<td>10</td>
-</tr>
-<tr>
-<td>11</td>
-<td><strong>GPIO_71_3V3</strong><br/>{PRI_TMS / AP_I2C2_SDA_3V3 / UART5_RXD}</td>
-<td><strong>GPI0_74_3V3</strong><br/>{R_PWM9 / PCIe2_WAKEN}</td>
-<td>12</td>
-</tr>
-<tr>
-<td>13</td>
-<td><strong>GPI0_72_3V3</strong><br/>{PRI_TCK / UART9_TXD / UART5_CTS_N}</td>
-<td>GND</td>
-<td>14</td>
-</tr>
-<tr>
-<td>15</td>
-<td><strong>GPI0_73_3V3</strong><br/>{PRI_TDO / UART9_RXD / UART5_RTS_N}</td>
-<td><strong>GPIO_91_3V3</strong><br/>{MN_CLK2 / DSI_TE / R_I2C0_SCL}</td>
-<td>16</td>
-</tr>
-<tr>
-<td>17</td>
-<td>VCC3V3_SYS</td>
-<td><strong>GPIO_92_3V3</strong><br/>{MN_CLK / PWM7 / R_I2C0_SDA}</td>
-<td>18</td>
-</tr>
-<tr>
-<td>19</td>
-<td><strong>SPI3_MOSI_3V3</strong><br/>{GPIO[77] / SPI2_MOSI / AP_I2C3_SCL / UART8_CTS_N / R_PWM0 / KP_MKOUT[2] / AP_CW[14]}</td>
-<td>GND</td>
-<td>20<br/></td>
-</tr>
-<tr>
-<td>21</td>
-<td><strong>SPI3_MISO_3V3</strong><br/>{GPIO[78] / SPI2_MISO / AP_I2C3_SDA / UART8_RTS_N / R_PWM1 / KP_MKIN[3] / AP_CW[15]}</td>
-<td><strong>GPIO_49_3V3</strong><br/>{R_SPI_SCLK / R_UART1_CTS_N / R_PWM4 / R_I2C0_SCL / KP_MKIN[3]}</td>
-<td>22</td>
-</tr>
-<tr>
-<td>23</td>
-<td><strong>SPI3_SCLK_3V3</strong><br/>{GPIO[75] / SPI2_SCLK / CAN_TX0 / UART8_TXD / AP_I2C4_SCL / AP_CW[12]}</td>
-<td><strong>SPI3_CS_3V3</strong><br/>{GPIO[76] / SPI2_CS / CAN_RX0 / UART8_RXD / AP_I2C4_SDA / AP_CW[13]}</td>
-<td>24</td>
-</tr>
-<tr>
-<td>25<br/></td>
-<td>GND</td>
-<td><strong>GPIO_50_3V3</strong><br/>{R_SPI_FRM / R_UART1_RTS_N / R_PWM5 / R_I2C0_SDA / KP_MKOUT[3]}</td>
-<td>26</td>
-</tr>
-<tr>
-<td>27</td>
-<td><strong>AP_I2C3_SDA_3V3</strong><br/>{GPIO[38] / GMAC1_TX_D2 / R_I2S3_SCLK / PWM8}</td>
-<td><strong>AP_I2C3_SCL_3V3</strong><br/>{GPIO[39] / GMAC1_TX_D3 / R_I2S3_LRCK / PWM9}</td>
-<td>28</td>
-</tr>
-<tr>
-<td>29</td>
-<td><strong>GPIO_29_3V3</strong><br/>{GMAC1_RXDV / UART1_TXD / PWM1 / PCIe0_PERSTN}</td>
-<td>GND</td>
-<td>30</td>
-</tr>
-<tr>
-<td>31</td>
-<td><strong>GPIO_30_3V3</strong><br/>{GMAC1_RX_D0 / UART1_RXD / PWM2 / PCIe0_WAKEN}</td>
-<td><strong>GPIO_34_3V3</strong><br/>{GMAC1_RX_D3 / UART4_RXD / PWM4 / PCIe1_CLKREQN}</td>
-<td>32</td>
-</tr>
-<tr>
-<td>33</td>
-<td><strong>GPIO_31_3V3</strong><br/>{GMAC1_RX_D1 / UART1_CTS_N / PCIe0_CLKREQN}</td>
-<td>GND</td>
-<td>34</td>
-</tr>
-<tr>
-<td>35</td>
-<td><strong>GPIO_32_3V3</strong><br/>{GMAC1_RX_CLK / UART1_RTS_N / MN_CLK / PCIe1_PERSTN}</td>
-<td><strong>GPIO_35_3V3</strong><br/>{GMAC1_TX_D0 / UART4_CTS_N / PWM5 / PCIe2_PERSTN}</td>
-<td>36</td>
-</tr>
-<tr>
-<td>37</td>
-<td><strong>GPIO_33_3V3</strong><br/>{GMAC1_RX_D2 / UART4_TXD / PWM3 / PCIe1_WAKEN}</td>
-<td><strong>GPIO_46_3V3</strong><br/>{GMAC1_CLK_REF / PWM16}</td>
-<td>38</td>
-</tr>
-<tr>
-<td>39</td>
-<td>GND</td>
-<td><strong>GPIO_37_3V3</strong><br/>{GMAC1_TX / PWM7 / PCIe2_CLKREQN}</td>
-<td>40</td>
-</tr>
-</tbody>
-</table>
+| pin | 管脚定义 | 管脚定义 | pin |
+| --- | --- | --- | --- |
+| 1 | VCC3V3_SYS | VCC5V0_OUT | 2 |
+| 3 | AP_I2C4_SDA_3V3 {GPIO[52] / R_SPI_RXD / R_UART1_RXD / R_PWM7} | VCC5V0_OUT | 4 |
+| 5 | AP_I2C4_SCL_3V3 {R_SPI_TXD / R_UART1_TXD / R_PWM6} | GND | 6 |
+| 7 | PRI_TDI {GPI0_70_3V3 / AP_I2C2_SCL_3V3 / UART5_TXD} | R_UART0_TXD_3V3 {GPIO[47] / R_CAN_TX0 / R_PWM8 / AP_I2C3_SCL} | 8 |
+| 9 | GND | R_UART0_RXD_3V3 {GPIO[48] / R_CAN_RX0 / R_IR_RX / AP_I2C3_SDA / KP_MKOUT[2]} | 10 |
+| 11 | GPIO_71_3V3 {PRI_TMS / AP_I2C2_SDA_3V3 / UART5_RXD} | GPI0_74_3V3 {R_PWM9 / PCIe2_WAKEN} | 12 |
+| 13 | GPI0_72_3V3 {PRI_TCK / UART9_TXD / UART5_CTS_N} | GND | 14 |
+| 15 | GPI0_73_3V3 {PRI_TDO / UART9_RXD / UART5_RTS_N} | GPIO_91_3V3 {MN_CLK2 / DSI_TE / R_I2C0_SCL} | 16 |
+| 17 | VCC3V3_SYS | GPIO_92_3V3 {MN_CLK / PWM7 / R_I2C0_SDA} | 18 |
+| 19 | SPI3_MOSI_3V3 {GPIO[77] / SPI2_MOSI / AP_I2C3_SCL / UART8_CTS_N / R_PWM0 / KP_MKOUT[2] / AP_CW[14]} | GND | 20 |
+| 21 | SPI3_MISO_3V3 {GPIO[78] / SPI2_MISO / AP_I2C3_SDA / UART8_RTS_N / R_PWM1 / KP_MKIN[3] / AP_CW[15]} | GPIO_49_3V3 {R_SPI_SCLK / R_UART1_CTS_N / R_PWM4 / R_I2C0_SCL / KP_MKIN[3]} | 22 |
+| 23 | SPI3_SCLK_3V3 {GPIO[75] / SPI2_SCLK / CAN_TX0 / UART8_TXD / AP_I2C4_SCL / AP_CW[12]} | SPI3_CS_3V3 {GPIO[76] / SPI2_CS / CAN_RX0 / UART8_RXD / AP_I2C4_SDA / AP_CW[13]} | 24 |
+| 25 | GND | GPIO_50_3V3 {R_SPI_FRM / R_UART1_RTS_N / R_PWM5 / R_I2C0_SDA / KP_MKOUT[3]} | 26 |
+| 27 | AP_I2C3_SDA_3V3 {GPIO[38] / GMAC1_TX_D2 / R_I2S3_SCLK / PWM8} | AP_I2C3_SCL_3V3 {GPIO[39] / GMAC1_TX_D3 / R_I2S3_LRCK / PWM9} | 28 |
+| 29 | GPIO_29_3V3 {GMAC1_RXDV / UART1_TXD / PWM1 / PCIe0_PERSTN} | GND | 30 |
+| 31 | GPIO_30_3V3 {GMAC1_RX_D0 / UART1_RXD / PWM2 / PCIe0_WAKEN} | GPIO_34_3V3 {GMAC1_RX_D3 / UART4_RXD / PWM4 / PCIe1_CLKREQN} | 32 |
+| 33 | GPIO_31_3V3 {GMAC1_RX_D1 / UART1_CTS_N / PCIe0_CLKREQN} | GND | 34 |
+| 35 | GPIO_32_3V3 {GMAC1_RX_CLK / UART1_RTS_N / MN_CLK / PCIe1_PERSTN} | GPIO_35_3V3 {GMAC1_TX_D0 / UART4_CTS_N / PWM5 / PCIe2_PERSTN} | 36 |
+| 37 | GPIO_33_3V3 {GMAC1_RX_D2 / UART4_TXD / PWM3 / PCIe1_WAKEN} | GPIO_46_3V3 {GMAC1_CLK_REF / PWM16} | 38 |
+| 39 | GND | GPIO_37_3V3 {GMAC1_TX / PWM7 / PCIe2_CLKREQN} | 40 |
 
 ![](static/ViawbMuByoFJd4xoc2WcR8LWnXe.png)
 
