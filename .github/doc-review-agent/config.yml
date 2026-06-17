@@ -1,0 +1,52 @@
+# Doc-review agent configuration
+# Set enabled: false to skip any check entirely.
+
+checks:
+  frontmatter:
+    enabled: true
+    required_keys: []   # only flags files with no frontmatter block at all
+
+  headings:
+    enabled: true
+    # Enforce a single H1 and no skipped levels (e.g. H1 → H3)
+
+  links:
+    enabled: true
+    # Checks relative .md links and image src paths exist on disk
+
+  placeholders:
+    enabled: true
+    patterns: ["TBD", "TODO", "FIXME", "PLACEHOLDER"]
+
+  codeblocks:
+    enabled: true
+    # Flag fenced ``` blocks with no language tag
+
+  bilingual:
+    enabled: true
+    # Compare file trees under en/ and zh/ — flag files present in one but not the other
+    source_dir: en
+    target_dir: zh
+
+  punctuation:
+    enabled: true
+    # In zh/ files, flag half-width . , ? ! that should be full-width 。，？！
+    scope: zh
+
+  product_names:
+    enabled: true
+    # Keys are bad casings, values are the correct form
+    rules:
+      spacemit: SpacemiT
+      "k3 com260": "K3 CoM260"
+      com260: CoM260
+      "k1 muse": "K1 Muse"
+
+llm_review:
+  enabled: true          # set true to enable LLM content review
+  model: gpt-4o-mini      # any OpenAI-compatible model name
+  api_base: https://api.openai.com/v1
+  # API key must be in the OPENAI_API_KEY secret
+  prompt: |
+    You are a technical documentation reviewer. Review the following Markdown content
+    for clarity, completeness, and technical accuracy. Be concise. List issues only.

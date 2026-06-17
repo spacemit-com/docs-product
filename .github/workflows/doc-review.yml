@@ -1,0 +1,49 @@
+name: Doc Review Agent
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+    paths:
+      - "**/*.md"
+
+# Explicit minimal permissions — read code, write PR comments
+permissions:
+  contents: read
+  pull-requests: write
+  issues: write
+
+jobs:
+  doc-review:
+    name: Review documentation
+    runs-on: ubuntu-latest
+    # Never block merge — the job always succeeds
+    continue-on-error: true
+
+    steps:
+      - name: Checkout PR branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # full history for bilingual mirror check
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: .github/doc-review-agent/requirements.txt
+
+      - name: Install dependencies
+        run: pip install -r .github/doc-review-agent/requirements.txt
+
+      - name: Run doc-review agent
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_SHA: ${{ github.event.pull_request.head.sha }}
+          GITHUB_WORKSPACE: ${{ github.workspace }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          # Optional: add OPENAI_API_KEY secret to enable LLM review
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          cd .github/doc-review-agent
+          python reviewer.py || true    # || true ensures non-zero exit never fails CI
