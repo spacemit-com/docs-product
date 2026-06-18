@@ -32,8 +32,8 @@ Built on the RISC-V architecture, the kit supports mainstream AI model deploymen
 - **Rich Standard Interfaces**
   Comprehensive high-speed I/O and expansion interfaces for cameras, sensors, and peripherals
 
-- **Built for Real-World Applications**
-  Ideal for AI appliances, service robots, and autonomous edge agents
+- **Robotics-Grade Security**
+  Integrated hardware security engine with OP-TEE support for trusted execution and secure system deployment
 
 - **Engineering-Ready Support**
   Supports customized software, carrier board design, and full system integration to accelerate product deployment
@@ -45,6 +45,8 @@ Built on the RISC-V architecture, the kit supports mainstream AI model deploymen
 | Chip | SpacemiT K3 RISC-V AI CPU |
 | CPU | 8 x X100™ 64-bit RISC-V CPU cores<br>- 2 clusters x 4 cores per cluster, each cluster includes 4 MB shared L2 cache, with cross-cluster access<br>- Each X100 core includes 64 KB I-cache and 64 KB D-cache<br>- Compliant with the RVA23 profile<br>- Supports RVV 1.0, VLEN: 256 bits |
 | AI Performance | 8 x A100™ AI CPU cores, delivering 60 TOPS<br>- 2 clusters x 4 cores per cluster, each cluster includes 1 MB shared L2 cache and 1.5 MB TCM (Tightly Coupled Memory), with cross-cluster access<br>- Each A100 core includes 32 KB I-cache and 32 KB D-cache<br>- Supports RVV 1.0, VLEN: 1024 bits |
+| Hardware Security Engine | Supports international and Chinese commercial cryptographic algorithms <br> - Hash: SHA1 / SHA224 / SHA256, SM3 <br> - Symmetric encryption: AES-128/192/256, SM4 <br> - Asymmetric encryption: RSA-1024/2048/4096, ECC-128/256/512, SM2 |
+| Security System | HW-RoT-based Secure Boot <br> Trusted Execution Environment (TEE) with RISC-V PMP/IOPMP isolation mechanisms <br> Supports the OP-TEE OS |
 | GPU | Integrated 3D GPU, with support for Vulkan, OpenCL, and OpenGL ES |
 | Memory | 8GB/16GB/32GB 64-bit LPDDR5, 6400MT/s |
 | Storage | Supports internal UFS, SD card slot, and external NVMe |
