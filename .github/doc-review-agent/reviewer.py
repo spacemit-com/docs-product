@@ -149,7 +149,7 @@ def main() -> None:
             continue  # deleted file
 
         file_issues = run_file_checks(abs_path, content, rel_path)
-        file_issues += run_punctuation_check(abs_path, content, rel_path)
+        file_issues += run_punctuation_check(rel_path, content, rel_path)
         all_issues += file_issues
 
         # Post inline comments where the line falls inside the diff
