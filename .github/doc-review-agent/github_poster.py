@@ -48,7 +48,30 @@ def post_inline(repo: str, pr_number: int, commit_sha: str,
     ).raise_for_status()
 
 
+_BOT_MARKER = "## 📝 Doc-Review Agent Report"
+
+
+def _delete_previous_summary(repo: str, pr_number: int) -> None:
+    """Delete any existing bot summary comment to avoid duplicates on re-runs."""
+    resp = requests.get(
+        f"{_GH}/repos/{repo}/issues/{pr_number}/comments",
+        headers=_headers(),
+        params={"per_page": 100},
+        timeout=15,
+    )
+    if not resp.ok:
+        return
+    for comment in resp.json():
+        if _BOT_MARKER in comment.get("body", ""):
+            requests.delete(
+                f"{_GH}/repos/{repo}/issues/comments/{comment['id']}",
+                headers=_headers(),
+                timeout=15,
+            )
+
+
 def post_summary(repo: str, pr_number: int, body: str) -> None:
+    _delete_previous_summary(repo, pr_number)
     requests.post(
         f"{_GH}/repos/{repo}/issues/{pr_number}/comments",
         headers=_headers(),

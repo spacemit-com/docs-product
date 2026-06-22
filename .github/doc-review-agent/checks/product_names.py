@@ -6,7 +6,8 @@ def run(path: str, content: str, cfg: dict) -> list[dict]:
     rules: dict = cfg.get("rules", {})
     issues = []
     for lineno, line in enumerate(content.splitlines(), 1):
-        clean = re.sub(r"`[^`]+`", "", line)   # ignore inline code
+        clean = re.sub(r"`[^`]+`", "", line)          # ignore inline code
+        clean = re.sub(r"https?://\S+", "", clean)    # ignore URLs (e.g. spacemit.com)
         for wrong, correct in rules.items():
             # Match the wrong casing but not the correct one
             for m in re.finditer(re.escape(wrong), clean, re.IGNORECASE):
