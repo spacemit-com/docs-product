@@ -369,6 +369,10 @@ K3 CoM260 is powered through the DCIN interface. A certified DC jack power adapt
 
 You can connect a wired keyboard, mouse, or USB receiver to any USB-A port on the K3 CoM260 Development Kit. Bluetooth keyboards and mice are also supported.
 
+When a USB 3.0 device and a 2.4 GHz wireless keyboard or mouse receiver are connected to adjacent USB 3.0 ports, you may experience input lag or intermittent stuttering. This is a common physical phenomenon caused by potential interference from USB 3.0 high-speed data transmission with 2.4 GHz wireless signals.
+
+If you encounter this issue, we recommend using a USB extension cable to move the wireless receiver away from the USB 3.0 device. This can help reduce interference and improve the stability of the wireless connection.
+
 #### 6.1.3 Display
 
 K3 CoM260 requires an external display for video output. The product supports both DP and MIPI DSI video interfaces, so either one display or both types of displays can be connected.
