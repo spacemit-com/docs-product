@@ -551,3 +551,50 @@ Here, Tx and Rx represent the transmit and receive signals of the K3 board, resp
 | 6 | AUDIO_AGND | Audio analog ground |
 
 ![](./static/audio00.png)  
+
+### 5.5 eDP Display Interface
+
+| Pin | Signal | Description |
+|:---:|:------:|:------------|
+| 1  | NC | No signal |
+| 2  | GND | Ground |
+| 3  | EDP0_TX3_N | EDP0 transmit data 3 negative |
+| 4  | EDP0_TX3_P | EDP0 transmit data 3 positive |
+| 5  | GND | Ground |
+| 6  | EDP0_TX2_N | EDP0 transmit data 2 negative |
+| 7  | EDP0_TX2_P | EDP0 transmit data 2 positive |
+| 8  | GND | Ground |
+| 9  | EDP0_TX1_N | EDP0 transmit data 1 negative |
+| 10 | EDP0_TX1_P | EDP0 transmit data 1 positive |
+| 11 | GND | Ground |
+| 12 | EDP0_TX0_N | EDP0 transmit data 0 negative |
+| 13 | EDP0_TX0_P | EDP0 transmit data 0 positive |
+| 14 | GND | Ground |
+| 15 | EDP0_AUX_N | EDP0 auxiliary channel negative |
+| 16 | EDP0_AUX_P | EDP0 auxiliary channel positive |
+| 17 | GND | Ground |
+| 18 | eDP_VCC3V3 | eDP 3.3 V power supply |
+| 19 | eDP_VCC3V3 | eDP 3.3 V power supply |
+| 20 | eDP_VCC3V3 | eDP 3.3 V power supply |
+| 21 | eDP_VCC3V3 | eDP 3.3 V power supply |
+| 22 | NC | No signal |
+| 23 | GND | Ground |
+| 24 | GND | Ground |
+| 25 | GND | Ground |
+| 26 | GND | Ground |
+| 27 | HPD_3V3 | eDP hot-plug detect signal |
+| 28 | GND | Ground |
+| 29 | GND | Ground |
+| 30 | GND | Ground |
+| 31 | GND | Ground |
+| 32 | SOC_eDP0_BL-EN_3V3 | eDP backlight enable signal |
+| 33 | SOC_eDP0_BL-PWM_3V3 | eDP backlight brightness PWM control signal |
+| 34 | NC | No signal |
+| 35 | NC | No signal |
+| 36 | P12V0_eDP-BL | eDP backlight 12 V power supply |
+| 37 | P12V0_eDP-BL | eDP backlight 12 V power supply |
+| 38 | P12V0_eDP-BL | eDP backlight 12 V power supply |
+| 39 | P12V0_eDP-BL | eDP backlight 12 V power supply |
+| 40 | NC | No signal |
+
+![](./static/eDP.png)

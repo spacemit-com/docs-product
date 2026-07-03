@@ -59,8 +59,11 @@ The product version is used in this document as listed below:
 K3 is a new-generation high-performance RISC-V AI CPU launched by SpacemiT, with the following features:
 
 - 8 high-performance X100 compute cores, with a maximum frequency of 2.4 GHz, 130K DMIPS computing power, and single-core SPECint2006 > 9.0/GHz  
+- 8 个高性能 X100 计算核心，最高主频 2.4 GHz，算力达 130K DMIPS，单核 SPECint2006 > 9.0/GHz  
 - 60 TOPS of AI computing power  
+- 60 TOPS 的 AI 算力  
 - Multiple high-speed expansion interfaces, including 8 lanes of PCIe, 4x USB 3.0 ports, and 4x GMAC ports
+- 多种高速扩展接口，包括 8 lane PCIe、4 个 USB 3.0 端口和 4 个 GMAC 端口
 
 ### 3.2 K3 Chip Block Diagram
 

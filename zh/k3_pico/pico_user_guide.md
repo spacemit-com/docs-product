@@ -543,3 +543,51 @@ K3 Pico-ITX 配备 **26 Pin + 36 Pin FPC 扩展接口**。
 | 6        | AUDIO_AGND    | 音频模拟地           |
 
 ![](./static/audio00.png)  
+
+
+
+### 5.5 显示接口eDP
+|引脚编号|	信号	|说明|
+|--|--|--|
+|1	|NC|	无信号|
+|2	|GND	|地|
+|3	|EDP0_TX3_N	|EDP0 发送数据3 负极|
+|4	|EDP0_TX3_P	|EDP0 发送数据3 正极|
+|5	|GND|	地|
+|6	|EDP0_TX2_N	|EDP0 发送数据2 负极|
+|7	|EDP0_TX2_P|	EDP0 发送数据2 正极|
+|8	|GND	|地|
+|9	|EDP0_TX1_N	|EDP0 发送数据1 负极|
+|10	|EDP0_TX1_P	|EDP0 发送数据1 正极|
+|11	|GND	|地|
+|12	|EDP0_TX0_N	|EDP0 发送数据0 负极|
+|13	|EDP0_TX0_P	|EDP0 发送数据0 正极|
+|14	|GND	|地|
+|15	|EDP0_AUX_N	|EDP0 辅助通道 负极|
+|16	|EDP0_AUX_P	|EDP0 辅助通道 正极|
+|17	|GND	|地|
+|18	|eDP_VCC3V3	|eDP 3.3V 电源|
+|19	|eDP_VCC3V3	|eDP 3.3V 电源|
+|20|	eDP_VCC3V3	|eDP 3.3V 电源|
+|21	|eDP_VCC3V3	|eDP 3.3V 电源|
+|22	|NC	|无信号|
+|23	|GND|	地|
+|24	|GND|	地|
+|25	|GND|	地|
+|26|	GND|	地|
+|27	|HPD_3V3	|eDP 热插拔检测信号|
+|28	|GND	|地|
+|29	|GND|	地|
+|30	|GND	|地|
+|31	|GND	|地|
+|32	|SOC_eDP0_BL-EN_3V3|	eDP 背光使能信号|
+|33	|SOC_eDP0_BL-PWM_3V3|	eDP 背光亮度 PWM 调节信号|
+|34	|NC	|无信号|
+|35	|NC	|无信号|
+|36	|P12V0_eDP-BL	|eDP 背光 12V 电源|
+|37|	P12V0_eDP-BL	|eDP 背光 12V 电源|
+|38	|P12V0_eDP-BL|	eDP 背光 12V 电源|
+|39	|P12V0_eDP-BL	|eDP 背光 12V 电源|
+|40	|NC	|无信号|
+
+![](./static/eDP.png)
