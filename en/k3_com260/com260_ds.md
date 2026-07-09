@@ -12,6 +12,7 @@ sidebar_position: 2
 
 | Version | Date | Description |
 | --- | --- | --- |
+| V1.1 | 2026.07.09 | Updated wording and formatting |
 | V1.0 | 2026.04.30 | Initial release |
 
 ## About This Document
@@ -76,9 +77,9 @@ The table below lists the specific part numbers, main SoC model, and correspondi
 
 | Part Number | Main SoC | DDR Capacity |
 | :---------: | :--: | :----: |
-| COM2K308128 | K3 | 8GB |
-| COM2K316128 | K3 | 16GB |
-| COM2K332128 | K3 | 32GB |
+| COM3K308128 | K3 | 8GB |
+| COM3K316128 | K3 | 16GB |
+| COM3K332128 | K3 | 32GB |
 
 ## 2. Block Diagram
 
@@ -286,7 +287,7 @@ The figure below shows the physical view of the K3-CoM260 module.
 
 This section describes the pin package information of the K3-CoM260 in detail.
 
-The B1 module uses the following package specifications:
+K3-CoM260 uses the following package specifications:
 
 - Interface: gold finger (260-pin SODIMM)
 - Dimensions: 69.6 mm × 45.0 mm × 1.2 mm
