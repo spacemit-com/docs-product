@@ -12,6 +12,7 @@ sidebar_position: 2
 
 | Version | Date | Description |
 | --- | --- | --- |
+| V1.2 | 2026.07.10 | Updated power-supply requirements and note |
 | V1.1 | 2026.07.09 | Updated wording and formatting |
 | V1.0 | 2026.04.30 | Initial release |
 
@@ -704,6 +705,14 @@ The table below lists the pin type definitions of the K3-CoM260.
 | VDDDC | VDD_IN (MODULE_ID low) | 4.75 | 5 | 5.25 | V |
 |  | VDD_IN (MODULE_ID high) | 12 | - | 20 | V |
 |  | VCC_RTC | 1.85 | - | 5.5 | V |
+
+> **Note**
+>
+> The current K3-CoM260 design supports high-voltage (12 V to 20 V) input power only. Carrier board designs must meet the following requirements:
+>
+> 1. Connect MODULE_ID (Pin 217) to 3.3 V through a pull-up resistor.
+> 2. The MODULE_ID pull-up power supply must be established before VDD_IN; otherwise, the module may fail to boot normally.
+> 3. For 5 V power mode support, please contact SpacemiT.
 
 #### Absolute Maximum Ratings
 
