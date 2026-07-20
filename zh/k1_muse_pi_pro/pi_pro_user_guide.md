@@ -422,3 +422,7 @@ MUSE Pi Pro上配备了1路 2lanes MIPI DSI FPC 15p接口。
 支持40pin双排插针pin6、8、10调试X60，主控端线序从上到下GND，RX，TX。
 
 ![图片](./static/pi_pro_connect.png)
+
+## 8. 常见问题解答（FAQ）
+
+如在烧录、供电或 Wi-Fi 连接过程中遇到问题，请参阅 [K1 常见问题解答](https://www.spacemit.com/community/document/info?lang=zh&nodepath=software/SDK/bianbu/user_guide/LXQt/K1_FAQ.md)。

@@ -483,3 +483,7 @@ On the host controller side, the pin order from top to bottom is:
 GND → RX → TX
 
 ![](./static/Q0H1bvBILoAzVwxGIudczWwLn0g.png)
+
+## 8. Frequently Asked Questions (FAQ)
+
+For issues with firmware flashing, power supply, or Wi-Fi connections, refer to the [K1 FAQ](https://www.spacemit.com/community/document/info?lang=en&nodepath=software/SDK/bianbu/user_guide/LXQt/K1_FAQ.md).
