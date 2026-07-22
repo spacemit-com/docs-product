@@ -1,5 +1,7 @@
 # K3 Shelf Array Server Brief
 
+**[PDF Version](https://cdn-resource.spacemit.com/file/product/K3/k3-shelf_brief_en.pdf)**
+
 **K3 Shelf Native RISC-V Build Cluster Server**
 
 SpacemiT K3 Shelf is available in two high-density rack server models, N10 and N48, powered by the self-developed K3 AI CPU based on the RVA23 Profile. Each compute node features an 8-core X100 RISC-V CPU running at up to 2.4 GHz, delivering up to 60 TOPS of AI performance.
@@ -12,35 +14,35 @@ With a typical power consumption of just 15–25 W per node, K3 Shelf reduces po
 
 - **10/48 K3 compute nodes**
 
-  Each server integrates multiple K3 compute nodes. Every node features an 8-core X100 RISC-V CPU running at up to 2.4 GHz together with an 8-core A100 AI CPU, delivering up to 60 TOPS of AI performance.
+  Each K3 node features an 8-core X100 RISC-V CPU at up to 2.4 GHz and an 8-core A100 AI CPU, delivering up to 60 TOPS.
 
 - **Mainstream Linux Build System Support**
   
-  Supports mainstream build systems including Koji and Open Build Service (OBS), providing native compilation performance more than 10× faster than QEMU emulation on x86 platforms.
+  Supports Koji and Open Build Service (OBS), with native compilation over 10× faster than QEMU on x86.
 
 - **RISC-V Software Compatibility Testing**
   
-  The industry's first mass-produced array server supporting the RVA23 Profile, enabling compatibility validation for mainstream Linux distributions, open-source software, and AI frameworks.
+  The industry's first mass-produced RVA23 Profile array server for validating Linux distributions, open-source software, and AI frameworks.
 
 - **Remote RISC-V Cloud Debugging**
 
-  Integrated with cloud services, the platform supports remote flashing, serial console access, SSH, Web IDE, and remote desktop, providing an out-of-the-box cloud development environment.
+  Supports remote flashing, serial console, SSH, Web IDE, and remote desktop for an out-of-the-box cloud development environment.
 
 - **Exceptional Energy Efficiency**
 
-  Twelve K3 compute nodes deliver build performance comparable to a mid-range x86 workstation while consuming only 15–25 W per node, reducing power costs by up to 60% compared with conventional x86 servers.
+  Twelve K3 nodes match the build performance of a mid-range x86 workstation while consuming just 15–25 W per node, cutting power costs by up to 60%.
 
 - **Equipped with 4 × 10GbE ports**
 
-  Features 4 × 10GbE SFP+ ports and one dedicated MGMT port for BMC management, providing high-bandwidth networking and reliable remote administration.
+  Features 4×10GbE (SFP+) ports and a dedicated MGMT port for high-speed networking and BMC management.
 
 - **Integrated BMC Management**
 
-  The integrated BMC management system enables real-time monitoring, system configuration, hardware management, diagnostics, remote maintenance, and firmware updates, while providing open interfaces for further software development.
+  Provides real-time monitoring, configuration, hardware management, diagnostics, firmware updates, and open APIs for software development.
 
 - **Broad Application Scenarios**
 
-  Ideal for AI computing servers, edge AI, on-premises LLM deployment, smart cities, healthcare, industrial AI, intelligent security, and many other edge computing applications.
+  Ideal for AI computing, edge AI, on-premises LLM deployment, smart cities, healthcare, industrial AI, and intelligent security.
 
 ## Specifications (N10)
 
@@ -49,7 +51,7 @@ With a typical power consumption of just 15–25 W per node, K3 Shelf reduces po
 | Form Factor | 1U rack-mounted AI computing server |
 | Architecture | RISC-V architecture |
 | Nodes | 10 distributed compute nodes + 1 control node |
-| Compute Node | 8-core 64-bit X100 processor, up to 2.4 GHz, with an 8-core A100 AI CPU supporting 1024-bit RVV 1.0 vector computing |
+| Compute Node | 8-core 64-bit X100 processor, up to 2.4 GHz, with an 8-core AI CPU supporting 1024-bit RVV 1.0 vector computing |
 | Video Encoding | H.265/H.264: 1 × 4K@60fps, 8 × 1080p@30fps |
 | Video Decoding | 4K@120fps [H.264/H.265/VP9]/JPEG(MPEG4/MPEG2), 16 × 1080p@30fps |
 | Control Node | 8-core 64-bit X100 processor running at up to 2.4 GHz, paired with an 8-core A100 AI CPU delivering up to 60 TOPS |
@@ -80,7 +82,7 @@ With a typical power consumption of just 15–25 W per node, K3 Shelf reduces po
 | Form Factor | 2U rack-mounted AI computing server |
 | Architecture | RISC-V architecture |
 | Nodes | 48 distributed compute nodes + 1 control node |
-| Compute Node | 8-core 64-bit X100 processor, up to 2.4 GHz, with an 8-core A100 AI CPU supporting 1024-bit RVV 1.0 vector computing |
+| Compute Node | 8-core 64-bit X100 processor, up to 2.4 GHz, with an 8-core AI CPU supporting 1024-bit RVV 1.0 vector computing |
 | Video Encoding | H.265/H.264: 1 × 4K@60fps, 8 × 1080p@30fps |
 | Video Decoding | 4K@120fps [H.264/H.265/VP9]/JPEG(MPEG4/MPEG2), 16 × 1080p@30fps |
 | Control Node | 8-core 64-bit X100 processor running at up to 2.4 GHz, paired with an 8-core A100 AI CPU delivering up to 60 TOPS |
