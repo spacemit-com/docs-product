@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # K3 Shelf Array Server Brief
 
 **[PDF Version](https://cdn-resource.spacemit.com/file/product/K3/k3-shelf_brief_en.pdf)**
@@ -60,7 +64,6 @@ With a typical power consumption of just 15–25 W per node, K3 Shelf reduces po
 | Storage | 128 GB UFS × 10 (16/32/64/128/256 GB options) |
 | Storage Expansion | Optional M.2 2280 PCIe NVMe SSD × 10 and one 3.5"/2.5" SATA 3.0 SSD with hot-swap support. The BMC provides direct storage management, while compute nodes can access the drive through BMC network sharing. |
 | Power Supply | 550 W AC power supply (90–264 VAC, 47–63 Hz), non-hot-swappable |
-| Display | 1 × touchscreen display |
 | Cooling | 6 high-speed cooling fans |
 | Dimensions | 440.5 × 494.0 × 44.4 mm (L × W × H) |
 | Weight (Fully Configured) | Net weight: 8.1 kg; Shipping weight: 10.3 kg |
@@ -91,6 +94,7 @@ With a typical power consumption of just 15–25 W per node, K3 Shelf reduces po
 | Storage | 128 GB UFS × 48 (16/32/64/128/256 GB options) |
 | Storage Expansion | Optional M.2 2280 PCIe NVMe SSD × 48 |
 | Power Supply | Dual redundant AC power supplies (hot-swappable) |
+| Screen | 1 × touchscreen display |
 | Cooling | 12 high-speed cooling fans |
 | Dimensions | 724.0 × 430.0 × 88.8 mm (L × W × H) |
 | Weight (Fully Configured) | Net weight: 23.1 kg; Shipping weight: 25.3 kg |
@@ -100,7 +104,7 @@ With a typical power consumption of just 15–25 W per node, K3 Shelf reduces po
 | Deep Learning | Supports CNN, RNN, LSTM, and other neural networks, together with TensorFlow, PyTorch, PaddlePaddle, ONNX, Caffe, custom operators, and Docker containerization. |
 | Networking | 2 × 10GbE (SFP+), 2 × Gigabit Ethernet (RJ45), and 1 × Gigabit Ethernet (RJ45, MGMT for BMC) |
 | Console | 1 × Console (RJ45, BMC debug port, 115200 bps) |
-| Display | 1 × VGA (up to 1080p, BMC display output) |
+| Display output | 1 × VGA (up to 1080p, BMC display output) |
 | USB | 2 × USB 3.0 (supports USB OTG for BMC firmware upgrade) |
 | Buttons | 1 × Reset, 1 × UID, 1 × Power button |
 
