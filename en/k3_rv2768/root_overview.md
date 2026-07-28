@@ -46,7 +46,7 @@ With a multi-node cluster architecture and full hardware virtualization, the ser
 | | ROM | NVMe SSD (PCIe 3.0 x4), 64 / 128 / 256 GB, optional UFS |
 | | Networking | 1GE port for internal management network, 10GE port for external connectivity |
 | | Features | PXE boot, remote access, debugging, and upgrade |
-| **Switch System** | External Ports | 2 × 10GbE SFP+, 48 × 10GbE SFP+ |
+| **Switch System** | External Ports | 2 × 10GbE SFP+ and 48 × 10GbE SFP+ |
 | | Topology | Network connectivity between compute node interfaces, sideband management ports, and external ports |
 | **System (Chassis)** | Power | 2000 W / 3000 W PSU (Platinum/Titanium), hot-swappable, 1+1 redundancy |
 | | Cooling | 4 fans |
