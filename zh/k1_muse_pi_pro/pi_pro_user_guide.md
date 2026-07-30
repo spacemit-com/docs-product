@@ -76,6 +76,8 @@ K1 MUSE Pi Pro 单板计算机将 RISC-V 八核处理器、存储硬盘、通用
 
 ![图片](./static/pi_pro_cam0.png)
 
+> 注：有关 MIPI 摄像头的连接方法及常见问题，请参阅 [MIPI 相机使用及常见问题](https://www.spacemit.com/community/document/info?lang=zh&nodepath=software/SDK/bianbu/user_guide/LXQt/Camera_FAQ.md)。
+
 #### 摄像输入接 CAMERA1
 
 - 类型：15pin，1mm间距软排线连接器；
