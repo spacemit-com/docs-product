@@ -10,9 +10,9 @@ sidebar_position: 1
 
 The Cluster Server RV2768 is a RISC-V-based cluster server in a 2U, 19-inch rack form factor, integrating up to 48 SpacemiT K3 processors and compliant with the RVA23 profile defined by RISC-V International.
 
-RVA23 targets general-purpose application processors, requiring support for Vector and Hypervisor extensions, and represents a modern performance standard for AI and high-performance workloads. The system delivers 768 native RISC-V cores, making it well-suited for large-scale application builds and full operating system compilation.
+RVA23 targets general-purpose application processors, requiring support for Vector and Hypervisor extensions, and represents a modern performance standard for AI and high-performance workloads. The system delivers 768 native RISC-V cores, making it well-suited for running large numbers of AI agents and applications while handling compute-intensive data processing tasks.
 
-With a multi-node cluster architecture and full hardware virtualization, the server streamlines CI/CD workflows and accelerates the RISC-V software ecosystem. Leveraging vector extensions, it delivers up to 2880 TOPS of AI compute and supports up to 1536 GB of memory for concurrent AI inference workloads.
+With a multi-node cluster architecture and full hardware virtualization, the server allows multiple users to run independent computing environments simultaneously without interference, providing hardware-level isolation between users. Leveraging vector extensions, it delivers up to 2880 TOPS of AI compute and supports up to 1536 GB of memory, enabling concurrent AI inference workloads.
 
 ## Key Features
 
