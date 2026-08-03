@@ -64,6 +64,8 @@ With a multi-node cluster architecture and full hardware virtualization, the ser
 
 ## Physical Structure
 
+![](./static/components.png)
+
 | No. | Component | No. | Component |
 | :--- | :--- | :--- | :--- |
 | 1 | Chassis | 2 | Mainboard |
