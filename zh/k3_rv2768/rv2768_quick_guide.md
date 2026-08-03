@@ -12,7 +12,7 @@ sidebar_position: 2
 
 ## 简介
 
-Cluster Server RV2768 为基于 RISC-V 架构的集群服务器，2U 高度 19 英寸标准尺寸机架式，搭载 48 个进迭时空 K3 处理器，符合 RISC-V 国际基金会的指令集扩展集合规范 RVA23。详细信息请参考《Cluster Server RV2768 服务器用户指南》
+Cluster Server RV2768 为基于 RISC-V 架构的集群服务器，2U 高度 19 英寸标准尺寸机架式，搭载 48 个进迭时空 K3 处理器，符合 RISC-V 国际基金会的指令集扩展集合规范 RVA23。详细信息请参考[《Cluster Server RV2768 技术白皮书》](./rv2768_white_paper.md)。
 
 |项目|指标参数|
 |---|---|

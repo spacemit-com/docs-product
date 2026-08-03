@@ -12,7 +12,7 @@ sidebar_position: 2
 
 ## Overview
 
-The Cluster Server RV2768 is a RISC-V-based cluster server in a 2U, 19-inch rack form factor, integrating up to 48 SpacemiT K3 processors and compliant with the RVA23 profile defined by RISC-V International. For more detail, refer to Cluster Server User Guide.
+The Cluster Server RV2768 is a RISC-V-based cluster server in a 2U, 19-inch rack form factor, integrating up to 48 SpacemiT K3 processors and compliant with the RVA23 profile defined by RISC-V International. For more detail, refer to the [Cluster Server RV2768 Technical White Paper](./rv2768_white_paper.md).
 
 |Item|Specification|
 |---|---|
