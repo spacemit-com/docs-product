@@ -39,9 +39,9 @@ With a multi-node cluster architecture and full hardware virtualization, the ser
 | **Physical** | Form Factor | 2U rackmount |
 | | Dimensions | 87.4 mm × 447.6 mm × 816.8 mm |
 | | Compute Modules | Up to 24 modules, each with 2 K3 nodes, independently serviceable |
-| | Compute Nodes | Up to 48 nodes with high-speed, low-latency interconnect |
+| | Compute Nodes | Up to 48 physically isolated nodes, each independently manageable and maintainable |
 | **Compute Node** | CPU Cores | 8 × X100 cores per K3, SPECint2006 > 9.0/GHz, up to 2.4 GHz |
-| | AI Cores | 8 × A100 cores per node, up to 60 TOPS |
+| | AI Cores | 8 × A100 cores per node, 60 TOPS @INT4 |
 | | RAM | LPDDR5, 8 / 16 / 32 GB options, up to 6400 MT/s |
 | | ROM | NVMe SSD (PCIe 3.0 x4), 64 / 128 / 256 GB, optional UFS |
 | | Networking | 1GE port for internal management network, 10GE port for external connectivity |
@@ -54,7 +54,7 @@ With a multi-node cluster architecture and full hardware virtualization, the ser
 | **Management** | System Management | Unified multi-node module management and integrated switch management, with a dedicated front GE management port for full fault monitoring and operations |
 | | Node Management | Power control, reset, firmware configuration, serial debug, and remote console |
 | **Software** | OS | Optional pre-installed mainstream Linux distributions |
-| | Applications | RISC-V cloud ecosystem, build clusters, and AI cluster workloads |
+| | Software Platform | Cluster management, distributed computing, AI agent clusters |
 | **Operating Conditions** | Temperature | 5°C–40°C (41°F–104°F), ASHRAE A1/A2/A3 compliant |
 | | Humidity | 8%–90% |
 
