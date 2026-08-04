@@ -51,8 +51,8 @@ def post_inline(repo: str, pr_number: int, commit_sha: str,
 _BOT_MARKER = "## 📝 Doc-Review Agent Report"
 
 
-def _delete_previous_summary(repo: str, pr_number: int) -> None:
-    """Delete any existing bot summary comment to avoid duplicates on re-runs."""
+def _find_previous_summary(repo: str, pr_number: int) -> int | None:
+    """Return the existing bot summary comment ID, if any."""
     resp = requests.get(
         f"{_GH}/repos/{repo}/issues/{pr_number}/comments",
         headers=_headers(),
@@ -60,18 +60,23 @@ def _delete_previous_summary(repo: str, pr_number: int) -> None:
         timeout=15,
     )
     if not resp.ok:
-        return
+        return None
     for comment in resp.json():
         if _BOT_MARKER in comment.get("body", ""):
-            requests.delete(
-                f"{_GH}/repos/{repo}/issues/comments/{comment['id']}",
-                headers=_headers(),
-                timeout=15,
-            )
+            return comment["id"]
+    return None
 
 
 def post_summary(repo: str, pr_number: int, body: str) -> None:
-    _delete_previous_summary(repo, pr_number)
+    previous_comment_id = _find_previous_summary(repo, pr_number)
+    if previous_comment_id is not None:
+        requests.patch(
+            f"{_GH}/repos/{repo}/issues/comments/{previous_comment_id}",
+            headers=_headers(),
+            json={"body": body},
+            timeout=15,
+        ).raise_for_status()
+        return
     requests.post(
         f"{_GH}/repos/{repo}/issues/{pr_number}/comments",
         headers=_headers(),

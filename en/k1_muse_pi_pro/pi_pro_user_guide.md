@@ -86,6 +86,8 @@ MUSE Pi Pro comes in a compact 1.8-inch board form factor, designed to deliver e
 
 ![CAMERA0](./static/LLVibDZlAoUzoZxphA2c9sAdnKf.png)
 
+> **Note:** For MIPI camera connection instructions and troubleshooting, see [MIPI Camera Usage and FAQ](https://www.spacemit.com/community/document/info?lang=en&nodepath=software/SDK/bianbu/user_guide/LXQt/Camera_FAQ.md).
+
 #### Camera Interface CAMERA1
 
 - Connector: **15-pin, 1.0 mm FFC**
@@ -483,3 +485,7 @@ On the host controller side, the pin order from top to bottom is:
 GND → RX → TX
 
 ![](./static/Q0H1bvBILoAzVwxGIudczWwLn0g.png)
+
+## 8. Frequently Asked Questions (FAQ)
+
+For issues with firmware flashing, power supply, or Wi-Fi connections, refer to the [K1 FAQ](https://www.spacemit.com/community/document/info?lang=en&nodepath=software/SDK/bianbu/user_guide/LXQt/K1_FAQ.md).

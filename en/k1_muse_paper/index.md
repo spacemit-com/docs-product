@@ -1,4 +1,4 @@
-sidebar_position: 5
+sidebar_position: 7
 
 # K1 MUSE Paper
 
