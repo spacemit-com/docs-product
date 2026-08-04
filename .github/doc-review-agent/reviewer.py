@@ -2,7 +2,7 @@
 Doc-review agent — main orchestrator.
 
 Reads config.yml, runs enabled checks against every changed .md file,
-then posts inline + summary comments on the PR. Never exits non-zero.
+then posts one consolidated summary comment on the PR. Never exits non-zero.
 """
 import json
 import os
@@ -151,17 +151,6 @@ def main() -> None:
         file_issues = run_file_checks(abs_path, content, rel_path)
         file_issues += run_punctuation_check(rel_path, content, rel_path)
         all_issues += file_issues
-
-        # Post inline comments where the line falls inside the diff
-        for issue in file_issues:
-            try:
-                github_poster.post_inline(
-                    REPO, PR_NUMBER, COMMIT_SHA,
-                    rel_path, issue.get("line", 1),
-                    f"🔍 {issue['msg']}", patch,
-                )
-            except Exception:
-                pass  # inline post failures are non-fatal
 
         # LLM review
         if LLM_CFG.get("enabled"):
