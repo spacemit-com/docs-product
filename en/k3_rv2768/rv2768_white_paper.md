@@ -330,9 +330,53 @@ Four 6056 fan modules are supported.
 
 ## System Management Platforms
 
-| Platform | Front-End Illustration | Core Functions |
-| :--- | :--- | :--- |
-| Cluster Server<br>Cluster Management System | ![Image](./static/platform_00.png)<br>![Image](./static/platform_01.png) | - Management of 48 compute modules<br>- Power control and reboot operations for individual compute nodes<br>- SSH, serial console, KVM, and file operations for compute modules<br>- Batch firmware upgrades<br>- Compute-node monitoring and alarms<br>- Batch deployment of large language models<br>- Network configuration for switch management modules<br>- Batch script execution<br>- Server thermal management<br>- Log auditing<br>- API support |
-| Cluster Flow<br>Distributed Computing Platform | ![Image](./static/platform_02.png)<br>![Image](./static/platform_03.png) | - DAG orchestration engine<br>- Intelligent scheduler for maximum node utilization<br>- Plugin system for modular compute workloads<br>- Process isolation and sandbox management with data-file isolation between compute units<br>- Proprietary DataFrame protocol for maximum utilization of node communication bandwidth<br>- Automatic node discovery<br>- Support for VLM, YOLO, and other model plugins<br>- Plugin development SDK that allows development to focus on compute logic<br>- Built-in SOP behavior-analysis demo |
-| Cluster Agent<br>Intelligent Agent Cluster Platform | ![Image](./static/platform_04.png)<br>![Image](./static/platform_05.png) | - Request one or more intelligent agents in three steps<br>- Preconfigured Hermes, Claude Code, and other agents for immediate use<br>- Built-in large language model interfaces requiring no additional configuration<br>- Dynamic resource scheduling through K3S virtualized containers<br>- Dynamic adjustment of CPU cores and memory allocated to requested agents<br>- Backend management software for Agent clusters spanning multiple Cluster Servers |
+### Cluster Server Management System
+
+Front-end illustration:
+![Image](./static/platform_00.png)
+![Image](./static/platform_01.png)
+
+Core functions:
+- Management of 48 compute modules
+- Power control and reboot operations for individual compute nodes
+- SSH, serial console, KVM, and file operations for compute modules
+- Batch firmware upgrades
+- Compute-node monitoring and alarms
+- Batch deployment of large language models
+- Network configuration for switch management modules
+- Batch script execution
+- Server thermal management
+- Log auditing
+- API support
+
+### Cluster Flow Distributed Computing Platform
+
+Front-end illustration:
+![Image](./static/platform_02.png)
+![Image](./static/platform_03.png)
+
+Core functions:
+- DAG orchestration engine
+- Intelligent scheduler for maximum node utilization
+- Plugin system for modular compute workloads
+- Process isolation and sandbox management with data-file isolation between compute units
+- Proprietary DataFrame protocol for maximum utilization of node communication bandwidth
+- Automatic node discovery
+- Support for VLM, YOLO, and other model plugins
+- Plugin development SDK that allows development to focus on compute logic
+- Built-in SOP behavior-analysis demo
+
+### Cluster Agent Intelligent Agent Cluster Platform
+
+Front-end illustration:
+![Image](./static/platform_04.png)
+![Image](./static/platform_05.png)
+
+Core functions:
+- Request one or more intelligent agents in three steps
+- Preconfigured Hermes, Claude Code, and other agents for immediate use
+- Built-in large language model interfaces requiring no additional configuration
+- Dynamic resource scheduling through K3S virtualized containers
+- Dynamic adjustment of CPU cores and memory allocated to requested agents
+- Backend management software for Agent clusters spanning multiple Cluster Servers
 
