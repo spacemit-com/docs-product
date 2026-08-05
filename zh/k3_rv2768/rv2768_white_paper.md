@@ -323,9 +323,52 @@ Cluster Server 采用 CRPS（Common Redundant Power Supply）标准冗余电源�
 
 ## 系统管理平台
 
-| 平台名 | 平台前端图示 | 核心功能模块 |
-| :--- | :--- | :--- |
-| Cluster Server<br>集群管理系统 | ![图片](./static/platform_00.png)<br>![图片](./static/platform_01.png) | - 48*模组管理<br>- 单个计算节点上下电、重启等操作<br>- 模组ssh、串口、KVM、文件操作<br>- 批量固件升级<br>- 计算节点监控和告警<br>- 大模型批量部署<br>- 交换机管理模组网络配置<br>- 批量运行脚本<br>- 服务器散热管理<br>- 日志审计<br>- API调用支持 |
-| Cluster Flow<br>分布式计算平台 | ![图片](./static/platform_02.png)<br>![图片](./static/platform_03.png) | - DAG 编排引擎<br>- 智能调度器最大节点利用率<br>- 插件系统，计算业务插件化<br>- 进程隔离和沙箱管理，多计算单元数据文件隔离<br>- 自研DataFrame 协议，节点通信带宽最大化利用<br>- 节点自动发现<br>- 支持VLM、Yolo等多种模型插件<br>- 提供插件开发SDK，只需专注计算逻辑开发<br>- 自带SOP行为分析Demo |
-| Cluster Agent<br>智能体集群平台 | ![图片](./static/platform_04.png)<br>![图片](./static/platform_05.png) | - 3步申请一个或多个智能体<br>- 预置Hermes、ClaudeCode等智能体开箱即用<br>- 预置大模型接口，不需要额外配置<br>- 基于K3S虚拟化容器实现动态资源调度<br>- 可动态调整申请智能体的CPU核数，内存大小<br>- 多Cluster服务器Agent集群后台管理软件 |
+### Cluster Server 集群管理系统
 
+平台前端图示如下
+![图片](./static/platform_00.png)
+![图片](./static/platform_01.png)
+
+核心功能模块：
+- 48 x 模组管理
+- 单个计算节点上下电、重启等操作
+- 模组 SSH、串口、KVM、文件操作
+- 批量固件升级
+- 计算节点监控和告警
+- 大模型批量部署
+- 交换机管理模组网络配置
+- 批量运行脚本
+- 服务器散热管理
+- 日志审计
+- API调用支持
+
+### Cluster Flow 分布式计算平台
+
+平台前端图示如下
+![图片](./static/platform_02.png)
+![图片](./static/platform_03.png)
+
+核心功能模块：
+- DAG 编排引擎
+- 智能调度器最大节点利用率
+- 插件系统，计算业务插件化
+- 进程隔离和沙箱管理，多计算单元数据文件隔离
+- 自研 DataFrame 协议，节点通信带宽最大化利用
+- 节点自动发现
+- 支持 VLM、Yolo 等多种模型插件
+- 提供插件开发 SDK，只需专注计算逻辑开发
+- 自带 SOP 行为分析 Demo
+
+### Cluster Agent 智能体集群平台
+
+平台前端图示如下
+![图片](./static/platform_04.png)
+![图片](./static/platform_05.png)
+
+核心功能模块：
+- 3步申请一个或多个智能体
+- 预置 Hermes、ClaudeCode 等智能体开箱即用
+- 预置大模型接口，不需要额外配置
+- 基于 K3S 虚拟化容器实现动态资源调度
+- 可动态调整申请智能体的 CPU 核数，内存大小
+- 多 Cluster 服务器 Agent 集群后台管理软件
