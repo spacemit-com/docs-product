@@ -3,10 +3,10 @@ import re
 
 # Half-width → full-width mapping for common sentence-ending / clause punctuation
 _RULES = [
-    (re.compile(r"(?<=[^\d])\."  ), "。", "."),   # exclude decimals
+    (re.compile(r"(?<=[^\d/\w])\.(?![a-zA-Z0-9])"  ), "。", "."),   # exclude decimals, file paths, and extensions
     (re.compile(r","             ), "，", ","),
     (re.compile(r"\?"           ), "？", "?"),
-    (re.compile(r"!"            ), "！", "!"),
+    (re.compile(r"!(?!\[)"      ), "！", "!"),   # exclude markdown image syntax ![...]
 ]
 
 
