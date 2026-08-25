@@ -12,6 +12,7 @@ sidebar_position: 2
 
 | Version | Date | Description |
 | --- | --- | --- |
+| V1.3 | 2026.08.25 | Updated storage capacity in ordering information, power-supply voltage specification, pin definitions, and electrical characteristics |
 | V1.2 | 2026.07.10 | Updated power-supply requirements and note |
 | V1.1 | 2026.07.09 | Updated wording and formatting |
 | V1.0 | 2026.04.30 | Initial release |
@@ -76,11 +77,11 @@ The figure below shows the naming convention for the **ordering part number**, w
 
 The table below lists the specific part numbers, main SoC model, and corresponding DDR capacity.
 
-| Part Number | Main SoC | DDR Capacity |
-| :---------: | :--: | :----: |
-| COM3K308128 | K3 | 8GB |
-| COM3K316128 | K3 | 16GB |
-| COM3K332128 | K3 | 32GB |
+| Part Number | Main SoC | DDR Capacity | Storage Capacity |
+| :---------: | :--: | :----: | :----: |
+| COM3K308128 | K3 | 8GB | 128GB |
+| COM3K316128 | K3 | 16GB | 128GB |
+| COM3K332128 | K3 | 32GB | 128GB |
 
 ## 2. Block Diagram
 
@@ -423,25 +424,25 @@ The table below shows the pin layout of the K3-CoM260.
 | GND | 245 | 246 | GND |
 | GND | 247 | 248 | GND |
 | GND | 249 | 250 | GND |
-| VDD_IN(5V/20V) | 251 | 252 | VDD_IN(5V/20V) |
-| VDD_IN(5V/20V) | 253 | 254 | VDD_IN(5V/20V) |
-| VDD_IN(5V/20V) | 255 | 256 | VDD_IN(5V/20V) |
-| VDD_IN(5V/20V) | 257 | 258 | VDD_IN(5V/20V) |
-| VDD_IN(5V/20V) | 259 | 260 | VDD_IN(5V/20V) |
+| VDD_IN(20V) | 251 | 252 | VDD_IN(20V) |
+| VDD_IN(20V) | 253 | 254 | VDD_IN(20V) |
+| VDD_IN(20V) | 255 | 256 | VDD_IN(20V) |
+| VDD_IN(20V) | 257 | 258 | VDD_IN(20V) |
+| VDD_IN(20V) | 259 | 260 | VDD_IN(20V) |
 
 The table below lists the pin type definitions of the K3-CoM260.
 
 | PIN | Pin definition | Pin NO. | Pad Type | IO power domain | Function for K3-CoM260_KIT | Default function description |
 |-----|----------------|---------|----------|-----------------|----------------------------|------------------------------|
 | 1 | GND |  | G | GND | Digital core Ground |  |
-| 3 | MIPI_CSI0_DN0 | AG39 | I |  | MIPI_CSI0_DN0 | CSI0 DATA0 LANEN |
-| 5 | MIPI_CSI0_DP0 | AG38 | I |  | MIPI_CSI0_DP0 | CSI0 DATA0 LANEP |
+| 3 | MIPI_CSI0_DN0 | AE38 | I |  | MIPI_CSI0_DN0 | CSI0 DATA0 LANEN |
+| 5 | MIPI_CSI0_DP0 | AE39 | I |  | MIPI_CSI0_DP0 | CSI0 DATA0 LANEP |
 | 7 | GND |  | G |  | GND | Digital core Ground |
-| 9 | MIPI_CSI0_CLKN | AF36 | O |  | MIPI_CSI0_CLKN | CSI0 Clock LANEN |
-| 11 | MIPI_CSI0_CLKP | AF37 | O |  | MIPI_CSI0_CLKP | CSI0 Clock LANEP |
+| 9 | MIPI_CSI0_CLKN | AB39 | O |  | MIPI_CSI0_CLKN | CSI0 Clock LANEN |
+| 11 | MIPI_CSI0_CLKP | AB40 | O |  | MIPI_CSI0_CLKP | CSI0 Clock LANEP |
 | 13 | GND |  | G |  | GND | Digital core Ground |
-| 15 | MIPI_CSI0_DN1 | AF40 | I |  | MIPI_CSI0_DN1 | CSI0 DATA1 LANEN |
-| 17 | MIPI_CSI0_DP1 | AF39 | I |  | MIPI_CSI0_DP1 | CSI0 DATA1 LANEP |
+| 15 | MIPI_CSI0_DN1 | AD39 | I |  | MIPI_CSI0_DN1 | CSI0 DATA1 LANEN |
+| 17 | MIPI_CSI0_DP1 | AD40 | I |  | MIPI_CSI0_DP1 | CSI0 DATA1 LANEP |
 | 19 | GND |  | G | GND | Digital core Ground |  |
 | 21 | MIPI_CSI2_DN2 | V39 | I |  | MIPI_CSI2_DN2 | CSI2 DATA2 LANEN |
 | 23 | MIPI_CSI2_DP2 | V40 | I |  | MIPI_CSI2_DP2 | CSI2 DATA2 LANEP |
@@ -558,11 +559,11 @@ The table below lists the pin type definitions of the K3-CoM260.
 | 245 | GND |  |  |  |  |  |
 | 247 | GND |  |  |  |  |  |
 | 249 | GND |  |  |  |  |  |
-| 251 | VDD_IN(5V/20V) |  | P | 5V/9~19V | VDD_IN | K3-CoM260 Power |
-| 253 | VDD_IN(5V/20V) |  |  |  |  |  |
-| 255 | VDD_IN(5V/20V) |  |  |  |  |  |
-| 257 | VDD_IN(5V/20V) |  |  |  |  |  |
-| 259 | VDD_IN(5V/20V) |  |  |  |  |  |
+| 251 | VDD_IN(20V) |  | P | 9~19V | VDD_IN | K3-CoM260 Power |
+| 253 | VDD_IN(20V) |  |  |  |  |  |
+| 255 | VDD_IN(20V) |  |  |  |  |  |
+| 257 | VDD_IN(20V) |  |  |  |  |  |
+| 259 | VDD_IN(20V) |  |  |  |  |  |
 | 2 | GND |  | G | GND | Digital core Ground |  |
 | 4 | MIPI_CSI1_DN0 | AD37 | I |  | MIPI_CSI1_DN0 | CSI1 DATA0 LANEN |
 | 6 | MIPI_CSI1_DP0 | AD36 | I |  | MIPI_CSI1_DP0 | CSI1 DATA0 LANEP |
@@ -688,11 +689,11 @@ The table below lists the pin type definitions of the K3-CoM260.
 | 246 | GND |  |  |  |  |  |
 | 248 | GND |  |  |  |  |  |
 | 250 | GND |  |  |  |  |  |
-| 252 | VDD_IN(5V/20V) |  | P | 5V/9~19V | VDD_IN | K3-CoM260 Power |
-| 254 | VDD_IN(5V/20V) |  |  |  |  |  |
-| 256 | VDD_IN(5V/20V) |  |  |  |  |  |
-| 258 | VDD_IN(5V/20V) |  |  |  |  |  |
-| 260 | VDD_IN(5V/20V) |  |  |  |  |  |
+| 252 | VDD_IN(20V) |  | P | 9~19V | VDD_IN | K3-CoM260 Power |
+| 254 | VDD_IN(20V) |  |  |  |  |  |
+| 256 | VDD_IN(20V) |  |  |  |  |  |
+| 258 | VDD_IN(20V) |  |  |  |  |  |
+| 260 | VDD_IN(20V) |  |  |  |  |  |
 
 ## 4. Electrical, Mechanical, and Thermal Characteristics
 
@@ -702,8 +703,7 @@ The table below lists the pin type definitions of the K3-CoM260.
 
 | Symbol | Parameter | Minimum | Typical | Maximum | Unit |
 | --- | --- | --- | --- | --- | --- |
-| VDDDC | VDD_IN (MODULE_ID low) | 4.75 | 5 | 5.25 | V |
-|  | VDD_IN (MODULE_ID high) | 12 | - | 20 | V |
+| VDDDC | VDD_IN (MODULE_ID high) | 6 | - | 20 | V |
 |  | VCC_RTC | 1.85 | - | 5.5 | V |
 
 > **Note**
@@ -718,13 +718,12 @@ The table below lists the pin type definitions of the K3-CoM260.
 
 | Symbol | Parameter | Minimum | Maximum | Unit | Notes |
 | --- | --- | --- | --- | --- | --- |
-| VDDMAX | VDD_IN (MODULE_ID low) | -0.5 | 5.5 | V |  |
-|  | VDD_IN (MODULE_ID high) | -0.5 | 20.5 | V |  |
+| VDDMAX | VDD_IN (MODULE_ID high) | -0.5 | 20.5 | V |  |
 |  | VCC_RTC | -0.3 | 7.0 | V |  |
 | IDDMAX | VDD_IN Imax | - | 5 | A |  |
 | VM_PIN | Voltage applied to any powered I/O pin | -0.5 | VDD + 0.2 | V | When `SYS_RESET*` is high and the relevant I/O power rail is powered, the maximum voltage is `VDD + 0.2`.<br>Before `SYS_RESET*` goes high, I/O pins must not be driven high (`>0.5V`).<br>When `SYS_RESET*` is low, the maximum voltage that may be applied to any I/O pin is `0.5V`. |
-| TOP | Operating temperature | -20 | 70 | °C |  |
-| TSTG | Storage temperature | TBD | TBD | °C |  |
+| TOP | Operating temperature | -25 | 105 | °C |  |
+| TSTG | Storage temperature | 0 | 35 | °C | K3-CoM260 KIT storage temperature |
 
 ## 5. Packaging
 
