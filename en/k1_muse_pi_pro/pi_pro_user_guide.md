@@ -240,49 +240,49 @@ If the **F2 key** is not pressed within 3 seconds after powering on the MUSE Pi 
 
 A configuration wizard will be run upon first startup that includes the following steps.
 
-##### (1) System Language
+1. System Language
 
-Choose the system language. English and Chinese are displayed by default. If need more language options, just click the three dots below to show them.
+   Choose the system language. English and Chinese are displayed by default. If need more language options, just click the three dots below to show them.
 
-![](./static/JRoobRffJofXQ8x5JxZc3EUpn1g.png)
+   ![](./static/JRoobRffJofXQ8x5JxZc3EUpn1g.png)
 
-##### (2) Input Method
+2. Input Method
 
-Configure the MUSE Pi Pro’s keyboard layout and input method.
+   Configure the MUSE Pi Pro’s keyboard layout and input method.
 
-![](./static/MoIfbrH7jow5khxznDNcUXdyn5e.png)
+   ![](./static/MoIfbrH7jow5khxznDNcUXdyn5e.png)
 
-##### (3) Wireless Internet Connection
+3. Wireless Internet Connection
 
-Select a valid Wi-Fi network from the list and connect it. If there is no suitable Wi-Fi network, skip this setting by clicking on the upper right corner.
+   Select a valid Wi-Fi network from the list and connect it. If there is no suitable Wi-Fi network, skip this setting by clicking on the upper right corner.
 
-![](./static/JOgPbIWJwoWAHQxluzhcqFkGnSf.png)
+   ![](./static/JOgPbIWJwoWAHQxluzhcqFkGnSf.png)
 
-##### (4) Location Services
+4. Location Services
 
-Turning on location services can facilitate the usage experience, but it may also bring risks of location privacy leakage. Please be aware and careful!
+   Turning on location services can facilitate the usage experience, but it may also bring risks of location privacy leakage. Please be aware and careful!
 
-![](./static/Lj8mbqTqzoFPeWxmsDRcyEI5nXb.png)
+   ![](./static/Lj8mbqTqzoFPeWxmsDRcyEI5nXb.png)
 
-##### (5) Time Zone
+5. Time Zone
 
-Configure user time zone information. While online (i.e. Wi-Fi connected), the system can automatically synchronize the corresponding time zone, then user can search for cities to add settings.
+   Configure user time zone information. While online (i.e. Wi-Fi connected), the system can automatically synchronize the corresponding time zone, then user can search for cities to add settings.
 
-![](./static/P9y8bMbz2oKURNxIbMPcAB13nlc.png)
+   ![](./static/P9y8bMbz2oKURNxIbMPcAB13nlc.png)
 
-##### (6) Username & Password Account
+6. Username & Password Account
 
-Set username and password
+   Set username and password
 
-![](./static/Xnq4b4GIFoFDUmxoTv8cYjDdnZb.png)
+   ![](./static/Xnq4b4GIFoFDUmxoTv8cYjDdnZb.png)
 
-![](./static/G8R3bsqhcosIAYxrP8oc8FBGn4d.png)
+   ![](./static/G8R3bsqhcosIAYxrP8oc8FBGn4d.png)
 
-##### (7) Configuration completed
+7. Configuration completed
 
-When the configuration is completed, click "Start using Bianbu" thus MUSE Pi Pro will enter the desktop of Bianbu OS.
+   When the configuration is completed, click "Start using Bianbu" thus MUSE Pi Pro will enter the desktop of Bianbu OS.
 
-![](./static/AjGmbBkM2o8culxW4BmcWJw1nFg.png)
+   ![](./static/AjGmbBkM2o8culxW4BmcWJw1nFg.png)
 
 ## 4. Firmware Flashing & Serial Port Debugging
 
@@ -484,7 +484,20 @@ The board provides UART debugging via Pin 6, 8, and 10 of the 40-pin header for 
 On the host controller side, the pin order from top to bottom is:
 GND → RX → TX
 
-![](./static/Q0H1bvBILoAzVwxGIudczWwLn0g.png)
+![](./static/pi_pro_connect.png)
+
+### 7.5 JTAG Debug Interface
+
+The development board reserves a Primary JTAG debug channel on the 40-pin header with the following pin assignments:
+
+| 40pin | Net Name        | JTAG Signal Name |
+|-------|-----------------|------------------|
+| 7     | GPIO_70_3V3     | PRI_TDI          |
+| 11    | GPIO_71_3V3     | PRI_TMS          |
+| 13    | GPIO_72_3V3     | PRI_TCK          |
+| 15    | GPIO_73_3V3     | PRI_TDO          |
+
+![](./static/pi_pro_jtag.png)
 
 ## 8. Frequently Asked Questions (FAQ)
 
