@@ -499,6 +499,19 @@ The development board reserves a Primary JTAG debug channel on the 40-pin header
 
 ![](./static/pi_pro_jtag.png)
 
+### 7.5 JTAG Debug Interface
+
+The development board reserves a Primary JTAG debug channel on the 40-pin header with the following pin assignments:
+
+| 40pin | Net Name        | JTAG Signal Name |
+|-------|-----------------|------------------|
+| 7     | GPIO_70_3V3     | PRI_TDI          |
+| 11    | GPIO_71_3V3     | PRI_TMS          |
+| 13    | GPIO_72_3V3     | PRI_TCK          |
+| 15    | GPIO_73_3V3     | PRI_TDO          |
+
+![](./static/pi_pro_jtag.png)
+
 ## 8. Frequently Asked Questions (FAQ)
 
 For issues with firmware flashing, power supply, or Wi-Fi connections, refer to the [K1 FAQ](https://www.spacemit.com/community/document/info?lang=en&nodepath=software/SDK/bianbu/user_guide/LXQt/K1_FAQ.md).
