@@ -13,4 +13,5 @@ sidebar_position: 3
 - [K1 MUSE Card](./k1_muse_card/index.md)
 - [K1 RISC-V Lab Kit](./k1_riscv_labkit/index.md)
 - [K1 MUSE Pi](./k1_muse_pi/index.md)
+- [Hardware Accessories](./hw_accessories/index.md)
 - [Support & Services](service.md)
