@@ -484,7 +484,7 @@ The board provides UART debugging via Pin 6, 8, and 10 of the 40-pin header for 
 On the host controller side, the pin order from top to bottom is:
 GND → RX → TX
 
-![](./static/pi_pro_connect.png)
+![](./static/Q0H1bvBILoAzVwxGIudczWwLn0g.png)
 
 ### 7.5 JTAG Debug Interface
 
