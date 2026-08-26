@@ -208,47 +208,47 @@ MUSE Pi Pro 支持 UEFI 启动和配置，您可以在上电开机后选择启�
 
 参考 **[基于MUSE Pi Pro的UEFI固件制作](https://mp.weixin.qq.com/s/s7S3pQesObrmAF_56Cq9Lg)**
 
-#### Bianbu desktop 操作系统配置指引：
+#### Bianbu desktop 操作系统配置指引
 
-如果您的MUSE Pi Pro未在开机3秒内按下"F2"，默认将从板载存储介质启动，进入预先安装好的Bianbu desktop 操作系统。该系统在首次启动时运行配置向导。您需要显示器、键盘、鼠标来浏览向导，向导内容如下：
+如果您的MUSE Pi Pro未在开机3秒内按下"F2"，默认将从板载存储介质启动，进入预先安装好的 Bianbu desktop 操作系统。该系统在首次启动时运行配置向导。您需要显示器、键盘、鼠标来浏览向导，向导内容如下：
 
-##### 1）系统语言
+1. 系统语言
 
-此页面帮助您配置系统的语言，默认显示 English 和中文，如需更多语言，可点击下方三个点，弹出更多选项
+   此页面帮助您配置系统的语言，默认显示 English 和中文，如需更多语言，可点击下方三个点，弹出更多选项
 
-![图片](./static/bianbu_desk0.png)
+   ![图片](./static/bianbu_desk0.png)
 
-##### 2）输入法
+2. 输入法
 
-此页面帮助您配置系统的键盘布局和输入法
+   此页面帮助您配置系统的键盘布局和输入法
 
-![图片](./static/bianbu_desk1.png)
+   ![图片](./static/bianbu_desk1.png)
 
-##### 3）无线上网
-此页面帮助您连接到 WiFi 网络，从列表中选择您的网络并进行连接；如暂未有合适 WiFi 网络，可在左上角选择跳过该设置
+3. 无线上网
+   此页面帮助您连接到 WiFi 网络，从列表中选择您的网络并进行连接；如暂未有合适 WiFi 网络，可在左上角选择跳过该设置
 
-![图片](./static/bianbu_desk2.png)
+   ![图片](./static/bianbu_desk2.png)
 
-##### 4）位置服务  
-此页面可选择是否打开位置服务，如打开位置服务可便捷您的使用体验，但相应的可能会带来位置隐私泄露的风险
+4. 位置服务  
+   页面可选择是否打开位置服务，如打开位置服务可便捷您的使用体验，但相应的可能会带来位置隐私泄露的风险
 
-![图片](./static/bianbu_desk3.png)
+   ![图片](./static/bianbu_desk3.png)
 
-##### 5）时区
-此页面帮助配置您所在时区信息，联网状态下系统能够自动同步相应时区时间，可以搜索城市来添加设置
+5. 时区
+   此页面帮助配置您所在时区信息，联网状态下系统能够自动同步相应时区时间，可以搜索城市来添加设置
 
-![图片](./static/bianbu_desk4.png)
+   ![图片](./static/bianbu_desk4.png)
 
-##### 6）设置您的用户名和密码
-该页面帮助您设置用户名和密码，请牢记您的密码
+6. 设置您的用户名和密码
+   该页面帮助您设置用户名和密码，请牢记您的密码
 
-![图片](./static/bianbu_desk5.png)  
-![图片](./static/bianbu_desk6.png)
+   ![图片](./static/bianbu_desk5.png)  
+   ![图片](./static/bianbu_desk6.png)
 
-##### 7）配置完成
-配置完成，点击 “开始使用 Bianbu” 吧，后可进入桌面
+7. 配置完成
+   配置完成，点击 “开始使用 Bianbu” 吧，后可进入桌面
 
-![图片](./static/bianbu_desk7.png)
+   ![图片](./static/bianbu_desk7.png)
 
 ## 4. 安装调试指引
 
@@ -419,11 +419,24 @@ MUSE Pi Pro上配备了1路 2lanes MIPI DSI FPC 15p接口。
 | 37 | GPIO_33_3V3 | GPIO_46_3V3 | 38 |
 | 39 | GND | GPIO_37_3V3 | 40 |
 
-### 7.4 UART调试接口
+### 7.4 UART 调试接口
 
 支持40pin双排插针pin6、8、10调试X60，主控端线序从上到下GND，RX，TX。
 
 ![图片](./static/pi_pro_connect.png)
+
+### 7.5 JTAG 调试接口
+
+开发板在 40pin 接口中预留 Primary JTAG 调试通道，线序如下：
+
+| 40pin | 网络名称        | JTAG 信号名称 |
+|-------|-----------------|--------------|
+| 7     | GPIO_70_3V3     | PRI_TDI      |
+| 11    | GPIO_71_3V3     | PRI_TMS      |
+| 13    | GPIO_72_3V3     | PRI_TCK      |
+| 15    | GPIO_73_3V3     | PRI_TDO      |
+
+![图片](./static/pi_pro_jtag.png)
 
 ## 8. 常见问题解答（FAQ）
 
