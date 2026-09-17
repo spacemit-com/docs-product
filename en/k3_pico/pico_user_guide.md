@@ -14,7 +14,9 @@ The revision history below records the updates made to this document.
 
 | Revision | Date | Description |
 | --- | --- | --- |
-| V1.1 | 2026.06.10 | Updated power supply notes and added CCC-certified power adapter requirements |
+| V1.3 | 2026.09.17 | Added CCC-certified power adapter requirements |
+| V1.2 | 2026.07.03 | Updated eDP Display Interface|
+| V1.1 | 2026.06.10 | Updated notes for power supply|
 | V1.0 | 2026.04.30 | Initial release |
 
 ## 1. Quick Start
