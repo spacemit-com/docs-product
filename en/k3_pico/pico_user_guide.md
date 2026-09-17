@@ -14,7 +14,7 @@ The revision history below records the updates made to this document.
 
 | Revision | Date | Description |
 | --- | --- | --- |
-| V1.1 | 2026.06.10 | Updated notes for power supply|
+| V1.1 | 2026.06.10 | Updated power supply notes and added CCC-certified power adapter requirements |
 | V1.0 | 2026.04.30 | Initial release |
 
 ## 1. Quick Start
@@ -35,6 +35,7 @@ Before getting started, connect the following required peripherals. Once power i
   > Note:  
   > - The Type-C power adapter must provide a rated output of at least 20V @ 3.25A;  
   > - The ATX 2-pin DC power supply must provide a rated output of at least 12V @ 5A.
+  > - When using a power adapter for charging, use a compatible adapter that has obtained CCC certification and complies with applicable standards.
 - A monitor
 - A keyboard
 - A mouse
