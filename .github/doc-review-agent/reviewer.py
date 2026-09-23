@@ -33,6 +33,10 @@ COMMIT_SHA  = os.environ.get("GITHUB_SHA", "")
 from checks import frontmatter, headings, links, placeholders, codeblocks, product_names
 import llm_review
 import github_poster
+try:
+    import knowledge_sync
+except ImportError:
+    knowledge_sync = None
 
 _GH_API = "https://api.github.com"
 
@@ -77,6 +81,12 @@ def run_file_checks(path: str, content: str, rel_path: str) -> list[dict]:
         issues += [{"file": rel_path, **i} for i in codeblocks.run(path, content, c)]
     if (c := check_cfg("product_names")):
         issues += [{"file": rel_path, **i} for i in product_names.run(path, content, c)]
+    if knowledge_sync:
+        lines = content.splitlines()
+        for lineno, sev, msg in knowledge_sync.check_terminology(lines, rel_path):
+            issues.append({"file": rel_path, "line": lineno, "msg": f"`[{sev}]` {msg}"})
+        for lineno, sev, msg in knowledge_sync.check_descriptions(lines, rel_path):
+            issues.append({"file": rel_path, "line": lineno, "msg": f"`[{sev}]` {msg}"})
     return issues
 
 
