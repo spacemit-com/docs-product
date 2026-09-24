@@ -20,7 +20,7 @@ sidebar_position: 1
 
 | Module | Description  |
 | --- | --- |
-| Processor | SpacemiT M1: 8-core, RISC-V CPU with 2 TOPS AI processing power |
+| Processor | SpacemiT M1: 8-core, RISC-V CPU with 2.0 TOPS AI processing power |
 | Display | HDMI Type-A, supporting up to 1080P@60Hz |
 | Memory | LPDDR4X with a 2400MT/s speed, available in 8GB or 16GB configurations |
 | Storage | eMMC 5.1, 32GB |

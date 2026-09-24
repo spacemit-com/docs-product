@@ -5,7 +5,7 @@ sidebar_position: 1
 **K1 MUSE Pi** 搭载进迭时空八核 RISC-V AI CPU，CPU融合2.0T AI算力，支持1080P双屏异显，工业级安全加密防护。
 
 - 基于进迭时空RISC-V八核高性能中央处理器  
-- CPU融合 2.0Tops@INT8 AI 算力  
+- CPU融合 2.0 TOPS@INT8 AI 算力  
 - 支持32bit LPDDR4X  
 - 支持双显，MIPI DSI & HDMI接口，FHD高清显示  
 - 支持4K编、解码  

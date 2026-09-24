@@ -14,7 +14,7 @@ K1 MUSE Paper 是一款基于 RISC-V 架构和 OpenHarmony 操作系统的开发
   基于 K1 + P1 硬件平台，搭载 Linux 6.6 内核与 OpenHarmony 5.0
 
 - **8 核 CPU + 融合 AI 算力**
-  集成 8 核 RISC-V CPU 与 2T 融合 AI 算力，兼顾通用计算与 AI 推理任务需求。
+  集成 8 核 RISC-V CPU 与 2.0 TOPS 融合 AI 算力，兼顾通用计算与 AI 推理任务需求。
 
 - **多媒体与嵌入式接口集成**
   内置多媒体编解码能力，支持音视频输入输出与通用嵌入式接口。

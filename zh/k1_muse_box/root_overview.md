@@ -7,7 +7,7 @@ sidebar_position: 1
 **K1 MUSE BOX** 搭载RISC-V 8核 64位CPU，选择通用Mini-ITX主板，搭配丰富的I/O接口和极低功耗，拓展更多场景可能性。
 
 - 基于进迭时空RISC-V八核中央处理器
-- CPU融合 2.0Tops@INT8 AI 算力
+- CPU融合 2.0 TOPS@INT8 AI 算力
 - HDMI 接口，FHD全高清显示
 - 支持最大16GB，LPDDR4X板贴内存
 - 至多USB2.06，USB3.04

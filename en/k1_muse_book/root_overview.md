@@ -30,7 +30,7 @@ K1 MUSE Book is a laptop powered by the SpacemiT 8-core RISC-V AI CPU M1, and th
 
 | Module | Description |
 | --- | --- |
-| Processor | SpacemiT M1: 8-core, RISC-V CPU with 2 TOPS AI processing power |
+| Processor | SpacemiT M1: 8-core, RISC-V CPU with 2.0 TOPS AI processing power |
 | Display | Supports dual-screen display: <br>Equipped with a built-in 14.1-inch IPS screen, 1080P@60Hz, full-color RGB, and 250 nits brightness.<br>Features a Type-C interface (DP signal), supporting up to 1080P@60Hz output |
 | Memory | LPDDR4X with a 2400MT/s speed, available in 8GB or 16GB configurations |
 | Storage | NVMe SSD, available in 128GB, 256GB, or 512GB configurations |

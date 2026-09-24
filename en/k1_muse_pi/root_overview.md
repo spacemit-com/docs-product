@@ -18,7 +18,7 @@ MUSE Pi is powered by SpacemiT 8-core RISC-V AI CPU, featuring 2.0 TOPS AI proce
 
 | Module | Description |
 |--------|---------------|
-| Processor | SpacemiT M1: 8-core, RISC-V CPU with 2 TOPS AI processing power |
+| Processor | SpacemiT M1: 8-core, RISC-V CPU with 2.0 TOPS AI processing power |
 | Display | HDMI Type-A, supporting up to 1080P@60Hz<br>4-lane MIPI DSI FPC, supporting up to 1080P@60Hz |
 | Memory | LPDDR4X with a 2400MT/s speed, available in 8GB or 16GB configurations |
 | Local Storage | eMMC 5.1, available in 32GB or 64GB configurations |

@@ -16,7 +16,7 @@ Running OpenHarmony, it enables smooth multitasking and seamless app switching, 
   Built on the K1 + P1 hardware platform with Linux 6.6 and OpenHarmony 5.0
 
 - **8-Core CPU + Integrated AI Compute**
-  8-core RISC-V CPU with 2 TOPS AI performance for both general computing and AI inference
+  8-core RISC-V CPU with 2.0 TOPS AI performance for both general computing and AI inference
 
 - **Multimedia & Embedded Integration**
   Integrated audio/video codec support with standard embedded interfaces
@@ -40,7 +40,7 @@ Running OpenHarmony, it enables smooth multitasking and seamless app switching, 
 
 | Module | Description  |
 | :--- | :--- |
-| Processor | SpacemiT K1: 8-core RISC-V CPU with 2 TOPS AI processing power |
+| Processor | SpacemiT K1: 8-core RISC-V CPU with 2.0 TOPS AI processing power |
 | Display | 10.95-inch LCD screen, supporting a resolution of 1200 × 1920 |
 | Memory | LPDDR4X memory with a 2400 MT/s speed, available in 8 GB or 16 GB configurations |
 | Storage | eMMC, available in 128 GB or 256 GB configurations |
