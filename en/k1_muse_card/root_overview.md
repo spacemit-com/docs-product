@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_position: 1
 ---
 
@@ -7,7 +7,7 @@ sidebar_position: 1
 **K1 MUSE Card** is a compact, high-efficiency single-board computer (SBC) powered by the SpacemiT 8-core RISC-V AI CPU.
 
 - 8-core 64-bit RISC-V high-performance processor from SpacemiT
-- Integrated 2.0 TOPS @ INT8 AI compute
+- Integrated 2 TOPS @ INT8 AI compute
 - 32-bit LPDDR4X memory support
 - Dual-display support via MIPI DSI & HDMI, FHD resolution
 - 4K video encoding and decoding
@@ -20,7 +20,7 @@ sidebar_position: 1
 
 | Module | Description |
 | --- | --- |
-| Processor | SpacemiT M1, 8-core 64-bit RISC-V processor with integrated 2.0 TOPS AI performance |
+| Processor | SpacemiT M1, 8-core 64-bit RISC-V processor with integrated 2 TOPS AI performance |
 | Display | HDMI Type-A, up to 1080P @ 60 Hz<br>4-lane MIPI DSI FPC connector, up to 1080P @ 60 Hz |
 | Memory | LPDDR4X, 2400 MT/s, 8 GB or 16 GB options |
 | Local Storage | SPI NOR Flash, 64 Mb |
@@ -38,4 +38,4 @@ sidebar_position: 1
 ## Business Cooperation & Purchase
 
 - **Phone**: 0571-89000775
-- **Email**: [business@spacemit.com](mailto:business@spacemit.com)
+- **Email**: [business@SpacemiT.com](mailto:business@SpacemiT.com)

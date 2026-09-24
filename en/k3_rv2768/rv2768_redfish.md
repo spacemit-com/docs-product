@@ -38,7 +38,6 @@ Performs a power-state transition on the specified compute module.
 ```text
 Content-Type: application/json
 ```
-
 **Path Parameters**
 
 | Parameter | Type | Description |
@@ -52,7 +51,6 @@ Content-Type: application/json
     "ResetType": "<reset_type>"
 }
 ```
-
 **ResetType Parameter Descriptions**
 
 | ResetType | Description | D-Bus Command | Target |
@@ -74,7 +72,6 @@ curl -k -u root:0penBmc -X POST \
   -H "Content-Type: application/json" \
   -d '{"ResetType": "GracefulShutdown"}'
 ```
-
 **Example: Restart module 4 (sub1-1)**
 
 ```bash
@@ -83,7 +80,6 @@ curl -k -u root:0penBmc -X POST \
   -H "Content-Type: application/json" \
   -d '{"ResetType": "GracefulRestart"}'
 ```
-
 **Example: Force power-off of the global system**
 
 ```bash
@@ -92,7 +88,6 @@ curl -k -u root:0penBmc -X POST \
   -H "Content-Type: application/json" \
   -d '{"ResetType": "ForceOff"}'
 ```
-
 ### 1.2 Query Supported Reset Operations
 
 **GET** `/redfish/v1/Systems/{systemName}/ResetActionInfo/`
@@ -125,7 +120,6 @@ Returns all ResetType enumeration values supported by the system.
     ]
 }
 ```
-
 ### 1.3 Query the Status of a Single Node
 
 **GET** `/redfish/v1/Systems/{systemName}`
@@ -153,7 +147,7 @@ Returns all ResetType enumeration values supported by the system.
     },
     "Name": "sub0-0",
     "Oem": {
-        "Spacemit": {
+        "SpacemiT": {
             "ACPowerState": "On"
         }
     },
@@ -165,7 +159,6 @@ Returns all ResetType enumeration values supported by the system.
     "SystemType": "Physical"
 }
 ```
-
 **Path Parameters**
 
 | Parameter | Type | Description |
@@ -198,10 +191,9 @@ for i in {0..23}; do
   done
 done
 ```
-
 ### 1.4 Batch Power Control for All Modules
 
-**POST** `/redfish/v1/Chassis/bmc/Actions/Oem/Spacemit/AllNodesPower`
+**POST** `/redfish/v1/Chassis/bmc/Actions/Oem/SpacemiT/AllNodesPower`
 
 **Request Body**
 
@@ -210,7 +202,6 @@ done
   "PowerState": "On"
 }
 ```
-
 **Response Example**
 
 ```json
@@ -219,17 +210,16 @@ done
     "PowerState": "On"
 }
 ```
-
 ### 1.5 Query the Overall Power State of All Modules
 
-**GET** `/redfish/v1/Chassis/bmc/Oem/Spacemit/NodesPowerState`
+**GET** `/redfish/v1/Chassis/bmc/Oem/SpacemiT/NodesPowerState`
 
 **Response Example**
 
 ```json
 {
-    "@odata.id": "/redfish/v1/Chassis/bmc/Oem/Spacemit/NodesPowerState",
-    "@odata.type": "#OemSpacemit.NodesPowerState",
+    "@odata.id": "/redfish/v1/Chassis/bmc/Oem/SpacemiT/NodesPowerState",
+    "@odata.type": "#OemSpacemiT.NodesPowerState",
     "Name": "K3 Nodes Power State",
     "PowerState": "On",
     "RegisterValues": [
@@ -242,7 +232,6 @@ done
     ]
 }
 ```
-
 ### 1.6 Power a Single Module On or Off
 
 **POST** `/redfish/v1/Systems/sub0-0/Actions/ComputerSystem.Reset`
@@ -261,7 +250,6 @@ Power-off operation for a single module:
     }
 }
 ```
-
 Power-on operation for a single module:
 
 ```json
@@ -274,7 +262,6 @@ Power-on operation for a single module:
     }
 }
 ```
-
 **Response**
 
 ```json
@@ -291,7 +278,6 @@ Power-on operation for a single module:
     ]
 }
 ```
-
 ## 2. CPU Asset Information APIs
 
 ### 2.1 Get the Processor List
@@ -321,14 +307,12 @@ Gets the processor collection for the specified module.
     "Members@odata.count": 1
 }
 ```
-
 **Example**
 
 ```bash
 curl -k -u root:0penBmc \
   https://<bmc-ip>/redfish/v1/Systems/sub0-0/Processors/
 ```
-
 ### 2.2 Get Detailed Processor Information
 
 **GET** `/redfish/v1/Systems/{systemName}/Processors/{processorId}`
@@ -373,7 +357,7 @@ Gets detailed processor inventory information for the specified compute module.
     "Model": "SpacemiT K3 BS01DCMA",
     "Name": "Processor",
     "Oem": {
-        "Spacemit": {
+        "SpacemiT": {
             "DiskSizeGB": 0,
             "RamSizeMB": 15969
         }
@@ -391,7 +375,6 @@ Gets detailed processor inventory information for the specified compute module.
     "TotalCores": 16
 }
 ```
-
 **Response Example (CPU Absent / Module Offline)**
 
 ```json
@@ -402,7 +385,7 @@ Gets detailed processor inventory information for the specified compute module.
     "MaxSpeedMHz": 0,
     "Name": "Processor",
     "Oem": {
-        "Spacemit": {
+        "SpacemiT": {
             "DiskSizeGB": 0,
             "RamSizeMB": 0
         }
@@ -419,47 +402,42 @@ Gets detailed processor inventory information for the specified compute module.
     "TotalCores": 0
 }
 ```
-
 **Example: Get CPU information for module 0 (`sub0-0`)**
 
 ```bash
 curl -k -u root:0penBmc \
   https://<bmc-ip>/redfish/v1/Systems/sub0-0/Processors/cpu0
 ```
-
 **Example: Get CPU information for module 44 (`sub22-0`)**
 
 ```bash
 curl -k -u root:0penBmc \
   https://<bmc-ip>/redfish/v1/Systems/sub22-0/Processors/cpu0
 ```
-
 ## 3. Fan Mode Control APIs (OEM)
 
 ### 3.1 Query the Current Fan Mode
 
-**GET** `/redfish/v1/Managers/bmc/Oem/Spacemit/FanMode`
+**GET** `/redfish/v1/Managers/bmc/Oem/SpacemiT/FanMode`
 
 **Response Example**
 
 ```json
 {
-    "@odata.type": "#OemSpacemit.FanMode",
-    "@odata.id": "/redfish/v1/Managers/bmc/Oem/Spacemit/FanMode",
+    "@odata.type": "#OemSpacemiT.FanMode",
+    "@odata.id": "/redfish/v1/Managers/bmc/Oem/SpacemiT/FanMode",
     "Mode": "Auto"
 }
 ```
-
 **Example**
 
 ```bash
 curl -k -u root:0penBmc \
-  https://<bmc-ip>/redfish/v1/Managers/bmc/Oem/Spacemit/FanMode
+  https://<bmc-ip>/redfish/v1/Managers/bmc/Oem/SpacemiT/FanMode
 ```
-
 ### 3.2 Set the Fan Mode
 
-**PATCH** `/redfish/v1/Managers/bmc/Oem/Spacemit/FanMode`
+**PATCH** `/redfish/v1/Managers/bmc/Oem/SpacemiT/FanMode`
 
 **Request Body**
 
@@ -468,7 +446,6 @@ curl -k -u root:0penBmc \
     "Mode": "Auto"
 }
 ```
-
 **Mode Parameter Descriptions**
 
 | Mode | Description | Behavior |
@@ -484,32 +461,30 @@ Returns HTTP 200 OK on success.
 
 ```bash
 curl -k -u root:0penBmc -X PATCH \
-  https://<bmc-ip>/redfish/v1/Managers/bmc/Oem/Spacemit/FanMode \
+  https://<bmc-ip>/redfish/v1/Managers/bmc/Oem/SpacemiT/FanMode \
   -H "Content-Type: application/json" \
   -d '{"Mode": "Manual"}'
 ```
-
 **Example: Switch to automatic mode**
 
 ```bash
 curl -k -u root:0penBmc -X PATCH \
-  https://<bmc-ip>/redfish/v1/Managers/bmc/Oem/Spacemit/FanMode \
+  https://<bmc-ip>/redfish/v1/Managers/bmc/Oem/SpacemiT/FanMode \
   -H "Content-Type: application/json" \
   -d '{"Mode": "Auto"}'
 ```
-
 ## 4. Fan Speed Control APIs (OEM)
 
 ### 4.1 Query the Current Fan Speed
 
-**GET** `/redfish/v1/Chassis/bmc/Oem/Spacemit/FanSpeeds`
+**GET** `/redfish/v1/Chassis/bmc/Oem/SpacemiT/FanSpeeds`
 
 **Response Example**
 
 ```json
 {
-    "@odata.id": "/redfish/v1/Chassis/bmc/Oem/Spacemit/FanSpeeds",
-    "@odata.type": "#OemSpacemit.FanSpeeds",
+    "@odata.id": "/redfish/v1/Chassis/bmc/Oem/SpacemiT/FanSpeeds",
+    "@odata.type": "#OemSpacemiT.FanSpeeds",
     "FanSpeeds": [
         {
             "FanName": "fan1",
@@ -547,17 +522,15 @@ curl -k -u root:0penBmc -X PATCH \
     "Name": "Fan Speed Control"
 }
 ```
-
 **Example**
 
 ```bash
 curl -k -u root:0penBmc \
-  https://<bmc-ip>/redfish/v1/Chassis/bmc/Oem/Spacemit/FanSpeeds
+  https://<bmc-ip>/redfish/v1/Chassis/bmc/Oem/SpacemiT/FanSpeeds
 ```
-
 ### 4.2 Set the Fan Speed
 
-**PATCH** `/redfish/v1/Chassis/bmc/Oem/Spacemit/FanSpeeds`
+**PATCH** `/redfish/v1/Chassis/bmc/Oem/SpacemiT/FanSpeeds`
 
 **Request Body**
 
@@ -571,7 +544,6 @@ curl -k -u root:0penBmc \
   ]
 }
 ```
-
 Multiple fans can be set in a single request. There is no need to include all fans; only the specified fans will be configured.
 
 **Parameter Descriptions**
@@ -596,20 +568,18 @@ Each PWM channel controls one dual-rotor fan and corresponds to two speed teleme
 
 ```bash
 curl -k -u root:0penBmc -X PATCH \
-  https://<bmc-ip>/redfish/v1/Chassis/bmc/Oem/Spacemit/FanSpeeds \
+  https://<bmc-ip>/redfish/v1/Chassis/bmc/Oem/SpacemiT/FanSpeeds \
   -H "Content-Type: application/json" \
   -d '{"FanSpeeds": [{"FanName": "pwm1", "SpeedPercent": 50}]}'
 ```
-
 **Example: Set multiple fans simultaneously**
 
 ```bash
 curl -k -u root:0penBmc -X PATCH \
-  https://<bmc-ip>/redfish/v1/Chassis/bmc/Oem/Spacemit/FanSpeeds \
+  https://<bmc-ip>/redfish/v1/Chassis/bmc/Oem/SpacemiT/FanSpeeds \
   -H "Content-Type: application/json" \
   -d '{"FanSpeeds": [{"FanName": "pwm1", "SpeedPercent": 30}, {"FanName": "pwm2", "SpeedPercent": 60}, {"FanName": "pwm3", "SpeedPercent": 100}]}'
 ```
-
 > **Note**: Before setting fan speed, switch the mode to Manual through the FanMode API. Otherwise, phosphor-pid-control overrides manually set speed values in Auto mode.
 
 ## 5. Firmware Update Mode APIs (OEM)
@@ -618,7 +588,7 @@ curl -k -u root:0penBmc -X PATCH \
 
 **GET** `/redfish/v1/UpdateService/`
 
-In the returned JSON, the `Actions.Oem.Spacemit` field contains the update action for all 48 modules.
+In the returned JSON, the `Actions.Oem.SpacemiT` field contains the update action for all 48 modules.
 
 **Response Example (Partial)**
 
@@ -631,35 +601,33 @@ In the returned JSON, the `Actions.Oem.Spacemit` field contains the update actio
             "target": "/redfish/v1/UpdateService/Actions/UpdateService.SimpleUpdate"
         },
         "Oem": {
-            "Spacemit": {
-                "#Spacemit.sub0-0.UpdateService.Update": {
-                    "target": "/redfish/v1/UpdateService/Actions/Oem/Spacemit/sub0-0/UpdateService.Update",
-                    "@Redfish.ActionInfo": "/redfish/v1/UpdateService/Oem/Spacemit/sub0-0/UpdateActionInfo"
+            "SpacemiT": {
+                "#SpacemiT.sub0-0.UpdateService.Update": {
+                    "target": "/redfish/v1/UpdateService/Actions/Oem/SpacemiT/sub0-0/UpdateService.Update",
+                    "@Redfish.ActionInfo": "/redfish/v1/UpdateService/Oem/SpacemiT/sub0-0/UpdateActionInfo"
                 },
-                "#Spacemit.sub0-1.UpdateService.Update": {
-                    "target": "/redfish/v1/UpdateService/Actions/Oem/Spacemit/sub0-1/UpdateService.Update",
-                    "@Redfish.ActionInfo": "/redfish/v1/UpdateService/Oem/Spacemit/sub0-1/UpdateActionInfo"
+                "#SpacemiT.sub0-1.UpdateService.Update": {
+                    "target": "/redfish/v1/UpdateService/Actions/Oem/SpacemiT/sub0-1/UpdateService.Update",
+                    "@Redfish.ActionInfo": "/redfish/v1/UpdateService/Oem/SpacemiT/sub0-1/UpdateActionInfo"
                 },
-                "#Spacemit.sub23-1.UpdateService.Update": {
-                    "target": "/redfish/v1/UpdateService/Actions/Oem/Spacemit/sub23-1/UpdateService.Update",
-                    "@Redfish.ActionInfo": "/redfish/v1/UpdateService/Oem/Spacemit/sub23-1/UpdateActionInfo"
+                "#SpacemiT.sub23-1.UpdateService.Update": {
+                    "target": "/redfish/v1/UpdateService/Actions/Oem/SpacemiT/sub23-1/UpdateService.Update",
+                    "@Redfish.ActionInfo": "/redfish/v1/UpdateService/Oem/SpacemiT/sub23-1/UpdateActionInfo"
                 }
             }
         }
     }
 }
 ```
-
 **Example**
 
 ```bash
 curl -k -u root:0penBmc \
   https://<bmc-ip>/redfish/v1/UpdateService/
 ```
-
 ### 5.2 Perform a Module Firmware Update
 
-**POST** `/redfish/v1/UpdateService/Actions/Oem/Spacemit/<subX-Y>/UpdateService.Update`
+**POST** `/redfish/v1/UpdateService/Actions/Oem/SpacemiT/<subX-Y>/UpdateService.Update`
 
 Performs a firmware update on the specified module.
 
@@ -703,30 +671,26 @@ Returns HTTP 200 OK with operation status information on success.
     "Message": "firmware upgrade initiated for module 1 (sub0-0)"
 }
 ```
-
 The `Status` field is the `int32_t` status code returned by the D-Bus method.
 
 **Example: Perform a firmware update on module 1 (sub0-0)**
 
 ```bash
 curl -k -u root:0penBmc -X POST \
-  https://<bmc-ip>/redfish/v1/UpdateService/Actions/Oem/Spacemit/sub0-0/UpdateService.Update
+  https://<bmc-ip>/redfish/v1/UpdateService/Actions/Oem/SpacemiT/sub0-0/UpdateService.Update
 ```
-
 **Example: Perform a firmware update on module 10 (sub4-1)**
 
 ```bash
 curl -k -u root:0penBmc -X POST \
-  https://<bmc-ip>/redfish/v1/UpdateService/Actions/Oem/Spacemit/sub4-1/UpdateService.Update
+  https://<bmc-ip>/redfish/v1/UpdateService/Actions/Oem/SpacemiT/sub4-1/UpdateService.Update
 ```
-
 **Example: Perform a firmware update on module 48 (sub23-1)**
 
 ```bash
 curl -k -u root:0penBmc -X POST \
-  https://<bmc-ip>/redfish/v1/UpdateService/Actions/Oem/Spacemit/sub23-1/UpdateService.Update
+  https://<bmc-ip>/redfish/v1/UpdateService/Actions/Oem/SpacemiT/sub23-1/UpdateService.Update
 ```
-
 **Error Response**
 
 If the provided `subX-Y` format is invalid or out of range (X > 23 or Y > 1), a 404 error is returned:
@@ -739,17 +703,16 @@ If the provided `subX-Y` format is invalid or out of range (X > 23 or Y > 1), a 
     }
 }
 ```
-
 ## 6. Query Module Presence
 
-**GET** `/redfish/v1/Chassis/bmc/Oem/Spacemit/BoardPresence`
+**GET** `/redfish/v1/Chassis/bmc/Oem/SpacemiT/BoardPresence`
 
 **Response**
 
 ```json
 {
-    "@odata.id": "/redfish/v1/Chassis/bmc/Oem/Spacemit/BoardPresence",
-    "@odata.type": "#OemSpacemit.BoardPresence",
+    "@odata.id": "/redfish/v1/Chassis/bmc/Oem/SpacemiT/BoardPresence",
+    "@odata.type": "#OemSpacemiT.BoardPresence",
     "Clusters": [
         { "Id": "sub0", "Present": true },
         { "Id": "sub1", "Present": false },
@@ -779,7 +742,6 @@ If the provided `subX-Y` format is invalid or out of range (X > 23 or Y > 1), a 
     "Name": "K3 Board Presence"
 }
 ```
-
 ## 7. Network Protocol
 
 ### 7.1 Query the Network Protocol
@@ -830,7 +792,6 @@ If the provided `subX-Y` format is invalid or out of range (X > 23 or Y > 1), a 
     }
 }
 ```
-
 ### 7.2 Configure the NTP Server
 
 **PATCH** `/redfish/v1/Managers/bmc/NetworkProtocol`
@@ -845,13 +806,11 @@ If the provided `subX-Y` format is invalid or out of range (X > 23 or Y > 1), a 
     }
 }
 ```
-
 **Response**
 
-```
+```bash
 204 No Content
 ```
-
 ## 8. Module ID and systemName Mapping
 
 The two API sets use a unified mapping, as shown below:

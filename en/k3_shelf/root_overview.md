@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # K3 Shelf Array Server Brief
 
-**[PDF Version](https://cdn-resource.spacemit.com/file/product/K3/k3-shelf_brief_en.pdf)**
+**[PDF Version](https://cdn-resource.SpacemiT.com/file/product/K3/k3-shelf_brief_en.pdf)**
 
 **K3 Shelf Native RISC-V Build Cluster Server**
 
@@ -111,4 +111,4 @@ With a typical power consumption of just 15–25 W per node, K3 Shelf reduces po
 ## Business Cooperation & Purchase
 
 - **Phone**: 0571-89000775
-- **Email**: [business@spacemit.com](mailto:business@spacemit.com)
+- **Email**: [business@SpacemiT.com](mailto:business@SpacemiT.com)

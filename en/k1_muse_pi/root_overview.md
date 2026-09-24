@@ -1,11 +1,13 @@
+---
 sidebar_position: 1
+---
 
 # K1 MUSE Pi Brief
 
-MUSE Pi is powered by SpacemiT 8-core RISC-V AI CPU, featuring 2.0 TOPS AI processing power. MUSE Pi supports 1080P dual-screen independent display and industrial-grade security encryption protection.
+MUSE Pi is powered by SpacemiT 8-core RISC-V AI CPU, featuring 2 TOPS AI processing power. MUSE Pi supports 1080P dual-screen independent display and industrial-grade security encryption protection.
 
 - Powered by SpacemiT high-performance 8-core RISC-V processor  
-- Features an integrated 2.0 TOPS@INT8 AI processing power CPU  
+- Features an integrated 2 TOPS@INT8 AI processing power CPU  
 - Supports 32bit LPDDR4X  
 - Equipped with dual displays with MIPI DSI & HDMI for FHD display output  
 - Supports 4K encoding & decoding  
@@ -18,7 +20,7 @@ MUSE Pi is powered by SpacemiT 8-core RISC-V AI CPU, featuring 2.0 TOPS AI proce
 
 | Module | Description |
 |--------|---------------|
-| Processor | SpacemiT M1: 8-core, RISC-V CPU with 2.0 TOPS AI processing power |
+| Processor | SpacemiT M1: 8-core, RISC-V CPU with 2 TOPS AI processing power |
 | Display | HDMI Type-A, supporting up to 1080P@60Hz<br>4-lane MIPI DSI FPC, supporting up to 1080P@60Hz |
 | Memory | LPDDR4X with a 2400MT/s speed, available in 8GB or 16GB configurations |
 | Local Storage | eMMC 5.1, available in 32GB or 64GB configurations |
@@ -38,4 +40,4 @@ MUSE Pi is powered by SpacemiT 8-core RISC-V AI CPU, featuring 2.0 TOPS AI proce
 
 
 - **Phone**: 0571-89000775
-- **Email**: [business@spacemit.com](mailto:business@spacemit.com)
+- **Email**: [business@SpacemiT.com](mailto:business@SpacemiT.com)

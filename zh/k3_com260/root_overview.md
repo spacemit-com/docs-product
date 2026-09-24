@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # K3 CoM260 Kit 简介
 
-**[PDF 版本](https://cdn-resource.spacemit.com/file/product/K3/K3-CoM260_brief_zh.pdf)**
+**[PDF 版本](https://cdn-resource.SpacemiT.com/file/product/K3/K3-CoM260_brief_zh.pdf)**
 
 **RISC-V 机器人全功能开发套装**
 
@@ -67,4 +67,4 @@ SpacemiT K3-CoM260 开发者套件将 8 核通用 CPU 与 8 核 AI CPU 集成于
 ## 合作与采购咨询
 
 - **商务电话**：0571-89000775
-- **商务邮箱**：[business@spacemit.com](mailto:business@spacemit.com)
+- **商务邮箱**：[business@SpacemiT.com](mailto:business@SpacemiT.com)

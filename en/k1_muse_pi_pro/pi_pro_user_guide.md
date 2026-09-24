@@ -1,4 +1,6 @@
+---
 sidebar_position: 2
+---
 
 # K1 MUSE Pi Pro User Guide
 
@@ -150,7 +152,7 @@ MUSE Pi Pro comes in a compact 1.8-inch board form factor, designed to deliver e
 
 | Module | Description  |
 | --- | --- |
-| Processor | SpacemiT M1, 8-core 64-bit RISC-V processor with 2.0 TOPS AI power |
+| Processor | SpacemiT M1, 8-core 64-bit RISC-V processor with 2 TOPS AI power |
 | Display | - HDMI 1.4 (up to 1080P@60Hz)<br>- 2-lane MIPI DSI FPC (up to 1080P@60Hz) |
 | Memory | LPDDR4X @ 2400MT/s, 8GB / 16GB options |
 | Local Storage | eMMC 5.1, 64GB / 128GB options |

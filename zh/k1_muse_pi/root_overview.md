@@ -1,11 +1,13 @@
+---
 sidebar_position: 1
+---
 
 # K1 MUSE Pi 简介
 
 **K1 MUSE Pi** 搭载进迭时空八核 RISC-V AI CPU，CPU融合2.0T AI算力，支持1080P双屏异显，工业级安全加密防护。
 
 - 基于进迭时空RISC-V八核高性能中央处理器  
-- CPU融合 2.0 TOPS@INT8 AI 算力  
+- CPU融合 2 TOPS@INT8 AI 算力  
 - 支持32bit LPDDR4X  
 - 支持双显，MIPI DSI & HDMI接口，FHD高清显示  
 - 支持4K编、解码  
@@ -18,8 +20,8 @@ sidebar_position: 1
 
 | 模块 | 描述 |
 |------|------|
-| 处理器 | SpacemiT M1，8核64位RISC-V处理器，融合2.0 TOPS AI算力 |
-| 显示 | 10.95寸LCD屏，支持1200 x 1920分辨率<br>4lane MIPI DSI FPC接口，最高支持1080P@60Hz |
+| 处理器 | SpacemiT M1，8核64位RISC-V处理器，融合2 TOPS AI算力 |
+| 显示 | HDMI Type-A接口，最高支持1080P@60Hz<br>4lane MIPI DSI FPC接口，最高支持1080P@60Hz |
 | 内存 | LPDDR4X，2400MT/s速率，可选配8GB/16GB容量 |
 | 本地存储 | eMMC 5.1，可选配32GB/64GB容量 |
 | 扩展存储 | 2 x M.2 2280 M-Key连接器，可装配 NVMe SSD<br>TF卡接口，支持UHS-II模式存储卡 |
@@ -38,4 +40,4 @@ sidebar_position: 1
 
 
 - **商务电话**：0571-89000775
-- **商务邮箱**：[business@spacemit.com](mailto:business@spacemit.com)
+- **商务邮箱**：[business@SpacemiT.com](mailto:business@SpacemiT.com)

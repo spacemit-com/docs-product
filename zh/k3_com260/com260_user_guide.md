@@ -6,7 +6,7 @@ sidebar_position: 3
 
 ## PDF 版本下载
 
-点击下载 **[K3 CoM260 开发套件用户使用指南 (PDF)](https://cdn-resource.spacemit.com/file/product/K3/k3_com260_ug_zh.pdf)**
+点击下载 **[K3 CoM260 开发套件用户使用指南 (PDF)](https://cdn-resource.spacemit.com/file/product/K3/k3_CoM260_ug_zh.pdf)**
 
 ## 版本
 
@@ -64,7 +64,7 @@ K3 是进迭时空推出的新一代高性能 RISC-V AI CPU 芯片，具有以�
 
 ### 3.2 K3 芯片框图
 
-![K3 芯片框图](./static/k3-com260_block_diagram.png)
+![K3 芯片框图](./static/k3-CoM260_block_diagram.png)
 
 ### 3.3 K3 CoM260 参考方案框图
 
@@ -84,7 +84,7 @@ K3 CoM260 系统方案具备以下特性：
 整体方案稳定可靠，具备量产应用能力。
 
 参考方案框图如下：
-![K3 CoM260 参考方案框图](./static/com260_solution00.png)
+![K3 CoM260 参考方案框图](./static/CoM260_solution00.png)
 
 #### 3.3.2 功能概述
 
@@ -131,7 +131,7 @@ K3 CoM260 开发套件提供以下功能：
 
 ### 4.1 实物图
 
-![K3 CoM260 开发套件实物图](./static/com260-kit_00.png)
+![K3 CoM260 开发套件实物图](./static/CoM260-kit_00.png)
 
 ### 4.2 电源框图
 

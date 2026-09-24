@@ -1,10 +1,12 @@
+---
 sidebar_position: 2
+---
 
 # K1 MUSE Pi User Guide
 
 ## Introduction
 
-**MUSE Pi** is a **SpacemiT**'s ecological product in the development board series, the first generation equipped with SpacemiT 8-core RISC-V high-performance processor M1, which features a built-in 2.0 TOPS general AI computing power, enabling the rapid deployment of all AI model algorithms.
+**MUSE Pi** is a **SpacemiT**'s ecological product in the development board series, the first generation equipped with SpacemiT 8-core RISC-V high-performance processor M1, which features a built-in 2 TOPS general AI computing power, enabling the rapid deployment of all AI model algorithms.
 
 MUSE Pi fully shows the solution and interface expandability of the M1 processor. Its design includes the native interfaces of the M1 chip, such as HDMI, dual Ethernet ports, USB 3.0, USB 2.0, and dual PCIe 2.1 x2.
 
@@ -37,7 +39,7 @@ MUSE Pi is compatible with SpacemiT's self-developed Bianbu OS, Bianbu OS NAS, O
 SpacemiT Key Stone® K1 is a high-performance and ultra-low-power SoC that integrates 8 RISC-V CPU cores with SpacemiT® Daoyi™ AI computing power. It comes with the following most relevant advantages:
 
 - Integration with SpacemiT® self-innovated X60™ RISC-V core processor which adheres to the RISC-V 64GCVB architecture and RVA22 standard
-- Capable of delivering 2.0 TOPS AI computing power by leveraging customized RISC-V instructions to enable CPU AI fusion computing
+- Capable of delivering 2 TOPS AI computing power by leveraging customized RISC-V instructions to enable CPU AI fusion computing
 - Support for the popular AI inference frameworks such as TensorFlow Lite, TensorFlow, and ONNX Runtime
 - Attainment of ultra-low power consumption through the incorporation of multiple granular power islands and dynamic power state adjustments, making K1 highly competitive in energy efficiency
 - Availability of full-feature interfaces for enabling innovative applications and products

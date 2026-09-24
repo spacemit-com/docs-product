@@ -1,8 +1,10 @@
+---
 sidebar_position: 1
+---
 
 # K1 MUSE Pi Pro 简介
 
-**[PDF 版本](https://cdn-resource.spacemit.com/file/product/K1/MUSE_Pi_Pro_brief_zh.pdf)**
+**[PDF 版本](https://cdn-resource.SpacemiT.com/file/product/K1/MUSE_Pi_Pro_brief_zh.pdf)**
 
 **紧凑高效，助力 AI 与物联网的未来**
 
@@ -37,7 +39,7 @@ K1 MUSE Pi Pro 为 1.8 寸单板，能够满足大语言模型应用、机器人
 
 | 模块 | 描述  |
 | :--- | :--- |
-| 处理器 | SpacemiT M1，融合 2.0 TOPS AI 算力 |
+| 处理器 | SpacemiT M1，融合 2 TOPS AI 算力 |
 | 显示 | HDMI 1.4 Type-A 接口，最高支持 1080P @ 60 Hz<br>2-lane MIPI DSI FPC 接口，最高支持 1080P @ 60 Hz |
 | 内存 | LPDDR4X，2400 MT/s 速率，可选配 8 GB / 16 GB 容量 |
 | 本地存储 | eMMC 5.1，可选配 64 GB / 128 GB 容量 |
@@ -59,5 +61,5 @@ K1 MUSE Pi Pro 为 1.8 寸单板，能够满足大语言模型应用、机器人
 
 
 - **商务电话**：0571-89000775
-- **商务邮箱**：[business@spacemit.com](mailto:business@spacemit.com)
+- **商务邮箱**：[business@SpacemiT.com](mailto:business@SpacemiT.com)
 - **产品购买**：[K1 MUSE Pi Pro（官方购买链接）](https://item.taobao.com/item.htm?id=904155534891&ltk2=17442844019859mtp9v24y1s996aj56z1&spm=a21n57.shop_search.0.0.5bcd523cHF8dd2)

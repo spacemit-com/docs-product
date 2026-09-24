@@ -1,4 +1,6 @@
+---
 sidebar_position: 3
+---
 
 # K1 MUSE Paper Hardware Reference Documents
 

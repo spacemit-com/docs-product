@@ -1,4 +1,6 @@
+---
 sidebar_position: 2
+---
 
 # K1 MUSE Pi Pro 用户使用指南
 
@@ -133,7 +135,7 @@ K1 MUSE Pi Pro 单板计算机将 RISC-V 八核处理器、存储硬盘、通用
 
 | 模块 | 描述  |
 | --- | --- |
-| 处理器 | SpacemiT M1，融合 2.0 TOPS AI 算力 |
+| 处理器 | SpacemiT M1，融合 2 TOPS AI 算力 |
 | 显示 | - HDMI1.4 Type-A 接口，最高支持 1080P@60HZ<br>- 2lane MIPI DSI FPC 接口，最高支持1080P@60HZ |
 | 内存 | LPDDR4X，2400MT/s 速率，可选配 8GB/16GB 容量 |
 | 本地存储 | eMMC5.1，可选配 64GB/128GB 容量 |

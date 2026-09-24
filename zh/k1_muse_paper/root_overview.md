@@ -1,8 +1,10 @@
+---
 sidebar_position: 1
+---
 
 # K1 MUSE Paper 简介
 
-**[PDF 版本](https://cdn-resource.spacemit.com/file/product/K1/MUSE_paper_brief_zh.pdf)**
+**[PDF 版本](https://cdn-resource.SpacemiT.com/file/product/K1/MUSE_paper_brief_zh.pdf)**
 
 **开启全栈开源时代的 RISC-V 鸿蒙平板**
 
@@ -14,7 +16,7 @@ K1 MUSE Paper 是一款基于 RISC-V 架构和 OpenHarmony 操作系统的开发
   基于 K1 + P1 硬件平台，搭载 Linux 6.6 内核与 OpenHarmony 5.0
 
 - **8 核 CPU + 融合 AI 算力**
-  集成 8 核 RISC-V CPU 与 2.0 TOPS 融合 AI 算力，兼顾通用计算与 AI 推理任务需求。
+  集成 8 核 RISC-V CPU 与 2 TOPS 融合 AI 算力，兼顾通用计算与 AI 推理任务需求。
 
 - **多媒体与嵌入式接口集成**
   内置多媒体编解码能力，支持音视频输入输出与通用嵌入式接口。
@@ -38,7 +40,7 @@ K1 MUSE Paper 是一款基于 RISC-V 架构和 OpenHarmony 操作系统的开发
 
 | 模块 | 描述 |
 | :--- | :--- |
-| 处理器 | SpacemiT K1，搭载 8 核 64 位 RISC-V 处理器，融合 2.0 TOPS AI 算力 |
+| 处理器 | SpacemiT K1，搭载 8 核 64 位 RISC-V 处理器，融合 2 TOPS AI 算力 |
 | 显示 | 10.95 寸 LCD 屏，支持 1200 × 1920 分辨率 |
 | 内存 | LPDDR4X，2400 MT/s 速率，可选配 8 GB 或 16 GB 容量 |
 | 本地存储 | eMMC 存储，容量可选 128 GB 或 256 GB |
@@ -55,4 +57,4 @@ K1 MUSE Paper 是一款基于 RISC-V 架构和 OpenHarmony 操作系统的开发
 
 
 - **商务电话**：0571-89000775
-- **商务邮箱**：[business@spacemit.com](mailto:business@spacemit.com)
+- **商务邮箱**：[business@SpacemiT.com](mailto:business@SpacemiT.com)

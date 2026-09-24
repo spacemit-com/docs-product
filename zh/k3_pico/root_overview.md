@@ -1,19 +1,21 @@
+---
 sidebar_position: 1
+---
 
 # K3 Pico-ITX 简介
 
-**[PDF 版本](https://cdn-resource.spacemit.com/file/product/K3/K3-Pico-ITX_brief_zh.pdf)**
+**[PDF 版本](https://cdn-resource.SpacemiT.com/file/product/K3/K3-Pico-ITX_brief_zh.pdf)**
 
 **极致集成度的迷你 AI 计算机**
 
-K3 Pico-ITX 为 60TOPS 算力的单板计算机，8 计算核和 8 智算核统一内存架构，板载 UFS 高速硬盘和万兆网络光通讯接口，充分释放算力性能，提高科学计算、人工智能等应用处理效率。
+K3 Pico-ITX 为 60 TOPS 算力的单板计算机，8 计算核和 8 智算核统一内存架构，板载 UFS 高速硬盘和万兆网络光通讯接口，充分释放算力性能，提高科学计算、人工智能等应用处理效率。
 
 K3 Pico-ITX 为 2.5" Pico-ITX plus 尺寸，满足各行业紧凑型场景应用。单板支持双 M.2 扩展槽位，具备实时运动控制和系统管理接口。凭借其丰富的接口扩展性与工业架构式设计，可支持行业解决方案提供商开展快速评估与系统集成工作，推动产品商业化落地进程。
 
 ## 特性
 
 - **智算一体**
-  - 符合 RVA23 标准的 8 核处理器 K3，60TOPS 通用 AI 算力，支持 IME 扩展和完整虚拟化
+  - 符合 RVA23 标准的 8 核处理器 K3，60 TOPS 通用 AI 算力，支持 IME 扩展和完整虚拟化
   - 计算核和智算核统一内存架构，支持 300 亿参数模型部署
   
 - **到手即用**
@@ -33,7 +35,7 @@ K3 Pico-ITX 为 2.5" Pico-ITX plus 尺寸，满足各行业紧凑型场景应用
 
 | 模块 | 描述 |
 | :--- | :--- |
-| 处理器 | SpacemiT K3，8 核 2.4GHz，融合 60TOPS AI 算力，符合 RVA23 标准，支持 IME 向量扩展和完整虚拟化 |
+| 处理器 | SpacemiT K3，8 核 2.4GHz，融合 60 TOPS AI 算力，符合 RVA23 标准，支持 IME 向量扩展和完整虚拟化 |
 | 显示 | DP Type-C 接口，最高支持 4K 3840 × 2160 分辨率，60Hz 刷新率<br>40PIN EDP 接口，最高支持 2.5K 2560 × 1600 分辨率，90Hz 刷新率 |
 | 内存 | 双通道 2 × 32bit LPDDR5，6400MT/s 速率，可选 16GB/32GB 容量 |
 | 本地存储 | UFS2.2，可选 128GB/256GB 容量 |
@@ -78,4 +80,4 @@ K3 Pico-ITX 为 2.5" Pico-ITX plus 尺寸，满足各行业紧凑型场景应用
 
 
 - **商务电话**：0571-89000775
-- **商务邮箱**：[business@spacemit.com](mailto:business@spacemit.com)
+- **商务邮箱**：[business@SpacemiT.com](mailto:business@SpacemiT.com)

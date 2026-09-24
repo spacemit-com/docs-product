@@ -1,4 +1,6 @@
+---
 sidebar_position: 5
+---
 
 # K1 MUSE Pi Pro
 

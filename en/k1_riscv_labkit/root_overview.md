@@ -1,8 +1,10 @@
+---
 sidebar_position: 1
+---
 
 # K1 Lab Kit Brief
 
-**[PDF Version](https://cdn-resource.spacemit.com/file/product/K1/K1_RISC-V_Lab_Kit_brief_en.pdf)**
+**[PDF Version](https://cdn-resource.SpacemiT.com/file/product/K1/K1_RISC-V_Lab_Kit_brief_en.pdf)**
 
 **A RISC-V lab platform for embedded systems and AI education**
 
@@ -26,7 +28,7 @@ The RISC-V Lab Kit is designed for education in embedded systems, AI, and RISC-V
 
 | Module | Description |
 | :--- | :--- |
-| Processor | SpacemiT M1 with 2.0 TOPS AI compute |
+| Processor | SpacemiT M1 with 2 TOPS AI compute |
 | Display | HDMI Type-A, up to 1080p@60 Hz; integrated 10.1-inch IPS touchscreen, 1920×1200 |
 | Memory | LPDDR4X with a 2400 MT/s speed, available in 16 GB |
 | Storage | eMMC 5.1, 64 GB |
@@ -45,4 +47,4 @@ The RISC-V Lab Kit is designed for education in embedded systems, AI, and RISC-V
 ## Business Cooperation & Purchase
 
 - **Phone**: 0571-89000775
-- **Email**: [business@spacemit.com](mailto:business@spacemit.com)
+- **Email**: [business@SpacemiT.com](mailto:business@SpacemiT.com)
