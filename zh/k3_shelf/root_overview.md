@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # K3 Shelf 阵列服务器简介
 
-**[PDF 版本](https://cdn-resource.spacemit.com/file/product/K3/k3-shelf_brief_zh.pdf)**
+**[PDF 版本](https://cdn-resource.SpacemiT.com/file/product/K3/k3-shelf_brief_zh.pdf)**
 
 **原生 RISC-V 编译集群服务器 K3 Shelf**
 
@@ -99,4 +99,4 @@ sidebar_position: 1
 ## 合作与采购咨询
 
 - **商务电话**：0571-89000775
-- **商务邮箱**：[business@spacemit.com](mailto:business@spacemit.com)
+- **商务邮箱**：[business@SpacemiT.com](mailto:business@SpacemiT.com)

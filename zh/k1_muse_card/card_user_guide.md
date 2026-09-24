@@ -1,10 +1,12 @@
+---
 sidebar_position: 2
+---
 
 # K1 MUSE Card 用户使用指南
 
 ## 产品简介
 
-**K1 MUSE Card** 是进迭时空生态产品开发板系列，第一代搭载了进迭时空八核 RISC-V 高性能处理器 M1，核内融合 2.0Tops 通用 AI 算力，可支持所有 AI 模型算法的快速部署。
+**K1 MUSE Card** 是进迭时空生态产品开发板系列，第一代搭载了进迭时空八核 RISC-V 高性能处理器 M1，核内融合 2 TOPS 通用 AI 算力，可支持所有 AI 模型算法的快速部署。
 
 **K1 MUSE Card** 充分展现了 M1 的方案和接口扩展性，设计引出了 M1 芯片原生的 HDMI、单网口、USB3.0、USB2.0、双 M.2 2242 M-KEY 等接口，可适配进迭自研 BianbuOS、BianbuNAS、OpenHarmony、OpenKylin、Deepin 等操作系统，可快速用于行业控制、NAS、机器视觉、网关等产品形态评估和孵化。
 
@@ -57,7 +59,7 @@ sidebar_position: 2
 <tr>
 <td><strong>系统主控</strong></td>
 <td>CPU</td>
-<td>SpacemiT M1（SpacemiT  Key Stone® M1 芯片高性能版），8核 RISC-V中央处理器，融合 2.0 Tops AI算力<br/>8*RISC-V X60 Core 64-bit </td>
+<td>SpacemiT M1（SpacemiT  Key Stone® M1 芯片高性能版），8核 RISC-V中央处理器，融合 2 TOPS AI算力<br/>8*RISC-V X60 Core 64-bit </td>
 </tr>
 <tr>
 <td><strong>显示</strong><br/></td>
@@ -138,7 +140,7 @@ sidebar_position: 2
 M1 是一款高性能、超低功耗的 SOC，集成了 8 核 RISC-V CPU 内核和 SpacemiT 道一 AI 计算能力。M1 具有以下特点：
 
 - 集成自主创新的 SpacemiT X60™RISC-V 处理器核，遵循 RISC-V 64GCVB 体系结构和 RVA22 标准。
-- 通过探索 RISC-V 定制指令扩展 2.0TOPS AI 算力，实现 CPU AI 融合算力，支持 TensorFlowLite、TensorFlow、ONNX RunTime 等主流 AI 推理框架。
+- 通过探索 RISC-V 定制指令扩展 2 TOPS AI 算力，实现 CPU AI 融合算力，支持 TensorFlowLite、TensorFlow、ONNX RunTime 等主流 AI 推理框架。
 - 通过实现不同电源的划分，以及不同层级的功率状态。实现超低功耗，使 M1 更具竞争力和领先优势。
 - 支持全功能界面，丰富更具创新性的应用程序和产品。
 - 兼容主流操作系统，满足各种应用场景的需求。

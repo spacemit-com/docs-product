@@ -1,13 +1,15 @@
+---
 sidebar_position: 1
+---
 
-# K1 MUSE BOX 简介
+# K1 MUSE Box 简介
 
-**[PDF 版本](https://cdn-resource.spacemit.com/file/product/K1/MUSE_box_brief_zh.pdf)**
+**[PDF 版本](https://cdn-resource.SpacemiT.com/file/product/K1/MUSE_box_brief_zh.pdf)**
 
-**K1 MUSE BOX** 搭载RISC-V 8核 64位CPU，选择通用Mini-ITX主板，搭配丰富的I/O接口和极低功耗，拓展更多场景可能性。
+**K1 MUSE Box** 搭载RISC-V 8核 64位CPU，选择通用Mini-ITX主板，搭配丰富的I/O接口和极低功耗，拓展更多场景可能性。
 
 - 基于进迭时空RISC-V八核中央处理器
-- CPU融合 2.0 TOPS@INT8 AI 算力
+- CPU融合 2 TOPS@INT8 AI 算力
 - HDMI 接口，FHD全高清显示
 - 支持最大16GB，LPDDR4X板贴内存
 - 至多USB2.06，USB3.04
@@ -20,7 +22,7 @@ sidebar_position: 1
 
 | 模块 | 描述 |
 | --- | --- |
-| 处理器 | SpacemiT K1，8核64位RISC-V处理器，融合2.0 TOPS AI算力 |
+| 处理器 | SpacemiT K1，8核64位RISC-V处理器，融合2 TOPS AI算力 |
 | 显示 | HDMI Type-A接口，最高支持1080P@60Hz |
 | 内存 | LPDDR4X，2400MT/s速率，可选配8GB/16GB容量 |
 | 本地存储 | eMMC 5.1，32GB容量 |
@@ -38,5 +40,5 @@ sidebar_position: 1
 
 
 - **商务电话**：0571-89000775
-- **商务邮箱**：[business@spacemit.com](mailto:business@spacemit.com)
-- **产品购买**：[K1 MUSE BOX（官方购买链接）](https://m.tb.cn/h.gU9Td2fQjXmck9g?tk=uZ40WBsS19C)
+- **商务邮箱**：[business@SpacemiT.com](mailto:business@SpacemiT.com)
+- **产品购买**：[K1 MUSE Box（官方购买链接）](https://m.tb.cn/h.gU9Td2fQjXmck9g?tk=uZ40WBsS19C)

@@ -1,8 +1,10 @@
+---
 sidebar_position: 1
+---
 
 # RISC-V 实验箱简介
 
-**[PDF 版本](https://cdn-resource.spacemit.com/file/product/K1/K1_RISC-V_Lab_Kit_brief_zh.pdf)**
+**[PDF 版本](https://cdn-resource.SpacemiT.com/file/product/K1/K1_RISC-V_Lab_Kit_brief_zh.pdf)**
 
 **助力嵌入式与 AI 教学的 RISC-V 实验箱**
 
@@ -26,7 +28,7 @@ RISC-V 实验箱面向嵌入式、人工智能和 RISC-V 架构计算应用等�
 
 | 模块 | 描述 |
 | :--- | :--- |
-| 处理器 | SpacemiT M1 融合 2.0 TOPS AI 算力 |
+| 处理器 | SpacemiT M1 融合 2 TOPS AI 算力 |
 | 显示 | 内置 HDMI Type-A 接口，最高支持 1080P @ 60 Hz<br>集成 10.1 英寸 IPS 触摸屏，1920 × 1200 高清分辨率 |
 | 内存 | LPDDR4X，2400 MT/s 速率，16 GB 容量 |
 | 本地存储 | eMMC 5.1，64 GB 容量 |
@@ -46,4 +48,4 @@ RISC-V 实验箱面向嵌入式、人工智能和 RISC-V 架构计算应用等�
 
 
 - **商务电话**：0571-89000775
-- **商务邮箱**：[business@spacemit.com](mailto:business@spacemit.com)
+- **商务邮箱**：[business@SpacemiT.com](mailto:business@SpacemiT.com)

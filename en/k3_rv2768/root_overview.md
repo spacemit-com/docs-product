@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Cluster Server RV2768 Brief
 
-**[PDF Version](https://cdn-resource.spacemit.com/file/product/K3/k3-rv2768_brief_en.pdf)**
+**[PDF Version](https://cdn-resource.SpacemiT.com/file/product/K3/k3-rv2768_brief_en.pdf)**
 
 **768-Core Native RISC-V AI Compute Cluster**
 
@@ -61,4 +61,4 @@ With a multi-node cluster architecture and full hardware virtualization, the ser
 ## Business Cooperation & Purchase
 
 - **Phone**: 0571-89000775
-- **Email**: [business@spacemit.com](mailto:business@spacemit.com)
+- **Email**: [business@SpacemiT.com](mailto:business@SpacemiT.com)

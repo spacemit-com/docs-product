@@ -1,8 +1,10 @@
+---
 sidebar_position: 1
+---
 
 # K3 Pico-ITX Brief
 
-**[PDF Version](https://cdn-resource.spacemit.com/file/product/K3/K3-Pico-ITX_brief_en.pdf)**
+**[PDF Version](https://cdn-resource.SpacemiT.com/file/product/K3/K3-Pico-ITX_brief_en.pdf)**
 
 **Ultra-High Integration Mini AI Computer**
 
@@ -80,4 +82,4 @@ With rich I/O expandability and an industrial-grade architecture, the K3 Pico-IT
 
 
 - **Phone**: 0571-89000775
-- **Email**: [business@spacemit.com](mailto:business@spacemit.com)
+- **Email**: [business@SpacemiT.com](mailto:business@SpacemiT.com)

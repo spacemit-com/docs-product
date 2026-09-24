@@ -38,7 +38,6 @@ Cluster Server RV2768 BMC 支持 48 个计算模块，每个模块通过 `sub<X>
 ```text
 Content-Type: application/json
 ```
-
 **路径参数**
 
 | 参数 | 类型 | 说明 |
@@ -52,7 +51,6 @@ Content-Type: application/json
     "ResetType": "<reset_type>"
 }
 ```
-
 **ResetType 参数说明**
 
 | ResetType | 说明 | D-Bus 命令 | 操作对象 |
@@ -74,7 +72,6 @@ curl -k -u root:0penBmc -X POST \
   -H "Content-Type: application/json" \
   -d '{"ResetType": "GracefulShutdown"}'
 ```
-
 **示例：重启模块 4（sub1-1）**
 
 ```bash
@@ -83,7 +80,6 @@ curl -k -u root:0penBmc -X POST \
   -H "Content-Type: application/json" \
   -d '{"ResetType": "GracefulRestart"}'
 ```
-
 **示例：强制关闭全局系统**
 
 ```bash
@@ -92,7 +88,6 @@ curl -k -u root:0penBmc -X POST \
   -H "Content-Type: application/json" \
   -d '{"ResetType": "ForceOff"}'
 ```
-
 ### 1.2 查询支持的 Reset 操作
 
 **GET** `/redfish/v1/Systems/{systemName}/ResetActionInfo/`
@@ -125,7 +120,6 @@ curl -k -u root:0penBmc -X POST \
     ]
 }
 ```
-
 ### 1.3 查询单个节点状态
 
 **GET** `/redfish/v1/Systems/{systemName}`
@@ -153,7 +147,7 @@ curl -k -u root:0penBmc -X POST \
     },
     "Name": "sub0-0",
     "Oem": {
-        "Spacemit": {
+        "SpacemiT": {
             "ACPowerState": "On"
         }
     },
@@ -165,7 +159,6 @@ curl -k -u root:0penBmc -X POST \
     "SystemType": "Physical"
 }
 ```
-
 **路径参数**
 
 | 参数 | 类型 | 说明 |
@@ -198,10 +191,9 @@ for i in {0..23}; do
   done
 done
 ```
-
 ### 1.4 所有模组批量上下电控制
 
-**POST** `/redfish/v1/Chassis/bmc/Actions/Oem/Spacemit/AllNodesPower`
+**POST** `/redfish/v1/Chassis/bmc/Actions/Oem/SpacemiT/AllNodesPower`
 
 **请求体**
 
@@ -210,7 +202,6 @@ done
   "PowerState": "On"
 }
 ```
-
 **响应示例**
 
 ```json
@@ -219,17 +210,16 @@ done
     "PowerState": "On"
 }
 ```
-
 ### 1.5 所有模组整体上下电状态查询
 
-**GET** `/redfish/v1/Chassis/bmc/Oem/Spacemit/NodesPowerState`
+**GET** `/redfish/v1/Chassis/bmc/Oem/SpacemiT/NodesPowerState`
 
 **响应示例**
 
 ```json
 {
-    "@odata.id": "/redfish/v1/Chassis/bmc/Oem/Spacemit/NodesPowerState",
-    "@odata.type": "#OemSpacemit.NodesPowerState",
+    "@odata.id": "/redfish/v1/Chassis/bmc/Oem/SpacemiT/NodesPowerState",
+    "@odata.type": "#OemSpacemiT.NodesPowerState",
     "Name": "K3 Nodes Power State",
     "PowerState": "On",
     "RegisterValues": [
@@ -242,7 +232,6 @@ done
     ]
 }
 ```
-
 ### 1.6 执行单个模块上下电操作
 
 **POST** `/redfish/v1/Systems/sub0-0/Actions/ComputerSystem.Reset`
@@ -261,7 +250,6 @@ done
     }
 }
 ```
-
 单个模块上电操作：
 
 ```json
@@ -274,7 +262,6 @@ done
     }
 }
 ```
-
 **响应**
 
 ```json
@@ -291,7 +278,6 @@ done
     ]
 }
 ```
-
 ## 2. CPU 资产信息接口
 
 ### 2.1 获取处理器列表
@@ -321,14 +307,12 @@ done
     "Members@odata.count": 1
 }
 ```
-
 **示例**
 
 ```bash
 curl -k -u root:0penBmc \
   https://<bmc-ip>/redfish/v1/Systems/sub0-0/Processors/
 ```
-
 ### 2.2 获取处理器详细信息
 
 **GET** `/redfish/v1/Systems/{systemName}/Processors/{processorId}`
@@ -373,7 +357,7 @@ curl -k -u root:0penBmc \
     "Model": "SpacemiT K3 BS01DCMA",
     "Name": "Processor",
     "Oem": {
-        "Spacemit": {
+        "SpacemiT": {
             "DiskSizeGB": 0,
             "RamSizeMB": 15969
         }
@@ -391,7 +375,6 @@ curl -k -u root:0penBmc \
     "TotalCores": 16
 }
 ```
-
 **响应示例（CPU 不存在 / 模块离线）**
 
 ```json
@@ -402,7 +385,7 @@ curl -k -u root:0penBmc \
     "MaxSpeedMHz": 0,
     "Name": "Processor",
     "Oem": {
-        "Spacemit": {
+        "SpacemiT": {
             "DiskSizeGB": 0,
             "RamSizeMB": 0
         }
@@ -419,47 +402,42 @@ curl -k -u root:0penBmc \
     "TotalCores": 0
 }
 ```
-
 **示例：获取模块 0（`sub0-0`）的 CPU 信息**
 
 ```bash
 curl -k -u root:0penBmc \
   https://<bmc-ip>/redfish/v1/Systems/sub0-0/Processors/cpu0
 ```
-
 **示例：获取模块 44（`sub22-0`）的 CPU 信息**
 
 ```bash
 curl -k -u root:0penBmc \
   https://<bmc-ip>/redfish/v1/Systems/sub22-0/Processors/cpu0
 ```
-
 ## 3. 风扇模式控制接口（OEM）
 
 ### 3.1 查询当前风扇模式
 
-**GET** `/redfish/v1/Managers/bmc/Oem/Spacemit/FanMode`
+**GET** `/redfish/v1/Managers/bmc/Oem/SpacemiT/FanMode`
 
 **响应示例**
 
 ```json
 {
-    "@odata.type": "#OemSpacemit.FanMode",
-    "@odata.id": "/redfish/v1/Managers/bmc/Oem/Spacemit/FanMode",
+    "@odata.type": "#OemSpacemiT.FanMode",
+    "@odata.id": "/redfish/v1/Managers/bmc/Oem/SpacemiT/FanMode",
     "Mode": "Auto"
 }
 ```
-
 **示例**
 
 ```bash
 curl -k -u root:0penBmc \
-  https://<bmc-ip>/redfish/v1/Managers/bmc/Oem/Spacemit/FanMode
+  https://<bmc-ip>/redfish/v1/Managers/bmc/Oem/SpacemiT/FanMode
 ```
-
 ### 3.2 设置风扇模式
 
-**PATCH** `/redfish/v1/Managers/bmc/Oem/Spacemit/FanMode`
+**PATCH** `/redfish/v1/Managers/bmc/Oem/SpacemiT/FanMode`
 
 **请求体**
 
@@ -468,7 +446,6 @@ curl -k -u root:0penBmc \
     "Mode": "Auto"
 }
 ```
-
 **Mode 参数说明**
 
 | Mode | 说明 | 行为 |
@@ -484,32 +461,30 @@ curl -k -u root:0penBmc \
 
 ```bash
 curl -k -u root:0penBmc -X PATCH \
-  https://<bmc-ip>/redfish/v1/Managers/bmc/Oem/Spacemit/FanMode \
+  https://<bmc-ip>/redfish/v1/Managers/bmc/Oem/SpacemiT/FanMode \
   -H "Content-Type: application/json" \
   -d '{"Mode": "Manual"}'
 ```
-
 **示例：切换到自动模式**
 
 ```bash
 curl -k -u root:0penBmc -X PATCH \
-  https://<bmc-ip>/redfish/v1/Managers/bmc/Oem/Spacemit/FanMode \
+  https://<bmc-ip>/redfish/v1/Managers/bmc/Oem/SpacemiT/FanMode \
   -H "Content-Type: application/json" \
   -d '{"Mode": "Auto"}'
 ```
-
 ## 4. 风扇转速控制接口（OEM）
 
 ### 4.1 查询当前风扇转速
 
-**GET** `/redfish/v1/Chassis/bmc/Oem/Spacemit/FanSpeeds`
+**GET** `/redfish/v1/Chassis/bmc/Oem/SpacemiT/FanSpeeds`
 
 **响应示例**
 
 ```json
 {
-    "@odata.id": "/redfish/v1/Chassis/bmc/Oem/Spacemit/FanSpeeds",
-    "@odata.type": "#OemSpacemit.FanSpeeds",
+    "@odata.id": "/redfish/v1/Chassis/bmc/Oem/SpacemiT/FanSpeeds",
+    "@odata.type": "#OemSpacemiT.FanSpeeds",
     "FanSpeeds": [
         {
             "FanName": "fan1",
@@ -547,17 +522,15 @@ curl -k -u root:0penBmc -X PATCH \
     "Name": "Fan Speed Control"
 }
 ```
-
 **示例**
 
 ```bash
 curl -k -u root:0penBmc \
-  https://<bmc-ip>/redfish/v1/Chassis/bmc/Oem/Spacemit/FanSpeeds
+  https://<bmc-ip>/redfish/v1/Chassis/bmc/Oem/SpacemiT/FanSpeeds
 ```
-
 ### 4.2 设置风扇转速
 
-**PATCH** `/redfish/v1/Chassis/bmc/Oem/Spacemit/FanSpeeds`
+**PATCH** `/redfish/v1/Chassis/bmc/Oem/SpacemiT/FanSpeeds`
 
 **请求体**
 
@@ -571,7 +544,6 @@ curl -k -u root:0penBmc \
   ]
 }
 ```
-
 支持一次设置一个或多个风扇，无需包含所有 8 个。
 
 **参数说明**
@@ -596,20 +568,18 @@ curl -k -u root:0penBmc \
 
 ```bash
 curl -k -u root:0penBmc -X PATCH \
-  https://<bmc-ip>/redfish/v1/Chassis/bmc/Oem/Spacemit/FanSpeeds \
+  https://<bmc-ip>/redfish/v1/Chassis/bmc/Oem/SpacemiT/FanSpeeds \
   -H "Content-Type: application/json" \
   -d '{"FanSpeeds": [{"FanName": "pwm1", "SpeedPercent": 50}]}'
 ```
-
 **示例：同时设置多个风扇**
 
 ```bash
 curl -k -u root:0penBmc -X PATCH \
-  https://<bmc-ip>/redfish/v1/Chassis/bmc/Oem/Spacemit/FanSpeeds \
+  https://<bmc-ip>/redfish/v1/Chassis/bmc/Oem/SpacemiT/FanSpeeds \
   -H "Content-Type: application/json" \
   -d '{"FanSpeeds": [{"FanName": "pwm1", "SpeedPercent": 30}, {"FanName": "pwm2", "SpeedPercent": 60}, {"FanName": "pwm3", "SpeedPercent": 100}]}'
 ```
-
 > **注意**：设置风扇转速前应先通过 FanMode 接口将模式切换为 Manual，否则 Auto 模式下 phosphor-pid-control 会覆盖手动设置的转速值。
 
 ## 5. 固件升级模式接口（OEM）
@@ -618,7 +588,7 @@ curl -k -u root:0penBmc -X PATCH \
 
 **GET** `/redfish/v1/UpdateService/`
 
-在返回的 JSON 中，`Actions.Oem.Spacemit` 字段包含所有 48 个模块的升级 Action。
+在返回的 JSON 中，`Actions.Oem.SpacemiT` 字段包含所有 48 个模块的升级 Action。
 
 **响应示例（部分）**
 
@@ -631,35 +601,33 @@ curl -k -u root:0penBmc -X PATCH \
             "target": "/redfish/v1/UpdateService/Actions/UpdateService.SimpleUpdate"
         },
         "Oem": {
-            "Spacemit": {
-                "#Spacemit.sub0-0.UpdateService.Update": {
-                    "target": "/redfish/v1/UpdateService/Actions/Oem/Spacemit/sub0-0/UpdateService.Update",
-                    "@Redfish.ActionInfo": "/redfish/v1/UpdateService/Oem/Spacemit/sub0-0/UpdateActionInfo"
+            "SpacemiT": {
+                "#SpacemiT.sub0-0.UpdateService.Update": {
+                    "target": "/redfish/v1/UpdateService/Actions/Oem/SpacemiT/sub0-0/UpdateService.Update",
+                    "@Redfish.ActionInfo": "/redfish/v1/UpdateService/Oem/SpacemiT/sub0-0/UpdateActionInfo"
                 },
-                "#Spacemit.sub0-1.UpdateService.Update": {
-                    "target": "/redfish/v1/UpdateService/Actions/Oem/Spacemit/sub0-1/UpdateService.Update",
-                    "@Redfish.ActionInfo": "/redfish/v1/UpdateService/Oem/Spacemit/sub0-1/UpdateActionInfo"
+                "#SpacemiT.sub0-1.UpdateService.Update": {
+                    "target": "/redfish/v1/UpdateService/Actions/Oem/SpacemiT/sub0-1/UpdateService.Update",
+                    "@Redfish.ActionInfo": "/redfish/v1/UpdateService/Oem/SpacemiT/sub0-1/UpdateActionInfo"
                 },
-                "#Spacemit.sub23-1.UpdateService.Update": {
-                    "target": "/redfish/v1/UpdateService/Actions/Oem/Spacemit/sub23-1/UpdateService.Update",
-                    "@Redfish.ActionInfo": "/redfish/v1/UpdateService/Oem/Spacemit/sub23-1/UpdateActionInfo"
+                "#SpacemiT.sub23-1.UpdateService.Update": {
+                    "target": "/redfish/v1/UpdateService/Actions/Oem/SpacemiT/sub23-1/UpdateService.Update",
+                    "@Redfish.ActionInfo": "/redfish/v1/UpdateService/Oem/SpacemiT/sub23-1/UpdateActionInfo"
                 }
             }
         }
     }
 }
 ```
-
 **示例**
 
 ```bash
 curl -k -u root:0penBmc \
   https://<bmc-ip>/redfish/v1/UpdateService/
 ```
-
 ### 5.2 执行模块固件升级
 
-**POST** `/redfish/v1/UpdateService/Actions/Oem/Spacemit/<subX-Y>/UpdateService.Update`
+**POST** `/redfish/v1/UpdateService/Actions/Oem/SpacemiT/<subX-Y>/UpdateService.Update`
 
 对指定的模块执行固件升级操作。
 
@@ -703,30 +671,26 @@ curl -k -u root:0penBmc \
     "Message": "firmware upgrade initiated for module 1 (sub0-0)"
 }
 ```
-
 `Status` 字段为 D-Bus 方法返回的 `int32_t` 状态码。
 
 **示例：升级模块 1（sub0-0）**
 
 ```bash
 curl -k -u root:0penBmc -X POST \
-  https://<bmc-ip>/redfish/v1/UpdateService/Actions/Oem/Spacemit/sub0-0/UpdateService.Update
+  https://<bmc-ip>/redfish/v1/UpdateService/Actions/Oem/SpacemiT/sub0-0/UpdateService.Update
 ```
-
 **示例：升级模块 10（sub4-1）**
 
 ```bash
 curl -k -u root:0penBmc -X POST \
-  https://<bmc-ip>/redfish/v1/UpdateService/Actions/Oem/Spacemit/sub4-1/UpdateService.Update
+  https://<bmc-ip>/redfish/v1/UpdateService/Actions/Oem/SpacemiT/sub4-1/UpdateService.Update
 ```
-
 **示例：升级模块 48（sub23-1）**
 
 ```bash
 curl -k -u root:0penBmc -X POST \
-  https://<bmc-ip>/redfish/v1/UpdateService/Actions/Oem/Spacemit/sub23-1/UpdateService.Update
+  https://<bmc-ip>/redfish/v1/UpdateService/Actions/Oem/SpacemiT/sub23-1/UpdateService.Update
 ```
-
 **错误响应**
 
 如果提供的 `subX-Y` 格式不正确或超出范围（X > 23 或 Y > 1），将返回 404 错误：
@@ -739,17 +703,16 @@ curl -k -u root:0penBmc -X POST \
     }
 }
 ```
-
 ## 6. 模组在位信息查询
 
-**GET** `/redfish/v1/Chassis/bmc/Oem/Spacemit/BoardPresence`
+**GET** `/redfish/v1/Chassis/bmc/Oem/SpacemiT/BoardPresence`
 
 **响应**
 
 ```json
 {
-    "@odata.id": "/redfish/v1/Chassis/bmc/Oem/Spacemit/BoardPresence",
-    "@odata.type": "#OemSpacemit.BoardPresence",
+    "@odata.id": "/redfish/v1/Chassis/bmc/Oem/SpacemiT/BoardPresence",
+    "@odata.type": "#OemSpacemiT.BoardPresence",
     "Clusters": [
         { "Id": "sub0", "Present": true },
         { "Id": "sub1", "Present": false },
@@ -779,7 +742,6 @@ curl -k -u root:0penBmc -X POST \
     "Name": "K3 Board Presence"
 }
 ```
-
 ## 7. 网络协议
 
 ### 7.1 查询网络协议
@@ -830,7 +792,6 @@ curl -k -u root:0penBmc -X POST \
     }
 }
 ```
-
 ### 7.2 设置 NTP Server
 
 **PATCH** `/redfish/v1/Managers/bmc/NetworkProtocol`
@@ -845,13 +806,11 @@ curl -k -u root:0penBmc -X POST \
     }
 }
 ```
-
 **响应**
 
-```
+```bash
 204 No Content
 ```
-
 ## 8. 模块 ID 与 systemName 对照表
 
 两套接口统一，完整对照如下：

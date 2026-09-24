@@ -1,4 +1,6 @@
+---
 sidebar_position: 3
+---
 
 # K1 MUSE Pi Hardware Design Resources
 

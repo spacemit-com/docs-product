@@ -1,8 +1,10 @@
+---
 sidebar_position: 1
+---
 
 # K1 MUSE Book 简介
 
-**[PDF 版本](https://cdn-resource.spacemit.com/file/product/K1/MUSE_book_brief_zh.pdf)**
+**[PDF 版本](https://cdn-resource.SpacemiT.com/file/product/K1/MUSE_book_brief_zh.pdf)**
 
 **全球首款可量产的 RISC-V 笔记本电脑，为开发者而生**
 
@@ -12,7 +14,7 @@ K1 MUSE Book 是一款搭载进迭时空 8 核 RISC-V AI-CPU M1 的笔记本电�
   搭载进迭时空 8 核 CPU M1，为开发者提供高效便捷的本地 RISC-V 开发平台
 
 - **8 核 CPU + 融合 AI 算力**
-  8 核 CPU + 融合 AI 算力集成 8 核 64 位 RISC-V 处理器与 2.0 TOPS 融合 AI 算力，兼顾通用计算与 AI 推理任务需求
+  8 核 CPU + 融合 AI 算力集成 8 核 64 位 RISC-V 处理器与 2 TOPS 融合 AI 算力，兼顾通用计算与 AI 推理任务需求
 
 - **全场景 AI 开发**
   1080P FHD 高清摄像头，人像清晰真切，并能满足姿势、物体识别等 AI 视觉应用开发
@@ -30,7 +32,7 @@ K1 MUSE Book 是一款搭载进迭时空 8 核 RISC-V AI-CPU M1 的笔记本电�
 
 | 模块 | 描述  |
 | --- | --- |
-| 处理器 | SpacemiT M1，8 核 64 位 RISC-V 处理器，融合 2.0 TOPS AI 算力 |
+| 处理器 | SpacemiT M1，8 核 64 位 RISC-V 处理器，融合 2 TOPS AI 算力 |
 | 显示 | 支持双屏显示： <br>自带 14.1 寸 IPS 屏，1080P@60Hz，全彩 RGB，250 nits 亮度<br>支持 DP Type-C 接口，最高支持 1080P@60Hz |
 | 内存 | LPDDR4X，2400 MT/s 速率，可选配 8 GB/16 GB 容量 |
 | 本地存储 | NVMe SSD，可选配 128 GB/256 GB/512 GB 容量 |
@@ -45,5 +47,5 @@ K1 MUSE Book 是一款搭载进迭时空 8 核 RISC-V AI-CPU M1 的笔记本电�
 ## 合作与采购咨询
 
 - **商务电话**：0571-89000775
-- **商务邮箱**：[business@spacemit.com](mailto:business@spacemit.com)
-- **产品购买**：[K1 MUSE BOOK（官方购买链接）](https://m.tb.cn/h.gUvG9fgiJa4uJ43?tk=SrdHWBsSc5x)
+- **商务邮箱**：[business@SpacemiT.com](mailto:business@SpacemiT.com)
+- **产品购买**：[K1 MUSE Book（官方购买链接）](https://m.tb.cn/h.gUvG9fgiJa4uJ43?tk=SrdHWBsSc5x)

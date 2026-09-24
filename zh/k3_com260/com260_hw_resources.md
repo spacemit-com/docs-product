@@ -1,4 +1,6 @@
+---
 sidebar_position: 4
+---
 
 # K3 CoM260 开发套件硬件设计资源
 

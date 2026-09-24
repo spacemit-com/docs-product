@@ -1,4 +1,6 @@
+---
 sidebar_position: 3
+---
 
 # MUSE Card 硬件设计资源
 

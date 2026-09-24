@@ -1,6 +1,8 @@
+---
 sidebar_position: 3
+---
 
-# K1 MUSE BOOK 硬件设计资源
+# K1 MUSE Book 硬件设计资源
 
 请点击相关硬件资料下载：
 - [MUSEBook_schematic(PDF)-V1.1-20240909](https://cdn-resource.spacemit.com/file/product/K1/MUSEBook_schematic-V1.1-20240909.pdf)

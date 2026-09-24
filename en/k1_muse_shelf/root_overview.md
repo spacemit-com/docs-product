@@ -1,8 +1,10 @@
+---
 sidebar_position: 1
+---
 
 # K1 MUSE Shelf Brief
 
-**[PDF Version](https://cdn-resource.spacemit.com/file/product/K1/MUSE_shelf_brief_en.pdf)**
+**[PDF Version](https://cdn-resource.SpacemiT.com/file/product/K1/MUSE_shelf_brief_en.pdf)**
 
 **RISC-V cloud computing power open for global developers**
 
@@ -38,7 +40,7 @@ sidebar_position: 1
 | | Cloud services | SpacemiT Cloud |
 | | Chassis | 2U rack with 4 blades |
 | | Number of CPU Boards | 20 CPU boards per blade, 4 blades total, 80 K1 SoMs |
-| **K1-SoM** | CPU | K1 (8-core RISC-V CPU with 50K DMIPS performance and 2.0 TOPS AI processing power) |
+| **K1-SoM** | CPU | K1 (8-core RISC-V CPU with 50K DMIPS performance and 2 TOPS AI processing power) |
 | | DRAM | 8 GB / 16 GB |
 | | Storage | 64 GB / 128 GB |
 | | Interfaces | GbE / USB Device / UART |
@@ -53,5 +55,5 @@ sidebar_position: 1
 
 
 - **Phone**: 0571-89000775
-- **Email**: [business@spacemit.com](mailto:business@spacemit.com)
+- **Email**: [business@SpacemiT.com](mailto:business@SpacemiT.com)
 - **Purchase**: [K1 MUSE Shelf (Official Store)](https://item.taobao.com/item.htm?id=807037514272)

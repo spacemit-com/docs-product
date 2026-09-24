@@ -1,8 +1,10 @@
+---
 sidebar_position: 1
+---
 
 # K1 MUSE Pi Pro Brief
 
-**[PDF Version](https://cdn-resource.spacemit.com/file/product/K1/MUSE_Pi_Pro_brief_en.pdf)**
+**[PDF Version](https://cdn-resource.SpacemiT.com/file/product/K1/MUSE_Pi_Pro_brief_en.pdf)**
 
 **Compact and efficient, powering the future of AI and IoT**
 
@@ -35,7 +37,7 @@ sidebar_position: 1
 
 | Module | Description  |
 | :--- | :--- |
-| Processor | SpacemiT M1 with 2.0 TOPS AI power |
+| Processor | SpacemiT M1 with 2 TOPS AI power |
 | Display | HDMI 1.4 (up to 1080P @ 60 Hz)<br>2-lane MIPI DSI FPC (up to 1080P @ 60 Hz) |
 | Memory | LPDDR4X @ 2400 MT/s, 8 GB / 16 GB options |
 | Local Storage | eMMC 5.1, 64 GB / 128 GB options |
@@ -57,5 +59,5 @@ sidebar_position: 1
 
 
 - **Phone**: 0571-89000775
-- **Email**: [business@spacemit.com](mailto:business@spacemit.com)
+- **Email**: [business@SpacemiT.com](mailto:business@SpacemiT.com)
 - **Purchase**: [K1 MUSE Pi Pro (Official Store)](https://item.taobao.com/item.htm?id=904155534891&ltk2=17442844019859mtp9v24y1s996aj56z1&spm=a21n57.shop_search.0.0.5bcd523cHF8dd2)

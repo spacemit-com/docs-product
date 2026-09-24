@@ -1,13 +1,15 @@
+---
 sidebar_position: 1
+---
 
-# K1 MUSE BOX Brief
+# K1 MUSE Box Brief
 
-**[PDF Version](https://cdn-resource.spacemit.com/file/product/K1/MUSE_box_brief_en.pdf)**
+**[PDF Version](https://cdn-resource.SpacemiT.com/file/product/K1/MUSE_box_brief_en.pdf)**
 
-**K1 MUSE BOX** is equipped with a RISC-V 8-core 64-bit CPU and adopts a standard Mini-ITX motherboard. With its rich I/O interfaces and ultra-low power consumption, it enables a wide range of application possibilities.
+**K1 MUSE Box** is equipped with a RISC-V 8-core 64-bit CPU and adopts a standard Mini-ITX motherboard. With its rich I/O interfaces and ultra-low power consumption, it enables a wide range of application possibilities.
 
 - Powered by SpacemiT RISC-V 8-core processor
-- Integrated CPU with 2.0 TOPS@INT8 AI processing power
+- Integrated CPU with 2 TOPS@INT8 AI processing power
 - HDMI port supporting Full HD display
 - Supports up to 16GB of LPDDR4X onboard memory
 - Supports up to 6x USB 2.0 and 4x USB 3.0 ports
@@ -20,7 +22,7 @@ sidebar_position: 1
 
 | Module | Description  |
 | --- | --- |
-| Processor | SpacemiT M1: 8-core, RISC-V CPU with 2.0 TOPS AI processing power |
+| Processor | SpacemiT M1: 8-core, RISC-V CPU with 2 TOPS AI processing power |
 | Display | HDMI Type-A, supporting up to 1080P@60Hz |
 | Memory | LPDDR4X with a 2400MT/s speed, available in 8GB or 16GB configurations |
 | Storage | eMMC 5.1, 32GB |
@@ -38,5 +40,5 @@ sidebar_position: 1
 
 
 - **Phone**: 0571-89000775
-- **Email**: [business@spacemit.com](mailto:business@spacemit.com)
-- **Purchase**: [K1 MUSE BOX (Official Store)](https://m.tb.cn/h.gU9Td2fQjXmck9g?tk=uZ40WBsS19C)
+- **Email**: [business@SpacemiT.com](mailto:business@SpacemiT.com)
+- **Purchase**: [K1 MUSE Box (Official Store)](https://m.tb.cn/h.gU9Td2fQjXmck9g?tk=uZ40WBsS19C)

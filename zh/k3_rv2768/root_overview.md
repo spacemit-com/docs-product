@@ -4,13 +4,13 @@ sidebar_position: 1
 
 # Cluster Server RV2768 简介
 
-**[PDF 版本](https://cdn-resource.spacemit.com/file/product/K3/k3-rv2768_brief_zh.pdf)**
+**[PDF 版本](https://cdn-resource.SpacemiT.com/file/product/K3/k3-rv2768_brief_zh.pdf)**
 
 **768 核 RISC-V 原生 AI 计算集群**
 
 Cluster Server RV2768 为基于 RISC-V 架构的集群服务器，2U 高度、19 英寸标准尺寸机架式，搭载 48 个进迭时空 K3 处理器，符合 RISC-V 国际基金会的指令集扩展集合规范 RVA23。
 RVA23针对通用计算领域的应用处理器所制定，要求支持向量（Vector）和虚拟化（Hypervisor）扩展，是面向AI和高性能工作负载的现代性能标准。Cluster Server提供768核RISC-V原生算力，适合运行大量智能体和应用程序，处理海量数据的运算任务。
-多计算节点集群架构和完整硬件虚拟化特性，方便多个用户使用各自的计算系统，且彼此互不干扰，用户之间有物理安全隔离特性。在向量扩展基础上，Cluster Server支持每秒两千八百亿次（2880TOPS）通用AI运算和1536GB容量内存，满足多路并发请求的AI推理任务。
+多计算节点集群架构和完整硬件虚拟化特性，方便多个用户使用各自的计算系统，且彼此互不干扰，用户之间有物理安全隔离特性。在向量扩展基础上，Cluster Server支持每秒两千八百亿次（2880 TOPS）通用AI运算和1536GB容量内存，满足多路并发请求的AI推理任务。
 
 ## 特性
 
@@ -59,4 +59,4 @@ RVA23针对通用计算领域的应用处理器所制定，要求支持向量（
 ## 合作与采购咨询
 
 - **商务电话**：0571-89000775
-- **商务邮箱**：[business@spacemit.com](mailto:business@spacemit.com)
+- **商务邮箱**：[business@SpacemiT.com](mailto:business@SpacemiT.com)

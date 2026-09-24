@@ -1,8 +1,10 @@
+---
 sidebar_position: 1
+---
 
 # K1 RISC-V 集群服务器简介
 
-**[PDF 版本](https://cdn-resource.spacemit.com/file/product/K1/MUSE_shelf_brief_zh.pdf)**
+**[PDF 版本](https://cdn-resource.SpacemiT.com/file/product/K1/MUSE_shelf_brief_zh.pdf)**
 
 **为全球开发者开放的 RISC-V 云算力**
 
@@ -38,7 +40,7 @@ sidebar_position: 1
 | | 云服务 | 进迭云平台 |
 | | 形态 | 2U 机架式（4 刀片式） |
 | | CPU 板卡数量 | 每刀片 20 路 CPU 板卡，共 4 刀片、80 路 K1 SOM 板卡 |
-| **K1-SoM** | CPU | K1（8 核 RISC-V AI CPU，提供 50K DMIPS CPU 算力和 2.0 TOPS AI 算力） |
+| **K1-SoM** | CPU | K1（8 核 RISC-V AI CPU，提供 50K DMIPS CPU 算力和 2 TOPS AI 算力） |
 | | DRAM 容量 | 8 GB / 16 GB |
 | | Flash 容量 | 64 GB / 128 GB |
 | | 接口 | GbE / USB Device / UART |
@@ -52,5 +54,5 @@ sidebar_position: 1
 ## 合作与采购咨询
 
 - **商务电话**：0571-89000775
-- **商务邮箱**：[business@spacemit.com](mailto:business@spacemit.com)
+- **商务邮箱**：[business@SpacemiT.com](mailto:business@SpacemiT.com)
 - **产品购买**：[K1 MUSE Shelf（官方购买链接）](https://item.taobao.com/item.htm?id=807037514272)

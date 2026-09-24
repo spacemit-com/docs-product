@@ -1,4 +1,6 @@
+---
 sidebar_position: 2
+---
 
 # K1 MUSE Paper 用户使用指南
 
@@ -33,7 +35,7 @@ K1 MUSE Paper 是一款基于RISC-V架构和OpenHarmony操作系统的平板电�
 
 | 类别         | 项目             | 参数     |
 |--------------|------------------|---------|
-| 系统主控     | CPU              | SpacemiT K1, 8核，RISC-V中央处理器，融合2.0Tops AI算力                                                                                  |
+| 系统主控     | CPU              | SpacemiT K1, 8核，RISC-V中央处理器，融合2 TOPS AI算力                                                                                  |
 | 外观         | 尺寸             | 256.8 × 168.5 × 7.2 mm                                                                                                                  |
 |              | 重量             | 约453g                                                                                                                                  |
 |              | 材质             | 铝合金阳极氧化 + 塑料喷漆                                                                                                               |
@@ -65,7 +67,7 @@ K1 MUSE Paper 是一款基于RISC-V架构和OpenHarmony操作系统的平板电�
 
 K1是一款高性能、超低功耗的SOC，集成了8核RISC-V CPU内核和SpacemiT®道一™AI计算能力。K1具有以下特点：  
 - 集成进迭时空自主创新的SpacemiT® X60™RISC-V处理器核，遵循RISC-V 64GCVB体系结构和RVA22标准。  
-- 通过探索RISC-V定制指令扩展2.0TOPS AI算力，实现CPU AI融合算力，支持TensorFlowLite、TensorFlow、ONNX RunTime等主流AI推理框架。  
+- 通过探索RISC-V定制指令扩展2 TOPS AI算力，实现CPU AI融合算力，支持TensorFlowLite、TensorFlow、ONNX RunTime等主流AI推理框架。  
 - 通过实现不同电源的划分，以及不同层级的功率状态。实现超低功耗，使K1更具竞争力和领先优势。  
 - 支持全功能界面，丰富更具创新性的应用程序和产品。  
 - 兼容主流操作系统，满足各种应用场景的需求。  

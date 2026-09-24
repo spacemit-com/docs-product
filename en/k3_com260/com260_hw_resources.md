@@ -1,4 +1,6 @@
+---
 sidebar_position: 4
+---
 
 # K3 CoM260 Development Kit Hardware Design Resources
 

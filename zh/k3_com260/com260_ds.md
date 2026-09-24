@@ -6,7 +6,7 @@ sidebar_position: 2
 
 **60T 融合 AI 算力核心板**
 
-**[PDF 版本](https://cdn-resource.spacemit.com/file/product/K3/k3_com260_ds_zh.pdf)**
+**[PDF 版本](https://cdn-resource.spacemit.com/file/product/K3/k3_CoM260_ds_zh.pdf)**
 
 ## 版本
 
@@ -72,7 +72,7 @@ K3-CoM260 提供了丰富的接口，涵盖 MIPI-DSI、MIPI-CSI、DP 1.2、SDIO 
 
 下图展示了**订货型号**的命名规则，该规则由以下几个部分组成。
 
-![](./static/com260_model.png)
+![](./static/CoM260_model.png)
 
 下表提供了具体的订货型号（Part Number）、主控型号以及对应的 DDR 容量信息。
 
@@ -86,7 +86,7 @@ K3-CoM260 提供了丰富的接口，涵盖 MIPI-DSI、MIPI-CSI、DP 1.2、SDIO 
 
 K3-CoM260 模块框图如下图所示。
 
-![](./static/com260_bd.png)
+![](./static/CoM260_bd.png)
 
 注：有关各模块的详细技术参数，请参考相应的 [K3 数据手册（Datasheet）](https://spacemit.com/community/document/info?lang=zh&nodepath=hardware/key_stone/k3/k3_docs/k3_ds.md)。
 
@@ -282,7 +282,7 @@ K3-CoM260 模块框图如下图所示。
 
 下图展示了 K3-CoM260 模块的实物图。
 
-![](./static/com260_real01.png)
+![](./static/CoM260_real01.png)
 
 ### 3.2 引脚封装
 

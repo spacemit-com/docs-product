@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # K3 CoM260 Kit Brief
 
-**[PDF Version](https://cdn-resource.spacemit.com/file/product/K3/K3-CoM260_brief_en.pdf)**
+**[PDF Version](https://cdn-resource.SpacemiT.com/file/product/K3/K3-CoM260_brief_en.pdf)**
 
 **A Full-Stack RISC-V Robotics Development Kit**
 
@@ -69,4 +69,4 @@ Built on the RISC-V architecture, the kit supports mainstream AI model deploymen
 ## Business Cooperation & Purchase
 
 - **Phone**: 0571-89000775
-- **Email**: [business@spacemit.com](mailto:business@spacemit.com)
+- **Email**: [business@SpacemiT.com](mailto:business@SpacemiT.com)

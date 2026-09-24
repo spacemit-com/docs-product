@@ -36,11 +36,13 @@ checks:
   product_names:
     enabled: true
     # Keys are bad casings, values are the correct form
+    # MUSE is a brand name and is always all-caps. The key uses a space
+    # ("k1 muse") so it never matches lowercase link paths like k1_muse_pi.
     rules:
       spacemit: SpacemiT
       "k3 com260": "K3 CoM260"
       com260: CoM260
-      "k1 muse": "K1 Muse"
+      "k1 muse": "K1 MUSE"
 
 llm_review:
   enabled: true          # set true to enable LLM content review

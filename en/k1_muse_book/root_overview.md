@@ -1,8 +1,10 @@
+---
 sidebar_position: 1
+---
 
-# K1 MUSE BOOK Brief
+# K1 MUSE Book Brief
 
-**[PDF Version](https://cdn-resource.spacemit.com/file/product/K1/MUSE_book_brief_en.pdf)**
+**[PDF Version](https://cdn-resource.SpacemiT.com/file/product/K1/MUSE_book_brief_en.pdf)**
 
 **The World’s First Mass-Production RISC-V Laptop for Developers**
 
@@ -12,7 +14,7 @@ K1 MUSE Book is a laptop powered by the SpacemiT 8-core RISC-V AI CPU M1, and th
    Powered by the SpacemiT 8-core M1 processor, providing an efficient local RISC-V development platform. 
 
 - **8-Core CPU with Integrated AI Compute**
-   Combines an 8-core 64-bit RISC-V processor with 2.0 TOPS AI compute for both general computing and AI inference workloads. 
+   Combines an 8-core 64-bit RISC-V processor with 2 TOPS AI compute for both general computing and AI inference workloads. 
 
 - **AI Development for Multiple Scenarios**
    Equipped with a 1080p FHD camera for AI vision development, including pose estimation and object recognition. 
@@ -30,7 +32,7 @@ K1 MUSE Book is a laptop powered by the SpacemiT 8-core RISC-V AI CPU M1, and th
 
 | Module | Description |
 | --- | --- |
-| Processor | SpacemiT M1: 8-core, RISC-V CPU with 2.0 TOPS AI processing power |
+| Processor | SpacemiT M1: 8-core, RISC-V CPU with 2 TOPS AI processing power |
 | Display | Supports dual-screen display: <br>Equipped with a built-in 14.1-inch IPS screen, 1080P@60Hz, full-color RGB, and 250 nits brightness.<br>Features a Type-C interface (DP signal), supporting up to 1080P@60Hz output |
 | Memory | LPDDR4X with a 2400MT/s speed, available in 8GB or 16GB configurations |
 | Storage | NVMe SSD, available in 128GB, 256GB, or 512GB configurations |
@@ -46,5 +48,5 @@ K1 MUSE Book is a laptop powered by the SpacemiT 8-core RISC-V AI CPU M1, and th
 
 
 - **Phone**: 0571-89000775
-- **Email**: [business@spacemit.com](mailto:business@spacemit.com)
-- **Purchase**: [K1 MUSE BOOK (Official Store)](https://m.tb.cn/h.gUvG9fgiJa4uJ43?tk=SrdHWBsSc5x)
+- **Email**: [business@SpacemiT.com](mailto:business@SpacemiT.com)
+- **Purchase**: [K1 MUSE Book (Official Store)](https://m.tb.cn/h.gUvG9fgiJa4uJ43?tk=SrdHWBsSc5x)

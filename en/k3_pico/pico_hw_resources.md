@@ -1,4 +1,6 @@
+---
 sidebar_position: 3
+---
 
 # K3 Pico-ITX Hardware Design Resources
 

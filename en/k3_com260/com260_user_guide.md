@@ -6,7 +6,7 @@ sidebar_position: 3
 
 ## PDF Version
 
-Click to download **[K3 CoM260 Development Kit User Guide (PDF)](https://cdn-resource.spacemit.com/file/product/K3/k3_com260_ug_en.pdf)**
+Click to download **[K3 CoM260 Development Kit User Guide (PDF)](https://cdn-resource.spacemit.com/file/product/K3/k3_CoM260_ug_en.pdf)**
 
 ## Revision History
 
@@ -67,7 +67,7 @@ K3 is a new-generation high-performance RISC-V AI CPU launched by SpacemiT, with
 
 ### 3.2 K3 Chip Block Diagram
 
-![K3 chip block diagram](./static/k3-com260_block_diagram.png)
+![K3 chip block diagram](./static/k3-CoM260_block_diagram.png)
 
 ### 3.3 K3 CoM260 Reference Solution Block Diagram
 
@@ -87,7 +87,7 @@ The K3 CoM260 system solution has the following features:
 The overall solution is stable, reliable, and suitable for mass production.
 
 The reference solution block diagram is shown below:
-![K3 CoM260 reference solution block diagram](./static/com260_solution00.png)
+![K3 CoM260 reference solution block diagram](./static/CoM260_solution00.png)
 
 #### 3.3.2 Functional Overview
 
@@ -134,7 +134,7 @@ The K3 CoM260 Development Kit provides the following features:
 
 ### 4.1 Product Appearance
 
-![K3 CoM260 development kit photo](./static/com260-kit_00.png)
+![K3 CoM260 development kit photo](./static/CoM260-kit_00.png)
 
 ### 4.2 Power Block Diagram
 

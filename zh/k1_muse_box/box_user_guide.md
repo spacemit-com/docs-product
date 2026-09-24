@@ -1,10 +1,12 @@
+---
 sidebar_position: 2
+---
 
-# K1 MUSE BOX 用户使用指南
+# K1 MUSE Box 用户使用指南
 
 ## 产品简介
 
-**K1 MUSE BOX** 是针对开发者设计的RISC-V迷你主机，主板采用标准的MINI-ITX尺寸设计，集成丰富的扩展接口和插针，无风扇设计，搭配进迭时空M1芯片。M1芯片是进迭时空K1芯片的高性能版本。M1芯片集成了八个进迭时空RISC-V X60核，提供50KDMIPS算力和融合2TOPS AI算力，可实现与所有主流AI生态的快速对接；支持4K H.265/H.264/VP9/VP8等编解码格式；支持3D图像引擎，OpenCL 3.0/OpenGLES 3.2/Vulkan 1.3。  
+**K1 MUSE Box** 是针对开发者设计的RISC-V迷你主机，主板采用标准的MINI-ITX尺寸设计，集成丰富的扩展接口和插针，无风扇设计，搭配进迭时空M1芯片。M1芯片是进迭时空K1芯片的高性能版本。M1芯片集成了八个进迭时空RISC-V X60核，提供50KDMIPS算力和融合2 TOPS AI算力，可实现与所有主流AI生态的快速对接；支持4K H.265/H.264/VP9/VP8等编解码格式；支持3D图像引擎，OpenCL 3.0/OpenGLES 3.2/Vulkan 1.3。  
 ![图片](./static/box.PNG)
 
 **产品逻辑框图**：  
@@ -13,7 +15,7 @@ sidebar_position: 2
 ## 产品规格
 
 **处理器**  
-SpacemiT M1，8核64位RISC-V处理器, 提供50KDMIPS CPU算力和2.0 TOPS AI算力  
+SpacemiT M1，8核64位RISC-V处理器, 提供50KDMIPS CPU算力和2 TOPS AI算力  
 
 **显示**  
 HDMI输出，最高支持1080P@60Hz  
@@ -72,7 +74,7 @@ Chromium
 ![图片](./static/box_port1.JPEG)  
 ![图片](./static/box_port2.png)
 
-# 硬件优势
+## 硬件优势
 
 **无风扇设计，高效散热**：  
 散热片配合进迭时空M1 RISC-V高效能CPU，无风扇加持也能轻松保障CPU性能的持久输出，构建舒适的开发、工作、娱乐环境  
