@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # K1 MUSE Box Brief
 
-**[PDF Version](https://cdn-resource.SpacemiT.com/file/product/K1/MUSE_box_brief_en.pdf)**
+**[PDF Version](https://cdn-resource.spacemit.com/file/product/K1/MUSE_box_brief_en.pdf)**
 
 **K1 MUSE Box** is equipped with a RISC-V 8-core 64-bit CPU and adopts a standard Mini-ITX motherboard. With its rich I/O interfaces and ultra-low power consumption, it enables a wide range of application possibilities.
 
@@ -40,5 +40,5 @@ sidebar_position: 1
 
 
 - **Phone**: 0571-89000775
-- **Email**: [business@SpacemiT.com](mailto:business@SpacemiT.com)
+- **Email**: [business@spacemit.com](mailto:business@spacemit.com)
 - **Purchase**: [K1 MUSE Box (Official Store)](https://m.tb.cn/h.gU9Td2fQjXmck9g?tk=uZ40WBsS19C)

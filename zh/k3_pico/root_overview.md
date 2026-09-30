@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # K3 Pico-ITX 简介
 
-**[PDF 版本](https://cdn-resource.SpacemiT.com/file/product/K3/K3-Pico-ITX_brief_zh.pdf)**
+**[PDF 版本](https://cdn-resource.spacemit.com/file/product/K3/K3-Pico-ITX_brief_zh.pdf)**
 
 **极致集成度的迷你 AI 计算机**
 
@@ -80,4 +80,4 @@ K3 Pico-ITX 为 2.5" Pico-ITX plus 尺寸，满足各行业紧凑型场景应用
 
 
 - **商务电话**：0571-89000775
-- **商务邮箱**：[business@SpacemiT.com](mailto:business@SpacemiT.com)
+- **商务邮箱**：[business@spacemit.com](mailto:business@spacemit.com)

@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # K1 Lab Kit Brief
 
-**[PDF Version](https://cdn-resource.SpacemiT.com/file/product/K1/K1_RISC-V_Lab_Kit_brief_en.pdf)**
+**[PDF Version](https://cdn-resource.spacemit.com/file/product/K1/K1_RISC-V_Lab_Kit_brief_en.pdf)**
 
 **A RISC-V lab platform for embedded systems and AI education**
 
@@ -47,4 +47,4 @@ The RISC-V Lab Kit is designed for education in embedded systems, AI, and RISC-V
 ## Business Cooperation & Purchase
 
 - **Phone**: 0571-89000775
-- **Email**: [business@SpacemiT.com](mailto:business@SpacemiT.com)
+- **Email**: [business@spacemit.com](mailto:business@spacemit.com)

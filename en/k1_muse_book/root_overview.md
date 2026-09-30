@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # K1 MUSE Book Brief
 
-**[PDF Version](https://cdn-resource.SpacemiT.com/file/product/K1/MUSE_book_brief_en.pdf)**
+**[PDF Version](https://cdn-resource.spacemit.com/file/product/K1/MUSE_book_brief_en.pdf)**
 
 **The World’s First Mass-Production RISC-V Laptop for Developers**
 
@@ -48,5 +48,5 @@ K1 MUSE Book is a laptop powered by the SpacemiT 8-core RISC-V AI CPU M1, and th
 
 
 - **Phone**: 0571-89000775
-- **Email**: [business@SpacemiT.com](mailto:business@SpacemiT.com)
+- **Email**: [business@spacemit.com](mailto:business@spacemit.com)
 - **Purchase**: [K1 MUSE Book (Official Store)](https://m.tb.cn/h.gUvG9fgiJa4uJ43?tk=SrdHWBsSc5x)
