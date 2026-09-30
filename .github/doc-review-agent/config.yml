@@ -12,7 +12,15 @@ checks:
 
   links:
     enabled: true
-    # Checks relative .md links and image src paths exist on disk
+    # Checks relative .md links, markdown images, HTML <img src="...">, and
+    # HTML <a href="...">, plus '#fragment' anchors against the target page's
+    # real headings/ids.
+    # Verification is case-sensitive so the result is identical on
+    # Windows/macOS and Linux/CI. Every path segment is compared, so a
+    # wrong-case directory is caught as well as a wrong-case file name. On a
+    # case-only mismatch the report shows the corrected reference text — the
+    # reference must be corrected to match the on-disk name, never the reverse.
+    case_sensitive: true
 
   placeholders:
     enabled: true
@@ -35,7 +43,9 @@ checks:
 
   product_names:
     enabled: true
-    # Keys are bad casings, values are the correct form
+    # Keys are bad casings, values are the correct form.
+    # Checked in prose only: link/image targets are file paths and are never
+    # checked, so branding rules can never force a reference (or file) rename.
     # MUSE is a brand name and is always all-caps. The key uses a space
     # ("k1 muse") so it never matches lowercase link paths like k1_muse_pi.
     rules:
