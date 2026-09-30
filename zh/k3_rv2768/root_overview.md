@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Cluster Server RV2768 简介
 
-**[PDF 版本](https://cdn-resource.SpacemiT.com/file/product/K3/k3-rv2768_brief_zh.pdf)**
+**[PDF 版本](https://cdn-resource.spacemit.com/file/product/K3/k3-rv2768_brief_zh.pdf)**
 
 **768 核 RISC-V 原生 AI 计算集群**
 
@@ -59,4 +59,4 @@ RVA23针对通用计算领域的应用处理器所制定，要求支持向量（
 ## 合作与采购咨询
 
 - **商务电话**：0571-89000775
-- **商务邮箱**：[business@SpacemiT.com](mailto:business@SpacemiT.com)
+- **商务邮箱**：[business@spacemit.com](mailto:business@spacemit.com)

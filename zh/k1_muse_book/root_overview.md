@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # K1 MUSE Book 简介
 
-**[PDF 版本](https://cdn-resource.SpacemiT.com/file/product/K1/MUSE_book_brief_zh.pdf)**
+**[PDF 版本](https://cdn-resource.spacemit.com/file/product/K1/MUSE_book_brief_zh.pdf)**
 
 **全球首款可量产的 RISC-V 笔记本电脑，为开发者而生**
 
@@ -47,5 +47,5 @@ K1 MUSE Book 是一款搭载进迭时空 8 核 RISC-V AI-CPU M1 的笔记本电�
 ## 合作与采购咨询
 
 - **商务电话**：0571-89000775
-- **商务邮箱**：[business@SpacemiT.com](mailto:business@SpacemiT.com)
+- **商务邮箱**：[business@spacemit.com](mailto:business@spacemit.com)
 - **产品购买**：[K1 MUSE Book（官方购买链接）](https://m.tb.cn/h.gUvG9fgiJa4uJ43?tk=SrdHWBsSc5x)

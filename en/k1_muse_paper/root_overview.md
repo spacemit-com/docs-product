@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # K1 MUSE Paper Brief
 
-**[PDF Version](https://cdn-resource.SpacemiT.com/file/product/K1/MUSE_paper_brief_en.pdf)**
+**[PDF Version](https://cdn-resource.spacemit.com/file/product/K1/MUSE_paper_brief_en.pdf)**
 
 **A RISC-V OpenHarmony tablet for the new era of full-stack open innovation**
 
@@ -59,4 +59,4 @@ Running OpenHarmony, it enables smooth multitasking and seamless app switching, 
 
 
 - **Phone**: 0571-89000775
-- **Email**: [business@SpacemiT.com](mailto:business@SpacemiT.com)
+- **Email**: [business@spacemit.com](mailto:business@spacemit.com)

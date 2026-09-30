@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # K1 MUSE Pi Pro 简介
 
-**[PDF 版本](https://cdn-resource.SpacemiT.com/file/product/K1/MUSE_Pi_Pro_brief_zh.pdf)**
+**[PDF 版本](https://cdn-resource.spacemit.com/file/product/K1/MUSE_Pi_Pro_brief_zh.pdf)**
 
 **紧凑高效，助力 AI 与物联网的未来**
 
@@ -61,5 +61,5 @@ K1 MUSE Pi Pro 为 1.8 寸单板，能够满足大语言模型应用、机器人
 
 
 - **商务电话**：0571-89000775
-- **商务邮箱**：[business@SpacemiT.com](mailto:business@SpacemiT.com)
+- **商务邮箱**：[business@spacemit.com](mailto:business@spacemit.com)
 - **产品购买**：[K1 MUSE Pi Pro（官方购买链接）](https://item.taobao.com/item.htm?id=904155534891&ltk2=17442844019859mtp9v24y1s996aj56z1&spm=a21n57.shop_search.0.0.5bcd523cHF8dd2)

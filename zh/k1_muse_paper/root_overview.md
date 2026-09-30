@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # K1 MUSE Paper 简介
 
-**[PDF 版本](https://cdn-resource.SpacemiT.com/file/product/K1/MUSE_paper_brief_zh.pdf)**
+**[PDF 版本](https://cdn-resource.spacemit.com/file/product/K1/MUSE_paper_brief_zh.pdf)**
 
 **开启全栈开源时代的 RISC-V 鸿蒙平板**
 
@@ -57,4 +57,4 @@ K1 MUSE Paper 是一款基于 RISC-V 架构和 OpenHarmony 操作系统的开发
 
 
 - **商务电话**：0571-89000775
-- **商务邮箱**：[business@SpacemiT.com](mailto:business@SpacemiT.com)
+- **商务邮箱**：[business@spacemit.com](mailto:business@spacemit.com)

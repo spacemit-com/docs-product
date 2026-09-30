@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # K1 RISC-V 集群服务器简介
 
-**[PDF 版本](https://cdn-resource.SpacemiT.com/file/product/K1/MUSE_shelf_brief_zh.pdf)**
+**[PDF 版本](https://cdn-resource.spacemit.com/file/product/K1/MUSE_shelf_brief_zh.pdf)**
 
 **为全球开发者开放的 RISC-V 云算力**
 
@@ -54,5 +54,5 @@ sidebar_position: 1
 ## 合作与采购咨询
 
 - **商务电话**：0571-89000775
-- **商务邮箱**：[business@SpacemiT.com](mailto:business@SpacemiT.com)
+- **商务邮箱**：[business@spacemit.com](mailto:business@spacemit.com)
 - **产品购买**：[K1 MUSE Shelf（官方购买链接）](https://item.taobao.com/item.htm?id=807037514272)

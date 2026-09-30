@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # K1 MUSE Shelf Brief
 
-**[PDF Version](https://cdn-resource.SpacemiT.com/file/product/K1/MUSE_shelf_brief_en.pdf)**
+**[PDF Version](https://cdn-resource.spacemit.com/file/product/K1/MUSE_shelf_brief_en.pdf)**
 
 **RISC-V cloud computing power open for global developers**
 
@@ -55,5 +55,5 @@ sidebar_position: 1
 
 
 - **Phone**: 0571-89000775
-- **Email**: [business@SpacemiT.com](mailto:business@SpacemiT.com)
+- **Email**: [business@spacemit.com](mailto:business@spacemit.com)
 - **Purchase**: [K1 MUSE Shelf (Official Store)](https://item.taobao.com/item.htm?id=807037514272)

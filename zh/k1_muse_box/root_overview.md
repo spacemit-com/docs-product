@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # K1 MUSE Box 简介
 
-**[PDF 版本](https://cdn-resource.SpacemiT.com/file/product/K1/MUSE_box_brief_zh.pdf)**
+**[PDF 版本](https://cdn-resource.spacemit.com/file/product/K1/MUSE_box_brief_zh.pdf)**
 
 **K1 MUSE Box** 搭载RISC-V 8核 64位CPU，选择通用Mini-ITX主板，搭配丰富的I/O接口和极低功耗，拓展更多场景可能性。
 
@@ -40,5 +40,5 @@ sidebar_position: 1
 
 
 - **商务电话**：0571-89000775
-- **商务邮箱**：[business@SpacemiT.com](mailto:business@SpacemiT.com)
+- **商务邮箱**：[business@spacemit.com](mailto:business@spacemit.com)
 - **产品购买**：[K1 MUSE Box（官方购买链接）](https://m.tb.cn/h.gU9Td2fQjXmck9g?tk=uZ40WBsS19C)
