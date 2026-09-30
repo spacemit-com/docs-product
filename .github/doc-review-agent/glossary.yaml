@@ -5,15 +5,14 @@
 #
 # scope: en | zh | both   (which language trees the rule applies to)
 #
-# Seeded from the conventions in .github/copilot-instructions.md and
-# .github/doc-review-agent/system_prompt.md, plus real variants already
-# present in the corpus.
+# Seeded from existing conventions plus real variants already present in the
+# corpus. Update this list whenever a house style is decided.
 
 - term: boot sequence
   zh: 启动序列
   scope: both
   forbidden_zh: ["启动流程", "引导序列", "开机顺序", "启动顺序"]
-  note: system_prompt.md fixes 启动序列 as the preferred form
+  note: 启动序列 is the preferred form
 
 - term: register map
   zh: 寄存器映射

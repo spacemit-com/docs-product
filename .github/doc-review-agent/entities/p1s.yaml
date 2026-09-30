@@ -21,8 +21,7 @@ canonical:
     为客户提供完整的电源解决方案。
 
 source_of_truth:
-  en: en/power_stone/p1s/p1s_docs/root_overview.md
-  zh: zh/power_stone/p1s/p1s_docs/root_overview.md
+  # Not set: this repo has no P1S documentation.
 
 attributes:
   - key: ldo_count

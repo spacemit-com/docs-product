@@ -16,8 +16,7 @@ canonical:
     P1 是一款高性能多通道电源管理芯片（PMIC），旨在为复杂计算系统提供定制化电源解决方案。
 
 source_of_truth:
-  en: en/power_stone/p1/p1_docs/root_overview.md
-  zh: zh/power_stone/p1/p1_docs/root_overview.md
+  # Not set: this repo has no P1 documentation.
 
 attributes:
   - key: ldo_count

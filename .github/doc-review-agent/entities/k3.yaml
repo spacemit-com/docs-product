@@ -17,8 +17,8 @@ canonical:
     K3 是运行 30B 大模型的高性能 RISC-V AI CPU。
 
 source_of_truth:
-  en: en/key_stone/k3/k3_docs/root_overview.md
-  zh: zh/key_stone/k3/k3_docs/root_overview.md
+  # Not set: this repo documents K3-based products (CoM260, Pico, RV2768,
+  # Shelf), not the K3 chip itself, so there is no in-repo source document.
 
 attributes:
   - key: core_name
