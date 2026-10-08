@@ -15,13 +15,22 @@ def run(path: str, content: str, cfg: dict) -> list[dict]:
     if not path.replace("\\", "/").startswith(scope + "/"):
         return []
     issues = []
+    in_code_block = False
     for lineno, line in enumerate(content.splitlines(), 1):
-        # Skip code blocks and inline code
         stripped = line.strip()
-        if stripped.startswith("```") or stripped.startswith("|"):
+        if stripped.startswith("```"):
+            in_code_block = not in_code_block
             continue
-        # Remove inline code spans before checking
+        if in_code_block:
+            continue
+        # Skip table rows, image lines, and HTML tags
+        if stripped.startswith("|") or stripped.startswith("![") or stripped.startswith("<"):
+            continue
+        # Remove inline code spans, image syntax, and URLs before checking
         clean = re.sub(r"`[^`]+`", "", line)
+        clean = re.sub(r"!\[.*?\]\(.*?\)", "", clean)
+        clean = re.sub(r"\[.*?\]\(.*?\)", "", clean)
+        clean = re.sub(r"https?://\S+", "", clean)
         for regex, full, half in _RULES:
             if regex.search(clean):
                 issues.append({"line": lineno, "msg": f"Use full-width '{full}' instead of '{half}'"})
