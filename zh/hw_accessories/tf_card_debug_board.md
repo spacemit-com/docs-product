@@ -28,7 +28,7 @@ K1/K3 芯片在 MMC 信号引脚上复用了 JTAG 与小核（RCPU）调试串�
 | 7 | **TMS** | 8 | GND |
 | 9 | TCK | 10 | GND |
 | 11 | NA | 12 | GND |
-| 13 | NA | 14 | GND |
+| 13 | TDO | 14 | GND |
 | 15 | NA | 16 | GND |
 | 17 | NA | 18 | GND |
 | 19 | NA | 20 | GND |
@@ -61,7 +61,7 @@ K1/K3 芯片在 MMC 信号引脚上复用了 JTAG 与小核（RCPU）调试串�
 | 7 | **TDI** | 8 | GND |
 | 9 | TCK | 10 | GND |
 | 11 | NA | 12 | GND |
-| 13 | NA | 14 | GND |
+| 13 | TDO | 14 | GND |
 | 15 | NA | 16 | GND |
 | 17 | NA | 18 | GND |
 | 19 | NA | 20 | GND |
