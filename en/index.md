@@ -1,19 +1,11 @@
 ---
-sidebar_position: 3
+sidebar_position: 2
 ---
 
-# Ecosystem Hardware
+# Ecosystem Products
 
-- [K3 Pico-ITX](./k3_pico/index.md)
-- [K3 CoM260 Kit](./k3_com260/index.md)
-- [K3 Shelf N10/N48](./k3_shelf/index.md)
-- [K1 MUSE Pi Pro](./k1_muse_pi_pro/index.md)
-- [K1 MUSE Book](./k1_muse_book/index.md)
-- [K1 MUSE Paper](./k1_muse_paper/index.md)
-- [K1 MUSE Shelf](./k1_muse_shelf/index.md)
-- [K1 MUSE Box](./k1_muse_box/index.md)
-- [K1 MUSE Card](./k1_muse_card/index.md)
-- [K1 RISC-V Lab Kit](./k1_riscv_labkit/index.md)
-- [K1 MUSE Pi](./k1_muse_pi/index.md)
+- [K3 Series](./k3_series/index.md)
+- [K1 Series](./k1_series/index.md)
+- [V100 Series](./v100_series/index.md)
 - [Hardware Accessories](./hw_accessories/index.md)
-- [Support & Services](service.md)
+- [Support Service](./support_service/index.md)
