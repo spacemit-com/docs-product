@@ -18,8 +18,8 @@ canonical:
     MUSE Pi 搭载进迭时空 8 核 RISC-V AI CPU，具备 2.0 TOPS AI 算力。
 
 source_of_truth:
-  en: en/k1_muse_pi/root_overview.md
-  zh: zh/k1_muse_pi/root_overview.md
+  en: en/k1_series/k1_muse_pi/root_overview.md
+  zh: zh/k1_series/k1_muse_pi/root_overview.md
 
 # These attribute values must match entities/k1.yaml — the chip is the SoT.
 attributes:

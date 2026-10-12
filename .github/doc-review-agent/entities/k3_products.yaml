@@ -20,8 +20,8 @@ canonical:
     可流畅运行 30B 本地大模型。
 
 source_of_truth:
-  en: en/k3_pico/root_overview.md
-  zh: zh/k3_pico/root_overview.md
+  en: en/k3_series/k3_pico/root_overview.md
+  zh: zh/k3_series/k3_pico/root_overview.md
 
 # These values must match entities/k3.yaml.
 attributes:
