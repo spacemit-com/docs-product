@@ -9,17 +9,22 @@ Download the following files to support hardware development, PCB design, and sy
 
 ## Resource List
 
+### Core Board Schematic
+
+Hardware design file for the K3 CoM260 core board.
+
+- [K3-CoM260 Core Board Schematic (PDF)](https://cdn-resource.spacemit.com/file/product/K3/k3_com260_hw/k3-com260_p1_lp5315b_32x2_v03_20260312.pdf)
+
 ### Bill of Materials (BOM)
 
 Complete component list used in the K3 CoM260 Development Kit design.
 
 - [Download BOM (.xls)](https://cdn-resource.spacemit.com/file/product/K3/k3_com260_hw/K3-COM260_KIT_V02_20260318_BOM.xls)
 
-### Schematic and PCB
+### Baseboard Schematic and PCB
 
-Complete hardware design files for the K3 CoM260 Development Kit.
+Complete hardware design files for the K3 CoM260 Development Kit baseboard.
 
-- [K3-CoM260 Core Board/Module Hardware Schematic (PDF)]()
-- [Download baseboard schematic (PDF)](https://cdn-resource.spacemit.com/file/product/K3/k3_com260_hw/k3-com260_kit_v02_20260306.pdf)
+- [Download schematic (PDF)](https://cdn-resource.spacemit.com/file/product/K3/k3_com260_hw/k3-com260_kit_v02_20260306.pdf)
 - [Download baseboard design file (DSN)](https://cdn-resource.spacemit.com/file/product/K3/k3_com260_hw/K3-COM260_KIT_V02_20260306.DSN)
 - [Download baseboard PCB file (BRD)](https://cdn-resource.spacemit.com/file/product/K3/k3_com260_hw/K3_COM260_KIT_V02-20260310_1330_pcb.brd)

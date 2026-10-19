@@ -9,19 +9,21 @@ sidebar_position: 4
 
 ## 资源列表
 
-### 原理图和 PCB
+### 核心板原理图
 
-K3 CoM260 开发套件的完整硬件设计文件。
+K3 CoM260 核心板的硬件设计文件。
 
-- [K3-CoM260 核心板/模块硬件原理图（PDF）]()
+- [K3-CoM260 核心板原理图（PDF）](https://cdn-resource.spacemit.com/file/product/K3/k3_com260_hw/k3-com260_p1_lp5315b_32x2_v03_20260312.pdf)
+
+### 物料清单（BOM）
 
 K3 CoM260 开发套件设计中所使用的完整器件清单。
 
 - [下载 BOM (.xls)](https://cdn-resource.spacemit.com/file/product/K3/k3_com260_hw/K3-COM260_KIT_V02_20260318_BOM.xls)
 
-### 原理图和 PCB
+### 底板原理图和 PCB
 
-K3 CoM260 开发套件的完整硬件设计文件。
+K3 CoM260 开发套件底板的完整硬件设计文件。
 
 - [下载 原理图（PDF 格式）](https://cdn-resource.spacemit.com/file/product/K3/k3_com260_hw/k3-com260_kit_v02_20260306.pdf)
 - [下载 底板工程文件（DSN 格式）](https://cdn-resource.spacemit.com/file/product/K3/k3_com260_hw/K3-COM260_KIT_V02_20260306.DSN)
