@@ -1,0 +1,2 @@
+S5236
+V100 Series RISC-V Server Platform

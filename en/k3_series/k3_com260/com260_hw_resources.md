@@ -19,6 +19,7 @@ Complete component list used in the K3 CoM260 Development Kit design.
 
 Complete hardware design files for the K3 CoM260 Development Kit.
 
-- [Download schematic (PDF)](https://cdn-resource.spacemit.com/file/product/K3/k3_com260_hw/k3-com260_kit_v02_20260306.pdf)
+- [K3-CoM260 Core Board/Module Hardware Schematic (PDF)]()
+- [Download baseboard schematic (PDF)](https://cdn-resource.spacemit.com/file/product/K3/k3_com260_hw/k3-com260_kit_v02_20260306.pdf)
 - [Download baseboard design file (DSN)](https://cdn-resource.spacemit.com/file/product/K3/k3_com260_hw/K3-COM260_KIT_V02_20260306.DSN)
 - [Download baseboard PCB file (BRD)](https://cdn-resource.spacemit.com/file/product/K3/k3_com260_hw/K3_COM260_KIT_V02-20260310_1330_pcb.brd)
