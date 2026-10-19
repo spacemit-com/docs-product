@@ -29,9 +29,9 @@ This independently developed intelligent server supports coordinated operation a
 
   Provides 16 DDR5 DIMM slots, up to 2 TB of capacity, and eight-channel DDR5 memory at 4800 MT/s.
 
-- **AMD Open-Source Ecosystem Compatibility**
+- **Open-Source Ecosystem Compatibility**
 
-  Supports multiple AMD GPU accelerators and the ROCm open-source ecosystem for easier AI and HPC deployment.
+  Compatible with a range of AI accelerator cards and open-source software ecosystems for easier AI and HPC deployment.
 
 - **High-Speed GPU Interconnect**
 
