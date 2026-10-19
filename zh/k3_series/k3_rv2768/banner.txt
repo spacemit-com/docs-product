@@ -1,0 +1,2 @@
+Cluster Server RV2768
+768 核 RISC-V 原生 AI 计算集群

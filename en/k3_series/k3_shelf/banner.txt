@@ -1,0 +1,2 @@
+K3 Shelf N10/N48
+Native RISC-V Build Cluster Server

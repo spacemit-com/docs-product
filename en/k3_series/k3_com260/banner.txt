@@ -1,0 +1,2 @@
+K3 CoM260 Kit
+A Full-Stack RISC-V Robotics Development Kit
