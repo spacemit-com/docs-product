@@ -5,7 +5,7 @@ sidebar_position: 1
 
 # V100 计算服务器 C2201
 
-点击下载 **[V100 计算服务器 C2201 产品简介（PDF）]()**
+点击下载 **[V100 计算服务器 C2201 产品简介（PDF）](https://cdn-resource.spacemit.com/file/product/V100/c2201_brief_zh.pdf)**
 
 **高性能、高可靠、全场景覆盖的通用算力底座**
 

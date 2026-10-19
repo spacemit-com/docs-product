@@ -5,7 +5,7 @@ sidebar_position: 1
 
 # V100 Intelligent Computing Server G5201
 
-Click to download **[V100 Intelligent Computing Server G5201 (PDF)]()**
+Click to download **[V100 Intelligent Computing Server G5201 (PDF)](https://cdn-resource.spacemit.com/file/product/V100/g5201_brief_en.pdf)**
 
 **High compute density, high energy efficiency AI computing engine**
 

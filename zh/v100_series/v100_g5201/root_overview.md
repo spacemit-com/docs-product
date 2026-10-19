@@ -5,7 +5,7 @@ sidebar_position: 1
 
 # V100 智算服务器 G5201
 
-点击下载 **[V100 智算服务器 G5201 产品简介（PDF）]()**
+点击下载 **[V100 智算服务器 G5201 产品简介（PDF）](https://cdn-resource.spacemit.com/file/product/V100/g5201_brief_zh.pdf)**
 
 **高算力密度、高能效比的 AI 计算引擎**
 

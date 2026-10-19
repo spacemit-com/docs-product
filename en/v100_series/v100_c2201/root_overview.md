@@ -5,7 +5,7 @@ sidebar_position: 1
 
 # V100 Computing Server C2201
 
-Click to download **[V100 Computing Server C2201 Brief (PDF)]()**
+Click to download **[V100 Computing Server C2201 Brief (PDF)](https://cdn-resource.spacemit.com/file/product/V100/c2201_brief_en.pdf)**
 
 **A reliable, high-performance platform for general-purpose computing**
 

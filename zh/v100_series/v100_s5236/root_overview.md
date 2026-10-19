@@ -5,7 +5,7 @@ sidebar_position: 1
 
 # V100 存储服务器 S5236
 
-点击下载 **[V100 存储服务器 S5236 产品简介（PDF）]()**
+点击下载 **[V100 存储服务器 S5236 产品简介（PDF）](https://cdn-resource.spacemit.com/file/product/V100/s5236_brief_zh.pdf)**
 
 **高吞吐、低时延、大容量的数据存储中枢**
 

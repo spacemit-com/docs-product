@@ -5,7 +5,7 @@ sidebar_position: 1
 
 # V100 Storage Server S5236
 
-Click to download **[V100 Storage Server S5236 (PDF)]()**
+Click to download **[V100 Storage Server S5236 (PDF)](https://cdn-resource.spacemit.com/file/product/V100/s5236_brief_en.pdf)**
 
 **High-throughput, low-latency, high-capacity data storage hub**
 
