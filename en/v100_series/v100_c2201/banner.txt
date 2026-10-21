@@ -1,2 +1,2 @@
 C2201
-V100 Series RISC-V Server Platform
+High-Performance RISC-V General-Purpose Computing Server

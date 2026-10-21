@@ -1,2 +1,2 @@
 G5201
-V100 Series RISC-V Server Platform
+High-Density RISC-V Intelligent Computing Server
