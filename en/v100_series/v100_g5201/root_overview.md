@@ -11,7 +11,7 @@ Click to download **[V100 Intelligent Computing Server G5201 (PDF)](https://cdn-
 
 ## Overview
 
-The G5201 is a next-generation 4U dual-socket, high-density rackmount intelligent computing server powered by SpacemiT's in-house-developed RISC-V server-grade CPU V100. Designed for large-model inference, scientific computing, AI computing centers, data centers, and government, finance, healthcare, and energy applications, it combines high compute density, scalability, security, and broad compatibility with China-developed hardware and software for easy deployment and centralized management.
+The G5201 is a 4U high-density rackmount intelligent computing server powered by SpacemiT's in-house-developed RISC-V server-class V100 CPU. Designed for large-model inference, scientific computing, AI computing centers, data centers, and government, finance, healthcare, and energy applications, it combines high compute density, scalability, security, and broad compatibility with hardware and software for easy deployment and centralized management.
 
 This independently developed intelligent server supports coordinated operation and flexible expansion of up to eight PCIe air-cooled accelerator cards. High-speed GPU interconnects, large system memory, high-performance GPU memory, and efficient data processing support large-model inference, scientific computing, cloud computing, and virtualization. Compatible with multiple mainstream accelerators and operating systems, enabling a secure, efficient, and flexible heterogeneous computing platform.
 
@@ -65,7 +65,7 @@ This independently developed intelligent server supports coordinated operation a
 | Fans | N+1 redundant, hot-swappable fans; 12 × 6056 fans included as standard |
 | Power Supply | 4 standard CRPS power supplies with N+1 redundancy |
 | System Management | Supports remote KVM over IP, intelligent fan-speed control, and remote power control |
-| Operating System | Supports mainstream operating systems, including Ubuntu, Red Hat, Fedora, Rocky Linux, openRuyi, openEuler, and openKylin |
+| Operating System | Main stream OSs support: Ubuntu, Red Hat, Fedora, Rocky Linux, openRuyi, openEuler, openKylin |
 | Weight | Approx. 60 kg |
 | Noise | < 55 dB |
 | Operating Temperature | 0°C ~ 40°C |

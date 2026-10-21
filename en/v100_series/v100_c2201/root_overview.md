@@ -58,13 +58,13 @@ It bases on the RISC-V server-grade CPU V100, fully supports the RISC-V RVA23 Pr
 | Processor | 2 × SpacemiT V100 processors, 46 cores per processor, up to 2.4 GHz |
 | Memory | 16 DDR5 DIMM slots, up to 2 TB, up to 4800 MT/s, and up to 307 GB/s of bandwidth per processor |
 | Storage | Front: Up to 8 × 3.5-inch U.2 NVMe SSDs<br>Internal: Up to 1 × M.2 NVMe SSD<br>Rear: Up to 2 × 2.5-inch SATA HDDs/SSDs |
-| Networking | China-developed network controller with OCP expansion for Gigabit or 10 Gigabit Ethernet |
+| Networking | Network controller with OCP expansion for Gigabit or 10 Gigabit Ethernet |
 | I/O Expansion Slots | Up to 3 × PCIe x8 cards;<br>or 2 × PCIe x16 cards;<br>or 1 × PCIe x16 card and 2 × PCIe x8 cards |
 | I/O Ports | Front: 2 × USB 3.0 ports and 1 × VGA port<br>Rear: 2 × power inputs, 1 × VGA port, 2 × USB 3.0 ports, 1 × USB Type-C debug port, and 1 × management Ethernet port |
 | Fans | N+1 redundant, hot-swappable fans |
 | Power Supply | Standard 1600 W CRPS Platinum power supplies with 1+1 redundancy |
 | System Management | Standard UEFI and ACPI management firmware; integrated AST2600 BMC; supports IPMI, Redfish, SOL, and KVM virtual media |
-| Operating System | Supports mainstream operating systems, including Ubuntu, Red Hat, Fedora, Rocky Linux, openRuyi, openEuler, and openKylin |
+| Operating System | Main stream OSs support: Ubuntu, Red Hat, Fedora, Rocky Linux, openRuyi, openEuler, openKylin |
 | Weight | ≤ 35 kg |
 | Noise | < 55 dB |
 | Operating Temperature | 0°C ~ 40°C |

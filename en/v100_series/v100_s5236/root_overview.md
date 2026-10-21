@@ -11,9 +11,9 @@ Click to download **[V100 Storage Server S5236 (PDF)](https://cdn-resource.space
 
 ## Overview
 
-The S5236 is a 4U high-density rackmount storage server powered by SpacemiT's next-generation, in-house-developed RISC-V processors. Designed for cloud computing and storage, AI computing centers, data archiving, backup and disaster recovery, and government and enterprise applications, it balances compute performance, storage capacity, scalability, reliability, compatibility with China-developed hardware and software, and energy efficiency for easy deployment and management.
+The S5236 is a 4U high-density rackmount storage server powered by SpacemiT's in-house-developed, RISC-V server-class V100 CPU. Designed for cloud computing and storage, AI computing centers, data archiving, backup and disaster recovery, and government and enterprise applications, it balances compute performance, storage capacity, scalability, reliability, compatibility with hardware and software, and energy efficiency for easy deployment and management.
 
-This independently developed 4U dual-socket server uses high-performance V100 processors, eight-channel DDR5 memory at 4800 MT/s, 16 DIMM slots, and up to 2 TB of memory. PCIe 5.0 I/O and up to 36 drive bays support high-capacity storage and high-speed expansion. A 0°C to 40°C operating range and redundant power supplies and fans provide cloud, government, and enterprise users with a high-performance, reliable, scalable, and energy-efficient storage platform.
+This independently developed 4U dual-socket server uses high-performance V100 processors, eight-channel DDR5 memory at 4800 MT/s, 16 DIMM slots, and up to 2 TB of memory. PCIe 5.0 I/O and up to 36 drive bays support high-capacity storage and high-speed expansion. A 0°C to 40°C operating range and redundant power supplies and fans provide enterprise customers in cloud computing and cloud storage with a high-performance, reliable, scalable, and energy-efficient storage platform.
 
 ## Key Features
 
@@ -64,7 +64,7 @@ This independently developed 4U dual-socket server uses high-performance V100 pr
 | Fans | N+1 redundant, hot-swappable fans; 12 × 6056 fans included as standard |
 | Power Supply | Standard CRPS power supplies with 1+1 redundancy |
 | System Management | Supports remote KVM, intelligent fan-speed control, and remote power control |
-| Operating System | Supports mainstream operating systems, including Ubuntu, Red Hat, Fedora, Rocky Linux, openRuyi, openEuler, and openKylin |
+| Operating System | Main stream OSs support: Ubuntu, Red Hat, Fedora, Rocky Linux, openRuyi, openEuler, openKylin |
 | Weight | 55 kg |
 | Noise | < 55 dB |
 | Operating Temperature | 0°C ~ 40°C |
