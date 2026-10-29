@@ -28,3 +28,11 @@ Complete hardware design files for the K3 CoM260 Development Kit baseboard.
 - [Download schematic (PDF)](https://cdn-resource.spacemit.com/file/product/K3/k3_com260_hw/k3-com260_kit_v02_20260306.pdf)
 - [Download baseboard design file (DSN)](https://cdn-resource.spacemit.com/file/product/K3/k3_com260_hw/K3-COM260_KIT_V02_20260306.DSN)
 - [Download baseboard PCB file (BRD)](https://cdn-resource.spacemit.com/file/product/K3/k3_com260_hw/K3_COM260_KIT_V02-20260310_1330_pcb.brd)
+
+## Power Button Management MCU Firmware Flashing Guide
+
+This section provides the firmware flashing guide and required resources for the power button management MCU (EFM8SB10F2G) on the K3 CoM260 Development Kit.
+
+- [Firmware Flashing Guide (PDF)](https://cdn-resource.spacemit.com/file/product/K3/k3_com260_hw/k3-com260_EFM8SB10F2G_en.pdf)
+- [Silicon Laboratories Flash Utility](https://cdn-resource.spacemit.com/file/product/K3/k3_com260_hw/utildll(Flash).exe)
+- [Power Button Firmware](https://cdn-resource.spacemit.com/file/product/K3/k3_com260_hw/P3737_P3768_P2822_P3509_Power_Button_Firmware_v011.zip)
