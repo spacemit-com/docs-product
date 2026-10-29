@@ -28,3 +28,11 @@ K3 CoM260 开发套件底板的完整硬件设计文件。
 - [下载 原理图（PDF 格式）](https://cdn-resource.spacemit.com/file/product/K3/k3_com260_hw/k3-com260_kit_v02_20260306.pdf)
 - [下载 底板工程文件（DSN 格式）](https://cdn-resource.spacemit.com/file/product/K3/k3_com260_hw/K3-COM260_KIT_V02_20260306.DSN)
 - [下载 底板 PCB 文件（BRD 格式）](https://cdn-resource.spacemit.com/file/product/K3/k3_com260_hw/K3_COM260_KIT_V02-20260310_1330_pcb.brd)
+
+## 电源按键管理 MCU 固件烧录指南
+
+本节提供 K3 CoM260 开发套件电源按键管理 MCU（EFM8SB10F2G）的固件烧录指南及所需资源。
+
+- [固件烧录指南（PDF）](https://cdn-resource.spacemit.com/file/product/K3/k3_com260_hw/k3-com260_EFM8SB10F2G_zh.pdf)
+- [Silicon Laboratories Flash Utility 烧录工具](https://cdn-resource.spacemit.com/file/product/K3/k3_com260_hw/utildll(Flash).exe)
+- [电源按键固件](https://cdn-resource.spacemit.com/file/product/K3/k3_com260_hw/P3737_P3768_P2822_P3509_Power_Button_Firmware_v011.zip)
