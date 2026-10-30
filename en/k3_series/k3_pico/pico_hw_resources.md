@@ -11,15 +11,15 @@ You can download the files below to support your development, PCB design, and sy
 
 ### Bill of Materials (BOM)
 
-- [Download BOM (.xls)](https://cdn-resource.spacemit.com/file/product/K3/k3_pico_hw/BOM1461003-K3_Pico-ITX-32128-20260324.xls)
+- [Download BOM (.xls)](https://cdn-resource.spacemit.com/file/product/K3/k3_pico_hw/BOM1461102-K3_Pico-ITX-32128-20260528.xls)
 
 ### PCB Schematic Files
 
-- [Download PCB Schematic (in PDF)](https://cdn-resource.spacemit.com/file/product/K3/k3_pico_hw/SCH-146-V10_K3_DEB1_P1_LP5315B_PDF.pdf)
+- [Download PCB Schematic (in PDF)](https://cdn-resource.spacemit.com/file/product/K3/k3_pico_hw/SCH-146-V11_K3_DEB1_P1_LP5315B-20261030.pdf)
 
 ### PCB Layout Files
 
-- [Download PCB Layout (in PDF)](https://cdn-resource.spacemit.com/file/product/K3/k3_pico_hw/PCB-146-V10_K3_DEB1_P1_LP5315B_PDF.pdf)
+- [Download PCB Layout (in PDF)](https://cdn-resource.spacemit.com/file/product/K3/k3_pico_hw/PCB-146-V11_K3_DEB1_P1_LP5315B.pdf)
 
 ### 2D Drawing
 
