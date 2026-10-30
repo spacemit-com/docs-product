@@ -11,15 +11,15 @@ sidebar_position: 3
 
 ### 物料清单（BOM）
 
-- [下载 BOM (.xls)](https://cdn-resource.spacemit.com/file/product/K3/k3_pico_hw/BOM1461003-K3_Pico-ITX-32128-20260324.xls)
+- [下载 BOM (.xls)](https://cdn-resource.spacemit.com/file/product/K3/k3_pico_hw/BOM1461102-K3_Pico-ITX-32128-20260528.xls)
 
 ### PCB 原理图文件
 
-- [下载 PCB 原理图（PDF 格式）](https://cdn-resource.spacemit.com/file/product/K3/k3_pico_hw/SCH-146-V10_K3_DEB1_P1_LP5315B_PDF.pdf)
+- [下载 PCB 原理图（PDF 格式）](https://cdn-resource.spacemit.com/file/product/K3/k3_pico_hw/SCH-146-V11_K3_DEB1_P1_LP5315B-20261030.pdf)
 
 ### PCB 线路图文件
 
-- [下载 PCB 线路图（PDF 格式）](https://cdn-resource.spacemit.com/file/product/K3/k3_pico_hw/PCB-146-V10_K3_DEB1_P1_LP5315B_PDF.pdf)
+- [下载 PCB 线路图（PDF 格式）](https://cdn-resource.spacemit.com/file/product/K3/k3_pico_hw/PCB-146-V11_K3_DEB1_P1_LP5315B.pdf)
 
 ### 2D 尺寸图
 
