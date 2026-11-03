@@ -8,12 +8,11 @@ sidebar_position: 3
 
 Click to download **[K3 CoM260 Development Kit User Guide (PDF)](https://cdn-resource.spacemit.com/file/product/K3/k3_com260_ug_en.pdf)**
 
-## Revision History
+## Version
 
-The revision history below records the updates made to this document.
-
-| Revision | Date | Description |
+| Version | Date | Description |
 | --- | --- | --- |
+| V2.1 | 2026.11.03 | 1. Reorganized Chapter 2 product specifications by core module and reference carrier board <br> 2. Corrected RTC voltage range to 1.85 V ~ 5.5 V <br> 3. Added DP interface usage notes <br> 4. Unified power adapter specification description |
 | V2.0 | 2026.03.19 | 1. Swapped the positions of UART0 RX and TX <br>2. Updated CAM0 to MIPI CSI1 (2-lane)|
 | V1.0 | 2025.11.24 | Initial release |
 
@@ -33,24 +32,31 @@ The product version is used in this document as listed below:
 
 ## 2. Product Specifications
 
-| Item | Description |
-| --- | --- |
-| Processor | SpacemiT K3, featuring 8-core X100™ 64-bit RISC-V AI processors + 8-core A100™ AI cores, delivering 60 TOPS of AI computing power |
-| Display | DP Type-A interface, up to 4K@60fps; 2 × 4-lane MIPI DSI interfaces, up to 4K@60Hz |
-| Memory | 2 × LPDDR5, 6400 MT/s, available in 8 GB / 16 GB / 32 GB configurations |
-| On-board Storage | UFS 2.2, available in 128 GB / 256 GB configurations |
-| Expandable Storage | M.2 2280 M-Key connector; M.2 2230 M-Key connector; TF-Card interface |
-| Wireless Communication | M.2 2230 E-Key connector, supporting Wi-Fi 6 and BT 5.0 |
-| Wired Network | 1 Ethernet port with an RJ45 connector, supporting 1000M |
-| USB Interfaces | 4 × USB 3.0 / USB 2.0 Type-A interfaces; 1 × USB 3.0 Type-C OTG interface, without power delivery support |
-| Debug Interfaces | 40 Pin standard GPIO interface; 12 Pin debug interface for debugging, boot mode selection, hardware reset, power on/off, and firmware flashing |
-| MIPI Interfaces | 1 × 2-lane MIPI DSI FPC interface; 2 × 4-lane MIPI CSI FPC interfaces, supporting “4+4”, “4+2+2”, or “2+2+2+2” link combinations |
-| Other Interfaces | 1 × CAN FD interface; 1 × fan interface |
-| RTC | Supports 1.85 V to 5.5 V input |
-| Form Factor | Module and baseboard combination with heatsink support; module size: 69.6 × 45 mm; baseboard size: 100 × 70 mm |
-| Operating System | Supports the Bianbu and Ubuntu OSs |
-| Power Input | Supports 19V/2.37A and 12V/5A DCIN power supply |
-| Reliability | Peripheral interfaces support ESD contact protection xxxx; consumer-grade xxxx or industrial-grade xxxx options are available |
+|Module | Description |
+|:------|:------|
+| Chip | SpacemiT K3 RISC-V AI CPU |
+| CPU | 8 x X100™ 64-bit RISC-V CPU cores<br>- 2 clusters x 4 cores per cluster, each cluster includes 4 MB shared L2 cache, with cross-cluster access<br>- Each X100 core includes 64 KB I-cache and 64 KB D-cache<br>- Compliant with the RVA23 profile<br>- Supports RVV 1.0, VLEN: 256 bits |
+| AI Performance | 8 x A100™ AI CPU cores, delivering 60 TOPS<br>- 2 clusters x 4 cores per cluster, each cluster includes 1 MB shared L2 cache and 1.5 MB TCM (Tightly Coupled Memory), with cross-cluster access<br>- Each A100 core includes 32 KB I-cache and 32 KB D-cache<br>- Supports RVV 1.0, VLEN: 1024 bits |
+| Hardware Security Engine | Supports international and Chinese commercial cryptographic algorithms <br> - Hash: SHA1 / SHA224 / SHA256, SM3 <br> - Symmetric encryption: AES-128/192/256, SM4 <br> - Asymmetric encryption: RSA-1024/2048/4096, ECC-128/256/512, SM2 |
+| Security System | HW-RoT-based Secure Boot <br> Trusted Execution Environment (TEE) with RISC-V PMP/IOPMP isolation mechanisms <br> Supports the OP-TEE OS |
+| GPU | Integrated 3D GPU, with support for Vulkan, OpenCL, and OpenGL ES |
+| Memory | 8GB/16GB/32GB 64-bit LPDDR5, 6400MT/s |
+| Storage | Supports internal UFS, SD card slot, and external NVMe |
+| Video Encoding | 4K60 (H.264/H.265) |
+| Video Decoding | 1x 4K120 (H.264/H.265/VP9)<br>2x 4K60 (H.264/H.265/VP9)<br>8x 1080p60 (H.264/H.265/VP9)<br>16x 1080p30 (H.264/H.265/VP9) |
+| Power Consumption | 18W ~ 35W |
+
+**Reference Carrier Board**
+
+|Module | Description |
+|:------|:------|
+| Camera | 2 x MIPI CSI-1.1, 22-pin camera connectors |
+| PCIe   | M.2 Key M slot (PCIe Gen3 ×4)<br>M.2 Key M slot (PCIe Gen3 ×1)<br>M.2 Key E slot |
+| USB    | 4 x USB 3.0 Type-A<br>1 x USB Type-C |
+| Networking | 1 x GbE connector |
+| Display | 1 x DP 1.2 connector<br>1 x MIPI DSI-1.2 30-pin display connector |
+| Other I/O | 40-pin expansion header (UART, SPI, I2S, I2C, GPIO)<br>12-pin button header<br>4-pin fan header<br>DC power jack |
+| Mechanical | 103mm x 90.5mm x 35mm (Height includes feet, carrier board, module, and thermal solution) |
 
 ## 3. System Overview
 
@@ -59,11 +65,8 @@ The product version is used in this document as listed below:
 K3 is a new-generation high-performance RISC-V AI CPU launched by SpacemiT, with the following features:
 
 - 8 high-performance X100 compute cores, with a maximum frequency of 2.4 GHz, 130K DMIPS computing power, and single-core SPECint2006 > 9.0/GHz  
-
 - 60 TOPS of AI computing power  
-
 - Multiple high-speed expansion interfaces, including 8 lanes of PCIe, 4x USB 3.0 ports, and 4x GMAC ports
-
 
 ### 3.2 K3 Chip Block Diagram
 
@@ -106,7 +109,7 @@ The K3 CoM260 Development Kit provides the following features:
 - **12 Pin Button Header**: Used to connect the LED, UART debug, ACOK, power on/off, and reset buttons  
 - **FAN**: 1 × 4 Pin fan connector for a 4-wire speed-controllable fan  
 - **CAN**: 1 × 4 Pin header with an integrated CAN transceiver for CAN device connection  
-- **RTC**: 1 × 2 Pin wire-to-board connector supporting 1.85 V ~ 5 V input
+- **RTC**: 1 × 2 Pin wire-to-board connector supporting 1.85 V ~ 5.5 V input
 
 #### 3.3.3 Functional Interfaces
 
@@ -157,7 +160,7 @@ K3 CoM260 provides abundant peripheral interfaces. When debugging I2C peripheral
 
 ### 5.1 Power Input
 
-The K3 CoM260 Development Kit provides only one power input method: DCIN. Please use a power adapter rated for 12 V-6 A.
+The K3 CoM260 Development Kit supports DCIN power input only. The on-board DC Jack connector has an outer diameter of 6.3 mm and an inner diameter of 2.5 mm. A DC Jack power adapter with an output specification of 19 V/2.37 A or 12 V/5 A is required.
 
 ### 5.2 Memory
 
@@ -165,7 +168,7 @@ The K3 CoM260 module integrates the following four types of memory:
 
 1. **UFS2.2**: On-board UFS storage, with a default capacity of 128 GB.  
 2. **SPI Flash**: On-board SPI Flash.  
-3. **DDR**: Two LPDDR5 chips are used, with per-chip capacities of 4 GB / 8 GB / 16 GB.  
+3. **DDR**: Two LPDDR5 chips are used, with per-chip capacities of 4 GB / 8 GB / 16 GB, corresponding to total module capacities of 8 GB / 16 GB / 32 GB.  
 4. **EEPROM**: Used to store board information.
 
 ### 5.3 Button Interfaces
@@ -293,6 +296,12 @@ The K3 CoM260 Development Kit provides one DP Type-A output interface, supportin
 
 ![DP output interface diagram](./static/DP.png)
 
+DP display notes:
+- The DP connector carries DisplayPort only; there is no HDMI output path on it. Connect a monitor that has a DP input using a DP cable — this is the only way to get a picture on an external display through this port.
+- To drive an HDMI monitor, use an active DP-to-HDMI converter, that is, one with a built-in conversion chip. A passive DP-to-HDMI adapter or cable only re-wires the pins and has no chip to convert the signal, so it will not produce a picture. Sample converter: [active DP-to-HDMI converter](https://item.jd.com/100026235280.html)
+
+> Note: DP-to-HDMI cables shipped with other development kits are usually passive and will not drive a display through this kit's DP connector. Do not reuse them here — source an active converter as described above.
+
 ### 5.8 USB Interfaces
 
 The K3 CoM260 Development Kit provides four USB 3.0 Type-A interfaces for connecting various USB peripherals.
@@ -366,7 +375,7 @@ The K3 CoM260 Development Kit integrates an on-board CAN transceiver and can be 
 
 #### 6.1.1 Power Adapter
 
-K3 CoM260 is powered through the DCIN interface. A certified DC jack power adapter with the correct output specification is recommended. Supported power specifications are 19V/2.37A or 12V/5A.
+The K3 CoM260 Development Kit is powered through DCIN. A DC Jack power adapter with an output specification of 19 V/2.37 A or 12 V/5 A is required. Refer to [5.1 Power Input](#51-power-input) for connector and adapter details.
 
 #### 6.1.2 Keyboard and Mouse
 

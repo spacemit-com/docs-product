@@ -43,7 +43,7 @@ SpacemiT K3-CoM260 开发者套件将 8 核通用 CPU 与 8 核 AI CPU 集成于
 | 芯片 | SpacemiT K3 RISC-V AI 芯片 |
 | CPU | 8 核 X100™ 64 位 RISC-V CPU<br>- 2 Clusters x 4 Cores/Cluster，每个 Cluster 拥有 4MB L2 共享缓存，并可跨 Cluster 访问<br>- 每个 X100 核具有 64KB I-Cache、64KB D-Cache<br>- 支持 RVA23 profile 标准<br>- 支持 RVV1.0，VLEN：256bit |
 | AI 性能 | 8 核 A100™ AI 核心，提供 60 TOPS AI 算力<br>- 2 Clusters x 4 Cores/Cluster，每个 Cluster 内拥有 1MB L2 共享缓存和 1.5MB 专用加速缓存（TCM），并可跨 Cluster 访问<br>- 每个 A100 核具有 32KB I-Cache、32KB D-Cache<br>- 支持 RVV1.0，VLEN：1024bit |
-| 硬件安全引擎 | 支持国际通用密码算法及中国商用密码算法 <br> - 哈希算法：SHA1 / SHA224 / SHA256、SM3 <br> - 对称加密算法：AES-128/192/256、SM4 <br> - 非对称加密算法：RSA-1024/2048/4096、ECC-128/256、512、SM2 |
+| 硬件安全引擎 | 支持国际通用密码算法及中国商用密码算法 <br> - 哈希算法：SHA1 / SHA224 / SHA256、SM3 <br> - 对称加密算法：AES-128/192/256、SM4 <br> - 非对称加密算法：RSA-1024/2048/4096、ECC-128/256/512、SM2 |
 | 安全系统方案 | 支持基于 HW-RoT 的 Secure Boot <br> 支持 RISC-V 架构（PMP/IOPMP 隔离机制）的 TEE 可信计算 <br> 支持 OP-TEE 安全操作系统 |
 | GPU | 集成 3D-GPU，支持 Vulkan、OpenCL、OpenGLES |
 | 内存 | 8GB/16GB/32GB 64 位 LPDDR5、6400MT/s |

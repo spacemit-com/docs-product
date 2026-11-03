@@ -52,7 +52,7 @@ Built on the RISC-V architecture, the kit supports mainstream AI model deploymen
 | Storage | Supports internal UFS, SD card slot, and external NVMe |
 | Video Encoding | 4K60 (H.264/H.265) |
 | Video Decoding | 1x 4K120 (H.264/H.265/VP9)<br>2x 4K60 (H.264/H.265/VP9)<br>8x 1080p60 (H.264/H.265/VP9)<br>16x 1080p30 (H.264/H.265/VP9) |
-| Power Consumption | 18W–25W |
+| Power Consumption | 18W–35W |
 
 **Reference Carrier Board**
 
@@ -64,7 +64,7 @@ Built on the RISC-V architecture, the kit supports mainstream AI model deploymen
 | Networking | 1 x GbE connector |
 | Display | 1 x DP 1.2 connector<br>1 x MIPI DSI-1.2 30-pin display connector |
 | Other I/O | 40-pin expansion header (UART, SPI, I2S, I2C, GPIO)<br>12-pin button header<br>4-pin fan header<br>DC power jack |
-| Mechanical | 103mm x 90.5mm x 34.77mm (Height includes feet, carrier board, module, and thermal solution) |
+| Mechanical | 103mm x 90.5mm x 35mm (Height includes feet, carrier board, module, and thermal solution) |
 
 ## Business Cooperation & Purchase
 
