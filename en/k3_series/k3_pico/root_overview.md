@@ -52,7 +52,7 @@ With rich I/O expandability and an industrial-grade architecture, the K3 Pico-IT
 | Debug     | UART, JTAG, and 3 side buttons for power, reset, and firmware update                                                      |
 | System Management | Onboard EC controller for power, thermal, and system status; includes I²C/UART/GPIO expansion                    |
 | Form Factor | 100 × 86 mm, Pico-ITX Plus single-board computer, approx. size of a 2.5" drive                                         |
-| OS        | Pre-installed Bianbu 3.0; supports Ubuntu 26.04, OpenHarmony 6.0, OpenKylin, Deepin, Fedora, etc.                           |
+| OS        | Pre-installed Bianbu; supports Ubuntu 26.04, OpenHarmony 6.0, OpenKylin, Deepin, Fedora, etc.                           |
 | Power Input | Type-C USB-PD (65 W) or ATX 2-pin 12 V @ 7 A                                                                        |
 | Reliability | ESD protection: board: ±4 kV (contact), ±8 kV (air); system: ±6 kV (contact), ±12 kV (air)<br>Compliant with CCC, CE, and FCC; operating temp: -20 °C ～ 70 °C (consumer) / -40 °C ～ 85 °C (industrial) |
 | Clock     | Onboard RTC with battery interface, supports G3 state                                                                      |

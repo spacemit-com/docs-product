@@ -343,7 +343,7 @@ ACTIVE 用于指示链路活跃状态：
 | **调试接口** | 支持 UART 和 JTAG 接口，附带 3 个侧边按键，用于开关机、复位和固件烧写升级 |
 | **管理系统** | 板载 EC 管理系统，支持电源管理、智能散热策略和系统状态管理，板内支持 I2C/UART/GPIO 扩展接口 |
 | **外观形态** | 100 mm × 86 mm，单板计算机 Pico-ITX Plus 尺寸，约为 2.5 英寸硬盘大小 |
-| **操作系统** | 预装 Bianbu 3.0，支持 Ubuntu 26.04、OpenHarmony 6.0、OpenKylin、Deepin、Fedora 等操作系统 |
+| **操作系统** | 预装 Bianbu，支持 Ubuntu 26.04、OpenHarmony 6.0、OpenKylin、Deepin、Fedora 等操作系统 |
 | **电源输入** | 支持双 Type-C USB PD 协议，额定输入功率 65 W；板上 ATX 2 Pin 电源输入端支持 12 V @ 7 A 供电 |
 | **可靠性** | - 单板形态外设接口 ESD 防护：接触 ±4 kV，空气 ±8 kV<br>- 整机形态 ESD 防护：接触 ±6 kV，空气 ±12 kV<br>- 满足 CCC、CE、FCC 等电磁兼容认证标准 |
 | **时钟** | 板载 RTC 时钟电源接口，支持安装电池，满足 G3 状态供电 |

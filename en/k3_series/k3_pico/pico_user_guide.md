@@ -349,7 +349,7 @@ ACTIVE indicates link activity:
 | **Debug Interfaces** | Supports UART and JTAG, with 3 side buttons for power, reset, and firmware flashing |
 | **Management System** | Onboard EC management system, supporting power management, intelligent thermal strategy, and system status management, with onboard I2C/UART/GPIO expansion interfaces |
 | **Form Factor** | 100 mm × 86 mm, Pico-ITX Plus single-board computer form factor, approximately the size of a 2.5-inch hard drive |
-| **Operating System** | Preinstalled with Bianbu 3.0; supports Ubuntu 26.04, OpenHarmony 6.0, OpenKylin, Deepin, Fedora, and other operating systems |
+| **Operating System** | Preinstalled with Bianbu; supports Ubuntu 26.04, OpenHarmony 6.0, OpenKylin, Deepin, Fedora, and other operating systems |
 | **Power Input** | Dual Type-C USB PD support, rated input power 65 W; onboard ATX 2 Pin power input supports 12 V @ 7 A |
 | **Reliability** | - ESD protection for external board-level interfaces: contact ±4 kV, air ±8 kV<br>- ESD protection at system level: contact ±6 kV, air ±12 kV<br>- Compliant with CCC, CE, FCC, and other EMC certification standards |
 | **Clock** | Onboard RTC power connector, supports battery installation for G3-state power retention |
