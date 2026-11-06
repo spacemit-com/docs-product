@@ -14,6 +14,7 @@ The revision history below records the updates made to this document.
 
 | Revision | Date | Description |
 | --- | --- | --- |
+| V1.4 | 2026.11.06 | Removed the preinstalled operating system version number |
 | V1.3 | 2026.09.17 | Added CCC-certified power adapter requirements |
 | V1.2 | 2026.07.03 | Updated eDP Display Interface|
 | V1.1 | 2026.06.10 | Updated notes for power supply|
