@@ -66,7 +66,7 @@ G5201 是进迭时空基于自研 RISC-V 服务器级 CPU V100 打造的 4U 高�
 | 电源 | 4 个标准 CRPS 电源，支持 N+1 冗余 |
 | 系统管理 | 支持远程 KVM over IP、风扇智能调速和远程电源控制 |
 | 操作系统 | 支持 Ubuntu、Red Hat、Fedora、Rocky Linux、openRuyi、openEuler、openKylin 等主流操作系统 |
-| 重量 | 约 60 kg |
+| 重量 | 70~90kg |
 | 噪声 | < 55 dB |
 | 工作温度 | 0℃～40℃ |
 | 存储温度 | -40℃～55℃ |

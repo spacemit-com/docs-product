@@ -4,9 +4,13 @@ sidebar_position: 3
 
 # Cluster Server RV2768 Technical White Paper
 
+## PDF Version
+
+Click to download **[Cluster Server RV2768 Technical White Paper (PDF)](https://cdn-resource.spacemit.com/file/product/K3/k3-rv2768_wp_en.pdf)**
+
 ## Revision History
 
-|Version|Date|Description|
+|Version|Date|Notes|
 |---|---|---|
 |V1.0|2026.07.31|Initial release|
 
