@@ -66,7 +66,7 @@ This independently developed intelligent server supports coordinated operation a
 | Power Supply | 4 standard CRPS power supplies with N+1 redundancy |
 | System Management | Supports remote KVM over IP, intelligent fan-speed control, and remote power control |
 | Operating System | Main stream OSs support: Ubuntu, Red Hat, Fedora, Rocky Linux, openRuyi, openEuler, openKylin |
-| Weight | Approx. 60 kg |
+| Weight | 70 ~ 90kg |
 | Noise | < 55 dB |
 | Operating Temperature | 0°C ~ 40°C |
 | Storage Temperature | -40°C ~ 55°C |
